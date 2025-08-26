@@ -1,0 +1,36 @@
+CATEGORIA
+
+<div class="card">
+  <img src="Assets/Noticias/PAGINA.jpg" alt="PAGINAção contra a gripe">
+  <h2>CATEGORIA: TÍTULO</h2>
+  <p>SUBTITULO</p>
+  <div class="noticia-footer">
+    <span>10/08/2025</span>
+    <a href="PAGINA.html">Leia mais →</a>
+  </div>
+</div>
+
+
+INDEX / CARROUSSEL
+
+<div class="slide">
+  <a href="PAGINA.html">
+    <img src="Assets/Noticias/PAGINA.jpg" alt="PAGINAção contra a gripe">
+    <div class="slide-content">
+      <h2>TÍTULO</h2>
+      <p>SUBTITULO</p>
+    </div>
+  </a>
+</div>
+
+
+NA EDITORIA
+
+<article class="destaque">
+  <a href="PAGINA.html">
+    <img src="Assets/Noticias/PAGINA.jpg" alt="PAGINAção contra a gripe">
+    <h3>TÍTULO</h3>
+    <p>SUBTITULO</p>
+  </a>
+</article>
+
