@@ -649,5 +649,6 @@ footer { background: #000; color: #fff; padding: 20px; text-align: center; font-
 
 p {
   text-align: justify;
+  text-indent: 30px;
 }
 
