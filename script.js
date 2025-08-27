@@ -178,7 +178,11 @@ fetch("ultimas.html")
   });
 
 
-
+  // PATROCINADORES EM INDEX.HTML Ajusta a altura automaticamente ao carregar o conteúdo
+  const iframe = document.getElementById("patrocinadores-frame");
+  iframe.onload = function() {
+    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
+  };
 
 
 
