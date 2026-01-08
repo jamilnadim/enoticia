@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>É Notícia - Sacramento</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="/index.html">
+        <img src="Assets/Patrocinio/logosite.png" alt="Logo É Notícia" class="logo-img">
+      </a>
+    </div>
+    <div id="menu-container"></div>
+  </header>
+
+  <!--
+  <div class="news-ticker">
+    <div class="ticker-label">📰 Últimas:</div>
+    <div class="ticker-wrapper">
+      <div class="ticker-content" id="tickerContent">
+        <span>Festival Gastronômico atrai milhares ao centro.</span>
+        <span>Unidade de saúde será inaugurada sexta-feira.</span>
+        <span>Operação policial apreende drogas e armas.</span>
+        <span>Chuva forte causa alagamentos na zona norte.</span>
+      </div>
+    </div>
+  </div>  -->
+
+  <div class="news-ticker">
+    <div class="ticker-label">📰 Últimas:</div>
+    <div class="ticker-wrapper">
+      <div class="ticker-content" id="tickerContent"></div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="datetime" id="datetime"></div>
+
+  <!-- Carrossel topo -->
+  <section class="carousel">
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="slide">
+          <a href="noticias/vacina.html">
+            <img src="Assets/Patrocinio/vacina-para-herpes-zoster.jpg" alt="Vacinação contra herpes">
+            <div class="slide-content">
+              <h2>Como vacina de herpes zoster deve chegar ao SUS após deputada quase ficar cega</h2>
+              <p>“Atingiu o meu rosto, quase perdi a visão do olho direito”, lembra Adriana Accorsi</p>
+            </div>
+          </a>
+        </div>
+        <div class="slide">
+          <a href="noticias/Transformar Juntos 2025 do Sebrae.html">
+            <img src="Assets/Patrocinio/gregorioooo.jpg" style="object-position: 50% 20%" alt="Transformar Juntos 2025">
+            <div class="slide-content">  <!-- desloca o enquadramento: eixo X 50% (centro), eixo Y 20%  -->
+              <h2>Sacramento marca presença no Transformar Juntos 2025 do Sebrae</h2>
+              <p>O município de Sacramento esteve representado no evento Transformar Juntos 2025</p>
+            </div>
+          </a>
+        </div>
+        <div class="slide">
+          <a href="noticias/ibge.html">
+            <img src="Assets/Patrocinio/IBGE.jpg" style="object-position: 50% 20%" alt="Transformar Juntos 2025">
+            <div class="slide-content">  <!-- desloca o enquadramento: eixo X 50% (centro), eixo Y 20%  -->
+              <h2>Concurso IBGE vai abrir 9.580 vagas para pesquisas em todo o Brasil</h2>
+              <p>Portaria autoriza IBGE a contratar 9.580 profissionais temporários para pesquisas estatísticas;
+                edital sai em até 6 meses</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="slide">
+          <a href="noticias/escolalegislativo.html">
+            <img src="Assets/Patrocinio/escolalegislativo.jpg" style="object-position: 50% 50%" alt="Transformar Juntos 2025">
+            <div class="slide-content">  <!-- desloca o enquadramento: eixo X 50% (centro), eixo Y 20%  -->
+              <h2>Lançamento Oficial da Escola do Legislativo “Vereadora Dra. Ivone Regina Silva"</h2>
+              <p>Audiência pública sobre orçamento municipal</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="slide">
+          <a href="noticias/rodadadenegocios.html">
+            <img src="Assets/Patrocinio/rodadadenegocios.jpeg" style="object-position: 50% 50%" alt="Rodada de Negócios">
+            <div class="slide-content">  <!-- desloca o enquadramento: eixo X 50% (centro), eixo Y 20%  -->
+              <h2>Governo de Minas promove rodada de negócios entre municípios aderidos ao Cidades do Futuro e empresas parceiras</h2>
+              <p>Reunião on-line marcou a segunda rodada de disponibilização de soluções tecnológicas que visam aperfeiçoar as gestões municipais</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <button class="prev" id="prevBtn">❮</button>
+    <button class="next" id="nextBtn">❯</button>
+  </section>
+
+  <!-- Banner horizontal entre seções -->  <!--
+  <div class="container">
+    <div class="ads-rotativo" id="adsTop">
+      <img src="Assets/Patrocinio/banner-foot-1024x197.png" class="active" alt="Patrocínio 1">
+      <img src="Assets/Patrocinio/america-banner.png" alt="Patrocínio 2">
+      <img src="Assets/Patrocinio/sicredi-menor.png" alt="Patrocínio 3">
+    </div>
+  </div>  -->
+
+  <main class="layout">
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="conteudo">
+
+      <!-- Editorias com destaque + lista -->
+      <section class="editoria">
+        <h2>🏛️ Política</h2>
+        <div class="editoria-grid">
+          <article class="destaque">
+            <a href="noticias/Transformar Juntos 2025 do Sebrae.html">
+              <img src="Assets/Patrocinio/gregorioooo.jpg" style="object-position: 50% 20%" alt="PAGINAção contra a gripe">
+              <h3>Sacramento marca presença no Transformar Juntos 2025 do Sebrae</h3>
+              <p>O município de Sacramento esteve representado no evento Transformar Juntos 2025</p>           
+            </a>
+          </article>
+
+          <ul class="editoria-lista">
+            <li><a href="noticias/escolalegislativo.html"><img src="Assets/Patrocinio/escolalegislativo.jpg"><span>Lançamento Oficial da Escola do Legislativo “Vereadora Dra. Ivone Regina Silva"</span></a></li>
+            <li><a href="noticias/rodadadenegocios.html"><img src="Assets/Patrocinio/rodadadenegocios.jpeg"><span>Rodada de Negócios</span></a></li>
+            <li><a href="noticias/sacracard.html"><img src="Assets/noticias/sacracard.png"><span>SacraCard é o novo cartão-alimentação dos servidores municipais</span></a></li>
+          </ul>
+        </div>
+      </section>
+
+ <!-- ESPORTES -->  <!--
+ <section class="editoria">
+  <h2>⚽ Esportes</h2>
+  <div class="editoria-grid">
+    <article class="destaque">
+      <a href="noticia4.html">
+        <img src="https://picsum.photos/600/350?random=104" alt="Esportes destaque">
+        <h3>Atlético Sacramento conquista título regional</h3>
+        <p>Vitória emocionante no campeonato do interior garante festa da torcida.</p>
+      </a>
+    </article>
+    <ul class="editoria-lista">
+      <li><a href="noticia5.html"><img src="https://picsum.photos/100/70?random=105"><span>Corrida de rua reúne 500 atletas</span></a></li>
+      <li><a href="noticia6.html"><img src="https://picsum.photos/100/70?random=106"><span>Jogador local assina com clube nacional</span></a></li>
+    </ul>
+  </div>
+</section> -->
+
+<!-- SAÚDE -->
+<section class="editoria">
+  <h2>🩺 Saúde</h2>
+  <div class="editoria-grid">
+    <article class="destaque">
+      <a href="noticias/vacina.html">
+        <img src="Assets/Patrocinio/vacina-para-herpes-zoster.jpg" alt="Vacinação contra a gripe">
+        <h3>Como vacina de herpes zoster deve chegar ao SUS após deputada quase ficar cega</h3>
+        <p>“Atingiu o meu rosto, quase perdi a visão do olho direito”, lembra Adriana Accorsi</p>
+        <p></p>
+      </a>
+    </article>
+    
+    <ul class="editoria-lista"><!--
+      <li><a href="noticia8.html"><img src="https://picsum.photos/100/70?random=108"><span>Mutirão de exames reduz fila de espera</span></a></li>
+      <li><a href="noticia9.html"><img src="https://picsum.photos/100/70?random=109"><span>Novos médicos chegam para reforçar equipe</span></a></li>-->
+    </ul>
+  </div>
+</section>
+
+<!-- NOTICIAS -->
+<section class="editoria">
+  <h2>🎭 Notícias</h2>
+  <div class="editoria-grid">
+    <article class="destaque">
+      <a href="noticias/ibge.html">
+        <img src="Assets/Patrocinio/IBGE.jpg" alt="Concurso IBGE">
+        <h3>Concurso IBGE vai abrir 9.580 vagas para pesquisas em todo o Brasil</h3>
+        <p>Portaria autoriza IBGE a contratar 9.580 profissionais temporários para pesquisas estatísticas;
+          edital sai em até 6 meses</p>
+      </a>
+    </article>
+    <ul class="editoria-lista">
+      <li><a href="noticias/banirplastico.html"><img src="Assets/Patrocinio/banirplastico1.jpg"><span>Brasil muda posição sobre banir plásticos e se aproxima de produtores de petróleo</span></a></li>
+      <li><a href="noticias/receitadavovo.html"><img src="Assets//noticias/receitasdavovo.png"><span>Receitas da Vovó celebra o amor, a memória e o Dia dos Avós</span></a></li>
+      <li><a href="noticias/trabalhadores.html"><img src="Assets//noticias/trabalhadortransporte.jpg"><span>Homens continuam como maioria entre os trabalhadores do setor de transporte em Minas Gerais</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- EDUCAÇÃO 
+<section class="editoria">
+  <h2>📚 Educação</h2>
+  <div class="editoria-grid">
+    <article class="destaque">
+      <a href="noticia13.html">
+        <img src="https://picsum.photos/600/350?random=113" alt="Educação destaque">
+        <h3>Volta às aulas movimenta rede pública</h3>
+        <p>Mais de 4 mil alunos retornam às salas de aula.</p>
+      </a>
+    </article>
+    <ul class="editoria-lista">
+      <li><a href="noticia14.html"><img src="https://picsum.photos/100/70?random=114"><span>Novas bolsas de estudo são anunciadas</span></a></li>
+      <li><a href="noticia15.html"><img src="https://picsum.photos/100/70?random=115"><span>Escolas recebem melhorias estruturais</span></a></li>
+    </ul>
+  </div>
+</section>  -->
+
+<!-- HISTÓRIA 
+<section class="editoria">
+  <h2>📖 História</h2>
+  <div class="editoria-grid">
+    <article class="destaque">
+      <a href="noticia16.html">
+        <img src="https://picsum.photos/600/350?random=116" alt="História destaque">
+        <h3>Sacramento celebra 150 anos de fundação</h3>
+        <p>Eventos especiais relembram a trajetória da cidade.</p>
+      </a>
+    </article>
+    <ul class="editoria-lista">
+      <li><a href="noticia17.html"><img src="https://picsum.photos/100/70?random=117"><span>Exposição conta a história dos pioneiros</span></a></li>
+      <li><a href="noticia18.html"><img src="https://picsum.photos/100/70?random=118"><span>Arquivo histórico ganha acervo digital</span></a></li>
+    </ul>
+  </div>
+</section> -->
+
+<!-- POLÍCIA -->
+<section class="editoria">
+  <h2>🚓 Polícia</h2>
+  <div class="editoria-grid">
+    <article class="destaque">
+      <a href="noticias/bombeiro.html">
+        <img src="Assets/noticias/bombeiroacidente.png" alt="Bombeiro">
+        <h3>Bombeiros de Sacramento atendem feridos em colisão na rodovia MGC – 464</h3>
+        <p>Com a força do impacto, um dos veículos capotou e saiu da pista, mobilizando resposta imediata das guarnições</p>
+      </a>
+    </article>
+    <ul class="editoria-lista">
+      <li><a href="noticias/guardarmunicipais.html"><img src="Assets/noticias/guardamunicipal.png"><span>Município empossa novos Guardas Municipais e Agentes de Fiscalização</span></a></li>
+      <li><a href="noticias/prisaodrogas.html"><img src="Assets/noticias/policia.png"><span>Prisão por drogas é realizada no bairro Alto Boa Vista em Sacramento</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ECONOMIA 
+<section class="editoria">
+  <h2>💰 Economia</h2>
+  <div class="editoria-grid">
+    <article class="destaque">
+      <a href="noticia22.html">
+        <img src="https://picsum.photos/600/350?random=122" alt="Economia destaque">
+        <h3>Feirão do Emprego oferece 300 vagas</h3>
+        <p>Iniciativa da prefeitura busca reduzir o desemprego.</p>
+      </a>
+    </article>
+    <ul class="editoria-lista">
+      <li><a href="noticia23.html"><img src="https://picsum.photos/100/70?random=123"><span>Comércio local cresce 15% no trimestre</span></a></li>
+      <li><a href="noticia24.html"><img src="https://picsum.photos/100/70?random=124"><span>Nova indústria gera 200 empregos diretos</span></a></li>
+    </ul>
+  </div> -->
+</section>
+
+      <!-- Grid de notícias adicionais -->
+      <section class="grid">
+        <div class="card">
+          <img src="https://picsum.photos/800/400?random=1" alt="Notícia 1">
+          <h2>Destaque: Festival Gastronômico em Sacramento</h2>
+          <p>Evento atrai mais de 10 mil visitantes e movimenta a economia local.</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/800/400?random=2" alt="Notícia 2">
+          <h2>Política: Novo plano diretor para 2025</h2>
+          <p>Câmara aprova mudanças que prometem melhorar mobilidade.</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/800/400?random=3" alt="Notícia 3">
+          <h2>Saúde: Campanha contra gripe</h2>
+          <p>Mais de 80% do público-alvo imunizado segundo a Secretaria.</p>
+        </div>
+
+      </section>
+
+      <!-- Anúncio horizontal 
+      <div class="ads-rotativo" id="adsMiddle">
+        <img src="Assets/Patrocinio/infolife-capa.png" class="active" alt="Patrocínio 4">
+        <img src="Assets/Patrocinio/mariaexpress.png" alt="Patrocínio 5">
+        <img src="Assets/Patrocinio/Sicredi.png" alt="Patrocínio 6">
+      </div>-->
+
+      <!-- Contato / Chamada para anunciar -->
+      <section class="contact-section">
+        <div class="contact-container">
+          <div class="contact-form">    
+            <div id="contato"></div>
+          </form>
+        </div>   
+
+  
+      <div class="contact-ads">
+        <div class="ads-box">
+          <div id="anuncieaqui"></div>
+        </div>
+      </div>
+  </section>
+
+      <a href="https://wa.me/5599999999999?text=Olá!%20Gostaria%20de%20falar%20com%20a%20equipe%20do%20site%20É%20Notícia."
+         class="whatsapp-float"
+         target="_blank"
+         title="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <div class="social-media">
+        <a href="https://www.facebook.com/enoticiasacra" target="_blank" class="social-icon">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/jornal_enoticia/" target="_blank" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- SIDEBAR: Patrocinadores + Conteúdo útil 
+    <aside class="sidebar-patrocinio">
+      <h3>Patrocinadores</h3>
+      <a href="https://radioamericasacramento.com.br/" target="_blank">
+        <img src="Assets/Patrocinio/america-banner.png" alt="Rádio América">
+      </a>
+      <a href="#">
+        <img src="Assets/Patrocinio/sicredi-menor.png" alt="Sicredi">
+      </a>
+      <a href="#">
+        <img src="Assets/Patrocinio/mariaexpress.png" alt="Maria Express">
+      </a>
+      <a href="#">
+        <img src="Assets/Patrocinio/FAARR.jpg" alt="Infolife">
+      </a>
+      <a href="#">
+        <img src="Assets/Patrocinio/Sicredi.png" alt="Sicredi 2">
+      </a>
+
+      <div class="sidebar-section">
+        <h3>Mais Lidas</h3>
+        <ul class="mais-noticias">
+          <li><a href="#">Festival Gastronômico movimenta a cidade</a></li>
+          <li><a href="#">Time local conquista título regional</a></li>
+          <li><a href="#">Feirão do Emprego abre 300 vagas</a></li>
+          <li><a href="#">Plano Diretor 2025 é aprovado</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Últimas Notícias</h3>
+        <ul class="mais-noticias">
+          <li><a href="#">Chuvas causam alagamentos na região norte</a></li>
+          <li><a href="#">Mutirão de exames reduz fila de espera</a></li>
+          <li><a href="#">Corrida de rua confirma 500 inscritos</a></li>
+          <li><a href="#">Nova UBS será inaugurada sexta</a></li>
+        </ul>
+      </div>
+    </aside>   -->
+    
+    <!-- Patrocinadores -->
+    <div class="sidebar-wrapper">
+      <iframe src="patrocinadores.html" 
+              width="100%" 
+              style="border:none; margin-top: 16px; height: auto;" 
+              scrolling="no" 
+              id="patrocinadores-frame">
+      </iframe>
+    </div>
+    
+    
+ </main>
+
+  <footer>
+    &copy; 2025 É Notícia - Sacramento. Todos os direitos reservados.
+  </footer>
+
+     <!-- POPUP   -->
+   <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="popup-close">&times;</span>
+      <img src="Assets/Patrocinio/FEIJOADA SAN7.png" alt="Patrocinador">
+    </div>
+  </div> 
+
+  <script src="script.js"></script>
+  <script src="script0.js"></script>
+</body>
+</html>

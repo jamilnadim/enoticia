@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notícia - É Notícia Sacramento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="menu-placeholder"></header>
+
+  <!-- Cabeçalho -->
+
+
+  <!-- Patrocínio topo -->
+  <div class="ads noticia-ads">
+    <img src="Assets/Patrocinio/sicredi-menor.png" alt="Patrocínio Topo">
+  </div>
+
+  <main class="noticia-layout">
+
+    <!-- Conteúdo principal -->
+    <section class="noticia-container">
+      <h1 class="noticia-titulo">Título da Notícia Exemplo em Destaque</h1>
+        <p class="noticia-data">Publicado em 11 de Agosto de 2025</p>
+      <div class="noticia-img-container">
+        <img src="Assets/Patrocinio/gregorioooo.jpg" alt="Imagem da Notícia">
+      </div>
+
+      <article class="noticia-conteudo">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis sapien vel massa cursus, id porta sapien varius. Morbi sed aliquam nibh, sed gravida turpis.</p>
+        <p>Nulla facilisi. Sed viverra laoreet ipsum, sed dapibus est posuere eget. Curabitur ornare egestas sapien non posuere. Suspendisse potenti. In in erat eu magna vestibulum faucibus.</p>
+        <p>Nam dapibus efficitur lorem, in pretium erat. Aenean porttitor lacus sed nibh varius, vitae faucibus lorem malesuada.</p>
+      </article>
+
+      <!-- Patrocínio final -->
+      <div class="ads noticia-ads">
+        <img src="Assets/Patrocinio/america-banner.png" alt="Patrocínio Final">
+      </div>
+    </section>
+
+    <!-- Barra lateral -->
+    <aside class="noticia-sidebar">
+
+      <div class="sidebar-section">
+        <h3>Patrocinadores</h3>
+        <img src="Assets/Patrocinio/FAARR.jpg" alt="Anúncio 1">
+        <img src="Assets/Patrocinio/trevisan-capa.png" alt="Anúncio 2">
+      </div>
+
+      <div id="sidebar-placeholder"></div>
+
+    </aside>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    &copy; 2025 É Notícia - Sacramento. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
+
+<!-- SCRIPT DAS ÚLTIMAS NOTÍCIAS-->
+ 
+<script>
+  fetch('sidebar.html')
+    .then(response => {
+      if (!response.ok) throw new Error('Erro ao carregar sidebar');
+      return response.text();
+    })
+    .then(html => {
+      document.getElementById('sidebar-placeholder').innerHTML = html;
+    })
+    .catch(err => {
+      console.error(err);
+      document.getElementById('sidebar-placeholder').innerHTML = '<p>Erro ao carregar a sidebar.</p>';
+    });
+    fetch('menu.html')
+      .then(res => res.text())
+      .then(data => {
+        const placeholder = document.getElementById('menu-placeholder');
+        placeholder.innerHTML = data;
+        // Adiciona as classes do header original para manter o estilo
+        placeholder.className = 'seu-header-class'; // Se você tiver uma classe específica no header, coloque aqui
+      })
+      .catch(error => console.error('Erro ao carregar o menu:', error));
+</script>

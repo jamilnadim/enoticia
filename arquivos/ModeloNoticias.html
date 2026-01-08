@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>É Notícia - Sacramento</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="Assets/Patrocinio/logosite.png" alt="Logo do site É Notícia22" class="logo-img">
+    </div>
+    
+
+    <div class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('active')">☰</div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Notícias</a>
+      <a href="#">Eventos</a>
+      <a href="#">História</a>
+      <a href="#">Saúde</a>
+      <a href="#">Polícia</a>
+      <a href="#">Social</a>
+      <a href="#">Política</a>
+      <a href="#">Esportes</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+     
+  <main class="container">
+    
+    <!-- BANNERS DE PATROCÍNIO -->
+      <section class="banner-grid">
+        <a href="https://radioamericasacramento.com.br/" target="_blank">
+          <img src="Assets/Patrocinio/america-banner.png" alt="Banner Rádio América">
+        </a>
+        <a href="#">
+          <img src="Assets/Patrocinio/sicredi-menor.png" alt="Banner Patrocínio 2">
+        </a>
+        <a href="#">
+          <img src="Assets/Patrocinio/mariaexpress.png" alt="Banner Patrocínio 3">
+        </a>
+      </section>
+                                <!--NOTÍCIA-->
+    <section class="grid">
+      <div class="card">
+        <img src="Assets/Patrocinio/gregorioooo.jpg" alt="Notícia 1">
+        <h1>Destaque: Festival Gastronômico em Sacramento!</h1>
+        <p class="noticia-data">Publicado em 11 de Agosto de 2025</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque facilisis sapien vel massa cursus, id porta sapien varius. Morbi sed aliquam nibh, sed gravida turpis. Suspendisse ac sapien in odio blandit vehicula. Proin sit amet hendrerit nisl.</p>
+
+          <p>Nulla facilisi. Sed viverra laoreet ipsum, sed dapibus est posuere eget. Curabitur ornare egestas sapien non posuere. Suspendisse potenti. In in erat eu magna vestibulum faucibus.</p>
+          
+          <p>dapibus efficitur lorem, in pretium erat. Aenean porttitor lacus sed nibh varius, vitae faucibus lorem malesuada. Integer non dignissim sapien. Phasellus nec leo ligula. Pellentesque in turpis at magna bibendum malesuada.</p>
+      </div>
+      
+    </section>
+      <!--PATROCINADORES NOTICIA-->
+    <section class="banner-grid">
+      <a href="#" target="">
+        <img src="Assets/Patrocinio/trevisan-capa.png" alt="Banner Rádio América">
+      </a>
+      <a href="#">
+        <img src="Assets/Patrocinio/infolife-capa.png" alt="Banner Patrocínio 2">
+      </a>
+      <a href="#">
+        <img src="Assets/Patrocinio/Sicredi.png" alt="Banner Patrocínio 3">
+      </a>
+    </section>
+    
+        <!-- Contato -->
+        <section class="contact-section">
+          <div class="contact-container">
+            <!-- Formulário à esquerda -->
+            <div class="contact-form">
+              <h2>Fale Conosco</h2>
+              <form action="https://formsubmit.co/seuemail@email.com" method="POST">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+              </form>
+            </div>
+        
+            <!-- Publicidade à direita -->
+            <div class="contact-ads">
+              <div class="ads-box">
+                <p class="ads-title">🚀 Anuncie Aqui</p>
+                <p class="ads-text">Divulgue sua empresa, produto ou serviço para milhares de leitores.</p>
+                <p class="ads-text">Entre em contato por e-mail ou whatsap.</p>
+                <a href="mailto:seuemail@email.com?subject=Quero anunciar no É Notícia">
+                  <img src="Assets/Patrocinio/logosite.png" alt="Anuncie Aqui" class="ads-image">
+                </a>
+              </div>
+            </div>
+
+        </section>
+        
+
+          <!-- whatsapp -->
+          <a href="https://wa.me/5599999999999?text=Olá!%20Gostaria%20de%20falar%20com%20a%20equipe%20do%20site%20É%20Notícia." 
+          class="whatsapp-float" 
+          target="_blank" 
+          title="Fale conosco no WhatsApp">
+         <i class="fab fa-whatsapp"></i>
+       </a>
+
+    <div class="ads">
+      <img src="Assets/Patrocinio/banner-foot-1024x197.png" alt="Banner final da página">
+    </div>
+
+  
+
+      <!-- Redes sociais -->
+<div class="social-media">
+  <a href="https://www.facebook.com" target="_blank" class="social-icon">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+  <a href="https://www.instagram.com" target="_blank" class="social-icon">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 É Notícia - Sacramento. Todos os direitos reservados.
+  </footer>
+
+  <script>
+    const track = document.querySelector('.carousel-track');
+    const slides = Array.from(track.children);
+    const totalSlides = slides.length;
+    let currentIndex = 0;
+  
+    function updateSlidePosition() {
+      const slideWidth = slides[0].getBoundingClientRect().width;
+      track.style.transform = `translateX(-${slideWidth * currentIndex}px)`;
+    }
+  
+    function moveSlide(direction) {
+      currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+      updateSlidePosition();
+    }
+  
+    window.addEventListener('resize', updateSlidePosition);
+    updateSlidePosition();
+  
+    setInterval(() => {
+      moveSlide(1);
+    }, 5000);
+
+    // função data e hora
+  function updateDateTime() {
+    const now = new Date();
+    const options = {
+      weekday: 'long',
+      day: '2-digit',
+      month: 'long',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+    };
+    const dateTimeStr = now.toLocaleDateString('pt-BR', options);
+    document.getElementById('datetime').textContent = dateTimeStr;
+  }
+
+  updateDateTime(); // atualiza na carga
+  setInterval(updateDateTime, 1000); // atualiza a cada segundo
+
+
+
+
+  </script>
+  
+
+</body>
+</html>

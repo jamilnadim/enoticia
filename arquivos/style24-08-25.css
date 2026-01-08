@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #000;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px 15px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.editoria h2 {
+  margin-bottom: 10px;
+  border-left: 4px solid #c4170c;
+  padding-left: 8px;
+  color: #c4170c;
+}
+
+.editoria-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.destaque a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.destaque img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.destaque img:hover {
+  transform: scale(1.03);
+  filter: brightness(90%);
+}
+
+.editoria-lista li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.editoria-lista a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.editoria-lista img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.editoria-lista span {
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.editoria-lista a:hover span {
+  color: #c4170c;
+  text-decoration: underline;
+}
+
+.sidebar-patrocinio {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: sticky;
+  top: 20px;
+}
+
+.sidebar-patrocinio h3 {
+  color: #c4170c;
+  border-bottom: 2px solid #c4170c;
+  padding-bottom: 5px;
+}
+
+.sidebar-patrocinio img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  background: #c4170c;
+  color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .sidebar-patrocinio {
+    position: static;
+    margin-top: 20px;
+  }
+  .editoria-grid {
+    grid-template-columns: 1fr;
+  }
+}
