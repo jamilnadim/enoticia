@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>É Notícia - Sacramento</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
@@ -13,7 +13,7 @@
   <header>
     <div class="logo">
       <a href="/index.html">
-        <img src="/Assets/Patrocinio/logosite.png" alt="Logo É Notícia" class="logo-img">
+        <img src="../Assets/Patrocinio/logosite.png" alt="Logo É Notícia" class="logo-img">
       </a>
     </div>
     <div id="menu-container"></div>
@@ -30,7 +30,7 @@
             de produtores de petróleo</h1>  <!--TÍTULO-->
             <p class="noticia-data">Publicado em 25 de Agosto de 2025</p>
           <div class="noticia-img-container">
-            <img src="/Assets/Patrocinio/banirplastico1.jpg" alt="Banir Plastico">  <!--IMAGEM-->
+            <img src="../Assets/Patrocinio/banirplastico1.jpg" alt="Banir Plastico">  <!--IMAGEM-->
           </div>
     
           <article class="noticia-conteudo">  <!--TEXTO-->
@@ -174,52 +174,22 @@
       </div>
     </div>
 
-    <!-- SIDEBAR: Patrocinadores + Conteúdo útil -->
-    <aside class="sidebar-patrocinio">
-      <h3>Patrocinadores</h3>
-      <a href="https://radioamericasacramento.com.br/" target="_blank">
-        <img src="/Assets/Patrocinio/america-banner.png" alt="Rádio América">
-      </a>
-      <a href="#">
-        <img src="/Assets/Patrocinio/sicredi-menor.png" alt="Sicredi">
-      </a>
-      <a href="#">
-        <img src="/Assets/Patrocinio/mariaexpress.png" alt="Maria Express">
-      </a>
-      <a href="#">
-        <img src="/Assets/Patrocinio/infolife-capa.png" alt="Infolife">
-      </a>
-      <a href="#">
-        <img src="/Assets/Patrocinio/Sicredi.png" alt="Sicredi 2">
-      </a>
-
-      <div class="sidebar-section">
-        <h3>Mais Lidas</h3>
-        <ul class="mais-noticias">
-          <li><a href="#">Festival Gastronômico movimenta a cidade</a></li>
-          <li><a href="#">Time local conquista título regional</a></li>
-          <li><a href="#">Feirão do Emprego abre 300 vagas</a></li>
-          <li><a href="#">Plano Diretor 2025 é aprovado</a></li>
-        </ul>
-      </div>
-
-      <div class="sidebar-section">
-        <h3>Últimas Notícias</h3>
-        <ul class="mais-noticias">
-          <li><a href="#">Chuvas causam alagamentos na região norte</a></li>
-          <li><a href="#">Mutirão de exames reduz fila de espera</a></li>
-          <li><a href="#">Corrida de rua confirma 500 inscritos</a></li>
-          <li><a href="#">Nova UBS será inaugurada sexta</a></li>
-        </ul>
-      </div>
-    </aside>
+        <!-- SIDEBAR: Patrocinadores + Conteúdo útil -->
+    <div class="sidebar-wrapper">
+      <iframe src="../patrocinadores.html" 
+              width="100%" 
+              style="border:none; margin-top: 16px; height: auto;" 
+              scrolling="no" 
+              id="patrocinadores-frame">
+      </iframe>
+    </div>
   </main>
 
   <footer>
     &copy; 2025 É Notícia - Sacramento. Todos os direitos reservados.
   </footer>
 
-  <script src="/script.js"></script>
-  <script src="/script0.js"></script>
+  <script src="../script.js"></script>
+  <script src="../script0.js"></script>
 </body>
 </html>
