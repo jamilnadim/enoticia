@@ -3,6 +3,7 @@
 
 # VS Code
 .vscode/
+COMANDOS.TXT
 
 # Sistema operacional
 .DS_Store
