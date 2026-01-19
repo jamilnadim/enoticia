@@ -1,11 +1,50 @@
-// Mobile menu toggle
+//novidades do carrossel
+function setupCarousel() {
+  const track = document.getElementById('carouselTrack');
+  const slides = document.querySelectorAll('.slide'); // Agora ele busca os slides injetados
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  
+  if (slides.length === 0) return; // Se não houver slides, não faz nada
+
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const width = slides[0].getBoundingClientRect().width;
+    track.style.transform = `translateX(-${currentIndex * width}px)`;
+  }
+
+  function moveSlide(delta) {
+    currentIndex = (currentIndex + delta + slides.length) % slides.length;
+    updateCarousel();
+  }
+
+  // Remove ouvintes antigos para não dar erro ao recarregar
+  prevBtn.replaceWith(prevBtn.cloneNode(true));
+  nextBtn.replaceWith(nextBtn.cloneNode(true));
+  
+  // Pega as novas referências após clonar
+  const newPrevBtn = document.getElementById('prevBtn');
+  const newNextBtn = document.getElementById('nextBtn');
+
+  newPrevBtn.addEventListener('click', () => moveSlide(-1));
+  newNextBtn.addEventListener('click', () => moveSlide(1));
+
+  // Auto-play
+  setInterval(() => moveSlide(1), 6000);
+  
+  window.addEventListener('resize', updateCarousel);
+  updateCarousel();
+}
+
+/* Mobile menu toggle
 const menuToggle = document.getElementById('menuToggle');
 const mainNav = document.getElementById('mainNav');
 if (menuToggle && mainNav) {
   menuToggle.addEventListener('click', () => {
     mainNav.classList.toggle('active');
   });
-}
+} */
 
 // Simple carousel
 const track = document.getElementById('carouselTrack');

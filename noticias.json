@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "categoria": "saude",
+    "titulo": "Como vacina de herpes zoster deve chegar ao SUS",
+    "resumo": "“Atingiu o meu rosto, quase perdi a visão”, lembra Adriana Accorsi.",
+    "imagem": "Assets/Patrocinio/vacina-para-herpes-zoster.jpg",
+    "link": "noticias/vacina.html",
+    "noCarrossel": true,
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "categoria": "politica",
+    "titulo": "Sacramento no Transformar Juntos 2025 do Sebrae",
+    "resumo": "O município esteve representado no evento em Brasília.",
+    "imagem": "Assets/Patrocinio/gregorioooo.jpg",
+    "link": "noticias/Transformar Juntos 2025 do Sebrae.html",
+    "noCarrossel": true,
+    "destaque": true
+  },
+    {
+    "id": 3,
+    "categoria": "noticia",
+    "titulo": "Concurso IBGE vai abrir 9.580 vagas para pesquisas em todo o Brasil",
+    "resumo": "Portaria autoriza IBGE a contratar 9.580 profissionais temporários para pesquisas",
+    "imagem": "Assets/Patrocinio/IBGE.jpg",
+    "link": "noticias/ibge.html",
+    "noCarrossel": true,
+    "destaque": true
+  },
+      {
+    "id": 4,
+    "categoria": "politica",
+    "titulo": "Lançamento Oficial da Escola do Legislativo “Vereadora Dra. Ivone Regina Silva” é realizado",
+    "resumo": "",
+    "imagem": "Assets/Patrocinio/escolalegislativo.jpg",
+    "link": "noticias/escolalegislativo.html",
+    "noCarrossel": false,
+    "destaque": false
+  },
+        {
+    "id": 5,
+    "categoria": "politica",
+    "titulo": "Rodada de Negócios",
+    "resumo": "",
+    "imagem": "Assets/Patrocinio/rodadadenegocios.jpeg",
+    "link": "noticias/rodadadenegocios.html",
+    "noCarrossel": false,
+    "destaque": false
+  },
+ {
+    "id": 6,
+    "categoria": "politica",
+    "titulo": "SacraCard é o novo cartão-alimentação dos servidores municipais",
+    "resumo": "",
+    "imagem": "Assets/noticias/sacracard.png",
+    "link": "noticias/sacracard.html",
+    "noCarrossel": false,
+    "destaque": false
+  },
+   {
+    "id": 7,
+    "categoria": "noticia",
+    "titulo": "Brasil muda posição sobre banir plásticos e se aproxima de produtores de petróleo",
+    "resumo": "",
+    "imagem": "Assets/Patrocinio/banirplastico1.jpg",
+    "link": "noticias/noticias/banirplastico.html",
+    "noCarrossel": false,
+    "destaque": false
+  },
+     {
+    "id": 8,
+    "categoria": "noticia",
+    "titulo": "Receitas da Vovó celebra o amor, a memória e o Dia dos Avós",
+    "resumo": "",
+    "imagem": "Assets/noticias/receitasdavovo.png",
+    "link": "noticias/receitadavovo.html",
+    "noCarrossel": false,
+    "destaque": false
+  },
+     {
+    "id": 9,
+    "categoria": "noticia",
+    "titulo": "SacraCard é o novo cartão-alimentação dos servidores municipais",
+    "resumo": "",
+    "imagem": "Assets/noticias/sacracard.png",
+    "link": "noticias/sacracard.html",
+    "noCarrossel": false,
+    "destaque": false
+  },
+     {
+    "id": 10,
+    "categoria": "policia",
+    "titulo": "Bombeiros de Sacramento atendem feridos em colisão na rodovia MGC – 464",
+    "resumo": "",
+    "imagem": "Assets/noticias/bombeiroacidente.png",
+    "link": "noticias/bombeiro.html",
+    "noCarrossel": false,
+    "destaque": true
+  },
+     {
+    "id": 11,
+    "categoria": "policia",
+    "titulo": "Município empossa novos Guardas Municipais e Agentes de Fiscalização",
+    "resumo": "",
+    "imagem": "Assets/noticias/guardamunicipal.png",
+    "link": "noticias/guardarmunicipais.html",
+    "noCarrossel": false,
+    "destaque": false
+  },
+     {
+    "id": 12,
+    "categoria": "policia",
+    "titulo": "Prisão por drogas é realizada no bairro Alto Boa Vista em Sacramento",
+    "resumo": "",
+    "imagem": "Assets/noticias/policia.png",
+    "link": "noticias/prisaodrogas.html",
+    "noCarrossel": false,
+    "destaque": false
+  }
+]

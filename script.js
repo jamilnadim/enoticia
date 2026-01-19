@@ -184,6 +184,116 @@ fetch("ultimas.html")
     iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
   };
 
+// NOVA FUNCIONALIDADE DE JSON NO SITE 
+async function carregarNoticias() {
+  try {
+    const resposta = await fetch('noticias.json');
+    const noticias = await resposta.json();
 
+    const track = document.getElementById('carouselTrack');
+    
+    // Capturando todos os containers
+    const containerPolitica = document.getElementById('container-politica');
+    const containerSaude = document.getElementById('container-saude');
+    const containerPolicia = document.getElementById('container-policia');
+    const containerNoticia = document.getElementById('container-noticia');
+
+    let htmlCarrossel = "";
+    let htmlPoliticaDestaque = "";
+    let htmlPoliticaLista = "";
+    let htmlSaudeDestaque = ""; 
+    let htmlSaudeLista = "";    
+    let htmlPoliciaDestaque = ""; 
+    let htmlPoliciaLista = "";    
+    let htmlNoticiaDestaque = ""; 
+    let htmlNoticiaLista = "";
+
+    noticias.forEach(noticia => {
+      // 1. Alimenta o Carrossel
+      if (noticia.noCarrossel) {
+        htmlCarrossel += `
+          <div class="slide">
+            <a href="${noticia.link}">
+              <img src="${noticia.imagem}" alt="${noticia.titulo}">
+              <div class="slide-content">
+                <h2>${noticia.titulo}</h2>
+                <p>${noticia.resumo}</p>
+              </div>
+            </a>
+          </div>`;
+      }
+
+            // CATEGORIA: NOTICIA
+      if (noticia.categoria === "noticia") {
+        if (noticia.destaque) {
+          htmlNoticiaDestaque = `<article class="destaque"><a href="${noticia.link}"><img src="${noticia.imagem}"><h3>${noticia.titulo}</h3><p>${noticia.resumo}</p></a></article>`;
+        } else {
+          htmlNoticiaLista += `<li><a href="${noticia.link}"><img src="${noticia.imagem}"><span>${noticia.titulo}</span></a></li>`;
+        }
+      }
+
+      // CATEGORIA: POLÍTICA
+      if (noticia.categoria === "politica") {
+        if (noticia.destaque) {
+          htmlPoliticaDestaque = `<article class="destaque"><a href="${noticia.link}"><img src="${noticia.imagem}"><h3>${noticia.titulo}</h3><p>${noticia.resumo}</p></a></article>`;
+        } else {
+          htmlPoliticaLista += `<li><a href="${noticia.link}"><img src="${noticia.imagem}"><span>${noticia.titulo}</span></a></li>`;
+        }
+      }
+
+      // CATEGORIA: SAÚDE
+      if (noticia.categoria === "saude") {
+        if (noticia.destaque) {
+          htmlSaudeDestaque = `<article class="destaque"><a href="${noticia.link}"><img src="${noticia.imagem}"><h3>${noticia.titulo}</h3><p>${noticia.resumo}</p></a></article>`;
+        } else {
+          htmlSaudeLista += `<li><a href="${noticia.link}"><img src="${noticia.imagem}"><span>${noticia.titulo}</span></a></li>`;
+        }
+      }
+
+      // CATEGORIA: POLÍCIA
+      if (noticia.categoria === "policia") {
+        if (noticia.destaque) {
+          htmlPoliciaDestaque = `<article class="destaque"><a href="${noticia.link}"><img src="${noticia.imagem}"><h3>${noticia.titulo}</h3><p>${noticia.resumo}</p></a></article>`;
+        } else {
+          htmlPoliciaLista += `<li><a href="${noticia.link}"><img src="${noticia.imagem}"><span>${noticia.titulo}</span></a></li>`;
+        }
+      }
+    });
+
+    // --- INJEÇÃO NOS LOCAIS CORRETOS ---
+    
+    // Injeta Carrossel
+    if (track) track.innerHTML = htmlCarrossel;
+
+    // Injeta Notícia
+    if (containerNoticia) {
+      containerNoticia.innerHTML = htmlNoticiaDestaque + `<ul class="editoria-lista">${htmlNoticiaLista}</ul>`;
+    }
+    
+    // Injeta Política
+    if (containerPolitica) {
+      containerPolitica.innerHTML = htmlPoliticaDestaque + `<ul class="editoria-lista">${htmlPoliticaLista}</ul>`;
+    }
+
+    // Injeta Saúde (Faltava esta parte)
+    if (containerSaude) {
+      containerSaude.innerHTML = htmlSaudeDestaque + `<ul class="editoria-lista">${htmlSaudeLista}</ul>`;
+    }
+
+    // Injeta Polícia (Faltava esta parte)
+    if (containerPolicia) {
+      containerPolicia.innerHTML = htmlPoliciaDestaque + `<ul class="editoria-lista">${htmlPoliciaLista}</ul>`;
+    }
+
+    // Reinicia o carrossel após carregar os dados
+    if (typeof setupCarousel === "function") setupCarousel();
+
+  } catch (erro) {
+    console.error("Erro ao carregar notícias:", erro);
+  }
+}
+
+// Chama a função ao carregar a página
+document.addEventListener("DOMContentLoaded", carregarNoticias);
 
   
