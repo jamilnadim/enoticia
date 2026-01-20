@@ -190,6 +190,22 @@ async function carregarNoticias() {
     const resposta = await fetch('noticias.json');
     const noticias = await resposta.json();
 
+    // ... dentro da função carregarNoticias, após o fetch das noticias ...
+
+const tickerContent = document.getElementById('tickerContent');
+if (tickerContent) {
+    // Pegamos as 6 notícias mais recentes do JSON
+    const ultimasNoticias = noticias.slice(0, 6); 
+    
+    // Geramos o HTML: cada notícia é um <span> com um link
+    tickerContent.innerHTML = ultimasNoticias.map(n => 
+        `<span><a href="${n.link}">● ${n.titulo}</a></span>`
+    ).join("");
+
+    // Para um efeito de "loop infinito" visual, duplicamos o conteúdo
+    tickerContent.innerHTML += tickerContent.innerHTML;
+}
+
     const track = document.getElementById('carouselTrack');
     
     // Capturando todos os containers

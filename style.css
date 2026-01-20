@@ -56,34 +56,72 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 }
 
 /* Ticker */
+/* Container Principal */
 .news-ticker {
   display: flex;
   align-items: center;
-  background-color: #c0392b;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
+  background: #222; /* Fundo escuro para contraste */
+  color: #fff;
+  height: 40px;
   overflow: hidden;
-  padding: 10px 0;
-  border-bottom: 4px solid #a93226;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  z-index: 5;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 3px solid #c4170c; /* Linha vermelha característica do seu site */
 }
 
+/* Rótulo Fixo */
 .ticker-label {
-  padding: 0 15px;
+  background: #c4170c;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
   white-space: nowrap;
-  background-color: #922b21;
-  font-size: 15px;
-  text-transform: uppercase;
-  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  box-shadow: 5px 0 15px rgba(0,0,0,0.3);
 }
 
-.ticker-wrapper { overflow: hidden; position: relative; flex: 1; }
-.ticker-content { display: inline-block; white-space: nowrap; animation: scroll-left 15s linear infinite; }
-.ticker-content span { margin-right: 50px; }
-.ticker-wrapper:hover .ticker-content { animation-play-state: paused; }
+/* Área onde o texto corre */
+.ticker-wrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
 
+.ticker-content {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: ticker-move 40s linear infinite; /* Tempo da animação */
+}
+
+.ticker-content span {
+  padding: 0 30px;
+  font-size: 15px;
+}
+
+.ticker-content a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ticker-content a:hover {
+  color: #ffcc00; /* Destaque ao passar o mouse */
+}
+
+/* Animação de movimento */
+@keyframes ticker-move {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Pausar ao passar o mouse para facilitar a leitura */
+.news-ticker:hover .ticker-content {
+  animation-play-state: paused;
+}
 @keyframes scroll-left {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
