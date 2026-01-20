@@ -36,7 +36,7 @@
     "resumo": "",
     "imagem": "Assets/Patrocinio/escolalegislativo.jpg",
     "link": "noticias/escolalegislativo.html",
-    "noCarrossel": false,
+    "noCarrossel": true,
     "destaque": false
   },
         {
