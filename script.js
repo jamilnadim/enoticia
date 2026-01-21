@@ -1,315 +1,156 @@
 (function () {
-    // --------- Helpers de base/URL ---------
+    // --- Helpers de URL para o GitHub Pages ---
     function getBasePath() {
-      // Se existir <base href="...">, usa ele
-      const baseEl = document.querySelector('base[href]');
-      if (baseEl) {
-        let href = baseEl.getAttribute('href');
-        if (!href.endsWith('/')) href += '/';
-        return href;
-      }
-      // GitHub Pages (user.github.io/projeto/)
-      const parts = location.pathname.split('/').filter(Boolean);
-      const first = parts[0] || '';
-      const KNOWN_ROOTS = ['categorias', 'assets', 'Assets', 'css', 'js', 'img', 'images'];
-      if (location.hostname.endsWith('github.io') && first && !KNOWN_ROOTS.includes(first)) {
-        return `/${first}/`;
-      }
-      return '/';
+        const baseEl = document.querySelector('base[href]');
+        if (baseEl) {
+            let href = baseEl.getAttribute('href');
+            if (!href.endsWith('/')) href += '/';
+            return href;
+        }
+        const parts = location.pathname.split('/').filter(Boolean);
+        const first = parts[0] || '';
+        const KNOWN_ROOTS = ['categorias', 'assets', 'Assets', 'css', 'js', 'img', 'images'];
+        if (location.hostname.endsWith('github.io') && first && !KNOWN_ROOTS.includes(first)) {
+            return `/${first}/`;
+        }
+        return '/';
     }
-  
+
     const BASE = getBasePath();
-  
-    function urlFrom(path) {
-      if (!path) return BASE;
-      if (path.startsWith('/')) path = path.slice(1);
-      return BASE + path;
-    }
-  
-    function includeIfExists(targetId, relativePath, afterLoad) {
-      const el = document.getElementById(targetId);
-      if (!el) return; // não existe na página, segue em frente
-      fetch(urlFrom(relativePath), { cache: 'no-store' })
-        .then(r => (r.ok ? r.text() : Promise.reject(r.status)))
-        .then(html => {
-          el.innerHTML = html;
-          if (typeof afterLoad === 'function') afterLoad(el);
-        })
-        .catch(err => console.warn(`Falha ao carregar ${relativePath}:`, err));
-    }
-  
-    // --------- MENU ---------
-    function setupMenu(container = document) {
-      const toggle = container.querySelector('.menu-toggle');
-      const nav = container.querySelector('nav');
+    const urlFrom = (path) => (path.startsWith('/') ? BASE + path.slice(1) : BASE + path);
+
+    // --- FUNÇÃO MESTRE: CARREGA TUDO EM ORDEM ---
+    async function inicializarPortal() {
+        // 1. Carregar o Menu
+        try {
+            const resMenu = await fetch(urlFrom('menu.html'));
+            if (resMenu.ok) {
+                document.getElementById('menu-container').innerHTML = await resMenu.text();
+            }
+        } catch (e) { console.error("Erro ao carregar menu:", e); }
+
+        // 2. Carregar Patrocinadores (Isso cria o espaço para a sidebar)
+        try {
+            const resPatro = await fetch(urlFrom('patrocinadores.html'));
+            if (resPatro.ok) {
+                const htmlPatro = await resPatro.text();
+                // Injeta no local onde antes estava o iframe ou container
+                const container = document.getElementById('patrocinadores-container');
+                if (container) container.innerHTML = htmlPatro;
+            }
+        } catch (e) { console.error("Erro ao carregar patrocinadores:", e); }
+
+        // 3. Carregar Notícias do JSON
+        try {
+            const resNoticias = await fetch(urlFrom('noticias.json'), { cache: 'no-store' });
+            const noticias = await resNoticias.json();
+
+            // Containers
+            const track = document.getElementById('carouselTrack');
+            const ticker = document.getElementById('tickerContent');
+            const containerSidebar = document.getElementById('lista-sidebar-dinamica');
+            const containerNoticia= document.getElementById('container-noticia');
+            const containerPolitica = document.getElementById('container-politica');
+            const containerSaude = document.getElementById('container-saude');
+            const containerPolicia = document.getElementById('container-policia');
+
+            let htmlCarrossel = "", htmlTicker = "", htmlSidebar = "";
+            let cats = {
+                politica: { destaque: "", lista: "" },
+                saude: { destaque: "", lista: "" },
+                policia: { destaque: "", lista: "" },
+                noticia: { destaque: "", lista: "" }
+            };
+
+            noticias.forEach((n, index) => {
+                // Letreiro
+                htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
+
+                // Carrossel
+                if (n.noCarrossel) {
+                    htmlCarrossel += `<div class="slide"><a href="${n.link}"><img src="${n.imagem}"><div class="slide-content"><h2>${n.titulo}</h2><p>${n.resumo}</p></div></a></div>`;
+                }
+
+                // Sidebar (Últimas 5)
+                if (index < 5) {
+                    htmlSidebar += `<li><a href="${n.link}"><img src="${n.imagem}" style="width:50px;height:40px;object-fit:cover;border-radius:3px;"><span>${n.titulo}</span></a></li>`;
+                }
+
+                // Categorias
+                if (cats[n.categoria]) {
+                    if (n.destaque) {
+                        cats[n.categoria].destaque = `<article class="destaque"><a href="${n.link}"><img src="${n.imagem}"><h3>${n.titulo}</h3><p>${n.resumo}</p></a></article>`;
+                    } else {
+                        cats[n.categoria].lista += `<li><a href="${n.link}"><img src="${n.imagem}"><span>${n.titulo}</span></a></li>`;
+                    }
+                }
+
+              // --- LÓGICA PARA AS MAIS LIDAS ---
+const containerMaisLidas = document.getElementById('lista-mais-lidas-dinamica');
+if (containerMaisLidas) {
+    // 1. Criamos uma cópia das notícias e ordenamos pelo campo 'views'
+    const noticiasOrdenadas = [...noticias].sort((a, b) => (b.views || 0) - (a.views || 0));
     
-      if (toggle && nav) {
-        toggle.addEventListener('click', () => {
-          nav.classList.toggle('active');
-          toggle.setAttribute(
-            'aria-expanded',
-            String(nav.classList.contains('active'))
-          );
-        });
+    // 2. Pegamos as 4 primeiras com mais views
+    const top4 = noticiasOrdenadas.slice(0, 3);
     
-        // Fecha ao clicar em link no mobile
-        nav.querySelectorAll('a').forEach(a =>
-          a.addEventListener('click', () => nav.classList.remove('active'))
-        );
-      }
-  
-      // Marca link ativo
-      const current = new URL(location.href);
-      const normalize = p =>
-        (p || '/').replace(/index\.html$/i, '').replace(/\/+$/, '/') || '/';
-  
-      const currentPath = normalize(current.pathname);
-  
-      container.querySelectorAll('nav a').forEach(a => {
-        const linkPath = normalize(new URL(a.href, location.origin).pathname);
-        if (currentPath === linkPath || (linkPath !== BASE && currentPath.startsWith(linkPath))) {
-          a.classList.add('active');
-          a.setAttribute('aria-current', 'page');
-        }
-      });
-    }
-  
-    // Carrega o menu (injetado em #menu-container)
-    includeIfExists('menu-container', 'menu.html', setupMenu);
-  
-    // --------- FRAGMENTS: contato / anuncie aqui ---------
-    includeIfExists('contato', 'contato.html');          // raiz/contato.html
-    includeIfExists('anuncieaqui', 'anuncieaqui.html');  // raiz/anuncieaqui.html
-  
-    // --------- CARROSSEL (só se existir na página) ---------
-    const track = document.querySelector('.carousel-track');
-    if (track) {
-      const slides = Array.from(track.children);
-      let currentIndex = 0;
-  
-      function updateSlidePosition() {
-        const w = slides[0]?.getBoundingClientRect().width || 0;
-        track.style.transform = `translateX(-${w * currentIndex}px)`;
-      }
-  
-      function moveSlide(dir) {
-        currentIndex = (currentIndex + dir + slides.length) % slides.length;
-        updateSlidePosition();
-      }
-  
-      window.addEventListener('resize', updateSlidePosition);
-      updateSlidePosition();
-      setInterval(() => moveSlide(1), 5000);
-    }
-
-        // Controles laterais do carrossel
-    const prevBtn = document.querySelector('.prev');
-    const nextBtn = document.querySelector('.next');
-
-    if (prevBtn && nextBtn) {
-      prevBtn.addEventListener('click', () => moveSlide(-1));
-      nextBtn.addEventListener('click', () => moveSlide(1));
-    }
-
-  
-    // --------- Data e Hora (só se existir #datetime) ---------
-    const dt = document.getElementById('datetime');
-    if (dt) {
-      function updateDateTime() {
-        const now = new Date();
-        const options = {
-          weekday: 'long',
-          day: '2-digit',
-          month: 'long',
-          year: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit',
-          second: '2-digit',
-        };
-        dt.textContent = now.toLocaleDateString('pt-BR', options);
-      }
-      updateDateTime();
-      setInterval(updateDateTime, 1000);
-    }
-  })();
-  
-  // CÓDIGO POPUP
-  // Exibir popup automaticamente ao carregar a página
-// --------- POPUP ---------
-document.addEventListener("DOMContentLoaded", () => {
-  const popup = document.getElementById("popup");
-  if (!popup) return;
-
-  const closeBtn = popup.querySelector(".popup-close");
-
-  // abre popup
-  popup.style.display = "flex";
-
-  // Fecha no X
-  closeBtn.addEventListener("click", () => {
-    popup.style.display = "none";
-  });
-
-  // Fecha clicando fora do conteúdo
-  popup.addEventListener("click", (e) => {
-    if (e.target === popup) {
-      popup.style.display = "none";
-    }
-  });
-});
-
-// FIM CÓDIGO POPUP
-
-// news ticker
-fetch("ultimas.html")
-  .then(res => res.text())
-  .then(data => {
-    // pega só os <li> de dentro do arquivo
-    const temp = document.createElement("div");
-    temp.innerHTML = data;
-    const items = temp.querySelectorAll("li a");
-
-    let html = "";
-    items.forEach(el => {
-      html += `<span>${el.textContent}</span>`;
+    let htmlMaisLidas = "";
+    top4.forEach(n => {
+        htmlMaisLidas += `
+            <li>
+                <a href="${n.link}">
+                    <span>${n.titulo}</span>
+                </a>
+            </li>`;
     });
-
-    document.getElementById("tickerContent").innerHTML = html;
-  });
-
-
-  // PATROCINADORES EM INDEX.HTML Ajusta a altura automaticamente ao carregar o conteúdo
-  const iframe = document.getElementById("patrocinadores-frame");
-  iframe.onload = function() {
-    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
-  };
-
-// NOVA FUNCIONALIDADE DE JSON NO SITE 
-async function carregarNoticias() {
-  try {
-    const resposta = await fetch('noticias.json');
-    const noticias = await resposta.json();
-
-    // ... dentro da função carregarNoticias, após o fetch das noticias ...
-
-const tickerContent = document.getElementById('tickerContent');
-if (tickerContent) {
-    // Pegamos as 6 notícias mais recentes do JSON
-    const ultimasNoticias = noticias.slice(0, 6); 
-    
-    // Geramos o HTML: cada notícia é um <span> com um link
-    tickerContent.innerHTML = ultimasNoticias.map(n => 
-        `<span><a href="${n.link}">● ${n.titulo}</a></span>`
-    ).join("");
-
-    // Para um efeito de "loop infinito" visual, duplicamos o conteúdo
-    tickerContent.innerHTML += tickerContent.innerHTML;
+    containerMaisLidas.innerHTML = htmlMaisLidas;
 }
 
-    const track = document.getElementById('carouselTrack');
+// --- LÓGICA PARA AS ÚLTIMAS NOTÍCIAS (SIDEBAR) ---
+const containerUltimas = document.getElementById('lista-sidebar-dinamica');
+if (containerUltimas) {
+    // Aqui não ordenamos, pegamos as primeiras da lista (que costumam ser as novas)
+    const ultimas5 = noticias.slice(0, 5);
     
-    // Capturando todos os containers
-    const containerPolitica = document.getElementById('container-politica');
-    const containerSaude = document.getElementById('container-saude');
-    const containerPolicia = document.getElementById('container-policia');
-    const containerNoticia = document.getElementById('container-noticia');
+    let htmlUltimas = "";
+    ultimas5.forEach(n => {
+        htmlUltimas += `
+            <li>
+                <a href="${n.link}">
+                    <img src="${n.imagem}" style="width:50px; height:40px; object-fit:cover; border-radius:3px;">
+                    <span>${n.titulo}</span>
+                </a>
+            </li>`;
+    });
+    containerUltimas.innerHTML = htmlUltimas;
+}
+            });
 
-    let htmlCarrossel = "";
-    let htmlPoliticaDestaque = "";
-    let htmlPoliticaLista = "";
-    let htmlSaudeDestaque = ""; 
-    let htmlSaudeLista = "";    
-    let htmlPoliciaDestaque = ""; 
-    let htmlPoliciaLista = "";    
-    let htmlNoticiaDestaque = ""; 
-    let htmlNoticiaLista = "";
+            // Injeções Finais
+            if (ticker) ticker.innerHTML = htmlTicker + htmlTicker; // Duplicado para o loop
+            if (track) {
+                track.innerHTML = htmlCarrossel;
+                if (typeof setupCarousel === 'function') setupCarousel();
+            }
+            if (containerSidebar) containerSidebar.innerHTML = htmlSidebar;
+            
+            if (containerPolitica) containerPolitica.innerHTML = cats.politica.destaque + `<ul class="editoria-lista">${cats.politica.lista}</ul>`;
+            if (containerSaude) containerSaude.innerHTML = cats.saude.destaque + `<ul class="editoria-lista">${cats.saude.lista}</ul>`;
+            if (containerPolicia) containerPolicia.innerHTML = cats.policia.destaque + `<ul class="editoria-lista">${cats.policia.lista}</ul>`;
+            if (containerNoticia) containerNoticia.innerHTML = cats.noticia.destaque + `<ul class="editoria-lista">${cats.noticia.lista}</ul>`;
 
-    noticias.forEach(noticia => {
-      // 1. Alimenta o Carrossel
-      if (noticia.noCarrossel) {
-        htmlCarrossel += `
-          <div class="slide">
-            <a href="${noticia.link}">
-              <img src="${noticia.imagem}" alt="${noticia.titulo}">
-              <div class="slide-content">
-                <h2>${noticia.titulo}</h2>
-                <p>${noticia.resumo}</p>
-              </div>
-            </a>
-          </div>`;
-      }
+        } catch (e) { console.error("Erro ao processar notícias:", e); }
+    }
 
-            // CATEGORIA: NOTICIA
-      if (noticia.categoria === "noticia") {
-        if (noticia.destaque) {
-          htmlNoticiaDestaque = `<article class="destaque"><a href="${noticia.link}"><img src="${noticia.imagem}"><h3>${noticia.titulo}</h3><p>${noticia.resumo}</p></a></article>`;
-        } else {
-          htmlNoticiaLista += `<li><a href="${noticia.link}"><img src="${noticia.imagem}"><span>${noticia.titulo}</span></a></li>`;
+    // --- Delegação de Evento para o Menu Mobile ---
+    document.addEventListener('click', function (e) {
+        const btn = e.target.closest('#menuToggle');
+        if (btn) {
+            const nav = document.getElementById('mainNav');
+            if (nav) nav.classList.toggle('active');
         }
-      }
-
-      // CATEGORIA: POLÍTICA
-      if (noticia.categoria === "politica") {
-        if (noticia.destaque) {
-          htmlPoliticaDestaque = `<article class="destaque"><a href="${noticia.link}"><img src="${noticia.imagem}"><h3>${noticia.titulo}</h3><p>${noticia.resumo}</p></a></article>`;
-        } else {
-          htmlPoliticaLista += `<li><a href="${noticia.link}"><img src="${noticia.imagem}"><span>${noticia.titulo}</span></a></li>`;
-        }
-      }
-
-      // CATEGORIA: SAÚDE
-      if (noticia.categoria === "saude") {
-        if (noticia.destaque) {
-          htmlSaudeDestaque = `<article class="destaque"><a href="${noticia.link}"><img src="${noticia.imagem}"><h3>${noticia.titulo}</h3><p>${noticia.resumo}</p></a></article>`;
-        } else {
-          htmlSaudeLista += `<li><a href="${noticia.link}"><img src="${noticia.imagem}"><span>${noticia.titulo}</span></a></li>`;
-        }
-      }
-
-      // CATEGORIA: POLÍCIA
-      if (noticia.categoria === "policia") {
-        if (noticia.destaque) {
-          htmlPoliciaDestaque = `<article class="destaque"><a href="${noticia.link}"><img src="${noticia.imagem}"><h3>${noticia.titulo}</h3><p>${noticia.resumo}</p></a></article>`;
-        } else {
-          htmlPoliciaLista += `<li><a href="${noticia.link}"><img src="${noticia.imagem}"><span>${noticia.titulo}</span></a></li>`;
-        }
-      }
     });
 
-    // --- INJEÇÃO NOS LOCAIS CORRETOS ---
-    
-    // Injeta Carrossel
-    if (track) track.innerHTML = htmlCarrossel;
-
-    // Injeta Notícia
-    if (containerNoticia) {
-      containerNoticia.innerHTML = htmlNoticiaDestaque + `<ul class="editoria-lista">${htmlNoticiaLista}</ul>`;
-    }
-    
-    // Injeta Política
-    if (containerPolitica) {
-      containerPolitica.innerHTML = htmlPoliticaDestaque + `<ul class="editoria-lista">${htmlPoliticaLista}</ul>`;
-    }
-
-    // Injeta Saúde (Faltava esta parte)
-    if (containerSaude) {
-      containerSaude.innerHTML = htmlSaudeDestaque + `<ul class="editoria-lista">${htmlSaudeLista}</ul>`;
-    }
-
-    // Injeta Polícia (Faltava esta parte)
-    if (containerPolicia) {
-      containerPolicia.innerHTML = htmlPoliciaDestaque + `<ul class="editoria-lista">${htmlPoliciaLista}</ul>`;
-    }
-
-    // Reinicia o carrossel após carregar os dados
-    if (typeof setupCarousel === "function") setupCarousel();
-
-  } catch (erro) {
-    console.error("Erro ao carregar notícias:", erro);
-  }
-}
-
-// Chama a função ao carregar a página
-document.addEventListener("DOMContentLoaded", carregarNoticias);
-
-  
+    // Iniciar tudo
+    document.addEventListener('DOMContentLoaded', inicializarPortal);
+})();

@@ -450,11 +450,34 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 }
 .sidebar-patrocinio img:hover { transform: scale(1.03); filter: brightness(90%); cursor: pointer; }
 
-.sidebar-section { margin-top: 8px; }
-.mais-noticias { list-style: none; padding-left: 0; }
-.mais-noticias li { margin: 8px 0; }
-.mais-noticias a { color: #333; text-decoration: none; font-size: 0.95rem; }
-.mais-noticias a:hover { color: #c4170c; text-decoration: underline; }
+.mais-noticias {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mais-noticias li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.mais-noticias li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.mais-noticias li a:hover {
+    color: #c4170c;
+}
 
 /*PÁGINA DE NOTICIAS*/
 .noticia-layout {
@@ -703,5 +726,32 @@ footer { background: #000; color: #fff; padding: 20px; text-align: center; font-
 p {
   text-align: justify;
   text-indent: 30px;
+}
+
+/* Espaçamento entre banners */
+.banner-link {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.banner-link img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Cantos arredondados modernos */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #eee; /* Borda fininha para fotos claras */
+}
+
+/* Efeito de elevação ao passar o mouse */
+.banner-link img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.separator {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 25px 0;
 }
 

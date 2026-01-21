@@ -27,7 +27,8 @@
     "imagem": "Assets/Patrocinio/IBGE.jpg",
     "link": "noticias/ibge.html",
     "noCarrossel": true,
-    "destaque": true
+    "destaque": true,
+    "views": 1500
   },
       {
     "id": 4,
@@ -37,7 +38,8 @@
     "imagem": "Assets/Patrocinio/escolalegislativo.jpg",
     "link": "noticias/escolalegislativo.html",
     "noCarrossel": true,
-    "destaque": false
+    "destaque": false,
+     "views": 1800
   },
         {
     "id": 5,
@@ -57,7 +59,8 @@
     "imagem": "Assets/noticias/sacracard.png",
     "link": "noticias/sacracard.html",
     "noCarrossel": false,
-    "destaque": false
+    "destaque": false,
+     "views": 2800
   },
    {
     "id": 7,
