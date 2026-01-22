@@ -159,6 +159,9 @@ async function carregarNoticiaIndividual() {
         const noticias = await res.json();
         const n = noticias.find(item => item.id == id);
 
+        // --- LINHA NOVA PARA A DATA ---
+            const elementoData = document.getElementById('data-publicacao');
+
         if (n) {
             const titulo = document.getElementById('titulo-pagina-noticia');
             const imagem = document.getElementById('imagem-pagina-noticia');
@@ -167,6 +170,11 @@ async function carregarNoticiaIndividual() {
             if (titulo) titulo.innerText = n.titulo;
             if (imagem) imagem.src = n.imagem;
             if (texto) texto.innerHTML = n.conteudo || n.resumo;
+
+            // --- INJETANDO A DATA DO JSON ---
+            if (elementoData && n.data) {
+                elementoData.innerText = "Publicado em: " + n.data;
+            }
         }
     } catch (e) {
         console.error("Erro ao carregar a notícia:", e);
