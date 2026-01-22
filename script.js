@@ -100,13 +100,21 @@
             const containerPolitica = document.getElementById('container-politica');
             const containerSaude = document.getElementById('container-saude');
             const containerPolicia = document.getElementById('container-policia');
+            const containerEvento = document.getElementById('container-evento');
+            const containerHistoria = document.getElementById('container-historia');
+            const containerSocial = document.getElementById('container-social');
+            const containerEsporte = document.getElementById('container-esporte');
 
             let htmlCarrossel = "", htmlTicker = "", htmlSidebar = "";
             let cats = {
                 politica: { destaque: "", lista: "" },
                 saude: { destaque: "", lista: "" },
                 policia: { destaque: "", lista: "" },
-                noticia: { destaque: "", lista: "" }
+                noticia: { destaque: "", lista: "" },
+                evento: { destaque: "", lista: "" },
+                historia: { destaque: "", lista: "" },
+                social: { destaque: "", lista: "" },
+                esporte: { destaque: "", lista: "" }
             };
 
             noticias.forEach((n, index) => {
@@ -149,6 +157,10 @@
             if (containerSaude) containerSaude.innerHTML = cats.saude.destaque + `<ul class="editoria-lista">${cats.saude.lista}</ul>`;
             if (containerPolicia) containerPolicia.innerHTML = cats.policia.destaque + `<ul class="editoria-lista">${cats.policia.lista}</ul>`;
             if (containerNoticia) containerNoticia.innerHTML = cats.noticia.destaque + `<ul class="editoria-lista">${cats.noticia.lista}</ul>`;
+            if (containerEvento) containerEvento.innerHTML = cats.evento.destaque + `<ul class="editoria-lista">${cats.evento.lista}</ul>`;
+            if (containerHistoria) containerHistoria.innerHTML = cats.historia.destaque + `<ul class="editoria-lista">${cats.historia.lista}</ul>`;
+            if (containerSocial) containerSocial.innerHTML = cats.social.destaque + `<ul class="editoria-lista">${cats.social.lista}</ul>`;
+            if (containerEsporte) containerEsporte.innerHTML = cats.esporte.destaque + `<ul class="editoria-lista">${cats.esporte.lista}</ul>`;
 
         } catch (e) { console.error("Erro ao processar notícias:", e); }
     }
