@@ -38,7 +38,23 @@
                 const container = document.getElementById('patrocinadores-container');
                 if (container) container.innerHTML = htmlPatro;
             }
-        } catch (e) { console.error("Erro ao carregar patrocinadores:", e); }
+            // --- NOVAS LINHAS PARA CONTATO E ANUNCIE ---
+        const resContato = await fetch(urlFrom('contato.html'));
+        if (resContato.ok) {
+            const divContato = document.getElementById('contato');
+            if (divContato) divContato.innerHTML = await resContato.text();
+        }
+
+        const resAnuncie = await fetch(urlFrom('anuncieaqui.html'));
+        if (resAnuncie.ok) {
+            const divAnuncie = document.getElementById('anuncieaqui');
+            if (divAnuncie) divAnuncie.innerHTML = await resAnuncie.text();
+        }
+        // ------------------------------------------
+   
+        } catch (e) { console.error("Erro ao carregar componentes", e); }
+
+        
 
         // 3. Carregar Notícias do JSON
         try {
@@ -137,13 +153,16 @@
         } catch (e) { console.error("Erro ao processar notícias:", e); }
     }
 
-    document.addEventListener('click', function (e) {
-        const btn = e.target.closest('#menuToggle');
-        if (btn) {
-            const nav = document.getElementById('mainNav');
-            if (nav) nav.classList.toggle('active');
+   document.addEventListener('click', function (e) {
+    const btn = e.target.closest('#menuToggle');
+    if (btn) {
+        const nav = document.getElementById('mainNav');
+        if (nav) {
+            nav.classList.toggle('active');
+            console.log("Menu clicado! Classe active: " + nav.classList.contains('active'));
         }
-    });
+    }
+});
 
     document.addEventListener('DOMContentLoaded', inicializarPortal);
 })();

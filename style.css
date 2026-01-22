@@ -146,6 +146,8 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
   max-width: 100%; /* Ou a largura que você definiu */
   margin: 0 auto;
   overflow: hidden; /* ESSA LINHA É A CHAVE: ela corta a rolagem lateral */
+  margin-bottom: 30px !important;  /* Espaço extra após o carrossel */
+  
 }
 .carousel-wrapper { width: 100%; overflow: hidden; }
 .carousel-track { display: flex; transition: transform 0.5s ease-in-out; width: 100%; }
@@ -267,7 +269,8 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
   gap: 20px;
   max-width: 1400px;
   margin: auto;
-  padding: 0 15px 20px 15px;
+ 
+  
 }
 
 .conteudo { display: flex; flex-direction: column; gap: 24px; }
@@ -704,7 +707,45 @@ footer { background: #000; color: #fff; padding: 20px; text-align: center; font-
   nav.active { display: flex; }
   .menu-toggle { display: block; }
   .slide-content h2 { font-size: 18px; }
-  .slide-content p { font-size: 12px; }
+  .slide-content p { font-size: 12px; } 
+}
+
+/* Garante que no celular o menu comece escondido e apareça com a classe active */
+/* Ajuste definitivo para Menu Mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block !important; /* Garante que o ícone ☰ apareça */
+    cursor: pointer;
+  }
+
+  nav#mainNav {
+    display: none; /* Esconde por padrão */
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Ajuste para ficar abaixo do seu logo */
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9999;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+
+  /* Esta regra agora tem prioridade total */
+  nav#mainNav.active {
+    display: flex !important;
+  }
+
+  nav#mainNav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav#mainNav ul li {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (min-width: 769px) {
@@ -715,6 +756,7 @@ footer { background: #000; color: #fff; padding: 20px; text-align: center; font-
 .sidebar-wrapper {
   align-self: flex-start; /* Alinha o wrapper no início */
   width: 100%; /* Garante que o wrapper ocupe o espaço disponível */
+  margin-top: 40px; /* Pequeno ajuste para bater com o h2 das notícias */
 }
 
 .sidebar-wrapper iframe {
