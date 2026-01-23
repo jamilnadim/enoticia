@@ -30,38 +30,48 @@
             }
         } catch (e) { console.error("Erro ao carregar menu:", e); }
 
-        // 2. Carregar Patrocinadores
-        // 2. Carregar Patrocinadores com Ordem Aleatória (Ajustado)
+        
+ // 2. Carregar Patrocinadores (Versão Corrigida e Segura)
         try {
             const resPatro = await fetch(urlFrom('patrocinadores.html'));
             if (resPatro.ok) {
-                const htmlPatro = await resPatro.text();
+                const htmlText = await resPatro.text();
                 const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = htmlPatro;
-
-                // Captura todos os banners que têm a classe .banner-link
+                tempDiv.innerHTML = htmlText;
+                
+                // Pega todos os banners
                 let banners = Array.from(tempDiv.querySelectorAll('.banner-link'));
 
                 if (banners.length > 0) {
-                    // Embaralha a lista
+                    // Embaralha a ordem (Aleatório)
                     banners.sort(() => Math.random() - 0.5);
+
+                    // VERIFICAÇÃO SEGURA: Se existir o elemento "titulo-pagina-noticia", estamos na notícia.
+                    // Então pegamos apenas os 5 primeiros.
+                    if (document.getElementById('titulo-pagina-noticia')) {
+                        banners = banners.slice(0, 5);
+                    }
 
                     const container = document.getElementById('patrocinadores-container');
                     if (container) {
-                        // Limpa e reconstrói de forma limpa
+                        // Limpa antes de adicionar para garantir
                         container.innerHTML = '<h3>Patrocinadores</h3>';
-                        const adContainer = document.createElement('div');
-                        adContainer.className = 'ad-container';
                         
-                        banners.forEach(banner => adContainer.appendChild(banner));
-                        container.appendChild(adContainer);
+                        // Adiciona cada banner com uma classe para espaçamento correto
+                        banners.forEach(b => {
+                            // Garante que a imagem tenha estilo de bloco para não encavalar
+                            const img = b.querySelector('img');
+                            if(img) {
+                                img.style.marginBottom = "20px";
+                                img.style.display = "block";
+                            }
+                            container.appendChild(b);
+                        });
                     }
                 }
             }
-        } catch (e) { 
-            // Se der erro aqui, ele apenas avisa no console e não trava as notícias
-            console.warn("Aviso: Não foi possível embaralhar os patrocinadores:", e); 
-        }
+        } catch (e) { console.error("Erro nos patrocinadores:", e); }
+        
             // --- NOVAS LINHAS PARA CONTATO E ANUNCIE ---
                     // Dentro da sua função inicializarPortal
             const divContato = document.getElementById('contato');

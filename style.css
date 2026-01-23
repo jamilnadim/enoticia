@@ -269,7 +269,6 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
   gap: 20px;
   max-width: 1400px;
   margin: auto;
- 
   
 }
 
@@ -511,13 +510,14 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.noticia-titulo {
+.titulo-pagina-noticia {
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 1000px;
   color: #c4170c;
 }
 
-.noticia-data {
+#data-publicacao {
+  text-align: right;
   font-size: 0.9rem;
   color: #777;
   margin-bottom: 20px;
@@ -953,9 +953,41 @@ p {
 }
 
 .texto-noticia {
-    text-align: justify;
-    line-height: 1.7;
+    line-height: 1.7; /* Texto menos "apertado" */
+    font-size: 18px;
     margin-bottom: 30px;
+    color: #333;
+}
+
+#titulo-pagina-noticia {
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #c4170c;
+}
+
+/* Deixa os anúncios um pouco menores e organizados */
+.sidebar .banner-link img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: block;
+}
+
+/* --- ALINHAMENTO ESPECÍFICO PARA A PÁGINA DE NOTÍCIA --- */
+
+/* Isso empurra a barra lateral para baixo apenas quando ela está ao lado do conteúdo da notícia */
+.conteudo-principal + .sidebar {
+    padding-top: 80px; /* Altere este número para subir ou descer */
+    text-align: center;
+    color: #c4170c;
+    
+}
+
+/* Garante que os banners fiquem separados e organizados */
+.sidebar .banner-link {
+    display: block;
+    margin-bottom: 20px;
 }
 
 /* Estilo para o link no título da categoria */
