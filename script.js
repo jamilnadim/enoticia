@@ -31,7 +31,7 @@
         } catch (e) { console.error("Erro ao carregar menu:", e); }
 
         
- // 2. Carregar Patrocinadores (Versão Corrigida e Segura)
+// 2. Carregar Patrocinadores
         try {
             const resPatro = await fetch(urlFrom('patrocinadores.html'));
             if (resPatro.ok) {
@@ -39,39 +39,29 @@
                 const tempDiv = document.createElement('div');
                 tempDiv.innerHTML = htmlText;
                 
-                // Pega todos os banners
                 let banners = Array.from(tempDiv.querySelectorAll('.banner-link'));
 
                 if (banners.length > 0) {
-                    // Embaralha a ordem (Aleatório)
+                    // Embaralha para mostrar alternadamente
                     banners.sort(() => Math.random() - 0.5);
 
-                    // VERIFICAÇÃO SEGURA: Se existir o elemento "titulo-pagina-noticia", estamos na notícia.
-                    // Então pegamos apenas os 5 primeiros.
-                    if (document.getElementById('titulo-pagina-noticia')) {
+                    // --- REGRA PARA LIMITAR EM 5 APENAS NA CATEGORIA ---
+                    const ePaginaCategoria = document.getElementById('container-categoria');
+                    const ePaginaNoticia = document.getElementById('titulo-pagina-noticia');
+
+                    if (ePaginaCategoria || ePaginaNoticia) {
                         banners = banners.slice(0, 5);
                     }
 
                     const container = document.getElementById('patrocinadores-container');
                     if (container) {
-                        // Limpa antes de adicionar para garantir
                         container.innerHTML = '<h3>Patrocinadores</h3>';
-                        
-                        // Adiciona cada banner com uma classe para espaçamento correto
-                        banners.forEach(b => {
-                            // Garante que a imagem tenha estilo de bloco para não encavalar
-                            const img = b.querySelector('img');
-                            if(img) {
-                                img.style.marginBottom = "20px";
-                                img.style.display = "block";
-                            }
-                            container.appendChild(b);
-                        });
+                        banners.forEach(b => container.appendChild(b));
                     }
                 }
             }
         } catch (e) { console.error("Erro nos patrocinadores:", e); }
-        
+
             // --- NOVAS LINHAS PARA CONTATO E ANUNCIE ---
                     // Dentro da sua função inicializarPortal
             const divContato = document.getElementById('contato');
@@ -104,6 +94,7 @@
             const containerCat = document.getElementById('container-categoria');
             const tituloCat = document.getElementById('titulo-categoria');
 
+            // --- DENTRO DA LÓGICA PARA PÁGINA DE CATEGORIA NO script.js ---
             if (cat && containerCat) {
                 if (tituloCat) tituloCat.innerText = "Notícias: " + cat;
                 
@@ -112,18 +103,18 @@
                 if (filtradas.length > 0) {
                     containerCat.innerHTML = filtradas.map(n => `
                         <div class="noticia-card">
-                            <img src="${n.imagem}" alt="${n.titulo}">
-                            <div class="card-content">
-                                <h3>${n.titulo}</h3>
-                                <p>${n.resumo || ""}</p>
-                                <a href="noticia.html?id=${n.id}" class="btn-leia">Leia mais</a>
-                            </div>
+                            <a href="noticia.html?id=${n.id}" class="link-noticia">
+                                <img src="${n.imagem}" alt="${n.titulo}">
+                                <div class="card-content">
+                                    <h3>${n.titulo}</h3>
+                                    <p>${n.resumo || ""}</p>
+                                </div>
+                            </a>
                         </div>
                     `).join('');
                 } else {
                     containerCat.innerHTML = `<p>Nenhuma notícia encontrada na categoria ${cat}.</p>`;
                 }
-                // Se for página de categoria, não precisamos processar o restante da home abaixo
                 return; 
             }
 
