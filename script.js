@@ -31,28 +31,53 @@
         } catch (e) { console.error("Erro ao carregar menu:", e); }
 
         // 2. Carregar Patrocinadores
+        // 2. Carregar Patrocinadores com Ordem Aleatória (Ajustado)
         try {
             const resPatro = await fetch(urlFrom('patrocinadores.html'));
             if (resPatro.ok) {
                 const htmlPatro = await resPatro.text();
-                const container = document.getElementById('patrocinadores-container');
-                if (container) container.innerHTML = htmlPatro;
-            }
-            // --- NOVAS LINHAS PARA CONTATO E ANUNCIE ---
-        const resContato = await fetch(urlFrom('contato.html'));
-        if (resContato.ok) {
-            const divContato = document.getElementById('contato');
-            if (divContato) divContato.innerHTML = await resContato.text();
-        }
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = htmlPatro;
 
-        const resAnuncie = await fetch(urlFrom('anuncieaqui.html'));
-        if (resAnuncie.ok) {
-            const divAnuncie = document.getElementById('anuncieaqui');
-            if (divAnuncie) divAnuncie.innerHTML = await resAnuncie.text();
+                // Captura todos os banners que têm a classe .banner-link
+                let banners = Array.from(tempDiv.querySelectorAll('.banner-link'));
+
+                if (banners.length > 0) {
+                    // Embaralha a lista
+                    banners.sort(() => Math.random() - 0.5);
+
+                    const container = document.getElementById('patrocinadores-container');
+                    if (container) {
+                        // Limpa e reconstrói de forma limpa
+                        container.innerHTML = '<h3>Patrocinadores</h3>';
+                        const adContainer = document.createElement('div');
+                        adContainer.className = 'ad-container';
+                        
+                        banners.forEach(banner => adContainer.appendChild(banner));
+                        container.appendChild(adContainer);
+                    }
+                }
+            }
+        } catch (e) { 
+            // Se der erro aqui, ele apenas avisa no console e não trava as notícias
+            console.warn("Aviso: Não foi possível embaralhar os patrocinadores:", e); 
         }
+            // --- NOVAS LINHAS PARA CONTATO E ANUNCIE ---
+                    // Dentro da sua função inicializarPortal
+            const divContato = document.getElementById('contato');
+            if (divContato) { // SÓ ENTRA SE O ELEMENTO EXISTIR NA PÁGINA
+                const resContato = await fetch(urlFrom('contato.html'));
+                if (resContato.ok) divContato.innerHTML = await resContato.text();
+            }
+
+            const divAnuncie = document.getElementById('anuncieaqui');
+            if (divAnuncie) { // SÓ ENTRA SE O ELEMENTO EXISTIR NA PÁGINA
+                const resAnuncie = await fetch(urlFrom('anuncieaqui.html'));
+                if (resAnuncie.ok) divAnuncie.innerHTML = await resAnuncie.text();
+            }
         // ------------------------------------------
    
-        } catch (e) { console.error("Erro ao carregar componentes", e); }
+        
 
         
 
@@ -182,33 +207,49 @@
 // Função para Página de Notícia Individual (Mantida separada conforme seu original)
 async function carregarNoticiaIndividual() {
     const params = new URLSearchParams(window.location.search);
-    const id = params.get('id');
-    if (!id) return; 
+    const idStr = params.get('id');
+    if (!idStr) return; 
+    const id = parseInt(idStr);
 
     try {
         const res = await fetch('noticias.json');
         const noticias = await res.json();
-        const n = noticias.find(item => item.id == id);
-
-        // --- LINHA NOVA PARA A DATA ---
-            const elementoData = document.getElementById('data-publicacao');
+        const index = noticias.findIndex(item => parseInt(item.id) === id);
+        const n = noticias[index];
 
         if (n) {
-            const titulo = document.getElementById('titulo-pagina-noticia');
-            const imagem = document.getElementById('imagem-pagina-noticia');
-            const texto = document.getElementById('texto-pagina-noticia');
+            document.getElementById('titulo-pagina-noticia').innerText = n.titulo;
+            document.getElementById('imagem-pagina-noticia').src = n.imagem;
+            document.getElementById('texto-pagina-noticia').innerHTML = n.conteudo || n.resumo;
+            
+            const elementoData = document.getElementById('data-publicacao');
+            if (elementoData && n.data) elementoData.innerText = "Publicado em: " + n.data;
 
-            if (titulo) titulo.innerText = n.titulo;
-            if (imagem) imagem.src = n.imagem;
-            if (texto) texto.innerHTML = n.conteudo || n.resumo;
+            // Navegação
+            const antContainer = document.getElementById('noticia-anterior');
+            const proxContainer = document.getElementById('proxima-noticia');
 
-            // --- INJETANDO A DATA DO JSON ---
-            if (elementoData && n.data) {
-                elementoData.innerText = "Publicado em: " + n.data;
-            }
-        }
-    } catch (e) {
-        console.error("Erro ao carregar a notícia:", e);
-    }
+            // Dentro de carregarNoticiaIndividual no seu script.js
+
+if (antContainer && index > 0) {
+    const ant = noticias[index - 1];
+    antContainer.innerHTML = `
+        <a href="noticia.html?id=${ant.id}">
+            <span><i class="fas fa-arrow-left" style="margin-right:8px"></i> Anterior</span>
+            <strong>${ant.titulo.substring(0, 38)}...</strong>
+        </a>`;
 }
+
+if (proxContainer && index < noticias.length - 1) {
+    const prox = noticias[index + 1];
+    proxContainer.innerHTML = `
+        <a href="noticia.html?id=${prox.id}">
+            <span>Próxima <i class="fas fa-arrow-right" style="margin-left:8px"></i></span>
+            <strong>${prox.titulo.substring(0, 38)}...</strong>
+        </a>`;
+}
+        }
+    } catch (e) { console.error("Erro:", e); }
+}
+
 document.addEventListener('DOMContentLoaded', carregarNoticiaIndividual);
