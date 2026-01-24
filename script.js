@@ -84,6 +84,8 @@
             const resNoticias = await fetch(urlFrom('noticias.json'), { cache: 'no-store' });
             const noticias = await resNoticias.json();
 
+            noticias.sort((a, b) => b.id - a.id)
+
             // Parâmetros da URL
             const params = new URLSearchParams(window.location.search);
             const cat = params.get('cat');
