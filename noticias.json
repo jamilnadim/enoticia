@@ -1,4 +1,16 @@
 [
+    {
+    "id": 12,
+    "categoria": "noticia",
+    "titulo": "Secretaria Municipal de Cultura promove espetáculo teatral Coração da Terra",
+    "resumo": "",
+    "imagem": "Assets/noticias/espetaculo.webp",
+    "conteudo": "<article class=\"noticia-conteudo\"><p> Em comemoração ao Dia Municipal da Cultura, a Prefeitura de Sacramento, por meio da Secretaria Municipal de Cultura, promove o espetáculo teatral “Coração da Terra”, nesta quarta-feira, 5 de novembro, às 19h30, na Casa da Cultura. A apresentação tem entrada gratuita e classificação de 12 anos.</p><p>Com texto e direção de Maurílio Romão, o espetáculo é uma produção da Trupe Ventania e traz no palco o ator Matheus Piotto, em uma atuação solo que conduz o público por um percurso de memórias, afetos e reencontros com as origens.</p><p>A peça narra a história de um homem que revisita momentos marcantes de sua vida, exaltando o valor das lembranças simples e sagradas que formam o “coração da terra”, uma homenagem às raízes, à saudade e ao pertencimento. </p><p>A montagem é inspirada no icônico quadro “Caipira Picando Fumo”, de Almeida Júnior, e tem produção geral de Isabella Vieira, além de cenários e figurinos assinados por Márcio Vinícius, profissional com 33 anos de trajetória e indicação ao Prêmio Shell de Cenografia. </p><p>O espetáculo promete emocionar o público com sua estética poética e com a força da cultura popular mineira, celebrando a arte e a identidade que unem a comunidade.",
+    "data": "24 de janeiro de 2026",
+    "link": "noticia.html?id=12",
+    "noCarrossel": true,
+    "destaque": true
+  },
   {
     "id": 1,
     "categoria": "saude",
@@ -33,7 +45,7 @@
     "data": "25 de Agosto de 2025",
     "link": "noticia.html?id=3",
     "noCarrossel": true,
-    "destaque": true,
+    "destaque": false,
     "views": 1500
   },
       {
@@ -134,4 +146,6 @@
     "noCarrossel": false,
     "destaque": false
   }
+     
 ]
+

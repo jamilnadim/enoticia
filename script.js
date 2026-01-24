@@ -75,9 +75,7 @@
                 const resAnuncie = await fetch(urlFrom('anuncieaqui.html'));
                 if (resAnuncie.ok) divAnuncie.innerHTML = await resAnuncie.text();
             }
-        // ------------------------------------------
-   
-        
+        // ------------------------------------------ 
 
         
 
@@ -143,6 +141,9 @@
                 esporte: { destaque: "", lista: "" }
             };
 
+            // ADICIONE ESTA LINHA AQUI (para controlar o limite de 3):
+            let contadores = { politica: 0, saude: 0, policia: 0, noticia: 0, evento: 0, historia: 0, social: 0, esporte: 0 };
+
             noticias.forEach((n, index) => {
                 htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
                 if (n.noCarrossel) {
@@ -155,7 +156,11 @@
                     if (n.destaque) {
                         cats[n.categoria].destaque = `<article class="destaque"><a href="${n.link}"><img src="${n.imagem}"><h3>${n.titulo}</h3><p>${n.resumo}</p></a></article>`;
                     } else {
-                        cats[n.categoria].lista += `<li><a href="${n.link}"><img src="${n.imagem}"><span>${n.titulo}</span></a></li>`;
+                        // VERIFICA SE JÁ EXISTEM 3 NOTÍCIAS NA LISTA DESTA CATEGORIA
+                        if (contadores[n.categoria] < 3) {
+                            cats[n.categoria].lista += `<li><a href="${n.link}"><img src="${n.imagem}"><span>${n.titulo}</span></a></li>`;
+                            contadores[n.categoria]++; // Aumenta o contador para esta categoria
+                        }
                     }
                 }
             });
