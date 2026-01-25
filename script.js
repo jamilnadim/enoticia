@@ -86,19 +86,37 @@
 
             noticias.sort((a, b) => b.id - a.id)
 
+            
+
             // Parâmetros da URL
             const params = new URLSearchParams(window.location.search);
             const cat = params.get('cat');
 
             // --- NOVO: LÓGICA PARA PÁGINA DE CATEGORIA ---
-            const containerCat = document.getElementById('container-categoria');
+            // --- LÓGICA PARA PÁGINA DE CATEGORIA ---
+            // --- LOCALIZAR NO SCRIPT.JS (Por volta da linha 110) ---
+const containerCat = document.getElementById('container-categoria');
             const tituloCat = document.getElementById('titulo-categoria');
 
-            // --- DENTRO DA LÓGICA PARA PÁGINA DE CATEGORIA NO script.js ---
             if (cat && containerCat) {
-                if (tituloCat) tituloCat.innerText = "Notícias: " + cat;
+                // DICIONÁRIO PARA NOMES BONITOS (OPCIONAL)
+                const nomesAmigaveis = {
+                    "noticia": "Notícias",
+                    "politica": "Política",
+                    "saude": "Saúde",
+                    "policia": "Polícia",
+                    "evento": "Eventos",
+                    "esporte": "Esportes",
+                    "historia": "História"
+                };
+
+                // Remove o prefixo e deixa a primeira letra maiúscula
+                const nomeLimpo = nomesAmigaveis[cat.toLowerCase()] || (cat.charAt(0).toUpperCase() + cat.slice(1));
                 
+                if (tituloCat) tituloCat.innerText = nomeLimpo;
+
                 const filtradas = noticias.filter(n => n.categoria.toLowerCase() === cat.toLowerCase());
+                // ... restante do código de filtragem ...
                 
                 if (filtradas.length > 0) {
                     containerCat.innerHTML = filtradas.map(n => `
@@ -115,7 +133,7 @@
                 } else {
                     containerCat.innerHTML = `<p>Nenhuma notícia encontrada na categoria ${cat}.</p>`;
                 }
-                return; 
+                // REMOVEMOS O RETURN DAQUI PARA O RESTO DA PÁGINA CARREGAR
             }
 
             // --- RESTANTE DO CÓDIGO DA HOME (CARROSSEL, ETC) ---
@@ -147,13 +165,14 @@
             let contadores = { politica: 0, saude: 0, policia: 0, noticia: 0, evento: 0, historia: 0, social: 0, esporte: 0 };
 
             noticias.forEach((n, index) => {
-                htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
+                if (index < 5) {
+                    htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
+                }
+                //htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
                 if (n.noCarrossel) {
                     htmlCarrossel += `<div class="slide"><a href="${n.link}"><img src="${n.imagem}"><div class="slide-content"><h2>${n.titulo}</h2><p>${n.resumo}</p></div></a></div>`;
                 }
-                if (index < 5) {
-                    htmlSidebar += `<li><a href="${n.link}"><img src="${n.imagem}" style="width:50px;height:40px;object-fit:cover;border-radius:3px;"><span>${n.titulo}</span></a></li>`;
-                }
+                
                 if (cats[n.categoria]) {
                     if (n.destaque) {
                         cats[n.categoria].destaque = `<article class="destaque"><a href="${n.link}"><img src="${n.imagem}"><h3>${n.titulo}</h3><p>${n.resumo}</p></a></article>`;
@@ -261,3 +280,5 @@ if (proxContainer && index < noticias.length - 1) {
 }
 
 document.addEventListener('DOMContentLoaded', carregarNoticiaIndividual);
+
+     

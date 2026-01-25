@@ -96,7 +96,7 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 .ticker-content {
   display: inline-flex;
   white-space: nowrap;
-  animation: ticker-move 40s linear infinite; /* Tempo da animação */
+  animation: ticker-move 80s linear infinite; /* Tempo da animação */
 }
 
 .ticker-content span {
@@ -270,6 +270,27 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
   max-width: 1400px;
   margin: auto;
   
+}
+
+/* Estilo para o título dentro de categoria.html */
+#titulo-categoria {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #222;
+    text-transform: uppercase; /* Deixa todo em maiúsculo para um look mais "news" */
+    border-left: 8px solid #c4170c; /* Barra vermelha lateral igual ao padrão de portais */
+    padding-left: 15px;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+/* Ajuste para mobile */
+@media (max-width: 768px) {
+    #titulo-categoria {
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
 }
 
 .conteudo { display: flex; flex-direction: column; gap: 24px; }
@@ -752,11 +773,14 @@ footer { background: #000; color: #fff; padding: 20px; text-align: center; font-
   .menu-toggle { display: none; }
 }
 
-
+/* alinhar patrocinadores */
 .sidebar-wrapper {
   align-self: flex-start; /* Alinha o wrapper no início */
   width: 100%; /* Garante que o wrapper ocupe o espaço disponível */
   margin-top: 40px; /* Pequeno ajuste para bater com o h2 das notícias */
+  text-align: center;
+  color: #c4170c;
+  padding-top: 0px;
 }
 
 .sidebar-wrapper iframe {
@@ -1040,6 +1064,20 @@ p {
     text-align: center;
     color: #c4170c;
     
+}
+
+/* Isso atua diretamente no container dos patrocinadores */
+#patrocinadores-container.sidebar-wrapper {
+    margin-top: 35px !important; /* Aumente este número para subir ainda mais */
+    padding-top: 0 !important;
+    text-align: center; /* Alinha o texto centralizado como você pediu */
+}
+
+/* O prefixo .home-page garante que só funcione na index */
+.home-page #patrocinadores-container.sidebar-wrapper {
+    margin-top: 20px !important; 
+    padding-top: 0 !important;
+    text-align: center;
 }
 
 /* Garante que os banners fiquem separados e organizados */
