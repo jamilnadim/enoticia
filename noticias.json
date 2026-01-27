@@ -45,7 +45,7 @@
     "conteudo": "<article class=\"noticia-conteudo\"><p>Na última segunda-feira, 11 de agosto, a Câmara Municipal de Sacramento realizou a Sessão Solene para instalação da Escola do Legislativo “Vereadora Dra. Ivone Regina Silva”, iniciativa criada pela Resolução nº 382/2023, que tem como objetivo fortalecer a cidadania, promover entendimento sobre o Poder Legislativo e formar novas lideranças.</p><div class=\"noticia-imagens-duplas\"><img src=\"Assets/Patrocinio/escolalegislativo1.jpg\" alt=\"Mesa de honra da cerimônia\"><img src=\"Assets/Patrocinio/escolalegislativo5.jpg\" alt=\"Mesa de honra da cerimônia\"><figcaption></figcaption></div><p>Denominada através da Resolução nº 383/2023, a Escola faz menção a Dra. Ivone Regina Silva como forma de homenagear uma das mais importantes líderes do município, com atuação significativa na Educação, Advocacia e Filantropia. Apropriadamente, o evento aconteceu na data em que se comemora o Dia do Estudante e o Dia do Advogado no Brasil.</p><figure class=\"noticia-imagem-inline\"><img src=\"Assets/Patrocinio/escolalegislativo2.jpg\" alt=\"Mesa de honra da cerimônia\"><figcaption></figcaption></figure><p>Eleita vereadora por três mandatos (de 1989 a 2000), Dra. Ivone fez história ao se tornar a primeira mulher a presidir a Câmara Municipal de Sacramento, no biênio 1995/1996. Ela também é responsável pela criação da maior honraria da Casa, a Comenda da Ordem do Mérito Legislativo “Dr. Clemente Vieira de Araújo”.</p><div class=\"noticia-imagens-duplas\"><img src=\"Assets/Patrocinio/escolalegislativo3.jpg\" alt=\"Mesa de honra da cerimônia\"><img src=\"Assets/Patrocinio/escolalegislativo4.jpg\" alt=\"Mesa de honra da cerimônia\"><figcaption></figcaption></div><p>A emocionante cerimônia contou com a presença dos vereadores, familiares da homenageada e representantes da comunidade local. Na mesa de honra, participaram figuras centrais para o lançamento da instituição: a diretora da Escola, vereadora Sgto. Edna; o presidente da Câmara e autor do projeto de resolução, Dr. Talhys Andrey; e o secretário municipal de Desenvolvimento Econômico/Turístico e ex-vereador Gregório Pinheiro, coautor do projeto. Além destes, compuseram a mesa o vice-presidente Dr. Reginaldo e do 1º secretário Kiko Bonfim.</p></article>",
     "data": "25 de Agosto de 2025",
     "link": "noticia.html?id=4",
-    "noCarrossel": true,
+    "noCarrossel": false,
     "destaque": false,
      "views": 1800
   },
@@ -144,8 +144,8 @@
     "conteudo": "<article class=\"noticia-conteudo\"><p> Em comemoração ao Dia Municipal da Cultura, a Prefeitura de Sacramento, por meio da Secretaria Municipal de Cultura, promove o espetáculo teatral “Coração da Terra”, nesta quarta-feira, 5 de novembro, às 19h30, na Casa da Cultura. A apresentação tem entrada gratuita e classificação de 12 anos.</p><p>Com texto e direção de Maurílio Romão, o espetáculo é uma produção da Trupe Ventania e traz no palco o ator Matheus Piotto, em uma atuação solo que conduz o público por um percurso de memórias, afetos e reencontros com as origens.</p><p>A peça narra a história de um homem que revisita momentos marcantes de sua vida, exaltando o valor das lembranças simples e sagradas que formam o “coração da terra”, uma homenagem às raízes, à saudade e ao pertencimento. </p><p>A montagem é inspirada no icônico quadro “Caipira Picando Fumo”, de Almeida Júnior, e tem produção geral de Isabella Vieira, além de cenários e figurinos assinados por Márcio Vinícius, profissional com 33 anos de trajetória e indicação ao Prêmio Shell de Cenografia. </p><p>O espetáculo promete emocionar o público com sua estética poética e com a força da cultura popular mineira, celebrando a arte e a identidade que unem a comunidade.",
     "data": "24 de janeiro de 2026",
     "link": "noticia.html?id=12",
-    "noCarrossel": true,
-    "destaque": true
+    "noCarrossel": false,
+    "destaque": false
   },
   
     {
@@ -218,7 +218,7 @@
   "data": "24 de janeiro de 2026",
   "link": "noticia.html?id=19",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 {
   "id": 20,
@@ -267,6 +267,71 @@
   "link": "noticia.html?id=23",
   "noCarrossel": false,
   "destaque": false
+},
+{
+  "id": 24,
+  "categoria": "noticia",
+  "titulo": "Prouni 2026: inscrições para o 1º semestre começam nesta segunda",
+  "resumo": "Processo seletivo oferece bolsas integrais e parciais; candidatos devem se inscrever exclusivamente pela internet até quinta-feira (29).",
+  "imagem": "Assets/noticias/prouni.webp",
+  "conteudo": "<article class=\"noticia-conteudo\"><p>Começam nesta segunda-feira (26) as inscrições do processo seletivo para o primeiro semestre de 2026 do <strong>Programa Universidade para Todos (Prouni)</strong>. O processo é totalmente gratuito e deve ser realizado por meio do Portal Único de Acesso ao Ensino Superior.</p><p>Por Paula Laboissière - Repórter da Agência Brasil</p><h3>Prazos e Critérios de Notas</h3><p>Os interessados têm até a próxima <strong>quinta-feira (29)</strong> para efetuar a inscrição. Para participar, o estudante deve ter concluído o ensino médio e realizado as edições do Enem de 2024 e/ou 2025. Os requisitos mínimos são:</p><ul><li>Média mínima de <strong>450 pontos</strong> nas cinco provas do exame;</li><li><strong>Nota superior a zero</strong> na redação;</li><li>Não ter participado na condição de treineiro.</li></ul><p>O sistema utilizará automaticamente a edição do Enem em que o estudante obteve a melhor média para fins de classificação.</p><h3>Quem pode participar</h3><p>O MEC estabelece que os candidatos devem atender a pelo menos uma das seguintes condições:</p><ul><li>Ter cursado o ensino médio integralmente em escola pública ou como bolsista integral em escola privada;</li><li>Estudantes que cursaram partes do ensino médio em rede pública e privada (com bolsa);</li><li>Pessoas com deficiência (PcD);</li><li>Professores da rede pública (exclusivo para cursos de Licenciatura e Pedagogia, sem exigência de renda).</li></ul><h3>Regras de Renda para Bolsas</h3><p>No ato da inscrição, o candidato escolhe entre ampla concorrência ou políticas afirmativas. Os limites de renda são fundamentais para a definição do tipo de bolsa:</p><ul><li><strong>Bolsa Integral (100%):</strong> Renda familiar bruta mensal de até 1,5 salário mínimo por pessoa.</li><li><strong>Bolsa Parcial (50%):</strong> Renda familiar bruta mensal de até 3 salários mínimos por pessoa.</li></ul><p>Lembre-se de conferir toda a documentação necessária para comprovação das informações após a pré-seleção.</p><p>Fonte: Agência Brasil</p></article>",
+  "data": "26 de janeiro de 2026",
+  "link": "noticia.html?id=24",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 25,
+  "categoria": "politica",
+  "titulo": "Governo prorroga até março prazo para pedido de ressarcimento do INSS",
+  "resumo": "Beneficiários têm até 20 de março para reaver descontos indevidos; medida foi tomada após instabilidades nos sistemas oficiais.",
+  "imagem": "Assets/noticias/inss2.webp",
+  "conteudo": "<article class=\"noticia-conteudo\"><p>O governo federal decidiu prorrogar até o dia <strong>20 de março</strong> o prazo para que aposentados e pensionistas solicitem o ressarcimento de valores descontados indevidamente de seus benefícios. A medida visa compensar as instabilidades registradas no portal <em>Meu INSS</em> nos últimos dias.</p><p>Por Agência Brasil</p><p>O prazo original, que venceria em 14 de fevereiro, foi estendido para garantir que os beneficiários não sejam prejudicados pela manutenção dos sistemas da Dataprev, que ficarão indisponíveis entre esta terça-feira (27) e o próximo domingo (1º de fevereiro).</p><h3>Balanço e Fraudes Identificadas</h3><p>Até o momento, o INSS já devolveu cerca de <strong>R$ 2,8 bilhões</strong> para 4,2 milhões de pessoas. No entanto, o governo estima que cerca de <strong>850 mil brasileiros</strong> ainda tenham direito ao ressarcimento e não realizaram o pedido.</p><p>Esses descontos indevidos são alvo da <em>Operação Sem Desconto</em>, deflagrada pela Polícia Federal e pela CGU, que investiga fraudes em acordos firmados entre o instituto e associações. A intenção da prorrogação é permitir que todos os lesados recuperem o dinheiro de forma simplificada, sem precisar recorrer à Justiça.</p><h3>Como solicitar a devolução</h3><p>Os pedidos podem ser feitos de forma gratuita através dos seguintes canais oficiais:</p><ul><li><strong>Portal Meu INSS:</strong> Acesso pelo site ou aplicativo com conta Gov.br;</li><li><strong>Telefone 135:</strong> Atendimento de segunda a sábado, das 7h às 22h;</li><li><strong>Agências dos Correios:</strong> Suporte presencial gratuito em mais de 5 mil unidades pelo país.</li></ul><p>Fique atento: a manutenção do sistema nesta semana pode afetar o acesso digital, sendo recomendado o uso dos canais telefônico ou presencial em caso de urgência.</p><p>Fonte: Agência Brasil</p></article>",
+  "data": "27 de janeiro de 2026",
+  "link": "noticia.html?id=25",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 26,
+  "categoria": "politica",
+  "titulo": "Fato ou Fake: INSS não suspenderá pagamentos de quem não possui a nova identidade",
+  "resumo": "Circulam notícias falsas sobre o bloqueio de benefícios; nova Carteira de Identidade Nacional (CIN) só será obrigatória para manutenção a partir de 2028.",
+  "imagem": "Assets/noticias/inss.webp",
+  "conteudo": "<article class=\"noticia-conteudo\"><p>As redes sociais foram inundadas nesta segunda-feira (26) com notícias falsas afirmando que o <strong>Instituto Nacional do Seguro Social (INSS)</strong> deixaria de pagar aposentadorias a quem não possui a nova Carteira de Identidade Nacional (CIN). <strong>A informação é falsa.</strong></p><p>Nada muda para quem já recebe benefícios. O processo de implementação da biometria e da nova identidade é gradual e focado, inicialmente, em novos pedidos.</p><h3>O que muda agora?</h3><p>Desde novembro de 2025, a biometria é exigida apenas para <strong>novos pedidos</strong> de aposentadorias e pensões. O INSS aceita dados biométricos de três documentos:</p><ul><li>Carteira de Identidade Nacional (CIN);</li><li>Carteira Nacional de Habilitação (CNH);</li><li>Título de Eleitor.</li></ul><h3>Cronograma Oficial</h3><p>Para evitar confusões, o INSS estabeleceu prazos claros para a transição:</p><ul><li><strong>1º de maio de 2026:</strong> A biometria passa a ser obrigatória para novos pedidos de salário-maternidade e auxílio-doença. Quem não tiver biometria em nenhum documento precisará emitir a CIN.</li><li><strong>1º de janeiro de 2028:</strong> Apenas a partir desta data a CIN será o único documento aceito para pedidos e, aí sim, para a <em>manutenção</em> de benefícios.</li></ul><blockquote>\"Aposentados e pensionistas com benefícios ativos não precisam tomar nenhuma providência imediata. Não haverá bloqueio automático de pagamentos\", afirma o governo federal.</blockquote><h3>Exceções à Regra</h3><p>A exigência de biometria será dispensada para grupos com dificuldade de acesso, como:</p><ul><li>Pessoas com mais de <strong>80 anos</strong>;</li><li>Indivíduos com dificuldade de locomoção comprovada;</li><li>Moradores de áreas remotas ou de difícil acesso (comunidades ribeirinhas);</li><li>Residentes no exterior e refugiados.</li></ul><p><strong>Recomendação:</strong> Embora a obrigatoriedade total seja apenas em 2028, o INSS orienta que os cidadãos busquem emitir a CIN gradualmente nos órgãos estaduais para evitar filas futuras e aumentar a segurança de seus dados.</p></article>",
+  "data": "27 de janeiro de 2026",
+  "link": "noticia.html?id=26",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 27,
+  "categoria": "noticia",
+  "titulo": "Parceria histórica entre Sicredi Ibiraiaras RS/MG e Icatu Seguros já premiou 48 associados",
+  "resumo": "Iniciativa já entregou mais de R$ 1,9 milhão em prêmios, reforçando o compromisso com a proteção familiar e o planejamento financeiro.",
+  "imagem": "Assets/noticias/Seguro de Vida.webp",
+  "conteudo": "<article class=\"noticia-conteudo\"><p>A <strong>Sicredi Ibiraiaras RS/MG</strong> celebra quase três décadas de parceria com a <strong>Icatu Seguros</strong>, uma trajetória consolidada pelo pioneirismo e compromisso com a proteção dos associados. Além da segurança de um planejamento financeiro sólido, os segurados concorrem a sorteios mensais que podem chegar a <strong>R$ 100 mil</strong>.</p><p>Essa combinação de proteção e oportunidade já resultou na contemplação de <strong>48 associados</strong> da cooperativa, com prêmios que ultrapassam a marca de <strong>R$ 1,9 milhão</strong>. Os ganhadores estão distribuídos entre o Rio Grande do Sul e Minas Gerais, evidenciando o impacto positivo da cooperativa em sua área de atuação.</p><h3>Cuidado e Planejamento</h3><p>Para o diretor executivo da Sicredi Ibiraiaras RS/MG, <strong>Pedro Aiolfi</strong>, o seguro de vida é uma expressão concreta de cuidado. <em>\"Ele representa responsabilidade com o futuro das famílias e dos negócios. Conseguimos transformar a proteção em algo próximo e acessível, que gera tranquilidade no dia a dia e segurança para o amanhã\"</em>, salienta.</p><p>O gerente Comercial da Icatu, <strong>Vinicius R. Muller</strong>, destaca que os sorteios tornam o benefício mais tangível para o associado. Em nível nacional, a parceria já sorteou mais de 2.890 associados, entregando um volume superior a <strong>R$ 109 milhões</strong> em prêmios ao longo dos anos.</p><blockquote>\"São recursos que impactam vidas, viabilizam projetos, aliviam preocupações e fortalecem a confiança na proteção escolhida\", afirma Muller.</blockquote><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa com mais de <strong>9 milhões de associados</strong> e presença em todos os estados brasileiros. Com mais de 3 mil agências, oferece uma gama completa de soluções financeiras focadas no desenvolvimento regional e no modelo de gestão compartilhada.</p></article>",
+  "data": "27 de janeiro de 2026",
+  "link": "noticia.html?id=27",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 28,
+  "categoria": "politica",
+  "titulo": "Pacheco aguarda 'projeto de Lula' para definir futuro e deixa aliados em suspense",
+  "resumo": "Senador espera garantias de apoio federal e definições sobre a situação fiscal de Minas antes de aceitar convite para disputar o Governo do Estado.",
+  "imagem": "Assets/noticias/lula.webp",
+  "conteudo": "<article class=\"noticia-conteudo\"><p>O senador <strong>Rodrigo Pacheco (PSD)</strong>, visto pelo presidente <strong>Luiz Inácio Lula da Silva (PT)</strong> como o candidato ideal ao governo de Minas Gerais, mantém o cenário político em suspense. Aliados afirmam que o parlamentar aguarda um projeto estruturado do Palácio do Planalto para ser convencido a entrar na disputa pelo Palácio Tiradentes em 2026.</p><h3>Os Impasses: Dívida e Apoio Federal</h3><p>Para Pacheco, a principal preocupação é a saúde financeira do estado. Com uma dívida que ultrapassa <strong>R$ 205 bilhões</strong>, o senador teme assumir um governo \"engessado\". A avaliação de seu grupo político é de que, para ser candidato, ele precisa de uma sinalização sólida de Lula sobre o suporte federal para equacionar as contas mineiras.</p><blockquote>“Até agora, Lula apenas disse que precisa dele como candidato. Mas isso não convence. Hoje, quem precisa do Rodrigo é o Lula, e não o contrário”, resumiu um aliado reservadamente.</blockquote><h3>Projetos de Carreira e o STF</h3><p>Além das questões fiscais, Pacheco busca garantias para seu futuro político. Após ser preterido na última vaga ao <strong>Supremo Tribunal Federal (STF)</strong>, o senador avalia cenários para uma eventual derrota em Minas. O desejo por uma cadeira no STF ou um ministério em um segundo mandato de Lula são moedas de troca citadas nos bastidores. Caso decida não concorrer, o retorno à advocacia privada em Brasília é o caminho mais provável.</p><h3>Troca de Partido e o \"Nó\" das Alianças</h3><p>Se decidir pela candidatura, Pacheco precisará deixar o PSD, que já tem o vice-governador <strong>Mateus Simões</strong> como pré-candidato. O destino mais provável seria o <strong>União Brasil</strong>, impulsionado pela aliança com Davi Alcolumbre.</p><p>No entanto, a mudança esbarra em um complexo nó regional: o União Brasil está federado ao PP de <strong>Marcelo Aro</strong>, que atualmente compõe a base de apoio de Romeu Zema e Mateus Simões. Outras legendas como PSB também são ventiladas, enquanto o MDB é visto como uma opção improvável devido a rusgas históricas.</p><h3>Próximos Passos</h3><p>Lula deve agendar uma conversa decisiva com Pacheco nos próximos dias. Até lá, o senador permanece \"enigmático e reservado\", mantendo em aberto desde a candidatura até a possibilidade de deixar a vida pública ao fim do mandato no Senado.</p><p><strong>Fonte:</strong> O Tempo</p></article>",
+  "data": "27 de janeiro de 2026",
+  "link": "noticia.html?id=28",
+  "noCarrossel": true,
+  "destaque": false
 }
+
 ]
 
