@@ -182,7 +182,7 @@
     "data": "24 de janeiro de 2026",
     "link": "noticia.html?id=15",
     "noCarrossel": false,
-    "destaque": true
+    "destaque": false
   },
    {
   "id": 17,
@@ -304,7 +304,7 @@
   "data": "27 de janeiro de 2026",
   "link": "noticia.html?id=26",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -332,7 +332,33 @@
   "link": "noticia.html?id=85",
   "noCarrossel": true,
   "destaque": false
+},
+
+{
+  "id": 29,
+  "categoria": "politica",
+  "titulo": "Boulos acredita que fim da escala 6x1 pode ser aprovado neste semestre",
+  "resumo": "Ministro reforça que o Governo Federal trabalha pela redução da jornada e espera promulgação da PEC pelo presidente Lula ainda na primeira metade de 2026.",
+  "imagem": "Assets/noticias/boulos.webp",
+  "conteudo": "<article class=\"noticia-conteudo\"><p>O ministro da Secretaria-Geral da Presidência, <strong>Guilherme Boulos</strong>, expressou otimismo nesta terça-feira (27) quanto à aprovação da PEC que extingue a escala 6x1. Segundo o ministro, a meta é que a medida seja promulgada pelo presidente Lula ainda neste primeiro semestre.</p><p>Por Agência Brasil</p><p>“Eu espero que isso possa ser pautado, aprovado e promulgado para que os trabalhadores brasileiros tenham paz, descanso e possam ter tempo com a sua família”, afirmou Boulos durante evento na Fiocruz, no Rio de Janeiro.</p><h3>Articulação Política e Resistência</h3><p>O ministro informou que está em diálogo constante com o Ministério do Trabalho e que possui reuniões agendadas com o presidente da Câmara, <strong>Hugo Motta (Republicanos-PB)</strong>, para acelerar a tramitação da proposta.</p><p>Questionado sobre a resistência do setor empresarial, Boulos foi enfático: <em>\"Quando foi que grande empresário foi a favor de direito do trabalhador? Nunca vi na história. Se dependesse deles, seria escala 7x0\"</em>, criticou o ministro.</p><h3>Avanços no Planalto</h3><p>Como exemplo prático, Boulos citou que o Palácio do Planalto já erradicou a escala 6x1 para seus trabalhadores terceirizados (copa e limpeza) em dezembro do ano passado, implementando a <strong>escala 5x2</strong> para centenas de colaboradores.</p><h3>Sobre a PEC 8/2025</h3><p>A Proposta de Emenda à Constituição é de autoria da deputada <strong>Erika Hilton (PSOL/SP)</strong> e já conta com o apoio formal de 226 deputados, superando o mínimo necessário para tramitação de emendas constitucionais.</p><p><strong>Fonte:</strong> Agência Brasil</p></article>",
+  "data": "27 de janeiro de 2026",
+  "link": "noticia.html?id=29",
+  "noCarrossel": true,
+  "destaque": true
+},
+{
+  "id": 30,
+  "categoria": "policia",
+  "titulo": "PC desarticula quadrilha de crimes rurais em operação em Sacramento e Franca",
+  "resumo": "Operação 'Sete Voltas' cumpriu mandados em Franca (SP) para desarticular grupo especializado em furtos de maquinários e defensivos agrícolas na região.",
+  "imagem": "Assets/noticias/policiacivil.webp",
+  "conteudo": "<article class=\"noticia-conteudo\"><p>A <strong>Polícia Civil de Minas Gerais (PCMG)</strong>, através da Delegacia de Repressão a Crimes Rurais de Araxá, deflagrou a <strong>Operação “Sete Voltas”</strong> na última segunda-feira (26). A ação visou desmantelar uma associação criminosa focada no furto de veículos, maquinários e agrotóxicos em Sacramento e no interior de São Paulo.</p><h3>Mandados e Prisões</h3><p>A ofensiva ocorreu na cidade de Franca (SP), onde os agentes cumpriram uma prisão temporária e quatro mandados de busca e apreensão. O grupo é investigado pela participação direta no furto de uma caminhonete Ford F1000 na zona rural mineira.</p><p>Segundo o <strong>Dr. Conrado Costa da Silva</strong>, delegado responsável pelo caso, foram apreendidos celulares e um veículo que serão periciados para identificar novos integrantes do esquema.</p><blockquote>“O objetivo é o desbaratamento total desta quadrilha que atua de forma especializada no setor agropecuário”, afirmou o delegado.</blockquote><h3>Trabalho Integrado</h3><p>A operação mobilizou oito policiais civis sob coordenação da Delegacia Regional de Araxá. O suspeito detido, de 37 anos, responderá pelos crimes de <strong>furto (Art. 155)</strong> e <strong>associação criminosa (Art. 288)</strong>.</p><h3>Próximos Passos</h3><p>O inquérito segue em tramitação com novas diligências e oitivas de testemunhas. A PCMG busca agora recuperar bens subtraídos e mapear toda a rede criminosa que atua na zona rural de Sacramento.</p><p><strong>Fonte:</strong> clarim.net.br</p></article>",
+  "data": "28 de janeiro de 2026",
+  "link": "noticia.html?id=30",
+  "noCarrossel": true,
+  "destaque": true
 }
+
 
 ]
 
