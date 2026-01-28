@@ -95,7 +95,7 @@
             // --- NOVO: LÓGICA PARA PÁGINA DE CATEGORIA ---
             // --- LÓGICA PARA PÁGINA DE CATEGORIA ---
             // --- LOCALIZAR NO SCRIPT.JS (Por volta da linha 110) ---
-const containerCat = document.getElementById('container-categoria');
+            const containerCat = document.getElementById('container-categoria');
             const tituloCat = document.getElementById('titulo-categoria');
 
             if (cat && containerCat) {
