@@ -81,7 +81,7 @@
 
         // 3. Carregar Notícias do JSON
         try {
-            const resNoticias = await fetch(urlFrom('noticias.json'), { cache: 'no-store' });
+            const resNoticias = await fetch(urlFrom('noticias.json'), { cache: 'default' });
             const noticias = await resNoticias.json();
 
             noticias.sort((a, b) => b.id - a.id)
