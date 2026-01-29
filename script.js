@@ -63,43 +63,35 @@
         } catch (e) { console.error("Erro nos patrocinadores:", e); }
 
             // --- NOVAS LINHAS PARA CONTATO E ANUNCIE ---
-                    // Dentro da sua função inicializarPortal
             const divContato = document.getElementById('contato');
-            if (divContato) { // SÓ ENTRA SE O ELEMENTO EXISTIR NA PÁGINA
+            if (divContato) { 
                 const resContato = await fetch(urlFrom('contato.html'));
                 if (resContato.ok) divContato.innerHTML = await resContato.text();
             }
 
             const divAnuncie = document.getElementById('anuncieaqui');
-            if (divAnuncie) { // SÓ ENTRA SE O ELEMENTO EXISTIR NA PÁGINA
+            if (divAnuncie) { 
                 const resAnuncie = await fetch(urlFrom('anuncieaqui.html'));
                 if (resAnuncie.ok) divAnuncie.innerHTML = await resAnuncie.text();
             }
         // ------------------------------------------ 
-
-        
 
         // 3. Carregar Notícias do JSON
         try {
             const resNoticias = await fetch(urlFrom('noticias.json'), { cache: 'default' });
             const noticias = await resNoticias.json();
 
-            noticias.sort((a, b) => b.id - a.id)
-
-            
+            // Ordena todas as notícias pelo ID maior primeiro
+            noticias.sort((a, b) => b.id - a.id);
 
             // Parâmetros da URL
             const params = new URLSearchParams(window.location.search);
             const cat = params.get('cat');
 
-            // --- NOVO: LÓGICA PARA PÁGINA DE CATEGORIA ---
-            // --- LÓGICA PARA PÁGINA DE CATEGORIA ---
-            // --- LOCALIZAR NO SCRIPT.JS (Por volta da linha 110) ---
             const containerCat = document.getElementById('container-categoria');
             const tituloCat = document.getElementById('titulo-categoria');
 
             if (cat && containerCat) {
-                // DICIONÁRIO PARA NOMES BONITOS (OPCIONAL)
                 const nomesAmigaveis = {
                     "noticia": "Notícias",
                     "politica": "Política",
@@ -110,13 +102,10 @@
                     "historia": "História"
                 };
 
-                // Remove o prefixo e deixa a primeira letra maiúscula
                 const nomeLimpo = nomesAmigaveis[cat.toLowerCase()] || (cat.charAt(0).toUpperCase() + cat.slice(1));
-                
                 if (tituloCat) tituloCat.innerText = nomeLimpo;
 
                 const filtradas = noticias.filter(n => n.categoria.toLowerCase() === cat.toLowerCase());
-                // ... restante do código de filtragem ...
                 
                 if (filtradas.length > 0) {
                     containerCat.innerHTML = filtradas.map(n => `
@@ -133,10 +122,9 @@
                 } else {
                     containerCat.innerHTML = `<p>Nenhuma notícia encontrada na categoria ${cat}.</p>`;
                 }
-                // REMOVEMOS O RETURN DAQUI PARA O RESTO DA PÁGINA CARREGAR
             }
 
-            // --- RESTANTE DO CÓDIGO DA HOME (CARROSSEL, ETC) ---
+            // --- SEÇÃO DO CARROSSEL, TICKER E HOME ---
             const track = document.getElementById('carouselTrack');
             const ticker = document.getElementById('tickerContent');
             const containerSidebar = document.getElementById('lista-sidebar-dinamica');
@@ -161,26 +149,30 @@
                 esporte: { destaque: "", lista: "" }
             };
 
-            // ADICIONE ESTA LINHA AQUI (para controlar o limite de 3):
             let contadores = { politica: 0, saude: 0, policia: 0, noticia: 0, evento: 0, historia: 0, social: 0, esporte: 0 };
+            
+            // --- NOVO: Variável para limitar o carrossel em 10 ---
+            let contadorCarrossel = 0;
 
             noticias.forEach((n, index) => {
+                // Ticker: as 5 mais novas do site
                 if (index < 5) {
                     htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
                 }
-                //htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
-                if (n.noCarrossel) {
+
+                // --- LÓGICA DO CARROSSEL: Verifica flag e limite de 10 ---
+                if (n.noCarrossel === true && contadorCarrossel < 10) {
                     htmlCarrossel += `<div class="slide"><a href="${n.link}"><img src="${n.imagem}"><div class="slide-content"><h2>${n.titulo}</h2><p>${n.resumo}</p></div></a></div>`;
+                    contadorCarrossel++; 
                 }
                 
                 if (cats[n.categoria]) {
                     if (n.destaque) {
                         cats[n.categoria].destaque = `<article class="destaque"><a href="${n.link}"><img src="${n.imagem}"><h3>${n.titulo}</h3><p>${n.resumo}</p></a></article>`;
                     } else {
-                        // VERIFICA SE JÁ EXISTEM 3 NOTÍCIAS NA LISTA DESTA CATEGORIA
                         if (contadores[n.categoria] < 3) {
                             cats[n.categoria].lista += `<li><a href="${n.link}"><img src="${n.imagem}"><span>${n.titulo}</span></a></li>`;
-                            contadores[n.categoria]++; // Aumenta o contador para esta categoria
+                            contadores[n.categoria]++; 
                         }
                     }
                 }
@@ -217,21 +209,20 @@
         } catch (e) { console.error("Erro ao processar notícias:", e); }
     }
 
-   document.addEventListener('click', function (e) {
-    const btn = e.target.closest('#menuToggle');
-    if (btn) {
-        const nav = document.getElementById('mainNav');
-        if (nav) {
-            nav.classList.toggle('active');
-            console.log("Menu clicado! Classe active: " + nav.classList.contains('active'));
+    document.addEventListener('click', function (e) {
+        const btn = e.target.closest('#menuToggle');
+        if (btn) {
+            const nav = document.getElementById('mainNav');
+            if (nav) {
+                nav.classList.toggle('active');
+            }
         }
-    }
-});
+    });
 
     document.addEventListener('DOMContentLoaded', inicializarPortal);
 })();
 
-// Função para Página de Notícia Individual (Mantida separada conforme seu original)
+// Função para Página de Notícia Individual
 async function carregarNoticiaIndividual() {
     const params = new URLSearchParams(window.location.search);
     const idStr = params.get('id');
@@ -252,33 +243,28 @@ async function carregarNoticiaIndividual() {
             const elementoData = document.getElementById('data-publicacao');
             if (elementoData && n.data) elementoData.innerText = "Publicado em: " + n.data;
 
-            // Navegação
             const antContainer = document.getElementById('noticia-anterior');
             const proxContainer = document.getElementById('proxima-noticia');
 
-            // Dentro de carregarNoticiaIndividual no seu script.js
+            if (antContainer && index > 0) {
+                const ant = noticias[index - 1];
+                antContainer.innerHTML = `
+                    <a href="noticia.html?id=${ant.id}">
+                        <span><i class="fas fa-arrow-left" style="margin-right:8px"></i> Anterior</span>
+                        <strong>${ant.titulo.substring(0, 38)}...</strong>
+                    </a>`;
+            }
 
-if (antContainer && index > 0) {
-    const ant = noticias[index - 1];
-    antContainer.innerHTML = `
-        <a href="noticia.html?id=${ant.id}">
-            <span><i class="fas fa-arrow-left" style="margin-right:8px"></i> Anterior</span>
-            <strong>${ant.titulo.substring(0, 38)}...</strong>
-        </a>`;
-}
-
-if (proxContainer && index < noticias.length - 1) {
-    const prox = noticias[index + 1];
-    proxContainer.innerHTML = `
-        <a href="noticia.html?id=${prox.id}">
-            <span>Próxima <i class="fas fa-arrow-right" style="margin-left:8px"></i></span>
-            <strong>${prox.titulo.substring(0, 38)}...</strong>
-        </a>`;
-}
+            if (proxContainer && index < noticias.length - 1) {
+                const prox = noticias[index + 1];
+                proxContainer.innerHTML = `
+                    <a href="noticia.html?id=${prox.id}">
+                        <span>Próxima <i class="fas fa-arrow-right" style="margin-left:8px"></i></span>
+                        <strong>${prox.titulo.substring(0, 38)}...</strong>
+                    </a>`;
+            }
         }
     } catch (e) { console.error("Erro:", e); }
 }
 
 document.addEventListener('DOMContentLoaded', carregarNoticiaIndividual);
-
-     
