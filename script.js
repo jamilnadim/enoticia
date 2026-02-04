@@ -20,78 +20,65 @@
     const urlFrom = (path) => (path.startsWith('/') ? BASE + path.slice(1) : BASE + path);
 
     // --- FUNÇÃO MESTRE: CARREGA TUDO EM ORDEM ---
+ // --- FUNÇÃO MESTRE: CARREGA TUDO EM PARALELO (MODO TURBO) ---
     async function inicializarPortal() {
         
-        // 1. Carregar o Menu
         try {
-            const resMenu = await fetch(urlFrom('menu.html'));
-            if (resMenu.ok) {
-                document.getElementById('menu-container').innerHTML = await resMenu.text();
-            }
-        } catch (e) { console.error("Erro ao carregar menu:", e); }
+            // DISPARA TODOS OS PEDIDOS AO MESMO TEMPO (Gargalo zero)
+            const promessaMenu = fetch(urlFrom('menu.html'));
+            const promessaPatro = fetch(urlFrom('patrocinadores.html'));
+            const promessaNoticias = fetch(urlFrom('noticias.json'), { cache: 'default' });
+            const promessaContato = fetch(urlFrom('contato.html'));
+            const promessaAnuncie = fetch(urlFrom('anuncieaqui.html'));
 
-        
-// 2. Carregar Patrocinadores
-        try {
-            const resPatro = await fetch(urlFrom('patrocinadores.html'));
-            if (resPatro.ok) {
-                const htmlText = await resPatro.text();
+            // 1. Processa o Menu imediatamente ao chegar
+            promessaMenu.then(res => res.ok && res.text()).then(html => {
+                if (html) document.getElementById('menu-container').innerHTML = html;
+            }).catch(e => console.error("Erro menu:", e));
+
+            // 2. Processa Contato e Anuncie
+            promessaContato.then(res => res.ok && res.text()).then(html => {
+                const div = document.getElementById('contato');
+                if (div && html) div.innerHTML = html;
+            });
+            promessaAnuncie.then(res => res.ok && res.text()).then(html => {
+                const div = document.getElementById('anuncieaqui');
+                if (div && html) div.innerHTML = html;
+            });
+
+            // 3. Processa Patrocinadores
+            promessaPatro.then(res => res.ok && res.text()).then(html => {
+                if (!html) return;
                 const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = htmlText;
-                
+                tempDiv.innerHTML = html;
                 let banners = Array.from(tempDiv.querySelectorAll('.banner-link'));
-
                 if (banners.length > 0) {
-                    // Embaralha para mostrar alternadamente
                     banners.sort(() => Math.random() - 0.5);
-
-                    // --- REGRA PARA LIMITAR EM 5 APENAS NA CATEGORIA ---
                     const ePaginaCategoria = document.getElementById('container-categoria');
                     const ePaginaNoticia = document.getElementById('titulo-pagina-noticia');
-
-                    if (ePaginaCategoria || ePaginaNoticia) {
-                        banners = banners.slice(0, 5);
-                    }
-
+                    if (ePaginaCategoria || ePaginaNoticia) banners = banners.slice(0, 5);
                     const container = document.getElementById('patrocinadores-container');
                     if (container) {
                         container.innerHTML = '<h3>Patrocinadores</h3>';
                         banners.forEach(b => container.appendChild(b));
                     }
                 }
-            }
-        } catch (e) { console.error("Erro nos patrocinadores:", e); }
+            });
 
-            // --- NOVAS LINHAS PARA CONTATO E ANUNCIE ---
-            const divContato = document.getElementById('contato');
-            if (divContato) { 
-                const resContato = await fetch(urlFrom('contato.html'));
-                if (resContato.ok) divContato.innerHTML = await resContato.text();
-            }
-
-            const divAnuncie = document.getElementById('anuncieaqui');
-            if (divAnuncie) { 
-                const resAnuncie = await fetch(urlFrom('anuncieaqui.html'));
-                if (resAnuncie.ok) divAnuncie.innerHTML = await resAnuncie.text();
-            }
-        // ------------------------------------------ 
-
-        // 3. Carregar Notícias do JSON
-        try {
-            const resNoticias = await fetch(urlFrom('noticias.json'), { cache: 'default' });
+            // 4. Aguarda as Notícias e processa Categorias/Carrossel
+            const resNoticias = await promessaNoticias;
             const noticias = await resNoticias.json();
 
-            // Ordena todas as notícias pelo ID maior primeiro
+            // Ordena por ID (mais nova primeiro)
             noticias.sort((a, b) => b.id - a.id);
 
-            // Parâmetros da URL
+            // --- LÓGICA DE CATEGORIA (CORREÇÃO DO TÍTULO) ---
             const params = new URLSearchParams(window.location.search);
             const cat = params.get('cat');
-
             const containerCat = document.getElementById('container-categoria');
             const tituloCat = document.getElementById('titulo-categoria');
 
-            if (cat && containerCat) {
+            if (cat) {
                 const nomesAmigaveis = {
                     "noticia": "Notícias",
                     "politica": "Política",
@@ -99,114 +86,75 @@
                     "policia": "Polícia",
                     "evento": "Eventos",
                     "esporte": "Esportes",
-                    "historia": "História"
+                    "historia": "História",
+                    "social": "Social"
                 };
 
-                const nomeLimpo = nomesAmigaveis[cat.toLowerCase()] || (cat.charAt(0).toUpperCase() + cat.slice(1));
-                if (tituloCat) tituloCat.innerText = nomeLimpo;
-
-                const filtradas = noticias.filter(n => n.categoria.toLowerCase() === cat.toLowerCase());
+                const nomeExibicao = nomesAmigaveis[cat.toLowerCase()] || (cat.charAt(0).toUpperCase() + cat.slice(1));
                 
-                if (filtradas.length > 0) {
-                    containerCat.innerHTML = filtradas.map(n => `
-                        <div class="noticia-card">
-                            <a href="noticia.html?id=${n.id}" class="link-noticia">
-                                <img src="${n.imagem}" alt="${n.titulo}">
-                                <div class="card-content">
-                                    <h3>${n.titulo}</h3>
-                                    <p>${n.resumo || ""}</p>
-                                </div>
-                            </a>
-                        </div>
-                    `).join('');
-                } else {
-                    containerCat.innerHTML = `<p>Nenhuma notícia encontrada na categoria ${cat}.</p>`;
+                // Coloca o título na página
+                if (tituloCat) tituloCat.innerText = nomeExibicao;
+
+                // Lista as notícias da categoria se o container existir
+                if (containerCat) {
+                    const filtradas = noticias.filter(n => n.categoria.toLowerCase() === cat.toLowerCase());
+                    if (filtradas.length > 0) {
+                        containerCat.innerHTML = filtradas.map(n => `
+                            <div class="noticia-card">
+                                <a href="noticia.html?id=${n.id}" class="link-noticia">
+                                    <img src="${n.imagem}" alt="${n.titulo}">
+                                    <div class="card-content">
+                                        <h3>${n.titulo}</h3>
+                                        <p>${n.resumo || ""}</p>
+                                    </div>
+                                </a>
+                            </div>`).join('');
+                    } else {
+                        containerCat.innerHTML = `<p>Nenhuma notícia encontrada em ${nomeExibicao}.</p>`;
+                    }
                 }
             }
 
-            // --- SEÇÃO DO CARROSSEL, TICKER E HOME ---
+            // --- SEÇÃO DA HOME (CARROSSEL E TICKER) ---
             const track = document.getElementById('carouselTrack');
             const ticker = document.getElementById('tickerContent');
-            const containerSidebar = document.getElementById('lista-sidebar-dinamica');
-            const containerNoticia = document.getElementById('container-noticia');
-            const containerPolitica = document.getElementById('container-politica');
-            const containerSaude = document.getElementById('container-saude');
-            const containerPolicia = document.getElementById('container-policia');
-            const containerEvento = document.getElementById('container-evento');
-            const containerHistoria = document.getElementById('container-historia');
-            const containerSocial = document.getElementById('container-social');
-            const containerEsporte = document.getElementById('container-esporte');
-
-            let htmlCarrossel = "", htmlTicker = "", htmlSidebar = "";
-            let cats = {
-                politica: { destaque: "", lista: "" },
-                saude: { destaque: "", lista: "" },
-                policia: { destaque: "", lista: "" },
-                noticia: { destaque: "", lista: "" },
-                evento: { destaque: "", lista: "" },
-                historia: { destaque: "", lista: "" },
-                social: { destaque: "", lista: "" },
-                esporte: { destaque: "", lista: "" }
-            };
-
+            let htmlCarrossel = "", htmlTicker = "";
             let contadores = { politica: 0, saude: 0, policia: 0, noticia: 0, evento: 0, historia: 0, social: 0, esporte: 0 };
-            
-            // --- NOVO: Variável para limitar o carrossel em 10 ---
+            let cats = { politica: { destaque: "", lista: "" }, saude: { destaque: "", lista: "" }, policia: { destaque: "", lista: "" }, noticia: { destaque: "", lista: "" }, evento: { destaque: "", lista: "" }, historia: { destaque: "", lista: "" }, social: { destaque: "", lista: "" }, esporte: { destaque: "", lista: "" } };
+
             let contadorCarrossel = 0;
-
             noticias.forEach((n, index) => {
-                // Ticker: as 5 mais novas do site
-                if (index < 5) {
-                    htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
-                }
-
-                // --- LÓGICA DO CARROSSEL: Verifica flag e limite de 10 ---
+                if (index < 5) htmlTicker += `<span><a href="${n.link}">● ${n.titulo}</a></span>`;
+                
+                // Carrossel limitado a 10
                 if (n.noCarrossel === true && contadorCarrossel < 10) {
                     htmlCarrossel += `<div class="slide"><a href="${n.link}"><img src="${n.imagem}"><div class="slide-content"><h2>${n.titulo}</h2><p>${n.resumo}</p></div></a></div>`;
-                    contadorCarrossel++; 
+                    contadorCarrossel++;
                 }
                 
                 if (cats[n.categoria]) {
                     if (n.destaque) {
                         cats[n.categoria].destaque = `<article class="destaque"><a href="${n.link}"><img src="${n.imagem}"><h3>${n.titulo}</h3><p>${n.resumo}</p></a></article>`;
-                    } else {
-                        if (contadores[n.categoria] < 3) {
-                            cats[n.categoria].lista += `<li><a href="${n.link}"><img src="${n.imagem}"><span>${n.titulo}</span></a></li>`;
-                            contadores[n.categoria]++; 
-                        }
+                    } else if (contadores[n.categoria] < 3) {
+                        cats[n.categoria].lista += `<li><a href="${n.link}"><img src="${n.imagem}"><span>${n.titulo}</span></a></li>`;
+                        contadores[n.categoria]++;
                     }
                 }
             });
 
-            // Mais Lidas
-            const containerMaisLidas = document.getElementById('lista-mais-lidas-dinamica');
-            if (containerMaisLidas) {
-                const noticiasOrdenadas = [...noticias].sort((a, b) => (b.views || 0) - (a.views || 0));
-                const top4 = noticiasOrdenadas.slice(0, 3);
-                let htmlMaisLidas = "";
-                top4.forEach(n => {
-                    htmlMaisLidas += `<li><a href="${n.link}"><span>${n.titulo}</span></a></li>`;
-                });
-                containerMaisLidas.innerHTML = htmlMaisLidas;
-            }
-
-            // Injeções Finais da Home
             if (ticker) ticker.innerHTML = htmlTicker + htmlTicker;
             if (track) {
                 track.innerHTML = htmlCarrossel;
                 if (typeof setupCarousel === 'function') setupCarousel();
             }
-            if (containerSidebar) containerSidebar.innerHTML = htmlSidebar;
-            if (containerPolitica) containerPolitica.innerHTML = cats.politica.destaque + `<ul class="editoria-lista">${cats.politica.lista}</ul>`;
-            if (containerSaude) containerSaude.innerHTML = cats.saude.destaque + `<ul class="editoria-lista">${cats.saude.lista}</ul>`;
-            if (containerPolicia) containerPolicia.innerHTML = cats.policia.destaque + `<ul class="editoria-lista">${cats.policia.lista}</ul>`;
-            if (containerNoticia) containerNoticia.innerHTML = cats.noticia.destaque + `<ul class="editoria-lista">${cats.noticia.lista}</ul>`;
-            if (containerEvento) containerEvento.innerHTML = cats.evento.destaque + `<ul class="editoria-lista">${cats.evento.lista}</ul>`;
-            if (containerHistoria) containerHistoria.innerHTML = cats.historia.destaque + `<ul class="editoria-lista">${cats.historia.lista}</ul>`;
-            if (containerSocial) containerSocial.innerHTML = cats.social.destaque + `<ul class="editoria-lista">${cats.social.lista}</ul>`;
-            if (containerEsporte) containerEsporte.innerHTML = cats.esporte.destaque + `<ul class="editoria-lista">${cats.esporte.lista}</ul>`;
 
-        } catch (e) { console.error("Erro ao processar notícias:", e); }
+            // Preenche as editorias na Home
+            Object.keys(cats).forEach(c => {
+                const container = document.getElementById(`container-${c}`);
+                if (container) container.innerHTML = cats[c].destaque + `<ul class="editoria-lista">${cats[c].lista}</ul>`;
+            });
+
+        } catch (e) { console.error("Erro ao processar portal:", e); }
     }
 
     document.addEventListener('click', function (e) {
