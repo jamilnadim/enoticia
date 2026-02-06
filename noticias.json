@@ -404,7 +404,7 @@
     "data": "28 de janeiro de 2026",
     "link": "noticia.html?id=34",
     "noCarrossel": true,
-    "destaque": true
+    "destaque": false
   },
   {
     "id": 35,
@@ -514,7 +514,7 @@
   "data": "4 de fevereiro de 2026",
   "link": "noticia.html?id=43",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 {
   "id": 44,
@@ -537,6 +537,57 @@
   "conteudo": "<article class=\"noticia-conteudo\"><p>Com a previsão de continuidade de chuvas intensas em Minas Gerais, a <strong>Cemig</strong> reforça o alerta sobre os riscos envolvendo a rede elétrica. Colisões com postes e quedas de árvores podem romper cabos, criando situações de perigo extremo para motoristas e pedestres.</p><h3>Fio sobre o veículo: Como proceder?</h3><p>Se um fio energizado cair sobre o seu carro, o técnico de Segurança do Trabalho da Cemig, <strong>Gabriel Herculano</strong>, alerta que sair do veículo da forma errada pode ser fatal. Em redes de média tensão, o choque pode chegar a <strong>13,8 mil volts</strong>.</p><p><strong>A recomendação principal é:</strong></p><ul><li><strong>Permaneça dentro do veículo:</strong> Não saia e não toque em partes metálicas do carro;</li><li><strong>Mantenha distância:</strong> Peça para que pedestres não se aproximem;</li><li><strong>Acione socorro:</strong> Ligue imediatamente para o <strong>Fale com a Cemig (116)</strong> ou para o <strong>Corpo de Bombeiros (193)</strong>.</li></ul><h3>Quando sair do carro é inevitável?</h3><p>O único cenário em que a saída é necessária é em caso de <strong>incêndio no veículo</strong>. Nestas situações, o procedimento exige atenção máxima:</p><ol><li><strong>O Salto:</strong> Abra a porta e salte o mais longe possível. <strong>Atenção:</strong> Você nunca deve tocar o chão e a lataria do carro ao mesmo tempo.</li><li><strong>O Afastamento:</strong> Após o salto, afaste-se dando passos curtos, mantendo os pés sempre juntos ao chão (arrastando-os). Isso evita a passagem da corrente elétrica pelo corpo.</li></ol><h3>Perigo oculto em árvores</h3><p>A Cemig alerta ainda que árvores derrubadas pelo vento podem esconder cabos energizados entre os galhos. <strong>Nunca tente remover galhos ou troncos caídos</strong> após temporais, pois o risco de eletrocussão é alto.</p><blockquote>\"O contato simultâneo na lataria do automóvel e o chão pode causar choque elétrico fatal ou queimaduras gravíssimas\", orienta o técnico Gabriel Herculano.</blockquote><p><strong>POR: Agência Minas</strong></p></article>",
   "data": "4 de fevereiro de 2026",
   "link": "noticia.html?id=45",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 46,
+  "categoria": "noticia",
+  "titulo": "Ponte entre Minas Gerais e São Paulo é totalmente interditada",
+  "resumo": "Após vistoria técnica detectar trincas em pilar, tráfego na ponte sobre o Rio Grande é suspenso para todos os veículos por risco estrutural.",
+  "imagem": "Assets/noticias/ponte.webp",
+  "conteudo": "<article class='noticia-conteudo'><p>O tráfego na ponte sobre o Rio Grande, que liga as rodovias AMG-2540 e SP-413, na divisa entre Minas Gerais e São Paulo, no Triângulo Mineiro, será totalmente interditado para qualquer tipo de veículo a partir das 18h desta quinta-feira (5/2). A medida substitui a decisão anterior, que autorizava apenas a circulação de veículos com peso máximo de 4 toneladas.</p><p>A interdição total foi definida após uma segunda vistoria técnica realizada por especialistas em estruturas de pontes e viadutos do Departamento de Estradas de Rodagem de Minas Gerais (DER-MG). Durante a inspeção, foram identificadas trincas em um dos pilares da estrutura com dimensões que comprometem a segurança dos usuários.</p><p>O DER-MG mantém diálogo com o Departamento de Estradas de Rodagem de São Paulo para viabilizar as ações necessárias à recuperação da estrutura e, assim, permitir a retomada segura da circulação de veículos no local.</p><p>Com 540 metros de extensão e 7,84 metros de largura, a ponte foi construída em 1974 por uma usina da região e representa um importante elo de ligação entre a MG-427 e o estado de São Paulo, garantindo acesso a diversos municípios paulistas, como a cidade de Barretos.</p><p>O DER-MG orienta os motoristas a respeitarem rigorosamente a interdição e a sinalização instalada no local, uma vez que o descumprimento pode colocar em risco a vida dos usuários da via. Serão instaladas sinalização específica de impedimento de tráfego e de orientação para os desvios, garantindo que os condutores sejam informados com antecedência sobre as rotas alternativas.</p><h3>Desvios e Rotas Alternativas</h3><p>Há duas opções de desvio para atravessar de Minas até São Paulo, pela MG-427, por Planura ou Uberaba.</p><ul><li><strong>Por Planura:</strong> Deve acessar a BR-364 que, ao mudar de estado, passa a se chamar SP-326 e chega até Barretos. De lá, os motoristas podem acessar a rodovia SP-425 até Guaíra.</li><li><strong>Por Uberaba:</strong> Leva à rodovia BR-050 até Delta e, ao atravessar a divisa, continua pela SP-330 em direção a Ituverava, acessando depois a SP-385 até Miguelópolis.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>Crédito: DER-MG / Divulgação</strong><br><strong>Por: AGÊNCIA MINAS</strong></p></article>",
+  "data": "5 de fevereiro de 2026",
+  "link": "noticia.html?id=46",
+  "noCarrossel": true,
+  "destaque": true
+},
+{
+  "id": 47,
+  "categoria": "noticia",
+  "titulo": "Sacramento sedia formação do Pacto Mineiro pela Alfabetização com participação regional",
+  "resumo": "Encontro reuniu docentes de Sacramento, Conquista e Delta para fortalecer estratégias de alfabetização na idade certa, em alinhamento com o Compromisso Nacional da Criança Alfabetizada.",
+  "imagem": "Assets/noticias/pactomineiro.webp",
+  "conteudo": "<article class='noticia-conteudo'><p>O município de Sacramento sediou no dia 3 de fevereiro de 2026, a formação presencial do <strong>Pacto Mineiro pela Alfabetização</strong>, realizada no âmbito do CNCA – Compromisso Nacional da Criança Alfabetizada. O encontro aconteceu na Escola Municipal Luiz Magnabosco e reuniu professores do 1º ao 5º ano do Ensino Fundamental.</p><p>Além dos docentes da rede municipal, a formação contou com a participação de professores dos municípios de <strong>Conquista e Delta</strong>, reforçando a integração regional e o alinhamento das práticas pedagógicas voltadas à alfabetização na idade certa.</p><p>Com carga horária das 7h às 17h, a formação teve como foco o fortalecimento das estratégias de ensino, a troca de experiências e a abordagem de metodologias que contribuam para o desenvolvimento das habilidades de leitura e escrita das crianças, em consonância com as diretrizes do Compromisso Nacional da Criança Alfabetizada.</p><p>A iniciativa integra as ações do Pacto Mineiro pela Alfabetização, que busca apoiar os municípios na qualificação dos profissionais da educação, garantindo o direito à aprendizagem desde os anos iniciais e promovendo avanços nos indicadores educacionais.</p><p>Ao sediar a formação, Sacramento reafirma seu compromisso com a educação pública de qualidade, investindo na formação continuada dos professores e no fortalecimento de políticas educacionais que impactam diretamente o futuro das crianças.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "6 de fevereiro de 2026",
+  "link": "noticia.html?id=47",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 48,
+  "categoria": "politica",
+  "titulo": "Prefeitura e forças de segurança alinham regras para atuação de ambulantes no CarnaSacra 2026",
+  "resumo": "Reunião definiu normas de segurança, prevenção contra incêndios e organização da praça de alimentação para garantir um evento seguro e acolhedor.",
+  "imagem": "Assets/noticias/forcaseguranca.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: top !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Secretaria de Desenvolvimento Econômico e Turístico realizou reunião com representantes das forças de segurança e vendedores ambulantes que vão atuar no <strong>CarnaSacra 2026</strong>, com o objetivo de alinhar normas, orientações e garantir a segurança e a organização da praça de alimentação organizada pelo governo municipal.</p><p>Durante o encontro, foram repassadas aos ambulantes instruções técnicas de prevenção e combate a incêndio, com orientações específicas sobre o uso correto da eletricidade, a obrigatoriedade de extintores de incêndio e cuidados no manuseio de fogões e fritadeiras. As medidas visam assegurar a integridade física tanto dos comerciantes quanto do público que irá prestigiar o evento.</p><p>Também ficou definida a estrutura da praça de alimentação, com a instalação de três tendas de 10x10 metros, sendo que cada espaço será dividido em stands de 9 m². Em cada stand, será permitida a utilização de até quatro jogos de mesas, garantindo melhor organização e conforto aos frequentadores.</p><p>A Guarda Municipal orientou ainda sobre o horário de encerramento das tendas, que deverá respeitar a programação oficial do Carnaval, além de reforçar normas de segurança importantes, como a proibição da venda de bebidas em recipientes de vidro e do uso de espetos com ponta, prevenindo acidentes e situações de risco.</p><p>A reunião reforçou o compromisso do poder público em promover um Carnaval seguro, organizado e acolhedor, assegurando tranquilidade aos foliões e boas condições de trabalho aos vendedores ambulantes.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "6 de fevereiro de 2026",
+  "link": "noticia.html?id=48",
+  "noCarrossel": true,
+  "destaque": true
+},
+{
+  "id": 49,
+  "categoria": "politica",
+  "titulo": "Dino manda suspender pagamento de penduricalhos nos Três Poderes",
+  "resumo": "Ministro do STF aponta 'multiplicação anômala' de benefícios e dá prazo de 60 dias para revisão de supersalários que ultrapassam o teto constitucional.",
+  "imagem": "Assets/noticias/dino.webp",
+  "conteudo": "<article class='noticia-conteudo'><p>O ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou nesta quinta-feira (5) a suspensão do pagamento dos chamados “penduricalhos”, benefícios que são concedidos a servidores públicos e que não cumprem o teto remuneratório constitucional, de R$ 46,3 mil. A suspensão vale para os Três Poderes.</p><p>Pela decisão, os Três Poderes têm prazo de 60 dias para revisar e suspender pagamento das verbas indenizatórias sem base legal.</p><p>Na decisão, Flávio Dino afirmou que há um “fenômeno da multiplicação anômala” de verbas indenizatórias incompatíveis com a Constituição. Ele cita o pagamento de “auxílio-peru” e “auxílio-panetone” (benefícios extras de fim de ano) como exemplos de ilegalidade.</p><p>“Destaco que, seguramente, tal amplo rol de 'indenizações', gerando supersalários, não possui precedentes no direito brasileiro, tampouco no direito comparado, nem mesmo nos países mais ricos do planeta”, argumentou.</p><p>A suspensão deve ser cumprida em todo o país e vale para o Judiciário, Executivo e Legislativo federais e estaduais.</p><h3>Império dos penduricalhos</h3><p>Flávio Dino também defendeu que o Congresso aprove uma lei para deixar claro quais as verbas indenizatórias podem ser admissíveis como exceção ao teto constitucional, que é equivalente ao salário dos ministros do Supremo.</p><p>“Por este caminho, certamente será mais eficaz e rápido o fim do império dos penduricalhos, com efetiva justiça remuneratória, tão necessária para a valorização dos servidores públicos e para a eficiência e dignidade do serviço público”, ressaltou.</p><p>A suspensão dos penduricalhos foi decidida em um processo no qual Dino negou o pagamento de auxílio-alimentação retroativo a um juiz de Minas Gerais.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>André Richter - Repórter da Agência Brasil</strong></p></article>",
+  "data": "6 de fevereiro de 2026",
+  "link": "noticia.html?id=49",
   "noCarrossel": true,
   "destaque": false
 }

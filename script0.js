@@ -96,3 +96,5 @@ initRotatingAds('adsTop', 5000);
 initRotatingAds('adsMiddle', 6000);
 
 // Optional: pause ticker on hover is CSS-only; here we could later fetch items dynamically
+
+
