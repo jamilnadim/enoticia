@@ -380,7 +380,7 @@
     "data": "28 de janeiro de 2026",
     "link": "noticia.html?id=32",
     "noCarrossel": false,
-    "destaque": true
+    "destaque": false
   },
   {
     "id": 33,
@@ -551,7 +551,7 @@
   "data": "5 de fevereiro de 2026",
   "link": "noticia.html?id=46",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 {
   "id": 47,
@@ -590,7 +590,104 @@
   "link": "noticia.html?id=49",
   "noCarrossel": true,
   "destaque": false
-}
+},
 
+{
+  "id": 50,
+  "categoria": "noticia",
+  "titulo": "Sicredi é destaque no Top 5 de projeções econômicas do Banco Central",
+  "resumo": "Instituição financeira cooperativa lidera ranking para variáveis fiscais de longo prazo e tem Sicredi Asset entre as três melhores nas estimativas da Selic.",
+  "imagem": "Assets/noticias/Sicredi-CAS.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: top !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Sicredi obteve posições de destaque no Ranking Top 5 do Banco Central. A instituição financeira cooperativa conquistou o 1º lugar na categoria Fiscal Cesta (longo prazo – ano corrente). Esse ranking inclui análise de variáveis fiscais como resultado primário, resultado nominal, dívida líquida do setor público e dívida bruta do governo federal. A Sicredi Asset também se destacou ao alcançar o 3º lugar na categoria Selic curto prazo anual.</p><p>Na avaliação de André Nunes de Nunes, economista-chefe do Sicredi, o resultado é um reconhecimento à complexidade do trabalho analítico envolvido. “A conquista do primeiro lugar é especialmente relevante, pois essa categoria combina análise estatística com uma leitura aprofundada da legislação orçamentária e tributária, que passou por mudanças significativas nos últimos anos”, afirma.</p><p>Para Filipe Stona, economista-chefe da Sicredi Asset, a posição de destaque da gestora de recursos da instituição também reforça o compromisso com a qualidade técnica das análises. “Esse desempenho evidencia nossa dedicação em produzir projeções consistentes para o cenário macroeconômico, contribuindo para a tomada de risco dos nossos gestores de fundos de investimentos”, destaca.</p><p>O Ranking Top 5 do Banco Central classifica as instituições que mais acertam as projeções das principais variáveis macroeconômicas divulgadas no Relatório Focus. O objetivo é estimular a qualidade das estimativas e reconhecer a consistência analítica do mercado.</p><p>Os rankings anuais de curto e médio prazos avaliam a consistência das instituições nos respectivos rankings mensais e trimestrais, de curto e médio prazos. Já os rankings anuais de longo prazo consideram a precisão das projeções informadas, em cada um dos 12 meses do ano, para os indicadores anuais do ano corrente e do ano seguinte.</p><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa comprometida com o crescimento de seus associados e com o desenvolvimento das regiões onde atua. Possui um modelo de gestão que valoriza a participação dos mais de 9,5 milhões de associados que exercem o papel de donos do negócio. Com mais de 3 mil agências, o Sicredi está presente fisicamente em todos os estados brasileiros e no Distrito Federal, disponibilizando uma gama completa de soluções financeiras e não financeiras.</p></article>",
+  "data": "10 de fevereiro de 2026",
+  "link": "noticia.html?id=50",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 51,
+  "categoria": "noticia",
+  "titulo": "Ensaio técnico dá início ao clima do CarnaSacra 2026",
+  "resumo": "Escolas de samba e blocos realizam ensaio técnico na Avenida Visconde do Rio Branco, marcando o retorno das competições após 12 anos.",
+  "imagem": "Assets/noticias/ensaiotecnico.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: top !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O clima do CarnaSacra 2026 já tomou conta de Sacramento. Embora a festa de Momo comece oficialmente na próxima sexta-feira, dia 13, a animação já começou no último sábado, quando as escolas de samba <strong>Beija-Flor Sacramentano, Unidos do Areão e XIII de Maio</strong>, além do <strong>Bloco Bateria 2000</strong>, realizaram o ensaio técnico na Avenida Visconde do Rio Branco — que, durante o Carnaval, se transforma na tradicional Avenida do Samba.</p><p>Após 12 anos, as escolas de samba voltam a disputar o desfile, reacendendo a rivalidade saudável e mobilizando torcidas apaixonadas em apoio às suas agremiações. De acordo com o secretário municipal de Cultura, Luiz Alberto Silva, o ensaio técnico, novidade em Sacramento, tem papel fundamental na organização do evento. Cada escola terá 55 minutos para levar à avenida toda a emoção, o brilho e a beleza do desfile oficial.</p><p>O ensaio contou ainda com a presença de <strong>Luana Costa</strong>, Rainha do CarnaSacra 2026, que se mostrou emocionada com o convite e garantiu muita energia e emoção ao público.</p><p>Celebrando 25 anos de história na avenida, o Bloco Bateria 2000 será responsável por abrir os desfiles no sábado, às 20h30. No domingo, a emoção continua com os desfiles das escolas de samba: Unidos do Areão abre a noite, seguida pela Beija-Flor Sacramentano, e encerrando com a XIII de Maio. A apuração acontece na tarde de segunda-feira, e o desfile das campeãs(primeiro e segundo lugares), ocorre na terça-feira, junto à entrega das premiações.</p><p>Em breve a programação oficial do CarnaSacra 2026 será publicada.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>DECOM/SEGOV-PMS</strong></p></article>",
+  "data": "10 de fevereiro de 2026",
+  "link": "noticia.html?id=51",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 52,
+  "categoria": "noticia",
+  "titulo": "Cachaça produzida em Sacramento conquista medalhas e ganha reconhecimento estadual",
+  "resumo": "Irmãs Aline e Cristiane Cardoso conquistam medalhas de prata em concurso mineiro de cachaça, destacando a produção artesanal da Fazenda Maktub.",
+  "imagem": "Assets/noticias/cachaca.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: top !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>As irmãs Aline e Cristiane Cardoso, produtoras de cachaça em Sacramento, foram recebidas pelo prefeito Juninho Trevisan em seu gabinete para apresentar, com orgulho, o resultado de anos de dedicação à produção artesanal da bebida. A visita contou com a presença de servidores da Emater-MG e do secretário municipal de Desenvolvimento Rural, Daniel Rezende.</p><p>As produtoras conquistaram medalhas de prata no 2º Concurso de Avaliação da Qualidade das Cachaças de Alambique e Aguardentes de Cana Mineiras – 2025, promovido pela Emater, em Belo Horizonte. O concurso reuniu cerca de 250 produtores de todo o estado, que inscreveram diferentes tipos de cachaça para avaliação técnica.</p><p>Engenheira agrônoma, Aline Silva Cardoso explicou que a produção da família teve início em 1938, com o avô, passando posteriormente para o pai, Horácio Cardoso. Após seu falecimento, em 2020, Aline assumiu a produção e conduziu o processo de regularização e certificação junto ao Instituto Mineiro de Agropecuária (IMA) e ao Ministério da Agricultura, permitindo que a cachaça participasse oficialmente de concursos e fosse comercializada de forma regular.</p><p>Atualmente, a produção é conduzida pelas duas irmãs na Fazenda Maktub, na região do Quenta Sol, em Sacramento. No concurso estadual, a cachaça da família foi premiada com medalha de prata, em duas categorias: cachaça prata, que não passa por envelhecimento em madeira e descansa em tonéis de inox, e cachaça bálsamo, envelhecida por quatro anos em tonéis de madeira.</p><p>Para o gerente regional da Emater em Uberaba, Diego Rezende, a premiação reforça a diversidade e a qualidade da produção agroindustrial da região. Segundo ele, além de queijos e cafés reconhecidos nacionalmente, o território passa a se destacar também pela produção de cachaças de excelência.</p><p>O extensionista agropecuário da Emater em Sacramento, Rafael Antônio, destacou que a participação no concurso faz parte de um trabalho de incentivo à regularização, divulgação e fortalecimento da produção local. De acordo com ele, as premiações obtidas pela cachaça de Sacramento representam um avanço importante para o município e para o desenvolvimento da agroindústria rural.</p><p>A premiação reforça o potencial da produção artesanal de Sacramento e evidencia a importância do apoio técnico e institucional para a valorização dos produtores rurais e da agricultura familiar no município.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "10 de fevereiro de 2026",
+  "link": "noticia.html?id=52",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 53,
+  "categoria": "saude",
+  "titulo": "Anvisa alerta para risco de pancreatite ligado a canetas emagrecedoras",
+  "resumo": "Agência orienta que uso de medicamentos como semaglutida e tirzepatida seja feito exclusivamente com prescrição e acompanhamento médico devido a eventos adversos graves.",
+  "imagem": "Assets/noticias/caneta.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: top !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Agência Nacional de Vigilância Sanitária (Anvisa) emitiu hoje (9), em Brasília, um alerta de farmacovigilância sobre os riscos do uso indevido de medicamentos agonistas do receptor GLP‑1, popularmente conhecidos como canetas emagrecedoras.</p><p>O grupo inclui a dulaglutida, a liraglutida, a semaglutida e a tirzepatida.</p><p>Em nota, a Anvisa destacou que, embora o risco conste das bulas dos medicamentos aprovados no Brasil, as notificações têm aumentado tanto no cenário internacional como no cenário nacional, o que exige reforço das orientações de segurança.</p><p>“Conhecidos popularmente como canetas emagrecedoras, esses medicamentos devem ser utilizados exclusivamente conforme as indicações aprovadas em bula e sob prescrição e acompanhamento de profissional habilitado”, destacou a agência no comunicado.</p><p>O monitoramento médico, segundo a Anvisa, é motivado pelo risco de eventos adversos graves, incluindo pancreatite aguda, que podem incluir formas necrotizantes e fatais.</p><p>“Apesar do alerta, não houve mudança na relação de risco e eficácia dessas substâncias. Ou seja, os benefícios terapêuticos ainda superam os efeitos adversos, de acordo com as indicações e modos de uso aprovados e constantes da bula”, completou a agência.</p><p>O comunicado cita que, no início do mês, a Agência Reguladora de Medicamentos e Produtos de Saúde (MHRA) do Reino Unido emitiu alerta para o risco, ainda que pequeno, de casos de pancreatite aguda grave em pacientes que utilizam canetas emagrecedoras.</p><h3>Dados e Notificações</h3><p>Dados da Anvisa indicam que, entre 2020 e 7 de dezembro de 2025, 145 notificações de suspeitas de eventos adversos foram registradas no país, além de seis suspeitas de casos com desfecho de óbito.</p><p>Em junho de 2025, a agência determinou que farmácias e drogarias passassem a reter a receita desse tipo de medicamento. Desde então, a prescrição médica passou a ser feita em duas vias e a venda só pode ocorrer com a retenção da receita na farmácia, assim como acontece com antibióticos.</p><p>A validade das receitas é de até 90 dias, a partir da data de emissão.</p><p>“A decisão teve como objetivo proteger a saúde da população brasileira, visto que foi observado um número elevado de eventos adversos relacionados ao uso desses medicamentos fora das indicações aprovadas”, destacou a Anvisa.</p><h3>Orientações ao Usuário</h3><p>A agência recomenda que usuários de canetas emagrecedoras procurem atendimento médico imediato em caso de dor abdominal intensa e persistente, que pode irradiar para as costas e vir acompanhada de náuseas e vômitos - sintomas sugestivos de pancreatite.</p><p>Profissionais de saúde, de acordo com a Anvisa, devem interromper o tratamento ao suspeitar da reação, não dando prosseguimento caso o diagnóstico seja confirmado.</p><p>“A Anvisa reforça, ainda, a importância da notificação de eventos adversos no VigiMed [sistema disponibilizado pela agência para monitor eventos adversos relacionados a medicamentos e vacinas], o que contribui para o monitoramento contínuo da segurança desses medicamentos no país, que estão há pouco mais de cinco anos no mercado nacional.”</p><h3>Histórico de Alertas</h3><p>Ao longo dos últimos anos, a Anvisa já havia emitido outros alertas relacionados a canetas emagrecedoras, incluindo riscos de aspiração durante procedimentos anestésicos, em 2024, e a perda de visão rara associada à semaglutida, em 2025.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>Paula Laboissière – Repórter da Agência Brasil</strong><br>Publicado em 09/02/2026 - 15:58 - Brasília</p></article>",
+  "data": "10 de fevereiro de 2026",
+  "link": "noticia.html?id=53",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 54,
+  "categoria": "historia",
+  "titulo": "Praça da Gameleira, quanta saudade!",
+  "resumo": "Em um resgate histórico emocionante, Amir Salomão Jacob relembra os tempos da frondosa gameleira no Alto Chafariz e a transformação do espaço urbano de Sacramento.",
+  "imagem": "Assets/noticias/PRACA1.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: top !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Frondosa, acolhedora e sempre cheia de frutos e pássaros, assim era a grande gameleira que ficava no Alto Chafariz, no meio de uma praça, um descampado, fechando a cidade. Ao seu lado uma caixa d´água e poucos vizinhos.</p><div style='display: flex; gap: 15px; margin: 25px 0; justify-content: center;'><div style='flex: 1;'><img src='Assets/noticias/praca1.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'><small style='color: #666; display: block; margin-top: 8px;'>Registros da antiga Praça da Gameleira</small></div><div style='flex: 1;'><img src='Assets/noticias/praca2.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'><small style='color: #666; display: block; margin-top: 8px;'>A colhedora e frondosa árvore do Alto Chafariz</small></div></div><p>Uma alegria quando chegavam os circos e os parques na cidade, muitos ali se instalavam, periodicamente também foi acampamento de ciganos. Ficava no roteiro das boiadas que entravam na cidade pelo Bairro Santo Antonio, cruzavam o Chafariz, passava pela Praça da Gameleira e desciam pela hoje Rua Dr. Felipe Venites, passando pela Chácara da Heigorina indo em busca do Areião, por onde saíam da cidade.</p><p>Seus mais antigos moradores: Sr. Valdo carroceiro, a família da Tia Néia (mãe da Maria Miguel), um senhor muito pobre chamado Aristides com sua família. Anos depois construiu-se uma casa mais moderna onde veio morar a família do saudoso Bugrim. Do outro lado da praça a vivenda e os pastos do Dr. Felipe. Na parte debaixo a família Felício, do saudoso Cinzano, Iúca, Zezinho e outros. Era só o que tinha ali.</p><div style='display: flex; gap: 15px; margin: 25px 0; justify-content: center;'><div style='flex: 1;'><img src='Assets/noticias/praca3.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div><div style='flex: 1;'><img src='Assets/noticias/praca4.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div></div><p>A Praça da Gameleira perdeu seu encanto quando, entre 1974 e 1976, no governo Hugo Rodrigues da Cunha cortaram a centenária gameleira para construir a Escola Técnica.</p><p>Essa era a Praça da Gameleira, que tinha um nome oficial e ninguém sabia: Praça João Pessoa. Quando ela perdeu a característica de \"Gameleira\", em 1984, como vereador, dei-lhe um nome mais apropriado para o lugar: <strong>Praça Edalides Milan de Rezende</strong>, uma mulher filha de Sacramento, extremamente caridosa, irmã de Eurípedes Barsanulpho, que foi parteira em Sacramento por muitos e muitos anos, inclusive eu nasci em suas mãos. Dona Edalides morreu naquele ano de 1984, e em sua homenagem tirei o nome do político nordestino \"João Pessoa\" e coloquei seu nome.</p><div style='display: flex; gap: 15px; margin: 25px 0; justify-content: center;'><div style='flex: 1;'><img src='Assets/noticias/praca5.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div><div style='flex: 1;'><img src='Assets/noticias/praca6.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div></div><p>Hoje, nem praça tem, entupiram tudo com construções, uma lástima sem tamanho. Falta de noção dos governantes de Sacramento que matam as praças, inclusive a central, a da Basílica.</p><p>Fica aqui um pouco da história da antiga e saudosa praça da Gameleira no Alto Chafariz.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>Arquivo de AMIR Salomão Jacob</strong></p></article>",
+  "data": "10 de fevereiro de 2026",
+  "link": "noticia.html?id=54",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 55,
+  "categoria": "historia",
+  "titulo": "Muro do Grupão e Museu Histórico",
+  "resumo": "Amir Salomão Jacob relembra as gerações educadas no centenário 'Grupão' e a criação do Museu Histórico de Sacramento, marcos da identidade local.",
+  "imagem": "Assets/noticias/murogrupao.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: top !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Antigo muro do Grupão (hoje Escola Municipal Dr. Afonso Pena Júnior). Pelo grupão passaram gerações e gerações de alunos. Hoje a construção conta com 103 anos de existência. Era o Grupão cercado de muros altos, acolhendo entre os paredões a escola, o pátio, a gruta de N. S. de Lourdes e o velho e frondoso abacateiro.</p><div style='margin: 25px auto; max-width: 700px; text-align: center;'><img src='Assets/noticias/grupao-MUSEU.webp' style='width: 100%; border-radius: 8px; height: auto; max-height: 450px; object-fit: cover; object-position: top;'><small style='color: #666; display: block; margin-top: 8px;'>Registro histórico: O centenário Grupão e o Museu Histórico de Sacramento</small></div><p>Milhares de crianças ali foram educadas. Entrei no Grupão em 1962, cantei com a primeira turma o Hino de Sacramento em 1963, ainda com a autora, Professora Célia Bianchi. Milhares de outros sacramentanos também viveram essa história: a glória de ser alunos do Grupão.</p><p>Em 1981 o ex-prefeito, Dr. José Alberto Bernardes Borges conseguiu com o estado uma parte do pátio da escola e ali construiu o <strong>Museu Histórico de Sacramento</strong>. Uma obra preciosa no centro da cidade.</p><p>A nós, antigos alunos, ficou a nostalgia de um tempo feliz, grandioso e venerável que vivemos dentro desses muros. Histórias de nossa terra, amada terra do Santíssimo Sacramento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>Arquivo particular de AMIR Salomão Jacob</strong></p></article>",
+  "data": "10 de fevereiro de 2026",
+  "link": "noticia.html?id=55",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 56,
+  "categoria": "historia",
+  "titulo": "Colégio Allan Kardec - DÉCADA DE 1920",
+  "resumo": "O pesquisador Amir Salomão Jacob analisa foto inédita da década de 20, identificando figuras históricas e discutindo a evolução arquitetônica do colégio fundado por Eurípedes Barsanulpho.",
+  "imagem": "Assets/noticias/colegio-allan-kardec.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: top !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Encontrei no Arquivo Público de Minas Gerais uma foto interessante, inédita, pelo menos para mim, do antigo Colégio Allan Kardec de Sacramento, na década de 1920, acredito eu.</p><p>O “Grupo Espírita Esperança e Caridade”, (juntamente com o Colégio Allan Kardec) foi fundado pelo Professor Eurípedes Barsanulpho em 1907, após o desaparecimento do Lyceu Sacramentano, onde ele era professor.</p><div style='display: flex; gap: 15px; margin: 25px 0; justify-content: center;'><div style='flex: 1;'><img src='Assets/noticias/colegio-allan-kardec3.webp' style='width: 100%; border-radius: 8px; height: 300px; object-fit: cover; object-position: top;'></div><div style='flex: 1;'><img src='Assets/noticias/colegio-allan-kardec.webp' style='width: 100%; border-radius: 8px; height: 300px; object-fit: cover; object-position: top;'></div></div><p>Essa foto que acredito ser da década de 1920, após a morte do Professor Eurípedes (1918), pois nos evidencia a sua ausência na mesma. No centro da foto está o Professor Waltercides Willon, irmão de Eurípedes, que continuou na direção do Colégio após a morte do fundador. O Professor Eurípedes não está na foto.</p><p>Outro fato interessante é que, mesmo depois da morte do Professor Eurípedes, o atual prédio do Colégio Allan Kardec ainda não estava construído. Como pesquisador entendo, sem afirmar científico, que esse prédio que vemos hoje foi edificado na década de 1920 e inaugurado em 1929.</p><p>Um mapa da cidade de Sacramento, de 1920, mostra que o Colégio Allan Kardec como vemos hoje não existia. O que existia no vasto terreno era um outro prédio bem menor que o atual (que, sem rigor científico, acredito ser a construção da foto acima). Aquela área de terreno pertencia ao pai do Professor Eurípedes Barsanulpho, Sr. Mogico.</p><p>Na foto não há identificação de pessoas. Reconheço e afirmo que o Sr. <strong>Waltercides Willon</strong> está no centro (colarinho alto, chapéu coco, abaixo da letra “G” do mural). Uma senhora (abaixo das letras “A” e “L” da palavra “Allan”) poderia ser identificada como Dona Jerônima, dona Meca, mãe do Professor Eurípedes. O homem posicionado entre as letras “N” e “K”, de frente dos demais, poderia ser o Major Ataliba Cunha e o último homem à direita o Sr. Zeca Saturnino.</p><p>Histórias de nossa amada terra, com seus heróis do passado. Salve!</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>Arquivo pessoal de AMIR Salomão Jacob</strong></p></article>",
+  "data": "10 de fevereiro de 2026",
+  "link": "noticia.html?id=56",
+  "noCarrossel": true,
+  "destaque": true
+}
 ]
 
