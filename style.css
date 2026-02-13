@@ -1115,4 +1115,12 @@ p {
     color: #c4170c; /* Cor vermelha do seu site */
 }
 
+/* Exemplo para o seu carrossel */
+.img-carrossel {
+    width: 100%;
+    height: 500px; /* Ou a altura que você usa no topo do site */
+    object-fit: cover !important;
+    object-position: 50% 15% !important; /* Ajusta para focar nos rostos */
+}
+
 
