@@ -101,7 +101,7 @@
                     if (filtradas.length > 0) {
                         containerCat.innerHTML = filtradas.map(n => `
                             <div class="noticia-card">
-                                <a href="noticia.php?id=${n.id}" class="link-noticia">
+                                <a href="noticia.html?id=${n.id}" class="link-noticia">
                                     <img src="${n.imagem}" alt="${n.titulo}">
                                     <div class="card-content">
                                         <h3>${n.titulo}</h3>
@@ -173,40 +173,46 @@
 // Função para Página de Notícia Individual
 async function carregarNoticiaIndividual() {
     const params = new URLSearchParams(window.location.search);
-    const id = params.get('id');
-    if (!id) return;
+    const idStr = params.get('id');
+    if (!idStr) return; 
+    const id = parseInt(idStr);
 
     try {
         const res = await fetch('noticias.json');
         const noticias = await res.json();
-        const index = noticias.findIndex(item => item.id == id);
+        const index = noticias.findIndex(item => parseInt(item.id) === id);
         const n = noticias[index];
 
         if (n) {
-            // Atualiza o conteúdo via JS apenas para garantir que a navegação funcione
             document.getElementById('titulo-pagina-noticia').innerText = n.titulo;
             document.getElementById('imagem-pagina-noticia').src = n.imagem;
-            document.getElementById('imagem-pagina-noticia').style.display = 'block';
             document.getElementById('texto-pagina-noticia').innerHTML = n.conteudo || n.resumo;
             
             const elementoData = document.getElementById('data-publicacao');
             if (elementoData && n.data) elementoData.innerText = "Publicado em: " + n.data;
 
-            // Navegação - MUDAMOS PARA .PHP AQUI
             const antContainer = document.getElementById('noticia-anterior');
             const proxContainer = document.getElementById('proxima-noticia');
 
             if (antContainer && index > 0) {
                 const ant = noticias[index - 1];
-                antContainer.innerHTML = `<a href="noticia.php?id=${ant.id}"><span>Anterior</span><strong>${ant.titulo.substring(0, 30)}...</strong></a>`;
+                antContainer.innerHTML = `
+                    <a href="noticia.html?id=${ant.id}">
+                        <span><i class="fas fa-arrow-left" style="margin-right:8px"></i> Anterior</span>
+                        <strong>${ant.titulo.substring(0, 38)}...</strong>
+                    </a>`;
             }
+
             if (proxContainer && index < noticias.length - 1) {
                 const prox = noticias[index + 1];
-                proxContainer.innerHTML = `<a href="noticia.php?id=${prox.id}"><span>Próxima</span><strong>${prox.titulo.substring(0, 30)}...</strong></a>`;
+                proxContainer.innerHTML = `
+                    <a href="noticia.html?id=${prox.id}">
+                        <span>Próxima <i class="fas fa-arrow-right" style="margin-left:8px"></i></span>
+                        <strong>${prox.titulo.substring(0, 38)}...</strong>
+                    </a>`;
             }
         }
-    } catch (e) { console.error("Erro no carregamento dinâmico:", e); }
-
+    } catch (e) { console.error("Erro:", e); }
 }
 
 document.addEventListener('DOMContentLoaded', carregarNoticiaIndividual);
