@@ -210,3 +210,10 @@ async function carregarNoticiaIndividual() {
 }
 
 document.addEventListener('DOMContentLoaded', carregarNoticiaIndividual);
+
+function copiarLink() {
+    const link = window.location.href;
+    navigator.clipboard.writeText(link).then(() => {
+        alert("Link copiado para a área de transferência!");
+    });
+}

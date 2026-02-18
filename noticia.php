@@ -74,6 +74,22 @@ if ($noticia_meta && !empty($noticia_meta['imagem'])) {
             <div id="texto-pagina-noticia" class="texto-noticia">
                 <?php echo ($noticia_meta) ? $noticia_meta['conteudo'] : "Carregando..."; ?>
             </div>
+            
+            <div class="share-container">
+    <span>Compartilhe:</span>
+    
+    <a href="https://api.whatsapp.com/send?text=<?php echo urlencode($titulo_site . " - " . "https://enoticiasacramento.com.br/noticia.php?id=" . $id_noticia); ?>" target="_blank" class="share-btn whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode("https://enoticiasacramento.com.br/noticia.php?id=" . $id_noticia); ?>" target="_blank" class="share-btn facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <button onclick="copiarLink()" class="share-btn copy">
+        <i class="fas fa-link"></i>
+    </button>
+</div>
 
             <div class="navegacao-noticia">
                 <div id="noticia-anterior" class="nav-box"></div>
