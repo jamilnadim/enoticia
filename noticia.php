@@ -65,11 +65,16 @@ if ($noticia_meta && !empty($noticia_meta['imagem'])) {
         <article class="conteudo-principal">
             <h1 id="titulo-pagina-noticia"><?php echo ($noticia_meta) ? $noticia_meta['titulo'] : ""; ?></h1>
             <p id="data-publicacao" class="data-postagem"><?php echo ($noticia_meta) ? "Publicado em: " . $noticia_meta['data'] : ""; ?></p>
-            
+            <!--
             <img id="imagem-pagina-noticia" 
                  src="<?php echo ($noticia_meta) ? $noticia_meta['imagem'] : ""; ?>" 
                  alt="" 
                  style="width:100%; border-radius:8px; <?php echo (!$noticia_meta) ? 'display:none;' : ''; ?>">
+                -->
+            <img id="imagem-pagina-noticia" 
+                src="<?php echo ($noticia_meta) ? $noticia_meta['imagem'] : ""; ?>" 
+                alt="" 
+                style="width:100%; border-radius:8px; <?php echo ($noticia_meta && isset($noticia_meta['estilo_imagem'])) ? $noticia_meta['estilo_imagem'] : ''; ?> <?php echo (!$noticia_meta) ? 'display:none;' : ''; ?>">
             
             <div id="texto-pagina-noticia" class="texto-noticia">
                 <?php echo ($noticia_meta) ? $noticia_meta['conteudo'] : "Carregando..."; ?>

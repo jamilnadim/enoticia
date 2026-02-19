@@ -741,7 +741,7 @@
   "data": "13 de fevereiro de 2026",
   "link": "noticia.php?id=60",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -754,7 +754,7 @@
   "data": "13 de fevereiro de 2026",
   "link": "noticia.php?id=61",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -762,13 +762,66 @@
   "categoria": "noticia",
   "titulo": "Sicredi Ibiraiaras RS/MG apresenta o modelo cooperativo para a comunidade de Nova Ponte",
   "resumo": "Evento 'Sicredi Apresenta' em Nova Ponte marca o início da parceria com a comunidade e anuncia a abertura de novo Escritório de Negócios para fevereiro.",
-  "imagem": "Assets/noticias/Sicredi-apresentaNovaPonte5.webp",
+  "imagem": "Assets/noticias/Sicredi-apresentaNovaPonte3.webp",
   "conteudo": "<article class='noticia-conteudo'><p>Com o objetivo de apresentar o modelo cooperativo para a comunidade de Nova Ponte (MG), a Sicredi Ibiraiaras RS/MG promoveu o “Sicredi Apresenta”, um evento voltado para abordar a história e a essência do cooperativismo com os produtos e serviços disponibilizados pela cooperativa na região. O evento foi realizado nessa quarta-feira (11), no bairro Grande Lago, em Nova Ponte.</p><div style='display: flex; gap: 15px; margin: 25px 0; justify-content: center;'><div style='flex: 1;'><img src='Assets/noticias/Sicredi-apresentaNovaPonte7.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div><div style='flex: 1;'><img src='Assets/noticias/Sicredi-apresentaNovaPonte2.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div></div><p>A atividade promovida pela cooperativa também apresentou dados atualizados do sistema Sicredi e também da Sicredi Ibiraiaras RS/MG, em expansão no estado mineiro. Além disso, a cooperativa explicou para a comunidade a sua forma de atendimento humano e próximo dos associados.</p><p>Estiveram presentes, além dos colaboradores da agência, os colaboradores da Agência de Santa Juliana; o Gerente de Desenvolvimento de Negócios, Gelson Comin; e a Assistente de Comunicação e Marketing, Karla Laynne Luz Rodrigues.</p><div style='display: flex; gap: 15px; margin: 25px 0; justify-content: center;'><div style='flex: 1;'><img src='Assets/noticias/Sicredi-apresentaNovaPonte3.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div><div style='flex: 1;'><img src='Assets/noticias/Sicredi-apresentaNovaPonte4.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div></div><p>De acordo com o gerente da Sicredi Ibiraiaras RS/MG em Nova Ponte, Roberto Ferreira, a cooperativa inicia sua história no município, desta vez com a instalação de um novo ponto de atendimento.</p><blockquote>“É o início de uma parceria com a comunidade, trazendo um atendimento próximo, humano e soluções que geram uma vida financeira mais sustentável e colaborativa fazendo a diferença na vida financeira dos seus associados e da comunidade”, destaca o gerente.</blockquote><h3>Novo Escritório de Negócios em Nova Ponte</h3><p>A Sicredi Ibiraiaras RS/MG prepara a inauguração de mais um ponto de atendimento em Minas Gerais. O município de Nova Ponte irá receber o Escritório de Negócios da Sicredi a partir de 23 de fevereiro. A nova estrutura será localizada na Avenida Floriano Peixoto, 1179, no Centro. O Escritório de Negócios irá atender os associados de forma próxima e humana, com uma equipe especializada para apresentar as soluções financeiras da cooperativa.</p><div style='display: flex; gap: 15px; margin: 25px 0; justify-content: center;'><div style='flex: 1;'><img src='Assets/noticias/Sicredi-apresentaNovaPonte.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div><div style='flex: 1;'><img src='Assets/noticias/Sicredi-apresentaNovaPonte6.webp' style='width: 100%; border-radius: 8px; height: 280px; object-fit: cover; object-position: top;'></div></div><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa comprometida com o crescimento de seus associados e com o desenvolvimento das regiões onde atua. Possui um modelo de gestão que valoriza a participação dos mais de 9,5 milhões de associados que exercem o papel de donos do negócio. Com mais de 3 mil agências, o Sicredi está presente fisicamente em todos os estados brasileiros e no Distrito Federal, disponibilizando uma gama completa de soluções financeiras e não financeiras.</p></article>",
-  "data": "13 de fevereiro de 2026",
+  "data": "19 de fevereiro de 2026",
   "link": "noticia.php?id=62",
   "noCarrossel": true,
   "destaque": false
-}
+},
 
+{
+  "id": 63,
+  "categoria": "policia",
+  "titulo": "Em Sacramento, mulher é presa por tráfico de drogas no bairro Vila Maria",
+  "resumo": "Ação policial resultou na apreensão de mais de 300 pedras de crack após suspeita tentar descartar entorpecentes ao avistar viatura.",
+  "imagem": "Assets/noticias/trafico19.webp",
+  "estilo_imagem": "margin-top: 0px !important; object-position: center !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>No dia 13 de fevereiro de 2026, por volta das 18 horas, as equipes policiais receberam uma informação dando conta de que uma mulher, ao perceber a presença da viatura policial, dispensou uma sacola em uma residência na Rua Arisque Silva.</p><p>No local, foi localizado um saco plástico contendo <strong>301 pedras de crack fracionadas</strong> e 01 pedra maior que, se fracionada, renderia aproximadamente 50 pedras. Diante dos fatos, foi dada voz de prisão à mulher, de 22 anos, sendo ela encaminhada ao Delegado de plantão.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>PMMG - 37º BPM</strong></p></article>",
+  "data": "13 de fevereiro de 2026",
+  "link": "noticia.php?id=63",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 64,
+  "categoria": "noticia",
+  "titulo": "Minas inicia o ano com mais de 11 mil empresas abertas em janeiro",
+  "resumo": "Setor de serviços concentra 77,5% dos novos empreendimentos formalizados; Região Central e Belo Horizonte lideram os registros no estado.",
+  "imagem": "Assets/noticias/Victor-Fagundes2.webp",
+  
+  "conteudo": "<article class='noticia-conteudo'><p>Minas Gerais iniciou o ano de 2026 com 11.129 novas empresas abertas em todas as regiões do estado no mês de janeiro. A maior parte delas pertence ao setor de serviços, com 8.630 novos negócios, o que representa 77,5% do total. Em seguida, aparecem o comércio, com 2.055 novos registros (18,5%), e a indústria, com 444 (4%).</p><p>Os dados integram o relatório de registros mercantis da Junta Comercial do Estado de Minas Gerais (Jucemg), autarquia vinculada à Secretaria de Estado de Desenvolvimento Econômico (Sede-MG), divulgado nesta sexta-feira (13/2).</p><div style='display: flex; gap: 150px; margin: 25px 0; justify-content: center;'><div style='flex: 1;'><img src='Assets/noticias/Victor-Fagundes.webp' style='width: 100%; border-radius: 8px; height: 500px; object-fit: cover; object-position: top;'></div></div><p>“Os resultados reforçam a solidez do nosso ambiente de negócios e a confiança dos empreendedores mineiros. Desde 2019, já são mais de 570 mil empresas abertas no estado, reflexo de um trabalho contínuo de desburocratização e estímulo ao desenvolvimento econômico em todas as regiões de Minas Gerais”, comenta a secretária de Estado de Desenvolvimento Econômico, Mila Corrêa da Costa.</p><p>“Os dados de janeiro mostram que Minas Gerais mantém um ritmo consistente de abertura de empresas, com destaque para o protagonismo do setor de serviços, que segue impulsionando a economia e a geração de oportunidades em todo o estado. Mesmo com uma leve oscilação em relação a janeiro do ano passado, o saldo entre aberturas e extinções permanece positivo, o que indica um ambiente de negócios mais estável e favorável ao empreendedor”, afirma a presidente da Jucemg, Patricia Vinte Di Iório.</p><h3>Região Central lidera aberturas em janeiro</h3><p>De acordo com o relatório da Jucemg, a região Central foi a que mais registrou empresas em janeiro, com 5.135 novos negócios constituídos. Em seguida, aparecem as regiões Sul (1.347), Triângulo (1.070), Zona da Mata (863), Rio Doce (681), Centro-Oeste (683), Norte (496), Alto Paranaíba (394), Jequitinhonha (281) e Noroeste (199).</p><h3>Belo Horizonte mantém destaque</h3><p>Entre os municípios, Belo Horizonte liderou em números absolutos de constituições, com 3.165 registros. Na sequência, aparecem Uberlândia (578), Juiz de Fora (307), Contagem (301), Montes Claros (219) e Uberaba (199). Completam o ranking: Betim (189), Ipatinga (167), Divinópolis (159) e Patos de Minas (143).</p><h3>Extinções e Microempreendedor Individual (MEIs)</h3><p>Em relação às extinções, janeiro registrou 7.565 baixas, número 2% inferior às 7.719 anotadas no mesmo mês do ano passado.</p><p>O levantamento da Jucemg considera empresas de todos os portes, exceto os Microempreendedores Individuais (MEIs), cujas inscrições são realizadas diretamente no Portal do Empreendedor, do Governo Federal.</p></article>",
+  "data": "13 de fevereiro de 2026",
+  "link": "noticia.php?id=64",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 65,
+  "categoria": "noticia",
+  "titulo": "Sicredi chega a 10 milhões de associados em todo o Brasil",
+  "resumo": "Instituição financeira cooperativa dobra base de associados em cinco anos e reforça impacto positivo nas comunidades com mais de 3 mil pontos de atendimento.",
+  "imagem": "Assets/noticias/Foto-Fernando-DallAgnese_ Sicredi.webp",
+  
+  "conteudo": "<article class='noticia-conteudo'><p>O Sicredi atingiu o marco de 10 milhões de associados, reforçando sua posição como uma das principais instituições financeiras cooperativas do país. Nos últimos cinco anos, a base mais do que dobrou, passando de 5 milhões de pessoas em 2021 para o patamar atual, evidenciando a força e a atratividade do modelo cooperativo no Brasil. Somente nos últimos 12 meses, o aumento foi de 13% no número de associados.</p><p>Esse avanço é sustentado por uma base diversa, que reflete a pluralidade de públicos atendidos e a ampla capilaridade do cooperativismo. Do total de associados, 75% são pessoas físicas. As pessoas jurídicas representam 16%, com destaque para micro, pequenas e médias empresas, segmento no qual o Sicredi já atende 27% das pequenas empresas brasileiras, somando aproximadamente 400 mil CNPJs. Já o segmento Agro, com 9% da base, reforça a histórica atuação da instituição junto ao agronegócio e às economias locais.</p><blockquote>“Alcançar a marca de 10 milhões de associados é um momento histórico e motivo de muito orgulho para as 100 cooperativas que integram o nosso Sistema. Esse resultado reflete a confiança das pessoas no nosso modelo, que une crescimento sustentável, relacionamento próximo e impacto positivo nas comunidades”, salienta Fernando Dall’Agnese, presidente do Conselho de Administração da SicrediPar.</blockquote><h3>Expansão e impacto positivo</h3><p>Para acompanhar esse avanço e manter a proximidade com seus associados, o Sicredi conta atualmente com mais de 3 mil pontos de atendimento distribuídos em 2,2 mil municípios, garantindo presença em todo o território nacional. Somente no último ano, foram inauguradas mais de 190 agências, e a projeção é encerrar 2026 com cerca de 200 novos espaços, mantendo o ritmo acelerado de expansão da rede física.</p><p>Essa ampliação reforça o compromisso da instituição financeira cooperativa em gerar valor para quem faz parte do cooperativismo. Na edição mais recente do Benefício Econômico do Sicredi (BES), indicador calculado com base na metodologia do Banco Central, foram registrados R$ 25,5 bilhões em benefícios econômicos gerados aos associados em 2024. O dado representa uma economia média de R$ 2.931,17 por associado.</p><p>Com o crescimento consistente, o modelo cooperativo também se traduz em impacto positivo nos locais onde está presente. Ao se tornarem associadas, as pessoas contribuem para o desenvolvimento de suas regiões, já que parte dos recursos retorna às comunidades por meio de programas e projetos sociais, iniciativas de educação financeira e apoio ao empreendedorismo.</p><h3>Sustentabilidade em números</h3><p>Como evidencia o Relatório de Sustentabilidade 2025, foram mais de R$ 435 milhões investidos em iniciativas sociais em 2024 por meio do FATES, Fundo Social, doações e leis de incentivo. No mesmo ano, foram concedidos aproximadamente R$ 15 bilhões ao empreendedorismo feminino, e a carteira de crédito de Economia Verde somou cerca de R$ 58 bilhões.</p><blockquote>“A marca de 10 milhões de associados vai além de um número e reflete a força do nosso modelo, que cresce gerando impacto positivo. Cuidar da vida financeira das pessoas enquanto impulsionamos o desenvolvimento das regiões onde atuamos é o que transforma resultados em benefícios concretos para nossos associados e comunidades”, destaca César Bochi, diretor-presidente do Banco Cooperativo Sicredi.</blockquote><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa comprometida com o crescimento de seus associados e com o desenvolvimento das regiões onde atua. Possui um modelo de gestão que valoriza a participação dos associados que exercem o papel de donos do negócio. Com mais de 3 mil agências, o Sicredi está presente fisicamente em todos os estados brasileiros e no Distrito Federal.</p></article>",
+  "data": "19 de fevereiro de 2026",
+  "link": "noticia.php?id=65",
+  "noCarrossel": true,
+  "destaque": false
+},
+{
+  "id": 66,
+  "categoria": "policia",
+  "titulo": "Carnaval registrou 130 mortos e 1,48 mil feridos nas rodovias federais",
+  "resumo": "Balanço da PRF aponta que o Carnaval de 2026 foi o mais violento nas estradas federais desde 2020, com aumento de 8,54% nos acidentes graves.",
+  "imagem": "Assets/noticias/rodovia federal.webp" ,  
+  "conteudo": "<article class='noticia-conteudo'><p>As rodovias federais registraram 130 mortes e 1.481 feridos em meio aos 1.241 acidentes de trânsito durante o feriado de carnaval de 2026, no período de 13 a 18 de fevereiro.</p><p>O resultado deste ano superou os números registrados no carnaval de 2025, quando 85 pessoas morreram e 1.433 ficaram feridas nas rodovias federais, com um total de 1.190 sinistros.</p><p>De acordo com balanço parcial divulgado nesta quinta-feira (19) pela Polícia Rodoviária Federal (PRF), mesmo preliminar, os dados estatísticos já configuram que o carnaval deste ano foi mais violento nas estradas federais do país, desde 2020.</p><blockquote>“Os números mostram um aumento de 8,54% nos sinistros de trânsito graves”, destacou a PRF ao informar que a maioria das vítimas estava em automóveis e motocicletas.</blockquote><p>“Embora tenha aumentado o esforço de fiscalização para prevenir e evitar sinistros de trânsito, constatamos que alguns dos sinistros mais graves, com múltiplos mortos, ocorreram em locais não classificados como críticos”, informou a instituição.</p><h3>Fiscalização e Prevenção</h3><p>Ao anunciar, antes do feriado, a operação, a PRF explicou que atuaria de forma “permanente e redobrada” nos trechos em que costumam ocorrer infrações que resultam em acidentes letais, em especial nos corredores rodoviários que levam aos destinos mais procurados no carnaval, entre eles, Rio de Janeiro, São Paulo, Minas Gerais, Espírito Santo, Santa Catarina, Bahia, Pernambuco, Paraíba e Ceará.</p><p>De acordo com a PRF, a operação teve também caráter preventivo, no sentido de informar sobre os riscos de misturar álcool e direção, bem como do excesso de velocidade e das ultrapassagens em áreas proibidas. Neste ano, a fiscalização abordou 326.548 pessoas e veículos e fez 118.321 testes de alcoolemia.</p><h3>Infrações Registradas</h3><p>“Os números preliminares mostram que 2.400 condutores foram autuados por dirigir sob efeito de álcool ou recusar-se a fazer o teste. Desses casos, 93 motoristas foram detidos por esse motivo”, informou a PRF.</p><ul><li><strong>Velocidade:</strong> Mais de 55,5 mil imagens de veículos acima do limite foram registradas.</li><li><strong>Ultrapassagens:</strong> 8.177 autos de infração por manobras proibidas.</li><li><strong>Segurança Infantil:</strong> 1.013 autos por transporte de crianças sem cadeirinha.</li><li><strong>Equipamentos de Proteção:</strong> 964 notificações por falta de cinto e 1.954 por conduzir motocicletas sem capacete.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><em>Colaborou o repórter Renato Ribeiro, da Rádio Nacional</em><br><strong>Pedro Peduzzi - Repórter da Agência Brasil</strong></p></article>",
+  "data": "19 de fevereiro de 2026",
+  "link": "noticia.php?id=66",
+  "noCarrossel": true,
+  "destaque": true
+}
 ]
 
