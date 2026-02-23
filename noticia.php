@@ -50,6 +50,15 @@ if ($noticia_meta && !empty($noticia_meta['imagem'])) {
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+        // Ativa o efeito automaticamente
+        document.addEventListener("DOMContentLoaded", function() {
+            Fancybox.bind("[data-fancybox='gallery']", {});
+        });
+        </script>
 </head>
 <body class="noticia-page">
     <header>
