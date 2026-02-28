@@ -217,3 +217,46 @@ function copiarLink() {
         alert("Link copiado para a área de transferência!");
     });
 }
+
+// --- FUNÇÃO DA DATA ---
+function atualizarData() {
+    const elementoData = document.getElementById('datetime');
+    if (!elementoData) return;
+    const agora = new Date();
+    const opcoes = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    let dataFormatada = agora.toLocaleDateString('pt-BR', opcoes);
+    elementoData.textContent = dataFormatada.charAt(0).toUpperCase() + dataFormatada.slice(1);
+}
+
+// --- FUNÇÃO DO CLIMA (MODO G1) ---
+async function carregarClima() {
+    const weatherContainer = document.getElementById('clima-globo');
+    if (!weatherContainer) return;
+
+    try {
+        // Usamos o formato json-cors para evitar bloqueios do navegador
+        const response = await fetch('https://api.hgbrasil.com/weather?format=json-cors&key=99313490&city_name=Sacramento,MG');
+        const data = await response.json();
+        const res = data.results;
+
+        // Montamos o HTML garantindo que a imagem tenha um "plano B" caso falhe (onerror)
+        weatherContainer.innerHTML = `
+            <img src="https://assets.hgbrasil.com/weather/icons/conditions/${res.img_id}.png" 
+                 alt="clima" 
+                 style="width: 25px; vertical-align: middle; margin-right: 5px;"
+                 onerror="this.src='https://cdn-icons-png.flaticon.com/512/869/869869.png'">
+            <span>${res.temp}°C Sacramento</span>
+        `;
+    } catch (e) {
+        console.error("Erro ao carregar clima:", e);
+        weatherContainer.innerHTML = "Sacramento";
+    }
+}
+
+// --- INICIALIZAÇÃO ---
+document.addEventListener('DOMContentLoaded', () => {
+    atualizarData();
+    carregarClima();
+    // Mantém as outras funções que já existiam
+    if (typeof inicializarPortal === 'function') inicializarPortal();
+});

@@ -372,42 +372,35 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px; /* Aumentei o espaçamento para o layout não ficar espremido */
+  gap: 20px;
 }
-
-
-
+.card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  width: 100%;
+  height: 200px; /* Defina uma altura fixa para todas as imagens dos cards */
+  object-fit: cover; /* Faz a imagem cobrir todo o espaço, cortando o excesso sem distorcer */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
 
 .card img:hover { transform: scale(1.03); filter: brightness(90%); cursor: pointer; }
-
-.card h2, .card h3, .noticia-card h3 { 
-  font-size: 19px; 
-  font-weight: 800; /* Título mais pesado e com cara de notícia urgente */
-  line-height: 1.3;
-  padding: 15px 15px 5px 15px; 
-  color: #222;
-  transition: color 0.3s ease;
-  margin-bottom: 0;
-}
+.card h2, .card h3, .card p { padding: 15px; }
+.card h2, .card h3 { font-size: 18px; font-weight: bold; }
 .card h2:hover, .card h3:hover { color: #c4170c; cursor: pointer; text-decoration: underline; transition: color 0.3s ease; }
+.card p { font-size: 14px; color: #444; }
 
-/* O texto do resumo da notícia */
-.card p, .card-content p { 
-  font-size: 15px; 
-  color: #555; 
-  padding: 8px 15px 20px 15px; 
-  line-height: 1.5;
-  flex-grow: 1; /* Empurra a data para baixo caso exista */
-}
-
-/* Ajuste da Data/Hora dentro do card */
 .datetime {
-  font-size: 13px;
-  color: #888;
+  font-size: 14px;
+  color: #333;
   text-align: left;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 15px;
   font-weight: 500;
-  text-transform: uppercase; /* Fica com cara de portal de jornalismo */
 }
 
   /* CÓDIGO DO POPUP 
@@ -828,28 +821,22 @@ p {
   margin: 25px 0;
 }
 
-.card img, .noticia-card img {
+/* Padronização dos cards na página de categoria e index */
+.noticia-card img {
   width: 100%;
-  height: 220px; /* Altura padrão para todas as fotos alinharem */
-  object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Transição de zoom super suave (padrão Apple) */
+  height: 200px; /* Altura fixa para alinhar tudo */
+  object-fit: cover; /* Faz a imagem preencher o espaço sem esticar */
   display: block;
+  border-radius: 5px 5px 0 0;
 }
 
-/* Zoom interno na foto sem escurecer */
-.card:hover img, .noticia-card:hover img { 
-  transform: scale(1.08); 
-}
-
-.card, .noticia-card {
+.noticia-card {
   background: #fff;
-  border-radius: 12px; /* Bordas mais suaves e modernas */
-  overflow: hidden; /* Mantém a foto dentro da borda redonda */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Sombra difusa e elegante */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Prepara a animação do card */
-  border: 1px solid #f0f0f0; /* Borda bem sutil para destacar no fundo cinza */
 }
 
 .card-content {
@@ -1027,19 +1014,20 @@ p {
     transition: transform 0.3s ease;
 }
 
-/* A mágica acontece aqui: O card levanta ao passar o mouse */
-.card:hover, .noticia-card:hover {
-  transform: translateY(-8px); /* Levanta o card */
-  box-shadow: 0 12px 25px rgba(0,0,0,0.12); /* Sombra mais forte simulando elevação */
-  cursor: pointer;
+.noticia-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-/* Título fica vermelho ao passar o mouse no card inteiro */
-.card:hover h2, .card:hover h3, .noticia-card:hover h3 { 
-  color: #c4170c; 
-  text-decoration: none; /* Removemos o sublinhado, o card inteiro já indica o clique */
+.noticia-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #222;
 }
 
+.noticia-card:hover h3 {
+    color: #c4170c; /* Título fica vermelho no hover */
+}
 
 /* Ajuste da Grid de Categorias  AQUI AJUSTAMOS O TAMANHO DE CADA NOTICIA NA PA´GINA CATEGORIAS*/
 .noticias-grid {
@@ -1190,50 +1178,3 @@ p {
     object-fit: cover;
 }
 
-/* Container alinhado à esquerda */
-/* Container totalmente limpo e alinhado à esquerda */
-.info-bar-topo {
-    display: flex;
-    justify-content: flex-start; /* Alinha no início da tela */
-    align-items: center;
-    gap: 15px; /* Espaço entre data e clima */
-    padding: 10px 15px; /* Espaço interno nas bordas */
-    background: transparent; /* Remove qualquer cor de fundo */
-    border: none; /* Remove bordas */
-    max-width: 1400px; /* Alinha com a largura do seu conteúdo */
-    margin: 0; /* Garante que não centralize, ficando à esquerda */
-}
-
-/* Ajuste da Data para ocupar apenas o necessário */
-/* Data discreta */
-.datetime {
-    font-size: 13px;
-    color: #444; /* Cinza escuro para leitura */
-    font-weight: 500;
-    white-space: nowrap;
-    padding: 0;
-    margin: 0;
-}
-
-/* Divisória entre os dois (Opcional, dá um toque moderno) */
-.datetime::after {
-    content: "|";
-    margin-left: 15px;
-    color: #ccc;
-}
-
-/* Clima estilo G1 sem caixas */
-.clima-estilo-globo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 13px;
-    font-weight: bold;
-    color: #0047bb; /* Azul Sacramento */
-}
-
-.clima-estilo-globo img {
-    width: 22px !important;
-    height: auto;
-    filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.1)); /* Leve destaque no ícone */
-}
