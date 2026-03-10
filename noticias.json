@@ -887,7 +887,7 @@
   "data": "19 de fevereiro de 2026",
   "link": "noticia.php?id=71",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 {
   "id": 72,
@@ -914,7 +914,7 @@
   "data": "26 de fevereiro de 2026",
   "link": "noticia.php?id=73",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 {
   "id": 74,
@@ -969,7 +969,7 @@
   "data": "26 de fevereiro de 2026",
   "link": "noticia.php?id=77",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1023,7 +1023,7 @@
   "data": "03 de março de 2026",
   "link": "noticia.php?id=81",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 {
   "id": 82,
@@ -1064,7 +1064,7 @@
   "data": "03 de março de 2026",
   "link": "noticia.php?id=84",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 
@@ -1080,6 +1080,274 @@
   "link": "noticia.php?id=85",
   "noCarrossel": true,
   "destaque": false
+},
+
+{
+  "id": 86,
+  "categoria": "policia",
+  "titulo": "Um morto e dois foragidos após confronto entre PM e criminosos na região de Sete Voltas em Sacramento",
+  "resumo": "Criminosos em caminhão furtado efetuaram disparos contra policiais durante cerco na zona rural; um suspeito morreu e outros dois são procurados na mata.",
+  "imagem": "Assets/noticias/mortes e.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Araxá, 15:50 de terça-feira, 03 de março de 2026.</p><p>Confronto entre policiais militares e criminosos na região de Sete Voltas, no município de Sacramento (MG), nesta terça-feira, 3 de março de 2026, terminou com um homem morto e outros dois suspeitos foragidos em meio à mata.</p><div style='display: flex; justify-content: center; margin: 30px 0; padding: 10px; background: #f9f9f9; border-radius: 12px;'><a data-fancybox='gallery' href='Assets/noticias/mortes.webp'><img src='Assets/noticias/mortes.webp' style='max-width: 100%; height: auto; max-height: 400px; border-radius: 8px; cursor: zoom-in;'></a></div><p>Segundo as primeiras informações, um cerco e bloqueio está sendo realizado na região, com apoio de uma aeronave e diversas viaturas de Araxá, Uberaba e Sacramento, na tentativa de localizar e prender os dois criminosos, que fugiram para uma área de mata.</p><p>Os suspeitos estavam em um caminhão furtado na região de Sacramento e, ao se depararem com os militares na zona rural, não obedeceram à ordem de parada. Ainda conforme as informações levantadas, eles estavam armados e efetuaram disparos contra os policiais, que revidaram.</p><p>Um dos suspeitos, que ainda não foi identificado, foi atingido e morreu no local. Os outros dois conseguiram fugir para a mata.</p><p>A ocorrência segue em andamento e novas informações poderão ser divulgadas a qualquer momento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.8em; color: #666;'>#WillianTardelliReportagem15anos #reportagem #Notícias #araxa #policiamilitar</p></article>",
+  "data": "03 de março de 2026",
+  "link": "noticia.php?id=86",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 87,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG alcança a marca de R$ 500 milhões em consórcios com carteira ativa",
+  "resumo": "Resultado inédito reflete a confiança dos associados e a solidez da cooperativa, que soma mais de 100 mil membros entre o Rio Grande do Sul e Minas Gerais.",
+  "imagem": "Assets/noticias/500milhoes.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Sicredi Ibiraiaras RS/MG alcançou a marca de R$ 500 milhões em consórcios com carteira ativa. O resultado inédito para a cooperativa foi registrado nesta quinta-feira (5). Disponível para os associados desde 2006, o modelo de Consórcio é um dos principais produtos do portfólio da instituição.</p><p>O resultado tangibiliza a confiança do associado, a maturidade financeira e a capacidade de apoiar sonhos e projetos. O gerente de Serviços Compartilhados, Everton Carvalho dos Passos, explica que esse crescimento sustentável significa que a cooperativa caminha ao lado da evolução do sistema em nível nacional.</p><p>“Com a ampliação do impacto econômico local, mais recursos são destinados a bens, serviços e investimentos de associados da região. Isso reforça nossa participação no mercado regional com números de impacto”, ressalta.</p><h3>Como funciona o consórcio</h3><p>O consórcio é um produto de planejamento financeiro que possibilita o poder de compra à vista com pagamento mensal. Por ser um sistema de autofinanciamento, não possui juros, apenas uma taxa de administração competitiva. O acompanhamento pode ser feito pelo aplicativo Sicredi X ou em agências físicas.</p><h3>Conheça os benefícios do Consórcio Sicredi</h3><ul><li>Auxilia no planejamento a médio e longo prazo;</li><li>Recomendado por especialistas para aquisição planejada;</li><li>Custo final menor que o financiamento tradicional (sem juros);</li><li>Contribui na organização financeira e disciplina mensal;</li><li>Liberdade para escolher o bem após a contemplação;</li><li>Segurança, transparência e regulamentação clara;</li><li>Fortalece o cooperativismo e o sucesso coletivo.</li></ul><h3>Sobre a Sicredi Ibiraiaras RS/MG</h3><p>Com 42 anos de história completados em 2025, a cooperativa está presente em 18 municípios no Rio Grande do Sul. Em Minas Gerais, o movimento de expansão iniciado em 2018 já conta com 16 agências e escritórios de negócios em 14 municípios mineiros. Atualmente, são mais de 37 pontos de atendimento, 500 colaboradores e mais de 100 mil associados.</p></article>",
+  "data": "05 de março de 2026",
+  "link": "noticia.php?id=87",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 88,
+  "categoria": "noticia",
+  "titulo": "Após consolidar presença em 2025, Sicredi anuncia novo ciclo de expansão em Minas Gerais para 2026",
+  "resumo": "Instituição financeira cooperativa prevê a abertura de 40 novas agências e projeta crescimento sustentável após fechar 2025 com 289 pontos de atendimento no estado.",
+  "imagem": "Assets/noticias/ExpansaoSicredi.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Depois de encerrar 2025 com presença consolidada em Minas Gerais, o Sicredi inicia 2026 com planos de ampliar ainda mais sua atuação no estado. A instituição financeira cooperativa prevê a inauguração de, pelo menos, 40 novas agências em mais de 20 novos municípios até o fim de 2026. O movimento previsto para este ano tem como base os resultados alcançados no último ano, quando o Sicredi encerrou 2025 com 289 agências em operação em 262 municípios de Minas Gerais. Somente no ano passado, foram inaugurados mais de 45 pontos de atendimento.</p><p>Nos últimos três anos, o número supera 110 novas agências, ampliando a cobertura territorial para 30,7% dos municípios do estado. A base de associados também apresentou crescimento relevante: alta superior a 40% em 12 meses e avanço de mais de 130% em relação a 2023, consolidando o modelo cooperativo como alternativa sólida às instituições financeiras tradicionais.</p><h4 style='text-align: center; margin: 30px 0 10px;'>Galeria: Presença Sicredi em Minas (Clique para ampliar)</h4><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; width: 100%; margin-bottom: 30px; padding: 10px; background: #f9f9f9; border-radius: 12px; box-sizing: border-box;'><a data-fancybox='gallery' href='Assets/noticias/ExpansaoSicredi2.webp'><img src='Assets/noticias/ExpansaoSicredi2.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/ExpansaoSicredi3.webp'><img src='Assets/noticias/ExpansaoSicredi3.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/ExpansaoSicredi4.webp'><img src='Assets/noticias/ExpansaoSicredi4.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/ExpansaoSicredi5.webp'><img src='Assets/noticias/ExpansaoSicredi5.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/ExpansaoSicredi6.webp'><img src='Assets/noticias/ExpansaoSicredi6.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a></div><p>“Os resultados em Minas Gerais comprovam o compromisso do Sicredi com o crescimento econômico e social. Em 2025, inauguramos mais de 45 novas agências e registramos forte crescimento de associados, transformando comunidades e ampliando nossa presença nas regiões atendidas”, afirma Márcio Port, presidente da Central Sicredi Sul/Sudeste.</p><h3>Crescimento sustentável</h3><p>O desempenho financeiro acompanhou a expansão territorial. Em 2025, os recursos totais atingiram R$ 11,5 bilhões, frente a R$ 6,1 bilhões em 2024 — crescimento superior a 85% em um ano. A carteira de crédito também avançou, passando de R$ 10,2 bilhões para R$ 13,2 bilhões no mesmo período, ampliando o apoio a empresas, produtores rurais e famílias mineiras.</p><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa comprometida com o crescimento de seus associados e com o desenvolvimento das regiões onde atua. Possui um modelo de gestão que valoriza a participação dos mais de 10 milhões de associados que exercem o papel de donos do negócio. Com mais de 3 mil agências, o Sicredi está presente fisicamente em todos os estados brasileiros e no Distrito Federal.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fotos: Nicolas Parreiras</strong></p></article>",
+  "data": "05 de março de 2026",
+  "link": "noticia.php?id=88",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 89,
+  "categoria": "policia",
+  "titulo": "Em Sacramento, Polícia Militar registra furto consumado e homicídio tentado contra Policiais Militares",
+  "resumo": "Confronto armado durante recuperação de caminhão furtado termina com um suspeito morto e cerco policial na região de Sete Voltas.",
+  "imagem": "Assets/noticias/roubo.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>No dia 03 de março de 2026, por volta das 09 horas, as equipes policiais foram acionadas por um homem de 45 anos, proprietário de um caminhão VW/8.160, o qual relatou que seu veículo havia sido furtado, estando carregado com tubulações de irrigação. Após rastreamentos e diligências, os militares constataram que o veículo estaria se deslocando pela rodovia MGC-438, em direção ao município de Sacramento.</p><p>Por meio do videomonitoramento, foi possível visualizar que o caminhão se encontrava na divisa entre Sacramento e Ibiraci, aparentemente escoltado por um veículo Renault Clio. Ambos foram novamente flagrados pelas câmeras do distrito de Sete Voltas. De imediato, as equipes policiais deslocaram-se pela BR-464. Ao adentrarem uma estrada vicinal, visualizaram o caminhão e o Renault Clio parados, e os indivíduos realizando o transbordo da carga em meio à vegetação.</p><div style='display: flex; justify-content: center; gap: 10px; width: 100%; margin: 30px 0; box-sizing: border-box;'><a data-fancybox='gallery' href='Assets/noticias/roubo1.webp' style='flex: 1;'><img src='Assets/noticias/roubo1.webp' style='width: 100%; height: 220px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/roubo2.webp' style='flex: 1;'><img src='Assets/noticias/roubo2.webp' style='width: 100%; height: 220px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a></div><p>Ao todo, estima-se que seis indivíduos estivessem envolvidos. Ao perceberem a presença policial, dois ocupantes desembarcaram e, empunhando armas de fogo, efetuaram disparos contra os militares. Para cessar a agressão, os militares reagiram. Um dos indivíduos fugiu para a vegetação e o Renault Clio foi abandonado logo adiante.</p><p>Durante as buscas, os autores efetuaram novos disparos e evadiram-se novamente. Foi localizado um indivíduo, de aproximadamente 30 anos, caído ao solo e sem sinais vitais. O local foi isolado para os trabalhos da perícia técnica e o corpo encaminhado ao IML de Araxá. O caminhão e a carga foram restituídos ao proprietário, e o Clio removido ao pátio credenciado.</p><p>Posteriormente, os militares foram acionados por um morador de Sete Voltas, que relatou o furto de um veículo VW/Gol, utilizado possivelmente na fuga dos autores em direção ao Estado de São Paulo. As diligências e os rastreamentos seguem em andamento.</p></article>",
+  "data": "05 de março de 2026",
+  "link": "noticia.php?id=89",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 90,
+  "categoria": "saude",
+  "titulo": "Educação em saúde mental marca encontro entre Secretaria de Saúde e servidores do SAAE",
+  "resumo": "Ação promovida por psicóloga e assistente social aborda impactos do estresse no ambiente de trabalho e apresenta rede de apoio psicossocial do município.",
+  "imagem": "Assets/noticias/saudemental.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Secretaria Municipal de Saúde de Sacramento realizou uma ação de educação em saúde mental direcionada aos servidores do Serviço Autônomo de Água e Esgoto de Sacramento (SAAE).</p><p>A atividade foi conduzida pela psicóloga Taisa, da UBS Francisco P. de Oliveira, e pela assistente social Viviane, do CAPS Dr. Luiz Giane, com o objetivo de promover reflexão e conscientização acerca da saúde mental no ambiente de trabalho.</p><div style='display: flex; justify-content: center; margin: 30px 0; padding: 10px; background: #f9f9f9; border-radius: 12px;'><a data-fancybox='gallery' href='Assets/noticias/saudemental1.webp'><img src='Assets/noticias/saudemental1.webp' style='max-width: 100%; height: auto; max-height: 400px; border-radius: 8px; cursor: zoom-in;'></a></div><p>Durante o encontro, foram abordados aspectos relacionados ao impacto das demandas cotidianas na saúde emocional dos trabalhadores, destacando sinais e sintomas que podem surgir diante de situações de estresse, como ansiedade, sudorese, cefaleia intensa, irritabilidade e outras manifestações associadas ao sofrimento psíquico. A psicóloga conduziu uma dinâmica participativa, possibilitando aos servidores identificar e discutir fatores que interferem no equilíbrio emocional no contexto laboral.</p><p>Na sequência, foram apresentadas informações sobre a importância do cuidado contínuo com a saúde mental, bem como esclarecidas as atribuições do CAPS, os serviços ofertados na unidade e seus horários de funcionamento, reforçando o papel da rede municipal na oferta de atenção psicossocial.</p><p>A ação também enfatizou a relevância da superação de estigmas relacionados ao cuidado em saúde mental, reafirmando que os serviços especializados são espaços de acolhimento, escuta qualificada e acompanhamento, voltados à promoção da qualidade de vida e ao fortalecimento do bem-estar da população.</p><p>A iniciativa integra as estratégias da Secretaria Municipal de Saúde voltadas à promoção da saúde e à valorização dos servidores públicos municipais, contribuindo para a construção de ambientes de trabalho mais saudáveis e humanizados.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM - PMS</strong></p></article>",
+  "data": "05 de março de 2026",
+  "link": "noticia.php?id=90",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 91,
+  "categoria": "saude",
+  "titulo": "Profissionais do CAPS Luiz Giani reforçam ações em álcool e outras drogas",
+  "resumo": "Equipe de Sacramento realiza visita técnica ao CAPS AD de Araxá para troca de experiências e fortalecimento do cuidado humanizado na Rede de Atenção Psicossocial.",
+  "imagem": "Assets/noticias/caps.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A equipe de álcool e drogas do CAPS Dr. Luis Giani realizou visita técnica ao CAPS AD de Araxá, com o objetivo de promover a troca de experiências e o fortalecimento das práticas de cuidado voltadas às pessoas em situação de uso problemático de álcool e outras drogas.</p><p>Durante o encontro, as equipes compartilharam estratégias de acolhimento, organização do processo de trabalho e construção do Projeto Terapêutico Singular (PTS), além de discutirem a articulação com a Rede de Atenção Psicossocial (RAPS). Também foram debatidos desafios enfrentados no cotidiano dos serviços, como a adesão ao tratamento, o envolvimento das famílias, a prática da redução de danos e o manejo de crises.</p><p>A visita proporcionou um espaço de diálogo e aprendizado mútuo, possibilitando a reflexão sobre diferentes formas de atuação frente aos desafios da dependência química. A troca de saberes fortalece o trabalho interdisciplinar e contribui para a qualificação permanente das ações em saúde mental.</p><p>A iniciativa reafirma o compromisso com um atendimento humanizado, pautado na escuta, no respeito à singularidade dos usuários e na construção coletiva de estratégias que promovam cuidado, autonomia e reinserção social.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "05 de março de 2026",
+  "link": "noticia.php?id=91",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 92,
+  "categoria": "politica",
+  "titulo": "Prefeitura intensifica limpeza e manutenção na Jaguarinha",
+  "resumo": "Por meio do Projeto Cidade Limpa, a comunidade rural de Jaguarinha recebe serviços de roçada, pintura e limpeza geral, reforçando o cuidado com o campo.",
+  "imagem": "Assets/noticias/jagua.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A comunidade de Jaguarinha, na zona rural de Sacramento, recebeu, nesta semana, uma atenção especial com a intensificação dos serviços de limpeza e manutenção por meio do Projeto Cidade Limpa. A iniciativa do governo municipal busca manter as comunidades rurais mais organizadas e bem cuidadas.</p><p>Com uma equipe dedicada, os servidores municipais realizaram serviços de limpeza geral, roçada e pintura. As ações trouxeram melhorias visíveis ao espaço público e contribuíram para um ambiente mais agradável para os moradores.</p><p>A iniciativa também atende a pedidos da própria população, que destacou a importância da presença dos serviços públicos nas comunidades rurais. Dessa forma, o projeto reforça o compromisso da administração municipal em levar cuidado e qualidade de vida não apenas para a área urbana, mas também para o campo.</p><p>O Projeto Cidade Limpa seguirá por outras localidades da zona rural. A proposta é visitar todas as comunidades e garantir que os serviços de manutenção e limpeza cheguem a cada região do município.</p><p>Além de melhorar o aspecto dos espaços coletivos, a iniciativa contribui para a preservação do meio ambiente, a prevenção de problemas sanitários e o fortalecimento do sentimento de pertencimento das comunidades, que permanecem limpas, organizadas e acolhedoras para quem vive e trabalha no campo.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "05 de março de 2026",
+  "link": "noticia.php?id=92",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 93,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG inaugura segunda agência em Araxá (MG)",
+  "resumo": "Nova unidade no bairro Jardim Residencial Bela Vista amplia a presença da cooperativa no município, reforçando o atendimento humano e o desenvolvimento regional.",
+  "imagem": "Assets/noticias/Inauguracaoagencia.webp",
+  "style_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Sicredi Ibiraiaras RS/MG expande sua atuação em Minas Gerais com a inauguração da segunda agência no município de Araxá. O ato que marcou o início dos atendimentos na nova estrutura ocorreu nessa segunda-feira (02) e contou com a presença de autoridades, lideranças, diretoria da cooperativa, associados e comunidade em geral. A nova agência está localizada na Rua Honório de Paiva Abreu, nº 129, no bairro Jardim Residencial Bela Vista.</p><p>Estiveram presentes na inauguração o presidente da Sicredi Ibiraiaras RS/MG, Sadi Bento Rigotti; o presidente da Câmara de Vereadores de Araxá, Raphael Rios; o diretor-executivo da cooperativa, Pedro Aiolfi; além de gerentes, coordenadores de núcleo e representantes de entidades locais.</p><h4 style='text-align: center; margin: 30px 0 10px;'>Galeria: Inauguração Araxá II (Clique para ampliar)</h4><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; width: 100%; margin-bottom: 30px; padding: 10px; background: #f9f9f9; border-radius: 12px; box-sizing: border-box;'><a data-fancybox='gallery' href='Assets/noticias/Inauguracaoagencia1.webp'><img src='Assets/noticias/Inauguracaoagencia1.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/Inauguracaoagencia2.webp'><img src='Assets/noticias/Inauguracaoagencia2.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/Inauguracaoagencia3.webp'><img src='Assets/noticias/Inauguracaoagencia3.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/Inauguracaoagencia4.webp'><img src='Assets/noticias/Inauguracaoagencia4.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/Inauguracaoagencia5.webp'><img src='Assets/noticias/Inauguracaoagencia5.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/Inauguracaoagencia6.webp'><img src='Assets/noticias/Inauguracaoagencia6.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/Inauguracaoagencia7.webp'><img src='Assets/noticias/Inauguracaoagencia7.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/Inauguracaoagencia8.webp'><img src='Assets/noticias/Inauguracaoagencia8.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a></div><p>O presidente Sadi Bento Rigotti destacou o crescimento do cooperativismo em Araxá: “É um momento importante para inaugurar uma nova história em prol do desenvolvimento local. Agradecemos por poder contribuir para um futuro mais próspero a todos associados”. A gerente da unidade, Lívia Alencar, ressaltou que a agência é a única instituição financeira nas imediações do bairro, mantendo o movimento de expansão física em contrapartida ao cenário digital de outros bancos.</p><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa comprometida com o crescimento de seus associados e com o desenvolvimento das regiões onde atua. Possui um modelo de gestão que valoriza a participação dos mais de 10 milhões de associados. Com mais de 3 mil agências, está presente em todos os estados brasileiros e no Distrito Federal.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fotos: Hugo de Brito Ferreira Paiva / Produtora Quasque Filmes</strong></p></article>",
+  "data": "05 de março de 2026",
+  "link": "noticia.php?id=93",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 94,
+  "categoria": "saude",
+  "titulo": "SUS ganha neste mês teleatendimento para mulheres expostas à violência",
+  "resumo": "Novo serviço de saúde mental via teleatendimento será implementado inicialmente no Rio e Recife, com expansão para todo o país prevista até junho.",
+  "imagem": "Assets/noticias/sus.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Mulheres expostas à violência ou em vulnerabilidade psicossocial que vivem no Recife e no Rio de Janeiro terão acesso a teleatendimento em saúde mental no Sistema Único de Saúde (SUS) a partir deste mês. O cronograma do Ministério da Saúde prevê que, em maio, a ação chegará a cidades com mais de 150 mil habitantes e, em junho, ao restante do país.</p><p>Em nota, a pasta informou que estão previstos 4,7 milhões de teleatendimentos psicológicos ao ano, por meio de parceria com a Agência Brasileira de Apoio à Gestão do SUS (AgSUS) e com o Programa de Apoio ao Desenvolvimento Institucional do Sistema Único de Saúde (Proadi-SUS).</p><p>Para ter acesso ao serviço, as mulheres poderão ser orientadas e encaminhadas por unidades da atenção primária à saúde, unidades básicas de saúde (UBS) e serviços da rede de proteção. Também será possível buscar o atendimento diretamente pelo aplicativo Meu SUS Digital, por meio de um mini app previsto para começar a funcionar no fim do mês.</p><p>Na plataforma, a mulher fará um cadastro para avaliação inicial da situação de violência e, a partir dessas informações, o aplicativo enviará uma mensagem com o dia e o horário do teleatendimento. A primeira consulta, segundo o ministério, identificará riscos, rede de apoio e demandas, com articulação junto a serviços de referência.</p><p>“A gente lançou esta semana o teleatendimento como suporte para pessoas que já estão em situação de compulsão por jogos eletrônicos. E a gente vai construir o mesmo modelo, mas com arranjos diferentes na relação com a atenção primária em saúde”, detalhou o ministro da Saúde, Alexandre Padilha.</p><p>“Ofertar esse teleatendimento com psiquiatra, psicólogo, assistente social e, em algumas situações, com terapeuta ocupacional para mulheres – não só aquelas que já foram vítimas de violência, mas àquelas que estão sinalizando ou que estão em extrema vulnerabilidade”, completou.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Por Agência Brasil</strong></p></article>",
+  "data": "05 de março de 2026",
+  "link": "noticia.php?id=94",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 95,
+  "categoria": "noticia",
+  "titulo": "Petrobras diz que pode reduzir impacto da alta do petróleo no Brasil",
+  "resumo": "Em meio a tensões no Irã e volatilidade no mercado global, estatal reafirma compromisso de mitigar efeitos da alta do barril sem comprometer rentabilidade.",
+  "imagem": "Assets/noticias/petrobras.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Petrobras informou que pode reduzir o impacto da alta do petróleo no Brasil ao mesmo tempo que mantém a rentabilidade da companhia. “Em um cenário em que guerras e tensões geopolíticas ampliam a volatilidade do mercado internacional de energia, a Petrobras reafirma seu compromisso com a mitigação desses efeitos sobre o Brasil”, disse a estatal, em nota encaminhada à Agência Brasil.</p><p>A companhia acrescentou que é possível reduzir os efeitos da inflação global porque passou a considerar, em sua estratégia comercial, as melhores condições de refino e logística. “O que nos permite promover períodos de estabilidade nos preços ao mesmo tempo que resguarda a nossa rentabilidade de maneira sustentável. Essa abordagem reduz a transmissão imediata das variações internacionais para o mercado brasileiro”, diz o comunicado.</p><h3>Contexto da Alta do Petróleo</h3><p>A guerra no Irã e o fechamento do Estreito de Ormuz, por onde trafegam cerca de 25% do petróleo mundial, elevaram o preço do barril no mercado global, chegando a US$ 120 na segunda-feira (9). Recentemente, após declarações do presidente dos EUA, Donald Trump, os preços recuaram para patamares abaixo de US$ 100, mas seguem acima da média de US$ 70 registrada antes do conflito.</p><h3>Mudança na Política de Preços</h3><p>A diretora técnica do Ineep, Ticiana Álvares, destaca que essa margem de manobra é possível porque a companhia abandonou, em 2023, a política de paridade do preço internacional (PPI). “A política anterior acompanhava 100% a trajetória internacional. Agora, leva-se em consideração fatores internos”, explica a especialista.</p><p>Apesar disso, Álvares ressalta que o efeito pode ser limitado e temporário, visto que o Brasil ainda é um grande importador de derivados e possui refinarias privatizadas, sobre as quais a estatal tem menos mecanismos de controle de preço.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Por: Agência Brasil</strong></p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=95",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 96,
+  "categoria": "noticia",
+  "titulo": "Sicredi impulsiona empreendedorismo feminino com crédito e iniciativas voltadas à educação",
+  "resumo": "Com crescimento de 12% na carteira de crédito em 2025, instituição financeira reforça apoio a mulheres de negócios por meio de capacitação e captações internacionais.",
+  "imagem": "Assets/noticias/2025_Sicredi_Stella_Credito Daiane Peixoto_.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O empreendedorismo feminino tem se consolidado como uma das principais ferramentas de transformação social e econômica no Brasil, com mais de 10 milhões de mulheres à frente de seus próprios negócios, de acordo com dados do Sebrae divulgados em fevereiro de 2025. No mês em que se celebra o Dia Internacional da Mulher, o Sicredi reforça seu compromisso com esse público. A instituição financeira cooperativa fechou 2025 com uma carteira de crédito de mais de R$ 17,5 bilhões direcionada para empresas lideradas por mulheres.</p><p>O valor representa um crescimento de mais de 12% em relação a 2024, quando a carteira somava mais de R$ 15,6 bilhões. Para sustentar esse avanço, o Sicredi tem intensificado o movimento de captações internacionais, somando R$ 3,3 bilhões captados nos últimos cinco anos – destes R$ 1,13 bilhão captados somente em 2025. Entre as instituições parceiras, destacam-se o Banco de Desenvolvimento da América Latina (CAF) e a Agência de Cooperação Internacional do Japão (JICA).</p><h3>Além do crédito: educação e liderança</h3><p>Com presença nacional e atuação próxima às comunidades, o Sicredi desenvolve ações que atendem às necessidades reais das empreendedoras, oferecendo orientação e apoio ao protagonismo feminino que vai além das soluções financeiras. “No Sicredi, priorizamos uma abordagem humana e educativa”, destaca Stella Trabulsi Fraiha Franca, superintendente de Negócios PJ do Sicredi.</p><p>Entre as iniciativas de destaque estão:</p><ul><li><strong>Curso Mulher Empreendedora:</strong> Criado em 2023 para formação e crescimento de pequenos negócios, já contou com a participação de 1.600 mulheres on-line e mais de 300 no formato presencial. Disponível na plataforma Sicredi na Comunidade.</li><li><strong>Comitê Mulher:</strong> Com o objetivo de ampliar a presença feminina em cargos de liderança, a iniciativa já contou com a participação de mais de 6.600 mulheres. Em 2025, o programa resultou na eleição de 506 Coordenadoras de Núcleo e 85 Conselheiras.</li></ul><p>Ao oferecer as ferramentas certas e o suporte necessário, a instituição ajuda a transformar a realidade econômica e a promover a equidade nas regiões onde atua.</p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=96",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+
+
+{
+  "id": 97,
+  "categoria": "politica",
+  "titulo": "Cleitinho lidera corrida pelo governo de Minas e venceria no 1º turno, aponta pesquisa",
+  "resumo": "Levantamento do Instituto F5 indica o senador Cleitinho Azevedo com 39% das intenções de voto no principal cenário, seguido por Rodrigo Pacheco e Alexandre Kalil.",
+  "imagem": "Assets/noticias/cleitinho26.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Levantamento do Instituto F5 Atualiza Dados, divulgado com exclusividade pelo Estado de Minas, aponta o senador Cleitinho Azevedo (Republicanos) na liderança da disputa pelo governo de Minas Gerais em todos os cenários estimulados. De acordo com a pesquisa, ele teria chances de vencer a eleição já no primeiro turno.</p><h3>Cenário Principal (Estimulado)</h3><table style='width: 100%; border-collapse: collapse; margin: 20px 0; background: #fff;'><thead><tr style='background: #f2f2f2;'><th style='border: 1px solid #ddd; padding: 12px; text-align: left;'>Candidato</th><th style='border: 1px solid #ddd; padding: 12px; text-align: center;'>Intenção de Voto</th></tr></thead><tbody><tr><td style='border: 1px solid #ddd; padding: 10px;'>Cleitinho Azevedo (Republicanos)</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'><strong>39%</strong></td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Rodrigo Pacheco (PSD)</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>11%</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Alexandre Kalil (PDT)</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>9%</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Mateus Simões (PSD)</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>4%</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Gabriel Azevedo (MDB)</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>2%</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Túlio Lopes (PCB)</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>1%</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Branco / Nulo / Nenhum</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>19%</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Indecisos</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>13%</td></tr></tbody></table><p>No segundo cenário testado, Cleitinho mantém a liderança com 36%, seguido por Pacheco (10%) e Kalil (9%). Quando o nome de Rodrigo Pacheco não é incluído na disputa, Cleitinho alcança 40%, seu maior índice nas simulações.</p><h3>Análise e Cenário Espontâneo</h3><p>Segundo o diretor do instituto, Domilson Coelho, considerando apenas os votos válidos, Cleitinho teria possibilidade de vencer no primeiro turno. Contudo, o quadro ainda é incerto devido à indefinição da esquerda e à possível candidatura de Rodrigo Pacheco, cotado pelo governo federal.</p><p>Na pesquisa espontânea, a indefinição é alta: 54% não sabem em quem votar e 30% votariam em branco ou nulo. Entre os lembrados, Cleitinho aparece com 6%, seguido pelo atual governador Romeu Zema (3%), que não pode disputar a reeleição.</p><h3>Metodologia</h3><p>A pesquisa ouviu 1.560 eleitores em todas as regiões de Minas Gerais entre 2 e 5 de março. O levantamento tem nível de confiança de 95% e margem de erro de 2,5 pontos percentuais. O estudo está registrado sob o protocolo <strong>MG-03731/2026</strong>.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><em>Fonte: Jornal da Manhã / Instituto F5 Atualiza Dados</em></p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=97",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 98,
+  "categoria": "noticia",
+  "titulo": "Prouni 2026: prazo para entrega de documentos termina nesta sexta",
+  "resumo": "Pré-selecionados em segunda chamada têm até o dia 13 de março para comprovar informações nas instituições de ensino; lista de espera abre no fim do mês.",
+  "imagem": "Assets/noticias/prouni2026.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Os pré-selecionados da segunda chamada do Programa Universidade para Todos (ProUni) do primeiro semestre de 2026 devem entregar a documentação que comprove as informações prestadas no momento da inscrição até esta sexta-feira (13). A documentação deve ser entregue diretamente na instituição privada de educação superior em que foram selecionados.</p><p>O estudante pode comparecer à faculdade privada para entregar os documentos ou encaminhá-los virtualmente, caso a instituição disponibilize meio eletrônico para isso. O resultado da segunda chamada, divulgado pelo MEC no dia 2 de março, pode ser acessado no Portal Único de Acesso ao Ensino Superior.</p><h3>Requisitos para as Bolsas</h3><ul><li><strong>Bolsa Integral:</strong> Renda familiar per capita de até 1,5 salário-mínimo.</li><li><strong>Bolsa Parcial (50%):</strong> Renda familiar per capita de até 3 salários-mínimos.</li><li><strong>Desempenho no Enem 2025:</strong> Mínimo de 450 pontos em cada área do conhecimento e 500 pontos na redação.</li></ul><h3>Certificação e Vagas</h3><p>Para candidatos com 18 anos ou mais que precisam do certificado de conclusão do Ensino Médio, o Inep disponibilizou um novo sistema para emissão do comprovante baseado nas notas do Enem 2025. Neste ano, o Prouni oferece 595.374 bolsas em mais de mil instituições, sendo considerada a maior edição da história do programa.</p><h3>Próximas Etapas: Lista de Espera</h3><p>Quem não foi selecionado na primeira ou segunda chamada deve manifestar interesse em participar da lista de espera nos dias <strong>25 e 26 de março de 2026</strong>, também por meio do Portal Único de Acesso ao Ensino Superior. Todas as regras detalhadas constam no Edital nº 2/2026.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Por Agência Brasil</strong></p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=98",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 99,
+  "categoria": "saude",
+  "titulo": "Exercícios físicos contribuem para envelhecimento saudável",
+  "resumo": "No Dia de Conscientização e Combate ao Sedentarismo, especialistas alertam para os riscos da inatividade e os benefícios da prática regular para a autonomia na terceira idade.",
+  "imagem": "Assets/noticias/exerciciosfisicos2026.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Praticar atividades físicas pode ajudar em um envelhecimento mais saudável. É o que defendem especialistas neste dia de consciência e combate ao sedentarismo (10). A prática regular pode evitar doenças e garantir mais mobilidade e autonomia ao longo de toda a vida.</p><p>Segundo a médica Karoline Fiorotti, o sedentarismo está associado ao aumento de doenças crônicas como hipertensão e diabetes, além de favorecer a sarcopenia (perda de massa muscular). “O corpo do idoso responde muito rapidamente à inatividade. Em poucas semanas, já é possível observar perda de massa muscular e piora do equilíbrio”, alerta.</p><p>Raul Oliveira, professor de fisioterapia, complementa que atividades simples, como caminhar ou realizar tarefas domésticas, ajudam a preservar a força e a coordenação, essenciais para a independência diária.</p><h3>Principais consequências do sedentarismo em idosos:</h3><ul><li><strong>Perda de massa muscular:</strong> Reduz a autonomia para tarefas simples como subir escadas ou levantar da cadeira.</li><li><strong>Risco de quedas:</strong> A fraqueza muscular e a perda de equilíbrio aumentam a instabilidade e o risco de fraturas.</li><li><strong>Rigidez articular:</strong> Favorece dores persistentes e quadros de artrose.</li><li><strong>Declínio cognitivo:</strong> A atividade física melhora a circulação cerebral e preserva a memória.</li><li><strong>Osteoporose:</strong> Sem o estímulo do movimento, os ossos perdem densidade.</li><li><strong>Doenças Crônicas:</strong> Dificulta o controle da glicose, pressão arterial e colesterol.</li><li><strong>Piora do sono:</strong> Favorece a insônia e o sono fragmentado.</li><li><strong>Saúde Mental:</strong> Aumenta a vulnerabilidade à ansiedade e depressão pela falta de endorfina.</li><li><strong>Baixa Imunidade:</strong> Deixa o organismo mais suscetível a infecções respiratórias.</li><li><strong>Problemas Gastrointestinais:</strong> O trânsito intestinal torna-se mais lento com a inatividade.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Por Agência Brasil</strong></p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=99",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 100,
+  "categoria": "social",
+  "titulo": "Programa Viva Bem garante auxílio a famílias vulneráveis",
+  "resumo": "Iniciativa da Assistência Social oferece cartão de R$ 200,00 e acompanhamento pelo CRAS para promover autonomia e segurança alimentar em Sacramento.",
+  "imagem": "Assets/noticias/VivaBem.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Governo Municipal, por meio da Secretaria Municipal de Assistência Social, iniciou a execução do Programa Viva Bem, iniciativa voltada à promoção da cidadania, inclusão social e melhoria das condições de vida de famílias em situação de vulnerabilidade.</p><p>Na manhã do último dia 6, em reunião realizada no CRAS, foram entregues os primeiros cartões para os inscritos no programa, que prevê a concessão do <strong>Cartão Viva Bem</strong>, com recarga no valor de <strong>R$ 200,00</strong>. O benefício é de uso pessoal e intransferível, sendo proibida a compra de bebidas alcoólicas e cigarros.</p><h3>Requisitos para Participação</h3><ul><li>Identificação de vulnerabilidade social pela equipe multidisciplinar do CRAS;</li><li>Cadastro Único (CadÚnico) devidamente atualizado;</li><li>Renda per capita igual ou inferior a um salário mínimo;</li><li>Participação ativa nas atividades do PAIF ou do Serviço de Convivência e Fortalecimento de Vínculos.</li></ul><h3>Grupos Prioritários Atendidos</h3><p>A entrega do cartão segue um cronograma organizado por grupos já assistidos, incluindo:</p><ul><li>Idosos e beneficiários do BPC;</li><li>Pessoas com deficiência;</li><li>Moradores da zona rural;</li><li>Famílias inscritas no Bolsa Família;</li><li>Mulheres, homens, crianças e adolescentes em situação de fragilidade.</li></ul><p>O cartão tem como objetivo desenvolver a autonomia das famílias, garantindo o direito à alimentação conforme suas necessidades individuais, além de possibilitar um acompanhamento mais próximo pela equipe técnica do Centro de Referência de Assistência Social (CRAS).</p><p>Novas demandas também poderão ser avaliadas mediante atendimento espontâneo ou por encaminhamento agendado diretamente na unidade do CRAS.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=100",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 101,
+  "categoria": "saude",
+  "titulo": "Março Lilás: UBS promovem ações de prevenção ao câncer do colo do útero",
+  "resumo": "Em alusão ao Dia Internacional da Mulher, Unidades Básicas de Saúde de Sacramento intensificam orientações sobre o exame preventivo e o cuidado integral com a saúde feminina.",
+  "imagem": "Assets/noticias/MarcoLilas.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Em alusão ao Dia Internacional da Mulher (8 de março) e à campanha Março Lilás, dedicada à prevenção do câncer do colo do útero, as Unidades Básicas de Saúde (UBS) iniciaram uma série de ações educativas voltadas à promoção e ao cuidado com a saúde da mulher.</p><p>Ao longo do mês, as equipes de saúde estão realizando atividades durante os grupos de Hiperdia, nas salas de espera e também por meio de painéis informativos, levando orientações importantes sobre a prevenção do câncer do colo do útero, a importância do exame preventivo (Papanicolau), além de incentivar práticas de autocuidado, alimentação saudável e controle de doenças crônicas.</p><h3>Saúde Integral e Protagonismo</h3><p>As ações também abrem espaço para o diálogo sobre temas essenciais para a qualidade de vida das mulheres, como autoestima, prevenção da violência, garantia de direitos e fortalecimento do protagonismo feminino. A proposta é ampliar o acesso à informação e incentivar cada mulher a cuidar da própria saúde de forma integral.</p><p>A mobilização faz parte das atividades do Março Lilás, mês dedicado à conscientização e à prevenção do câncer do colo do útero — uma doença que pode ser evitada e tratada quando diagnosticada precocemente.</p><p>Com essas iniciativas, a Secretaria de Saúde busca aproximar ainda mais a comunidade das unidades de saúde, promovendo acolhimento, informação e conscientização sobre a importância da prevenção e do cuidado contínuo.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=101",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 102,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG inaugura agência em Tapira (MG)",
+  "resumo": "Nova estrutura no centro da cidade oferece coworking, sala de reuniões e atendimento segmentado, reforçando a parceria de três anos com a comunidade tapirense.",
+  "imagem": "Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Em expansão em Minas Gerais, a Sicredi Ibiraiaras RS/MG inaugurou a sua nova agência em Tapira (MG), na sexta-feira (6). Localizada na Rua Egídio Ribeiro de Resende, nº 64, no centro da cidade, a nova estrutura visa aproximar os associados com atendimento personalizado e oferecer qualidade e conforto para a prestação de produtos e serviços.</p><p>Estiveram presentes na inauguração o Presidente da Sicredi Ibiraiaras RS/MG, Sadi Bento Rigotti; a Prefeita de Tapira, Maura Assunção de Melo Pontes; o Presidente da Câmara Municipal de Vereadores de Tapira, Guilherme Jamil Borges; o diretor-executivo da cooperativa, Pedro Aiolfi; além de gerentes, autoridades e a comunidade local.</p><h4 style='text-align: center; margin: 30px 0 10px;'>Galeria: Nova Agência Sicredi Tapira (Clique para ampliar)</h4><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; width: 100%; margin-bottom: 30px; padding: 10px; background: #f9f9f9; border-radius: 12px; box-sizing: border-box;'><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras2.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras2.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras3.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras3.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras4.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras4.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras5.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras5.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras6.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras6.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras7.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras7.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras8.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras8.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras9.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras9.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras10.webp'><img src='Assets/noticias/InauguraçaoagenciaTapiraMGSicrediIbiraiaras10.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a></div><p>O Presidente Sadi Bento Rigotti destacou a parceria com a comunidade: “Em 2026 completamos três anos de atuação em Tapira. Este novo espaço reforça nosso compromisso de seguir lado a lado com os associados e a comunidade, promovendo desenvolvimento e prosperidade”.</p><p>A cooperativa inova com a agência, que possui sala de reunião e espaço coworking à disposição dos associados, caixas eletrônicos recicladores, atendimento segmentado PF, PJ e Agro. O associado escolhe também a maneira como quer ser atendido: digital ou presencial, das 09 às 16 horas.</p><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa comprometida com o crescimento de seus associados e com o desenvolvimento das regiões onde atua. Possui um modelo de gestão que valoriza a participação dos mais de 10 milhões de associados. Com mais de 3 mil agências, o Sicredi está presente fisicamente em todos os estados brasileiros e no Distrito Federal.</p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=102",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 103,
+  "categoria": "noticia",
+  "titulo": "Inmet emite alerta de perigo para temporais em todo o país",
+  "resumo": "Alerta de grande perigo prevê acumulados acima de 100mm para o Triângulo Mineiro e interior de SP; frente fria deve derrubar temperaturas no Sul e Sudeste.",
+  "imagem": "Assets/noticias/inmet.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Instituto Nacional de Meteorologia (Inmet) emitiu alertas de perigo para chuvas intensas em todas as regiões do país. Os maiores acumulados de chuva nesta semana, até a próxima segunda-feira (16), são previstos para o norte do estado de São Paulo, Triângulo Mineiro, sul de Goiás e áreas do norte de Mato Grosso do Sul e da Amazônia Legal.</p><p>Para esta quarta-feira (11), há um alerta de grande perigo pelo acumulado de chuva no norte de São Paulo, sul de Minas e Triângulo Mineiro e região central de Mato Grosso do Sul. As precipitações devem passar de 60 milímetros por hora ou acima de 100 milímetros por dia, com grande risco de alagamentos, transbordamentos de rios e deslizamentos de encostas em cidades com essas características.</p><p>A semana deve apresentar chuvas persistentes, com acumulados que podem superar 200 milímetros no norte de São Paulo e no Triângulo Mineiro. No último final de semana, duas pessoas morreram no estado de São Paulo em decorrência das chuvas, nos municípios de São Bernardo do Campo e Sorocaba.</p><h3>Situação de Emergência</h3><p>Na semana passada, as tempestades que atingiram o Sudeste levaram o Ministério da Integração e do Desenvolvimento Regional a reconhecer situação de emergência em 16 cidades de Minas Gerais, Rio de Janeiro e São Paulo. A maioria das cidades está em Minas Gerais, onde o número de mortes causadas por deslizamentos e enchentes na Zona da Mata Mineira passou de 70.</p><h3>Temperaturas</h3><p>Uma frente fria também avança pela costa das regiões Sul e Sudeste, derrubando as temperaturas máximas no leste dessas regiões. Em contrapartida, a tendência é de temperaturas elevadas no centro-norte do Brasil, sobretudo em áreas do interior da Região Nordeste.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Por Agência Brasil</strong></p></article>",
+  "data": "11 de março de 2026",
+  "link": "noticia.php?id=103",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 104,
+  "categoria": "evento",
+  "titulo": "Secretaria de Cultura celebra dia das mulheres",
+  "resumo": "Evento “Mulheres que constroem a história” homenageia legados femininos no Museu Corália Venites Maluf e recebe doações de acervo pessoal de pioneiras sacramentanas.",
+  "imagem": "Assets/noticias/diadasMulheres6.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Uma noite aconchegante marcada por emoção e saudade celebrou o Dia Internacional da Mulher no Museu Corália Venites Maluf, em Sacramento. O evento “Mulheres que constroem a história”, organizado pela Secretaria Municipal de Cultura, reuniu autoridades, familiares e convidados para homenagear mulheres que deixaram e continuam deixando importantes contribuições para o município.</p><p>O evento contou com a presença do prefeito Juninho Trevisan, do vice-prefeito Cléber, acompanhados de suas esposas Maria Clara Devós e Karine Mendonça, do presidente da Câmara Thalys Andrei e do vereador Dr. Reginaldo Afonso.</p><h4 style='text-align: center; margin: 30px 0 10px;'>Galeria: Mulheres que Constroem a História (Clique para ampliar)</h4><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; width: 100%; margin-bottom: 30px; padding: 10px; background: #f9f9f9; border-radius: 12px; box-sizing: border-box;'><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres.webp'><img src='Assets/noticias/diadasMulheres.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres1.webp'><img src='Assets/noticias/diadasMulheres1.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres2.webp'><img src='Assets/noticias/diadasMulheres2.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres3.webp'><img src='Assets/noticias/diadasMulheres3.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres4.webp'><img src='Assets/noticias/diadasMulheres4.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a></div><p>Durante a cerimônia, foram prestadas homenagens in memoriam às mulheres que marcaram a história da cidade: Heigorina Cunha, Corina Novelino, Maria Magdalena Devoz Ferreira, Lívia Célia Florêncio e Ivone Regina Silva. Seus familiares entregaram ao museu objetos pessoais que agora passam a integrar o acervo municipal, preservando a memória dessas trajetórias.</p><p>Cada uma dessas mulheres deixou um legado singular: de Heigorina Cunha no auxílio ao próximo à Corina Novelino na caridade; de Lívia Célia como primeira fotógrafa ao trabalho comunitário de Maria Devoz e à liderança de Ivone Regina Silva, primeira mulher a presidir a Câmara Municipal.</p><p>A noite também reconheceu mulheres que continuam construindo seu legado: Tânia Moreno, Marilda Ferreira Borges de Souza, Izabel Cristina Pansani, Maria de Fátima de Jesus Prado e Ana Carolina Loyola Santos, exemplos de dedicação nas áreas social e educacional.</p><p>Entre lembranças e reconhecimento, o encontro destacou que o legado dessas mulheres segue vivo, inspirando novas gerações a continuar escrevendo a história da cidade.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "10 de março de 2026",
+  "link": "noticia.php?id=104",
+  "noCarrossel": true,
+  "destaque": true
 }
 
 ]

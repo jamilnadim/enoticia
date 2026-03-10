@@ -1190,50 +1190,15 @@ p {
     object-fit: cover;
 }
 
-/* Container alinhado à esquerda */
-/* Container totalmente limpo e alinhado à esquerda */
-.info-bar-topo {
-    display: flex;
-    justify-content: flex-start; /* Alinha no início da tela */
-    align-items: center;
-    gap: 15px; /* Espaço entre data e clima */
-    padding: 10px 15px; /* Espaço interno nas bordas */
-    background: transparent; /* Remove qualquer cor de fundo */
-    border: none; /* Remove bordas */
-    max-width: 1400px; /* Alinha com a largura do seu conteúdo */
-    margin: 0; /* Garante que não centralize, ficando à esquerda */
-}
+/* Barra Superior - Estilo G1/Globo */
 
-/* Ajuste da Data para ocupar apenas o necessário */
-/* Data discreta */
 .datetime {
     font-size: 13px;
-    color: #444; /* Cinza escuro para leitura */
-    font-weight: 500;
-    white-space: nowrap;
-    padding: 0;
-    margin: 0;
-}
-
-/* Divisória entre os dois (Opcional, dá um toque moderno) */
-.datetime::after {
-    content: "|";
-    margin-left: 15px;
-    color: #ccc;
-}
-
-/* Clima estilo G1 sem caixas */
-.clima-estilo-globo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 13px;
+    color: #444;
     font-weight: bold;
-    color: #0047bb; /* Azul Sacramento */
+    white-space: nowrap;
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+    text-transform: uppercase;
 }
 
-.clima-estilo-globo img {
-    width: 22px !important;
-    height: auto;
-    filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.1)); /* Leve destaque no ícone */
-}
