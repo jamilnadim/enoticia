@@ -927,7 +927,7 @@
   "data": "26 de fevereiro de 2026",
   "link": "noticia.php?id=74",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1219,7 +1219,7 @@
   "data": "10 de março de 2026",
   "link": "noticia.php?id=95",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1249,7 +1249,7 @@
   "data": "10 de março de 2026",
   "link": "noticia.php?id=97",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1305,7 +1305,7 @@
   "data": "10 de março de 2026",
   "link": "noticia.php?id=101",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1346,6 +1346,216 @@
   "conteudo": "<article class='noticia-conteudo'><p>Uma noite aconchegante marcada por emoção e saudade celebrou o Dia Internacional da Mulher no Museu Corália Venites Maluf, em Sacramento. O evento “Mulheres que constroem a história”, organizado pela Secretaria Municipal de Cultura, reuniu autoridades, familiares e convidados para homenagear mulheres que deixaram e continuam deixando importantes contribuições para o município.</p><p>O evento contou com a presença do prefeito Juninho Trevisan, do vice-prefeito Cléber, acompanhados de suas esposas Maria Clara Devós e Karine Mendonça, do presidente da Câmara Thalys Andrei e do vereador Dr. Reginaldo Afonso.</p><h4 style='text-align: center; margin: 30px 0 10px;'>Galeria: Mulheres que Constroem a História (Clique para ampliar)</h4><div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; width: 100%; margin-bottom: 30px; padding: 10px; background: #f9f9f9; border-radius: 12px; box-sizing: border-box;'><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres.webp'><img src='Assets/noticias/diadasMulheres.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres1.webp'><img src='Assets/noticias/diadasMulheres1.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres2.webp'><img src='Assets/noticias/diadasMulheres2.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres3.webp'><img src='Assets/noticias/diadasMulheres3.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a><a data-fancybox='gallery' href='Assets/noticias/diadasMulheres4.webp'><img src='Assets/noticias/diadasMulheres4.webp' style='width: 100%; height: 180px; object-fit: cover; border-radius: 8px; cursor: zoom-in;'></a></div><p>Durante a cerimônia, foram prestadas homenagens in memoriam às mulheres que marcaram a história da cidade: Heigorina Cunha, Corina Novelino, Maria Magdalena Devoz Ferreira, Lívia Célia Florêncio e Ivone Regina Silva. Seus familiares entregaram ao museu objetos pessoais que agora passam a integrar o acervo municipal, preservando a memória dessas trajetórias.</p><p>Cada uma dessas mulheres deixou um legado singular: de Heigorina Cunha no auxílio ao próximo à Corina Novelino na caridade; de Lívia Célia como primeira fotógrafa ao trabalho comunitário de Maria Devoz e à liderança de Ivone Regina Silva, primeira mulher a presidir a Câmara Municipal.</p><p>A noite também reconheceu mulheres que continuam construindo seu legado: Tânia Moreno, Marilda Ferreira Borges de Souza, Izabel Cristina Pansani, Maria de Fátima de Jesus Prado e Ana Carolina Loyola Santos, exemplos de dedicação nas áreas social e educacional.</p><p>Entre lembranças e reconhecimento, o encontro destacou que o legado dessas mulheres segue vivo, inspirando novas gerações a continuar escrevendo a história da cidade.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
   "data": "10 de março de 2026",
   "link": "noticia.php?id=104",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 105,
+  "categoria": "politica",
+  "titulo": "Câmara: Comissão de Direitos da Mulher elege primeira presidente trans",
+  "resumo": "Deputada Erika Hilton (Psol-SP) assume a presidência do colegiado com foco em fiscalizar a rede de proteção e enfrentar a violência política de gênero.",
+  "imagem": "Assets/noticias/hilton.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Comissão de Defesa dos Direitos da Mulher da Câmara dos Deputados elegeu, nesta quarta-feira (11), a deputada Erika Hilton (Psol-SP) para presidir o colegiado neste ano. Ela recebeu 11 votos contra dez votos em branco, substituindo a deputada Célia Xakriabá (Psol-MG).</p><p>No discurso de posse, ela lembrou que é a primeira mulher trans a presidir a comissão: “Esta presidência não é apenas um nome, é o símbolo de uma democracia que se expande. Minha gestão tratará de todas as mulheres: das mães solo, das trabalhadoras, negras, indígenas e das que lutam por dignidade”, afirmou.</p><h3>Prioridades da Gestão</h3><ul><li>Fiscalizar a rede de proteção e as Casas da Mulher Brasileira;</li><li>Enfrentar a violência política de gênero;</li><li>Promover políticas de saúde integral para as mulheres.</li></ul><h3>Debates e Posicionamentos</h3><p>Deputadas de oposição, como Chris Tonietto (PL-RJ) e Clarissa Tércio (PP-PE), criticaram a eleição, defendendo que a comissão deveria ser presidida por uma mulher cisgênero e questionando o que chamaram de “ideologização” da pauta feminina.</p><p>Por outro lado, a deputada Laura Carneiro, eleita 1ª vice-presidente, enfatizou que o foco deve ser a dignidade das mulheres brasileiras, independentemente de ideologias. Erika Kokay (PT-DF) reforçou a legitimidade da eleição e defendeu a comissão como um espaço de resistência contra o ódio e acolhimento à diversidade.</p><p>A comissão deve seguir agora com a definição do cronograma de votações para os projetos de lei voltados à proteção e direitos das mulheres no Brasil.</p></article>",
+  "data": "12 de março de 2026",
+  "link": "noticia.php?id=105",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 106,
+  "categoria": "noticia",
+  "titulo": "Concurso INSS 2026: veja os cargos e salários mais esperados",
+  "resumo": "Órgão solicita 8.500 vagas para técnicos e analistas ao governo federal; remunerações iniciais podem chegar a R$ 9.700.",
+  "imagem": "Assets/noticias/previdenciasocial.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A expectativa por um novo concurso do Instituto Nacional do Seguro Social (INSS) aumenta à medida que o órgão avança com os preparativos para um edital previsto para 2026. O INSS solicitou formalmente ao governo federal a abertura de 8.500 vagas, distribuídas entre cargos de nível médio e superior, visando reforçar seu quadro de pessoal em todo o país.</p><p>O pedido, que agora aguarda autorização do Ministério da Gestão e da Inovação em Serviços Públicos (MGI), detalha a necessidade de contratação para duas carreiras principais. A maior parte das vagas solicitadas, um total de 7.000, é destinada ao cargo de técnico do seguro social, que exige apenas o ensino médio completo.</p><h3>Cargos e Remunerações Previstas</h3><p>Os salários iniciais já incluem o auxílio-alimentação. Confira as projeções:</p><table style='width: 100%; border-collapse: collapse; margin: 20px 0; background: #fff;'><thead><tr style='background: #f2f2f2;'><th style='border: 1px solid #ddd; padding: 12px; text-align: left;'>Cargo</th><th style='border: 1px solid #ddd; padding: 12px; text-align: left;'>Escolaridade</th><th style='border: 1px solid #ddd; padding: 12px; text-align: center;'>Salário Inicial</th></tr></thead><tbody><tr><td style='border: 1px solid #ddd; padding: 10px;'>Técnico do Seguro Social</td><td style='border: 1px solid #ddd; padding: 10px;'>Nível Médio</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>R$ 6.500</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'>Analista do Seguro Social</td><td style='border: 1px solid #ddd; padding: 10px;'>Nível Superior</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>R$ 9.700</td></tr></tbody></table><p>Para o nível superior, a solicitação inclui 1.500 vagas que abrangem diversas áreas de formação. As atribuições incluem atividades complexas de planejamento, supervisão e execução de tarefas ligadas à seguridade social.</p><h3>Próximos Passos</h3><p>A autorização do MGI é o passo fundamental para que o concurso aconteça. Caso o pedido seja aprovado ainda este ano, a expectativa é que o edital seja publicado no decorrer de 2026, seguindo o cronograma orçamentário do governo federal.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><em>Fonte: Jornal da Manhã (JM Online)</em></p></article>",
+  "data": "12 de março de 2026",
+  "link": "noticia.php?id=106",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 107,
+  "categoria": "politica",
+  "titulo": "Dino acaba com a aposentadoria compulsória como punição a juízes",
+  "resumo": "Em decisão liminar, ministro do STF fundamenta que a Reforma da Previdência extinguiu a aposentadoria como sanção, devendo ser substituída pela perda do cargo em casos graves.",
+  "imagem": "Assets/noticias/dino2.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O ministro Flávio Dino, do Supremo Tribunal Federal (STF), decidiu em liminar assinada nesta segunda-feira (16) acabar com a aposentadoria compulsória como punição a magistrados condenados administrativamente por irregularidades no exercício do cargo.</p><p>“Não existe mais aposentadoria compulsória como ‘punição’ a magistrados, em face da Emenda Constitucional 103 (Reforma da Previdência). Infrações graves de magistrados devem ser punidas com a perda do cargo”, propôs o ministro como tese de julgamento.</p><p>A decisão é monocrática e deverá ainda ser analisada pelo plenário do Supremo, que decidirá se a mantém ou não. Ainda não há data nem prazo definido para que o julgamento ocorra no colegiado.</p><h3>Fundamentação da Decisão</h3><p>Dino tomou a decisão em uma ação aberta por um magistrado punido pelo Tribunal de Justiça do Rio de Janeiro (TJRJ). Entre as irregularidades apontadas estavam a liberação de bens bloqueados sem parecer do Ministério Público e a demora deliberada em processos para beneficiar milicianos.</p><p>O ministro justificou sua decisão aplicando as regras da Reforma da Previdência de 2019, que extinguiu critérios de aposentadoria de servidores que não levem em consideração apenas a idade ou o tempo de contribuição. Com isso, ele concluiu que a previsão de aposentadoria de juízes como forma de punição se tornou inconstitucional.</p><p>O ministro determinou o envio de ofício ao presidente do Conselho Nacional de Justiça (CNJ), ministro Edson Fachin, para que o sistema de responsabilidade disciplinar no âmbito do Poder Judiciário seja revisto conforme o novo entendimento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / STF</strong></p></article>",
+  "data": "17 de março de 2026",
+  "link": "noticia.php?id=107",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 108,
+  "categoria": "noticia",
+  "titulo": "Corpo de Bombeiros Militar de Minas Gerais abre 342 vagas em concurso público com salários que podem chegar a R$ 11 mil",
+  "resumo": "Editais para Soldados (CFSd) e Oficiais (CFO) exigem nível superior e oferecem vagas sem distinção de gênero. Inscrições abrem em maio via Idecan.",
+  "imagem": "Assets/noticias/bombeiros17-03-26-1.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Corpo de Bombeiros Militar de Minas Gerais (CBMMG) publicou, no sábado (14/3) no Diário Oficial de Minas de Gerais, os editais para o Curso de Formação de Soldados (CFSd) e o de Curso de Formação de Oficiais (CFO). Ao todo, serão oferecidas 342 vagas para atuar como bombeiro militar em Minas Gerais, distribuídas em: 321 para o CFSd e 21 para o CFO.</p><p>Alguns requisitos para ingresso na instituição são comuns nos dois editais, como possuir idoneidade moral, ter aptidão física e ser aprovado em avaliação psicológica. Em cumprimento à lei vigente, é exigido o nível de escolaridade superior e CNH (no mínimo categoria B).</p><div style='display: flex; justify-content: center; width: 100%; margin: 30px 0;'><a data-fancybox='gallery' href='Assets/noticias/bombeiros17-03-26.webp'><img src='Assets/noticias/bombeiros17-03-26.webp' style='max-width: 100%; height: auto; border-radius: 8px; cursor: zoom-in;'></a></div><h3>Escolaridade Exigida</h3><ul><li><strong>CFO 2027:</strong> Nível superior de escolaridade nas modalidades Bacharelado ou Licenciatura (qualquer área).</li><li><strong>CFSd 2027:</strong> Nível superior de escolaridade nas modalidades Bacharelado, Licenciatura, Tecnólogo ou Sequencial.</li></ul><h3>Inscrições e Provas</h3><p>As inscrições para ambos os concursos estarão abertas de <strong>18/5 a 17/6</strong>, no site da banca organizadora <strong>Idecan</strong>. O processo adota ampla concorrência, sem delimitação de vagas por gênero. “Isso fortalece a equidade e reafirma que talento e coragem não têm gênero”, enfatiza a comandante-geral, coronel Jordana de Oliveira Filgueiras Daldegan.</p><h3>Formação e Carreira</h3><p>O Curso de Formação de Soldados prepara os militares para o atendimento operacional direto (salvamentos e atendimento pré-hospitalar). Já o Curso de Formação de Oficiais prepara líderes e gestores que assumirão cargos estratégicos na corporação.</p><p>A formação de nível superior é aplicada em diversas áreas da corporação:</p><ul><li><strong>Engenharia e Exatas:</strong> Prevenção contra incêndio, perícias e logística.</li><li><strong>Biológicas:</strong> Saúde, treinamento físico, busca com cães e captura de animais.</li><li><strong>Humanas:</strong> Assessoria jurídica, corregedoria e recursos humanos.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: CBMMG / Diário Oficial de MG</strong></p></article>",
+  "data": "17 de março de 2026",
+  "link": "noticia.php?id=108",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 109,
+  "categoria": "saude",
+  "titulo": "Alzheimer pode surgir antes dos 65 anos e exige atenção aos sinais",
+  "resumo": "Neurologista alerta para o aumento de diagnósticos em pacientes jovens e reforça que hábitos de vida, como má qualidade do sono e ultraprocessados, influenciam a cognição.",
+  "imagem": "Assets/noticias/alzhaimer.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Tradicionalmente associada ao envelhecimento, a doença de Alzheimer tem aparecido cada vez mais cedo. Em entrevista à Rádio JM, a neurologista Camila Batalha destaca o aumento na procura de pacientes mais jovens com queixas cognitivas e alerta para casos precoces, em um cenário que levanta discussões sobre hábitos de vida e saúde mental.</p><p>Segundo a especialista, há registros de Alzheimer em pessoas abaixo dos 65 anos, faixa considerada como início precoce da doença. Em alguns casos, os primeiros sinais podem surgir entre os 45 e 50 anos. A médica explica que a rotina acelerada, a redução de estímulos cognitivos, o consumo de ultraprocessados e a piora na qualidade do sono são pontos de atenção.</p><h3>Sinais de Alerta e Prevenção</h3><p>Nem todo esquecimento é motivo de alarme, mas é preciso observar a frequência. Entre os sinais que exigem investigação estão:</p><ul><li>Repetição constante de informações;</li><li>Dificuldade em realizar tarefas habituais;</li><li>Esquecimentos que interferem diretamente na rotina diária;</li><li>Dificuldade de raciocínio lógico que antes era simples.</li></ul><p>A neurologista destaca que deficiências de vitaminas, alterações na tireoide e transtornos emocionais podem provocar sintomas semelhantes e devem ser investigados. Como forma de prevenção, hábitos saudáveis são fundamentais: “A prática regular de atividade física, alimentação equilibrada e sono de qualidade ajudam a preservar as funções cognitivas”, afirma.</p><h3>Tratamento e Progressão</h3><p>Os casos de início precoce tendem a evoluir mais rapidamente do que aqueles diagnosticados em idades avançadas. Embora a doença seja neurodegenerativa e ainda não tenha cura, o diagnóstico precoce permite tratamentos adequados às particularidades de cada paciente, visando retardar os efeitos e trazer mais conforto e qualidade de vida.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Por: Débora Meira / Fonte: Jornal da Manhã</strong></p></article>",
+  "data": "17 de março de 2026",
+  "link": "noticia.php?id=109",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 110,
+  "categoria": "saude",
+  "titulo": "Secretaria de Saúde apresenta relatório do último quadrimestre em audiência pública",
+  "resumo": "Gestão municipal detalha investimentos, atendimentos e distribuição de medicamentos referentes ao período de setembro a dezembro de 2025.",
+  "imagem": "Assets/noticias/secretariosaude.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Prefeitura Municipal de Sacramento, por meio da Secretaria de Saúde, realizou na última quinta-feira (12) audiência pública para apresentação do Relatório Detalhado do Quadrimestre Anterior (RDQA), em cumprimento à Lei Complementar nº 141. A reunião teve como foco os dados referentes ao período de setembro a dezembro de 2025.</p><p>Durante a audiência, foram expostos os principais indicadores da saúde municipal, incluindo gastos, atendimentos, número de consultas, cirurgias, exames e a distribuição de medicamentos. A apresentação garante a transparência na gestão dos recursos e permite que a população acompanhe as ações desenvolvidas.</p><h3>Destaques do Relatório</h3><ul><li><strong>Assistência Farmacêutica:</strong> Foram distribuídos 71.276 medicamentos e produtos de saúde, registrados em 38.904 dispensações no período.</li><li><strong>Produção de Serviços:</strong> Detalhamento de atendimentos na Atenção Básica, saúde bucal, vigilância epidemiológica e sanitária, além da aplicação de vacinas.</li><li><strong>Promoção da Saúde:</strong> Ações do programa Academia Viva, incentivando hábitos saudáveis e atividades físicas.</li><li><strong>Perfil Demográfico:</strong> Dados sobre nascimentos, causas de internação e mortalidade no município.</li></ul><p>Além dos dados assistenciais, o relatório detalhou a execução financeira da saúde municipal, com informações sobre a aplicação dos recursos e a origem dos investimentos destinados ao setor.</p><p>A realização da audiência pública reforça o compromisso da administração municipal com a transparência e a responsabilidade na gestão dos recursos públicos, garantindo que a população tenha acesso aos resultados alcançados pelo município.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "17 de março de 2026",
+  "link": "noticia.php?id=110",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 111,
+  "categoria": "noticia",
+  "titulo": "Sacramento promove Semana da Água com ações educativas e ambientais",
+  "resumo": "Com o tema “Conhecer, cuidar e preservar”, programação inclui visitas guiadas à ETA, plantio de mudas e concurso cultural para escolha da mascote do SAAE.",
+  "imagem": "Assets/noticias/semanaagua.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Governo Municipal, por meio das secretarias de Meio Ambiente, Educação e da autarquia SAAE (Serviço de Água e Esgoto de Sacramento), iniciou no último dia 16 a programação da Semana da Água. A abertura oficial aconteceu na Estação de Tratamento de Água (ETA) e contou com a presença do prefeito Juninho Trevisan, do vice-prefeito Cleber Silveira Borges, além de secretários municipais e do vereador Reginaldo Afonso.</p><p>Com o tema <strong>“Conhecer, cuidar e preservar”</strong>, a iniciativa tem como objetivo conscientizar a comunidade escolar sobre a importância da água. Durante a abertura, o diretor do SAAE, Rafael Mendes, anunciou o lançamento de um concurso cultural para a escolha da mascote da autarquia, voltado para alunos do sexto ano.</p><h3>Programação da Semana</h3><ul><li><strong>Dia 17:</strong> Visitas guiadas à ETA e gincanas educativas para alunos e professores.</li><li><strong>Dia 18 (Hoje):</strong> Foco no cuidado com as nascentes, com plantio de mudas na Estação de Tratamento de Esgoto (ETE) com alunos da APAE.</li><li><strong>Dia 19:</strong> Distribuição de mudas para a população na Praça da Basílica, incentivando práticas sustentáveis.</li><li><strong>Dia 20:</strong> “Dia de Compartilhar Conhecimento”, com entrevista em rádio e novas visitas guiadas à ETA.</li></ul><p>A Semana da Água reafirma o compromisso de Sacramento com a educação ambiental e o desenvolvimento sustentável, promovendo conhecimento e atitudes que contribuem para a preservação desse recurso essencial à vida.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "18 de março de 2026",
+  "link": "noticia.php?id=111",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 112,
+  "categoria": "saude",
+  "titulo": "Sacramento leva experiência de sucesso em especialidades ao maior evento de saúde de Minas Gerais",
+  "resumo": "Município apresentará avanços do Centro de Referência de Especialidades (CRES) e a implementação do programa federal PMAE no Conexão Minas-Saúde em abril.",
+  "imagem": "Assets/noticias/especialidade.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O município de Sacramento consolida, mais uma vez, seu protagonismo na saúde pública ao se destacar no atendimento de especialidades em toda a região do Triângulo-Sul. Os avanços conquistados serão apresentados durante o <strong>Conexão Minas-Saúde</strong>, maior evento de saúde pública do estado, que acontece entre os dias 7 e 9 de abril.</p><p>A participação no evento reforça o reconhecimento do trabalho desenvolvido pela Secretaria Municipal de Saúde, convidada a compartilhar experiências e resultados que são reflexo de uma gestão comprometida com a qualidade do atendimento.</p><div style='display: flex; justify-content: center; width: 100%; margin: 30px 0;'><a data-fancybox='gallery' href='Assets/noticias/especialidade1.webp'><img src='Assets/noticias/especialidade1.webp' style='max-width: 100%; height: auto; border-radius: 8px; cursor: zoom-in;'></a></div><h3>Programa Mais Acesso a Especialistas (PMAE)</h3><p>Um dos pilares desse avanço é a adesão de Sacramento ao PMAE, iniciativa do Governo Federal lançada em 2024. O programa utiliza a estratégia de <strong>Oferta de Cuidado Integrado (OCI)</strong>, que acompanha toda a jornada do paciente, garantindo agilidade e resolutividade no SUS.</p><h3>Números do Atendimento em Sacramento</h3><ul><li><strong>Volume de Consultas:</strong> Média de 3.000 consultas especializadas por mês.</li><li><strong>Estrutura:</strong> Atendimentos centralizados no CRES – Centro de Referência de Especialidades de Sacramento.</li><li><strong>Corpo Clínico:</strong> Equipe formada por 15 especialistas em áreas como cirurgia vascular, endocrinologia e ortopedia.</li></ul><p>Os números refletem mais do que eficiência: representam acesso e qualidade de vida. O destaque regional reafirma que, com gestão responsável, é possível transformar a saúde e garantir um atendimento humanizado e acessível para todos.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "20 de março de 2026",
+  "link": "noticia.php?id=112",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 113,
+  "categoria": "esporte",
+  "titulo": "Amadorão 2026 começa neste domingo e promete movimentar o futebol em Sacramento",
+  "resumo": "Tradicional Campeonato Amador de Sacramento inicia neste dia 22 de março com rodada dupla no Estádio Luiz Magnabosco; oito equipes disputam o título.",
+  "imagem": "Assets/noticias/amadorao20-03-26.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Está tudo pronto para o início de mais uma edição do tradicional Campeonato Amador de Sacramento, o querido Amadorão, que começa neste domingo, 22 de março, reunindo atletas, torcedores e famílias em torno da paixão pelo futebol.</p><p>Organizado pela Secretaria Municipal de Esportes, o campeonato contará com a participação de oito equipes, que se enfrentarão sempre aos domingos em um sistema de grupo único, garantindo disputas equilibradas e muita emoção a cada rodada.</p><div style='display: flex; justify-content: center; width: 100%; margin: 30px 0;'><a data-fancybox='gallery' href='Assets/noticias/amadorao20-03.webp'><img src='Assets/noticias/amadorao20-03.webp' style='max-width: 100%; height: auto; border-radius: 8px; cursor: zoom-in;'></a></div><h3>Rodada de Abertura (22/03)</h3><p>Os jogos acontecem no <strong>Estádio Luiz Magnabosco (Campo dos Mariano)</strong>:</p><ul><li><strong>08h30:</strong> MEC (Mariano Esporte Clube) x 13 de Maio</li><li><strong>10h30:</strong> EC Mariano/Vila Nova x Clube Atlético Sacramentano</li></ul><h3>Cronograma da Competição</h3><p>A primeira fase segue até o início de julho. Após essa etapa, a competição avança para as fases decisivas, com quartas de final, semifinais e a <strong>grande final, prevista para o dia 10 de agosto</strong>.</p><p>O Amadorão é um dos eventos mais aguardados do calendário municipal, fortalecendo o esporte local, incentivando novos talentos e promovendo a integração da comunidade. A expectativa é de arquibancadas cheias e grandes jogos ao longo de toda a competição, reafirmando a tradição do futebol amador em Sacramento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "20 de março de 2026",
+  "link": "noticia.php?id=113",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 114,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG apresenta Programa Cooperativas Escolares em Sacramento (MG)",
+  "resumo": "Mais de 140 estudantes da Escola Municipal João Cordeiro iniciam jornada de aprendizado sobre princípios e valores do cooperativismo com foco em empreendedorismo e inclusão.",
+  "imagem": "Assets/noticias/Sicredi Ibiraiaras.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Programa Cooperativas Escolares, da Fundação Sicredi, desenvolvido pela Sicredi Ibiraiaras RS/MG, possui a finalidade de disponibilizar aos estudantes o acesso aos princípios e valores que norteiam o cooperativismo. Pensando nisso, a cooperativa apresentou na segunda-feira (16), em Sacramento (MG), o programa para mais de 140 estudantes da Escola Municipal João Cordeiro e também para os pais e responsáveis dos alunos do 6º ao 9º ano.</p><p>O evento contou com a presença da Secretária de Educação, Marilda Ferreira Borges de Souza, da subsecretária Renata Cristina de Souza, além de diretores, professores e representantes da cooperativa, como o Gerente de Desenvolvimento Marcelo Zanin e a gerente da agência local, Larissa Barbara Justino Mota.</p><h3>Jornada e Metodologia</h3><p>A jornada de oficinas pedagógicas ocorre de abril a novembro de 2026. Durante este período, os alunos utilizarão a metodologia gamificada <strong>Cooperlandia</strong>, que aborda temas como:</p><ul><li>Educação financeira;</li><li>Empreendedorismo;</li><li>Inclusão social;</li><li>Liderança e trabalho em equipe.</li></ul><p>A expectativa é que, após passarem por todas as etapas de aprendizagem, a primeira cooperativa escolar da região de Minas Gerais seja oficialmente fundada em novembro de 2026.</p><h3>Como funciona o Programa</h3><p>O programa funciona por meio da mediação de um professor orientador que conduz os alunos por uma trilha de aprendizagem. Os estudantes criam suas próprias cooperativas educativas, aprendendo na prática sobre o trabalho de cooperação. Atualmente, a iniciativa está presente em mais de 143 municípios brasileiros através do sistema Sicredi.</p><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa comprometida com o crescimento de seus associados e com o desenvolvimento das regiões onde atua. Possui mais de 10 milhões de associados e mais de 3 mil agências presentes em todos os estados brasileiros e no Distrito Federal.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><em>Fonte: Comunicação Sicredi Ibiraiaras RS/MG</em></p></article>",
+  "data": "20 de março de 2026",
+  "link": "noticia.php?id=114",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 115,
+  "categoria": "noticia",
+  "titulo": "Benefícios econômicos do Sicredi para associados crescem 22% e atingem R$ 31,1 bilhões em 2025",
+  "resumo": "Baseado em metodologia do Banco Central, o índice BES reflete economia real de R$ 3,1 mil por associado, consolidando marco histórico para a instituição.",
+  "imagem": "Assets/noticias/Alexandre Barbosa_Sicredi_Alta.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Sicredi atingiu um marco histórico em sua trajetória de fomento à prosperidade coletiva. Em 2025, os benefícios econômicos gerados pela instituição para seus mais de 10 milhões de associados somaram R$ 31,1 bilhões, um crescimento de 22% em comparação ao ano anterior. O montante é o maior já registrado na série histórica, consolidando o compromisso do cooperativismo com o desenvolvimento social e financeiro.</p><p>O valor representou uma economia média gerada de <strong>R$ 3,1 mil</strong> no ano passado para cada um dos associados ao Sicredi.</p><h3>Composição do Índice BES</h3><p>Três indicadores fundamentais, auditados pela Deloitte, compõem o cálculo do benefício gerado:</p><table style='width: 100%; border-collapse: collapse; margin: 20px 0; background: #fff;'><thead><tr style='background: #f2f2f2;'><th style='border: 1px solid #ddd; padding: 12px; text-align: left;'>Indicador</th><th style='border: 1px solid #ddd; padding: 12px; text-align: left;'>Descrição</th><th style='border: 1px solid #ddd; padding: 12px; text-align: center;'>Valor (2025)</th></tr></thead><tbody><tr><td style='border: 1px solid #ddd; padding: 10px;'><strong>BEC</strong></td><td style='border: 1px solid #ddd; padding: 10px;'>Economia em taxas de juros menores em operações de crédito.</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>R$ 21,8 bi</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'><strong>BED</strong></td><td style='border: 1px solid #ddd; padding: 10px;'>Ganho adicional via remuneração de depósitos mais elevada.</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>R$ 5,8 bi</td></tr><tr><td style='border: 1px solid #ddd; padding: 10px;'><strong>BEE</strong></td><td style='border: 1px solid #ddd; padding: 10px;'>Distribuição de resultados, juros ao capital e ações sociais (FATES).</td><td style='border: 1px solid #ddd; padding: 10px; text-align: center;'>R$ 3,5 bi</td></tr></tbody></table><p>“Os resultados robustos do ano passado reforçam nossa atuação centrada no benefício aos associados. Nosso trabalho visa fomentar o crescimento das empresas, da atividade agrícola e apoiar os objetivos das pessoas físicas”, destaca o diretor executivo Alexandre Barbosa.</p><h3>Crescimento Sustentável</h3><p>O desempenho de 2025 reforça uma tendência de aceleração. O salto de 22% no último ano supera significativamente o crescimento registrado em 2024, quando o benefício avançou 8,5% (atingindo R$ 25,5 bilhões), frente aos R$ 23,5 bilhões registrados em 2023.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><em>Fonte: Comunicação Institucional Sicredi</em></p></article>",
+  "data": "20 de março de 2026",
+  "link": "noticia.php?id=115",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 116,
+  "categoria": "politica",
+  "titulo": "Senado aprova uso imediato de tornozeleira por agressor de mulher",
+  "resumo": "Nova lei permite que delegados determinem o monitoramento eletrônico imediato em cidades sem juiz; texto segue para sanção presidencial.",
+  "imagem": "Assets/noticias/tornzeleira.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Senado Federal aprovou, nesta quarta-feira (18), o Projeto de Lei (PL) nº 2942/2024 que permite à Justiça determinar o uso imediato de tornozeleira eletrônica pelo agressor de mulheres em situação de violência doméstica e familiar, se for verificado o alto risco à vida delas.</p><p>A proposta, relatada pela senadora Leila Barros (PDT-DF), segue agora para sanção da Presidência da República. O objetivo é garantir que o monitoramento eletrônico seja uma medida protetiva de urgência aplicada de forma célere.</p><h3>Principais Mudanças na Lei</h3><ul><li><strong>Uso Imediato:</strong> A tornozeleira passa a ser regra em casos de risco iminente à integridade física ou psicológica da vítima.</li><li><strong>Cidades sem Juiz:</strong> Em municípios sem comarca, o delegado de polícia poderá determinar o uso da tornozeleira, comunicando a Justiça em até 24 horas.</li><li><strong>Dispositivo para a Vítima:</strong> A mulher receberá um aparelho portátil que emitirá alerta automático e simultâneo para ela e para a polícia caso o agressor rompa a área de exclusão.</li><li><strong>Rigor na Punição:</strong> O descumprimento da medida ou violação do dispositivo aumentará a pena de reclusão de um terço à metade.</li></ul><h3>Investimento e Dados</h3><p>O projeto aumenta de 5% para 6% a cota de recursos do Fundo Nacional de Segurança Pública destinada ao combate à violência contra a mulher, priorizando a compra de dispositivos de monitoramento.</p><p>Segundo dados apresentados, em 2025 foram registradas 1.568 vítimas de feminicídio no Brasil. O relatório aponta que 13,1% dessas mulheres possuíam medidas protetivas em vigor no momento do crime, o que reforça a necessidade do monitoramento ativo por tornozeleira.</p><div style='background: #fdf2f2; padding: 20px; border-radius: 8px; border-left: 5px solid #e53e3e; margin: 30px 0;'><h4>Canais de Denúncia</h4><ul><li><strong>Ligue 180:</strong> Central de Atendimento à Mulher (Gratuito/24h)</li><li><strong>WhatsApp:</strong> (61) 9610-0180</li><li><strong>Polícia Militar:</strong> 190</li><li><strong>Direitos Humanos:</strong> Disque 100</li></ul></div><p>As campanhas de enfrentamento passarão a contemplar informações detalhadas sobre os novos mecanismos de monitoração eletrônica e prevenção à revitimização.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><em>Fonte: Agência Senado / Fórum Brasileiro de Segurança Pública</em></p></article>",
+  "data": "20 de março de 2026",
+  "link": "noticia.php?id=116",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 117,
+  "categoria": "saude",
+  "titulo": "Rastreamento para câncer colorretal pode ser implementado no SUS",
+  "resumo": "Nova diretriz analisada pela Conitec prevê testagem bianual para sangue oculto em pessoas de 50 a 75 anos, visando diagnosticar lesões antes que evoluam para câncer.",
+  "imagem": "Assets/noticias/coloretal.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Sistema Único de Saúde (SUS) pode ganhar um novo programa para o rastreamento do câncer colorretal, que atinge o intestino grosso e o reto. Uma diretriz com as orientações para a testagem já recebeu parecer favorável da Comissão Nacional de Incorporação de Tecnologias no SUS (Conitec) e passará por consulta pública nos próximos dias.</p><h3>Diretrizes de Rastreamento</h3><p>A nova estratégia preconiza que todas as pessoas entre <strong>50 e 75 anos</strong>, sem fatores de risco ou sintomas, realizem:</p><ul><li><strong>Teste imunoquímico:</strong> Identificação de sangue oculto nas fezes a cada dois anos.</li><li><strong>Colonoscopia:</strong> Em caso de teste positivo, o paciente é encaminhado para detectar a razão do sangramento e tratar possíveis lesões.</li></ul><p>O objetivo principal é detectar pólipos (lesões pré-cancerígenas) e retirá-los antes que se transformem em tumores malignos. Segundo o epidemiologista Arn Migowski (Inca), o rastreio organizado pode reduzir não apenas a mortalidade, mas também o número de novos casos.</p><h3>Março Azul: Sinais de Alerta</h3><p>A campanha Março Azul reforça que o câncer de intestino muitas vezes não apresenta sintomas precoces. No entanto, sinais de estágio avançado devem ser investigados com urgência:</p><ul><li>Sangramento visível ou anemia (causada por sangue oculto);</li><li>Fraqueza e cansaço persistente;</li><li>Emagrecimento sem causa aparente e dor abdominal;</li><li>Mudança no hábito intestinal (prisão de ventre ou diarreia persistente);</li><li>Fezes \"em fita\" (mais estreitas que o normal).</li></ul><p>A implementação no SUS deve ocorrer de forma escalonada para que a rede consiga absorver a demanda de exames diagnósticos sem comprometer o atendimento de pacientes que já apresentam sintomas.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><em>Fonte: Agência Brasil / Conitec / Inca</em></p></article>",
+  "data": "20 de março de 2026",
+  "link": "noticia.php?id=117",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 118,
+  "categoria": "politica",
+  "titulo": "Dino dá 5 dias para senador explicar repasse de R$ 3,6 milhões em emendas à Lagoinha",
+  "resumo": "Ministro do STF cobra esclarecimentos de Carlos Viana (Podemos-MG) sobre repasses à Fundação Oasis após denúncias de falta de transparência e obstrução de investigações.",
+  "imagem": "Assets/noticias/dino5.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O ministro Flávio Dino, do Supremo Tribunal Federal (STF), deu prazo de cinco dias para que o Senado e o senador Carlos Viana (Podemos-MG) respondam à acusação de irregularidades no repasse de R$ 3,6 milhões em emendas a uma fundação ligada à Igreja Batista da Lagoinha, sediada em Belo Horizonte.</p><p>A decisão foi motivada por uma representação dos deputados Pastor Henrique Vieira (Psol-RJ) e Rogério Correia (PT-MG), que acusaram Viana de barrar a investigação da Lagoinha na condição de presidente da Comissão Parlamentar de Inquérito (CPI) sobre as fraudes em benefícios do INSS.</p><h3>Detalhamento dos Repasses à Fundação Oasis</h3><p>De acordo com as informações apresentadas ao STF, o senador teria destinado três repasses à braço social da Igreja Batista da Lagoinha:</p><ul><li><strong>2019 (R$ 1,5 milhão):</strong> Emenda Pix à Prefeitura de Belo Horizonte com destino carimbado à Fundação Oasis;</li><li><strong>2023 (R$ 1,47 milhão):</strong> Repasse à Fundação Oasis de Capim Branco (região metropolitana de BH);</li><li><strong>2025 (R$ 650,9 mil):</strong> Novo repasse à filial de Capim Branco.</li></ul><p>Os parlamentares que acionaram o ministro afirmam que o senador mantém relação de financiamento habitual com a entidade beneficiária e atua para protegê-la na posição de presidente de comissão investigativa.</p><h3>Contexto da Investigação</h3><p>A Igreja da Lagoinha está envolvida nas discussões da CPI do INSS no contexto de possíveis fraudes em empréstimos consignados. O ex-pastor da Lagoinha Fabiano Zattel é apontado como operador financeiro de esquemas fraudulentos.</p><p>Dino, relator de uma ação sobre a transparência e a rastreabilidade de emendas parlamentares, afirmou que o caso merece ser esclarecido para assegurar o cumprimento do Acórdão do STF que fixou balizas sobre o uso de recursos públicos. “À vista da necessidade de assegurar o cumprimento do Acórdão deste STF, de dezembro de 2022, que fixou balizas quanto à transparência e à rastreabilidade de recursos públicos”, justificou o ministro.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / STF</strong></p></article>",
+  "data": "20 de março de 2026",
+  "link": "noticia.php?id=118",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 119,
+  "categoria": "esporte",
+  "titulo": "Prefeito visita treino do Meninas de Ouro e celebra convocação de Rafa Bueno para a Seleção Brasileira Sub-17",
+  "resumo": "Atleta formada em Sacramento integra laboratório da seleção nacional; projeto com quase 25 anos de história reafirma papel de referência no voleibol mineiro.",
+  "imagem": "Assets/noticias/Meninas de Ouro.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Em uma tarde marcada por emoção e reconhecimento, o prefeito Juninho Trevisan, acompanhado do vice-prefeito Cleber Silveira e do secretário municipal de Esportes Julliender Reis, visitou na última quarta-feira (18) o treino das atletas do Projeto Meninas de Ouro para parabenizar a jovem atleta Rafa Bueno, convocada para o laboratório da Seleção Brasileira Sub-17.</p><p>O momento simboliza mais um importante capítulo na trajetória do projeto, considerado uma das mais tradicionais iniciativas de incentivo ao voleibol no Triângulo Mineiro. Com quase 25 anos de atuação, o Meninas de Ouro se consolida como referência na formação de atletas e na promoção da transformação social por meio do esporte.</p><div style='display: flex; justify-content: space-between; gap: 10px; margin: 30px 0;'><a data-fancybox='gallery' href='Assets/noticias/Meninas de Ouro 2.webp' style='width: 50%;'><img src='Assets/noticias/Meninas de Ouro 2.webp' style='width: 100%; height: 250px; object-fit: cover; border-radius: 8px; cursor: zoom-in;' alt='Treino Meninas de Ouro'></a><a data-fancybox='gallery' href='Assets/noticias/Meninas de Ouro 3.webp' style='width: 50%;'><img src='Assets/noticias/Meninas de Ouro 3.webp' style='width: 100%; height: 250px; object-fit: cover; border-radius: 8px; cursor: zoom-in;' alt='Homenagem Rafa Bueno'></a></div><p>Durante a visita, o secretário de Esportes destacou a importância da conquista. Segundo ele, a convocação de Rafa representa o resultado de um trabalho coletivo, desenvolvido com o apoio da Prefeitura. “É uma grande alegria ver uma atleta do nosso projeto tendo a oportunidade de integrar um laboratório da Seleção Brasileira de base”, afirmou.</p><p>A coordenadora do projeto, Betânia Mello, também celebrou o momento, ressaltando o orgulho em ver jovens se destacando em nível nacional. Emocionada, Rafa Bueno agradeceu o apoio: “Com muita dedicação, força e garra, a gente consegue chegar onde quer. Sou muito grata à comissão técnica, às minhas amigas de equipe, à Prefeitura e aos patrocinadores”.</p><p>Rafa também relembrou sua recente participação no Campeonato de Seleções pelo Paraná, onde foi destaque como ponteira passadora, desempenho que contribuiu diretamente para o convite à Seleção Brasileira. A visita reforça o compromisso do Governo Municipal com o esporte de base e evidencia a importância de projetos sociais na construção de oportunidades em Sacramento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "20 de março de 2026",
+  "link": "noticia.php?id=119",
   "noCarrossel": true,
   "destaque": true
 }
