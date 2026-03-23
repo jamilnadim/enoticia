@@ -59,6 +59,17 @@ if ($noticia_meta && !empty($noticia_meta['imagem'])) {
             Fancybox.bind("[data-fancybox='gallery']", {});
         });
         </script>
+
+          <!--Acesso Google Analytics-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNW5WF1ZB3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JNW5WF1ZB3');
+    </script>
+    
 </head>
 <body class="noticia-page">
     <header>
