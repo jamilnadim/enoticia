@@ -1135,7 +1135,7 @@
   "data": "05 de março de 2026",
   "link": "noticia.php?id=89",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1473,7 +1473,7 @@
   "data": "20 de março de 2026",
   "link": "noticia.php?id=113",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1487,7 +1487,7 @@
   "data": "20 de março de 2026",
   "link": "noticia.php?id=114",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1515,7 +1515,7 @@
   "data": "20 de março de 2026",
   "link": "noticia.php?id=116",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1556,6 +1556,131 @@
   "conteudo": "<article class='noticia-conteudo'><p>Em uma tarde marcada por emoção e reconhecimento, o prefeito Juninho Trevisan, acompanhado do vice-prefeito Cleber Silveira e do secretário municipal de Esportes Julliender Reis, visitou na última quarta-feira (18) o treino das atletas do Projeto Meninas de Ouro para parabenizar a jovem atleta Rafa Bueno, convocada para o laboratório da Seleção Brasileira Sub-17.</p><p>O momento simboliza mais um importante capítulo na trajetória do projeto, considerado uma das mais tradicionais iniciativas de incentivo ao voleibol no Triângulo Mineiro. Com quase 25 anos de atuação, o Meninas de Ouro se consolida como referência na formação de atletas e na promoção da transformação social por meio do esporte.</p><div style='display: flex; justify-content: space-between; gap: 10px; margin: 30px 0;'><a data-fancybox='gallery' href='Assets/noticias/Meninas de Ouro 2.webp' style='width: 50%;'><img src='Assets/noticias/Meninas de Ouro 2.webp' style='width: 100%; height: 250px; object-fit: cover; border-radius: 8px; cursor: zoom-in;' alt='Treino Meninas de Ouro'></a><a data-fancybox='gallery' href='Assets/noticias/Meninas de Ouro 3.webp' style='width: 50%;'><img src='Assets/noticias/Meninas de Ouro 3.webp' style='width: 100%; height: 250px; object-fit: cover; border-radius: 8px; cursor: zoom-in;' alt='Homenagem Rafa Bueno'></a></div><p>Durante a visita, o secretário de Esportes destacou a importância da conquista. Segundo ele, a convocação de Rafa representa o resultado de um trabalho coletivo, desenvolvido com o apoio da Prefeitura. “É uma grande alegria ver uma atleta do nosso projeto tendo a oportunidade de integrar um laboratório da Seleção Brasileira de base”, afirmou.</p><p>A coordenadora do projeto, Betânia Mello, também celebrou o momento, ressaltando o orgulho em ver jovens se destacando em nível nacional. Emocionada, Rafa Bueno agradeceu o apoio: “Com muita dedicação, força e garra, a gente consegue chegar onde quer. Sou muito grata à comissão técnica, às minhas amigas de equipe, à Prefeitura e aos patrocinadores”.</p><p>Rafa também relembrou sua recente participação no Campeonato de Seleções pelo Paraná, onde foi destaque como ponteira passadora, desempenho que contribuiu diretamente para o convite à Seleção Brasileira. A visita reforça o compromisso do Governo Municipal com o esporte de base e evidencia a importância de projetos sociais na construção de oportunidades em Sacramento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
   "data": "20 de março de 2026",
   "link": "noticia.php?id=119",
+  "noCarrossel": true,
+  "destaque": false
+},
+{
+  "id": 120,
+  "categoria": "esporte",
+  "titulo": "Goleada do 13 de Maio marca início do Amadorão 2026",
+  "resumo": "Abertura do campeonato no Campo dos Mariano teve chuva de gols do 13 de Maio e vitória apertada do EC Mariano; competição segue até agosto.",
+  "imagem": "Assets/noticias/13demaio.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Amadorão 2026 começou com o pé direito neste domingo (22), levando emoção dentro de campo e também à beira do alambrado, onde os torcedores não se intimidaram com o sol forte no Estádio Luiz Magnabosco, o tradicional Campo dos Mariano.</p><h3>Resultados da 1ª Rodada</h3><div style='background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #e9ecef;'><p style='margin: 5px 0; font-weight: bold; text-align: center; font-size: 1.2em;'>13 de Maio 5 x 0 Mariano Esporte Clube</p><p style='margin: 5px 0; font-weight: bold; text-align: center; font-size: 1.2em;'>Esporte Clube Mariano 1 x 0 Atlético Sacramentano</p></div><p>Na partida de abertura, o 13 de Maio mostrou força e goleou o Mariano Esporte Clube por 5 a 0, largando na frente com autoridade. Já no segundo confronto, o Esporte Clube Mariano garantiu a vitória por 1 a 0 sobre o Atlético Sacramentano, em um duelo equilibrado e decidido nos detalhes.</p><p>A competição, que teve início hoje, segue até o dia 10 de agosto, com jogos realizados todos os domingos em diferentes campos da cidade, prometendo movimentar o cenário esportivo local ao longo de toda a temporada.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "23 de março de 2026",
+  "link": "noticia.php?id=120",
+  "noCarrossel": true,
+  "destaque": false
+},
+{
+  "id": 121,
+  "categoria": "esporte",
+  "titulo": "Meninas de Ouro brilham na Taça Minas Gerais de Vôlei",
+  "resumo": "Sacramento sedia a 6ª edição do torneio regional e vê o projeto Meninas de Ouro conquistar o título nas categorias Sub-14 e Sub-15.",
+  "imagem": "Assets/noticias/meninas.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O fim de semana foi de muita energia e talento nas quadras de Sacramento, que sediou a 6ª edição da Taça Minas Gerais de Vôlei. Durante três dias, equipes das categorias sub-14 e sub-15, de Sacramento e região, protagonizaram grandes disputas no Ginásio Poliesportivo Mário Eugênio.</p><p>Jogando em casa, o projeto Meninas de Ouro foi o grande destaque da competição, conquistando o título nas duas categorias e reafirmando a força do voleibol local.</p><h3>Classificação Final - Sub-15</h3><ul><li><strong>1º Lugar:</strong> URSAS MDO (Sacramento/Araxá)</li><li><strong>2º Lugar:</strong> Escolinha do Afrânio (Frutal)</li><li><strong>3º Lugar:</strong> IMV (Perdizes)</li><li><strong>4º Lugar:</strong> ICC (Cássia)</li></ul><h3>Classificação Final - Sub-14</h3><ul><li><strong>1º Lugar:</strong> URSAS Sacramento</li><li><strong>2º Lugar:</strong> URSAS Araxá</li><li><strong>3º Lugar:</strong> Conceição das Alagoas</li><li><strong>4º Lugar:</strong> Escola MDO</li></ul><p>O projeto Meninas de Ouro se consolida como um importante espaço de formação, promovendo o desenvolvimento esportivo e humano de jovens atletas, com foco em valores como disciplina, respeito e trabalho em equipe. A Taça Minas Gerais, mais uma vez, cumpriu seu papel de incentivar o esporte e revelar talentos da região.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "24 de março de 2026",
+  "link": "noticia.php?id=121",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 122,
+  "categoria": "esporte",
+  "titulo": "Sacramento se destaca na 20ª Copa Uberaba de Kung Fu",
+  "resumo": "Equipe liderada pelo Shifu Juarez conquista diversas medalhas em Minas Gerais, com destaque para primeiros lugares em categorias de armas e formas.",
+  "imagem": "Assets/noticias/kungfu.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O último domingo (22) foi marcado por emoção, disciplina e excelentes resultados para o esporte sacramentano. A equipe de Kung Fu de Sacramento, liderada pelo Shifu Juarez, participou da 20ª Copa Uberaba de Kung Fu, realizada no Cemea Abadia, e voltou para casa com um desempenho de destaque.</p><p>Ao todo, 12 atletas representaram o município, demonstrando técnica, dedicação e o resultado de um trabalho contínuo de preparação. As conquistas reforçam o crescimento da modalidade na cidade e o talento dos competidores.</p><h3>Quadro de Medalhas dos Atletas Sacramentanos</h3><ul><li><strong>Maria Aparecida Martins:</strong> 1º lugar na categoria Escorpião</li><li><strong>Aldair Miguel Vitoriano Rosa Melo:</strong> 3º lugar em armas médias</li><li><strong>Aldair Vitoriano Rosa:</strong> 1º lugar em lutas combinadas com armas e 3º lugar em Sanda</li><li><strong>Bárbara Rosa Melo:</strong> 1º lugar em armas curtas</li><li><strong>João Lucas:</strong> 1º lugar em forma com leque e 1º lugar em formas especiais</li><li><strong>Fabiano Cassiano Lopes:</strong> 1º lugar em luta combinada com armas</li><li><strong>Dandhara Gama Medeiros:</strong> 2º lugar em forma de mãos</li></ul><p>Com uma trajetória consolidada e tradição em bons resultados, o Kung Fu segue sendo motivo de orgulho para Sacramento. A participação na competição reafirma a força da modalidade no município e mantém viva uma história marcada por disciplina, conquistas e destaque em diversas competições regionais.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "25 de março de 2026",
+  "link": "noticia.php?id=122",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 123,
+  "categoria": "noticia",
+  "titulo": "Minas Gerais supera marca de 14 GW na geração de energia solar",
+  "resumo": "Capacidade solar instalada no estado já ultrapassa a potência da Usina de Itaipu e a matriz elétrica de mais de 170 países, consolidando o protagonismo mineiro na transição energética.",
+  "imagem": "Assets/noticias/energiasolar.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Em Minas Gerais, mais de 96% da matriz elétrica é oriunda de fontes renováveis. Desde 2019, o estado atraiu mais de R$ 83,1 bilhões para o segmento de energia solar, gerando 7,7 mil empregos diretos e alcançando a marca de <strong>14,36 gigawatts (GW)</strong> de potência fiscalizada.</p><p>O resultado é fruto do projeto <em>Sol de Minas</em>, coordenado pela Secretaria de Estado de Desenvolvimento Econômico (Sede-MG). Atualmente, o estado é responsável por 21,3% da capacidade instalada de energia solar em todo o Brasil.</p><h3>Liderança e Comparações</h3><p>Para dimencionar a força da geração mineira, os dados da Aneel revelam que:</p><ul><li><strong>Ranking Nacional:</strong> Minas é líder em Geração Centralizada (8,66 GW) e vice-líder em Geração Distribuída (5,7 GW).</li><li><strong>Capacidade Energética:</strong> Os 14,36 GW gerados no território mineiro superam a potência da <strong>Usina Hidrelétrica de Itaipu (14 GW)</strong>, a maior da América Latina.</li><li><strong>Escala Global:</strong> A geração solar de Minas sozinha ultrapassa a capacidade elétrica total de países como Hungria (14,3 GW), Nigéria (14,3 GW) e Bulgária (13 GW).</li></ul><h3>Investimentos e Sustentabilidade</h3><p>“O estado consegue gerar, somente em energia solar, o mesmo que muitos países geram em toda sua matriz elétrica. Isso reforça que estamos no caminho certo para crescer com sustentabilidade”, destaca a secretária Mila Corrêa da Costa.</p><p>Importantes aportes recentes impulsionaram esses números, como a inauguração da usina da Newave Energia em Arinos (R$ 1,42 bilhão) e a operação da Usina Vale do Aço I em Engenheiro Caldas. Nos últimos sete anos, Minas saltou de 518,55 MW para os atuais 14.358 MW em 2026, consolidando as metas do Plano Estadual de Ação Climática (PLAC-MG).</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Minas / Sede-MG</strong></p></article>",
+  "data": "25 de março de 2026",
+  "link": "noticia.php?id=123",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 124,
+  "categoria": "politica",
+  "titulo": "Mais de 150 municípios avançam para o nível intermediário do programa Minas Livre para Crescer",
+  "resumo": "Adesão ao Redesim + Livre reduz burocracia e garante aos empreendedores mineiros acesso a linhas de crédito com taxas reduzidas e carência de 12 meses.",
+  "imagem": "Assets/noticias/RevistaSerraVerde.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Minas Gerais já conta com 155 municípios no nível intermediário do programa <strong>Minas Livre para Crescer (MLPC)</strong>. Somente este ano, 15 cidades avançaram na iniciativa do Governo de Minas, facilitando o ambiente de negócios e automatizando etapas de abertura de empresas através do sistema <em>Redesim + Livre</em>.</p><p>O sistema, desenvolvido pela Sede-MG em parceria com a Jucemg e o Sebrae Minas, permite que um empreendimento esteja apto a funcionar em poucos minutos, reduzindo drasticamente o tempo de análise de viabilidade.</p><h3>Agilidade Impressionante</h3><p>Desde a implantação da automatização em 2024, alguns municípios mineiros atingiram tempos recordes na análise de viabilidade:</p><ul><li><strong>Araxá:</strong> 1 minuto</li><li><strong>Pirapora e Varginha:</strong> 6 minutos</li><li><strong>Nova Lima:</strong> 45 minutos</li><li><strong>Araguari:</strong> 2,36 horas</li><li><strong>Ipatinga:</strong> 4,85 horas</li></ul><p>Além disso, esses municípios contam com <strong>945 atividades econômicas</strong> classificadas como de baixo risco, que são totalmente dispensadas de alvará, como o comércio varejista de café e a fabricação de vinhos e cervejas.</p><h3>Linha de Crédito BDMG Livre para Crescer</h3><p>O avanço para o nível intermediário garante ao empreendedor local o acesso a condições diferenciadas de financiamento:</p><ul><li><strong>Taxas:</strong> 5,75% ao ano + Selic.</li><li><strong>Prazo:</strong> Até 48 meses para pagamento.</li><li><strong>Carência:</strong> 12 meses.</li><li><strong>Finalidade:</strong> Reformas, capital de giro, compra de equipamentos e pagamento de dívidas.</li></ul><p>Até o momento, a linha já desembolsou R$ 24,5 milhões, beneficiando cerca de 364 pequenos empresários com um ticket médio de R$ 67 mil por contrato.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Minas / Sede-MG</strong></p></article>",
+  "data": "25 de março de 2026",
+  "link": "noticia.php?id=124",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 125,
+  "categoria": "noticia",
+  "titulo": "ENGIE Brasil investe mais de R$ 1 milhão em ações de desenvolvimento social nas comunidades do entorno da Usina de Jaguara",
+  "resumo": "Mais de 10 mil pessoas em Sacramento, Araxá, Monte Carmelo e Rifaina foram beneficiadas por 27 projetos de saúde, esporte e cultura financiados pela companhia em 2025.",
+  "imagem": "Assets/noticias/UHJaguara.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A ENGIE Brasil destinou mais de R$ 1 milhão a projetos de desenvolvimento social nas áreas de saúde, cultura, esporte e assistência social em municípios do entorno da Usina Hidrelétrica Jaguara em 2025. Ao todo, mais de 10 mil pessoas foram beneficiadas por 27 iniciativas realizadas nas cidades de Sacramento (MG), Araxá (MG), Monte Carmelo (MG) e Rifaina (SP).</p><h3>Impacto na Saúde e Assistência Social</h3><p>A ENGIE destinou cerca de R$ 900 mil para projetos de reabilitação e terapias clínicas. Entre os destaques estão:</p><ul><li><strong>Sacramento (MG):</strong> Melhorias estruturais no <strong>Lar São Vicente</strong>, com a aquisição de equipamentos de climatização para garantir mais conforto aos idosos.</li><li><strong>Monte Carmelo (MG):</strong> Projeto <em>Reabilitando e Superando Limites</em>, com atendimentos em fisioterapia, fonoaudiologia, psicologia e neuropediatria.</li></ul><h3>Esporte e Inclusão</h3><p>No campo esportivo, o investimento de R$ 136 mil contemplou 20 iniciativas focadas em crianças e adolescentes. Em Sacramento e Rifaina, destacam-se os apoios à:</p><ul><li>Escola de Voleibol Meninas de Ouro;</li><li>Fábrica de Campeões de Jiu-Jitsu;</li><li>Copão de Inverno de Futsal.</li></ul><p>Esses projetos utilizam o esporte como ferramenta de inclusão social, com atenção especial ao acolhimento de públicos neurodivergentes.</p><h3>Cultura e Sustentabilidade</h3><p>A estratégia também contemplou o incentivo à cultura em Sacramento através do apoio ao <strong>Instituto Madiba</strong> e ao <strong>Festival Rock in Sacra 2025</strong>, fortalecendo a identidade local e a conscientização sobre o Transtorno do Espectro Autista (TEA).</p><p>Para a gerente de Responsabilidade Social da ENGIE, Luciane Pedro, as ações reforçam o compromisso em gerar impacto positivo e duradouro: “Nosso objetivo é contribuir para a construção de oportunidades e para o fortalecimento das comunidades”, afirma.</p><h3>Sobre a ENGIE</h3><p>A ENGIE é líder em energia 100% renovável no Brasil, com cerca de 12 GW de capacidade instalada. O Grupo investe globalmente mais de 10 bilhões de euros anualmente para impulsionar a transição energética e alcançar a meta net-zero em carbono até 2045.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Crédito imagem: UHE Jaguara / Divulgação: ENGIE Brasil</strong><br><strong>Texto: Caroline Pinezi - Consultora de Comunicação</strong></p></article>",
+  "data": "25 de março de 2026",
+  "link": "noticia.php?id=125",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 126,
+  "categoria": "policia",
+  "titulo": "Em Sacramento, Polícia Militar registra ocorrência de foragido da justiça",
+  "resumo": "Operação integrada entre forças de segurança resulta na prisão de indivíduo na região da Represa de Jaguara; suspeito foi conduzido à delegacia.",
+  "imagem": "Assets/noticias/foragidodd.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Durante operação integrada com compartilhamento de informações entre forças de segurança de diferentes estados, a Polícia Militar realizou a prisão de um foragido da Justiça no município de Sacramento, na região da Represa de Jaguara.</p><h3>Detalhes da Operação</h3><p>A ação contou com a atuação conjunta de equipes policiais, após informações apontarem onde o indivíduo seria localizado. Diante da denúncia, equipes da Polícia Militar deslocaram-se ao local, onde foi confirmada a presença do suspeito.</p><p>Os militares organizaram a abordagem de forma estratégica e conseguiram efetuar a prisão do autor com êxito, conduzindo-o para a delegacia para as providências cabíveis.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Polícia Militar de Minas Gerais</strong></p></article>",
+  "data": "25 de março de 2026",
+  "link": "noticia.php?id=126",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 127,
+  "categoria": "politica",
+  "titulo": "Lula sanciona Lei Antifacção e ressalta prisão de magnatas do crime",
+  "resumo": "Nova legislação endurece penas para organizações criminosas, restringe progressão de regime, corta auxílio-reclusão para faccionados e facilita o confisco de bens de luxo.",
+  "imagem": "Assets/noticias/lula2.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O presidente Luiz Inácio Lula da Silva sancionou nesta terça-feira (24) o Projeto de Lei Antifacção, que aumenta penas para participantes de organizações criminosas ou milícias e facilita a apreensão de bens. A norma define facção como qualquer grupo de três ou mais pessoas que utilize violência ou coação para controlar territórios ou autoridades.</p><p>Durante a sanção, Lula enfatizou que o foco da inteligência policial deve ser os líderes que vivem em condomínios de luxo. “A gente tem a chance não de matar os bagrinhos da periferia, mas de pegar os responsáveis que chamamos de magnatas do crime”, afirmou.</p><h3>Principais Mudanças na Legislação</h3><ul><li><strong>Penas e Benefícios:</strong> Lideranças de facções perdem direito a anistia, indulto, fiança ou liberdade condicional. A progressão de pena pode exigir o cumprimento de até 85% em regime fechado.</li><li><strong>Prisões de Segurança Máxima:</strong> Líderes cumprirão pena obrigatoriamente em presídios de segurança máxima.</li><li><strong>Direito ao Voto:</strong> Detentos comprovadamente associados a facções perdem o direito de voto, mesmo sem condenação definitiva.</li><li><strong>Bloqueio de Bens:</strong> Permite a perda de ativos digitais e participações societárias independentemente de condenação penal, através de via civil autônoma.</li><li><strong>Banco de Dados:</strong> Institui o Banco Nacional de Dados de Organizações Criminosas para integrar informações estaduais e federais.</li></ul><h3>Corte de Auxílio-Reclusão</h3><p>Um ponto relevante da nova lei é a proibição do auxílio-reclusão para dependentes de presos que integrem organizações criminosas ou milícias. O presidente avaliou a medida como educativa: “O cidadão que quiser cometer seus crimes saiba que seus filhos e sua esposa irão pagar pela irresponsabilidade dele”.</p><h3>Vetos Presidenciais</h3><p>Lula aplicou dois vetos ao texto original:</p><ol><li>Veto ao enquadramento de pessoas que não integrem comprovadamente facções, visando proteger movimentos sociais de criminalização indevida.</li><li>Veto à destinação de bens apreendidos para fundos estaduais, mantendo o perdimento exclusivamente em favor da União para evitar perda de receita federal.</li></ol><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Palácio do Planalto</strong></p></article>",
+  "data": "25 de março de 2026",
+  "link": "noticia.php?id=127",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+
+{
+  "id": 128,
+  "categoria": "noticia",
+  "titulo": "ENGIE Brasil vence Leilão de Reserva de Capacidade e vai ampliar potência da Usina Hidrelétrica Jaguara",
+  "resumo": "Companhia investirá R$ 1,2 bilhão para adicionar 232 MW de capacidade à usina, instalando duas novas unidades geradoras com operação prevista para 2030.",
+  "imagem": "Assets/noticias/Jaguara Visão Superior.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A ENGIE Brasil Energia arrematou, no Leilão de Reserva de Capacidade/2026, o produto Potência Hidrelétrica 2030, por meio da venda de 195,78 MW de potência da Usina Hidrelétrica Jaguara, localizada no Rio Grande. O projeto prevê um investimento total de cerca de <strong>R$ 1,2 bilhão</strong> para a ampliação da capacidade instalada da usina em 232 MW.</p><p>A ampliação será realizada por meio da instalação de duas novas unidades geradoras em poços já existentes, cada uma com 116 MW de potência. O objetivo é reforçar a segurança e a confiabilidade do fornecimento de energia elétrica no país.</p><h3>Detalhes da Contratação e Operação</h3><ul><li><strong>Início da Operação:</strong> Previsto para agosto de 2030.</li><li><strong>Receita Fixa Anual:</strong> Estimada em R$ 270,4 milhões até julho de 2045.</li><li><strong>Capacidade Atual:</strong> 424 MW de capacidade instalada, com concessão vigente até 2048.</li></ul><p>“Estamos satisfeitos com o resultado, especialmente porque a Usina de Jaguara é um ativo estratégico que passa por modernização e representa excelência operacional”, afirma Eduardo Sattamini, CEO da ENGIE Brasil.</p><h3>Obras de Modernização</h3><p>Além da ampliação, a hidrelétrica passa por um processo de modernização iniciado em julho de 2023, com investimento de <strong>R$ 500 milhões</strong>. O projeto visa estender a vida útil do empreendimento e aumentar a eficiência das quatro unidades geradoras atuais. A conclusão desta etapa está prevista para 2029.</p><p>Para o gerente da usina, Rogério Suematsu, a vitória no leilão valoriza um ativo que faz parte da história da região e das comunidades do entorno. “É motivo de grande satisfação ver Jaguara avançar para uma nova fase, com mais eficiência e benefícios diretos para toda a região”, destaca.</p><h3>Sobre a ENGIE</h3><p>A ENGIE é líder em energia 100% renovável no Brasil, com 12,5 GW de capacidade instalada. O Grupo investe anualmente mais de 10 bilhões de euros para acelerar a transição para uma economia neutra em carbono, com meta net-zero até 2045.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Crédito da imagem: Usina Hidrelétrica Jaguara / Divulgação ENGIE Brasil</strong></p></article>",
+  "data": "25 de março de 2026",
+  "link": "noticia.php?id=128",
   "noCarrossel": true,
   "destaque": true
 }
