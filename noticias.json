@@ -1347,7 +1347,7 @@
   "data": "10 de março de 2026",
   "link": "noticia.php?id=104",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1459,7 +1459,7 @@
   "data": "20 de março de 2026",
   "link": "noticia.php?id=112",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1653,7 +1653,7 @@
   "data": "25 de março de 2026",
   "link": "noticia.php?id=126",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1667,7 +1667,7 @@
   "data": "25 de março de 2026",
   "link": "noticia.php?id=127",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 
@@ -1681,6 +1681,258 @@
   "conteudo": "<article class='noticia-conteudo'><p>A ENGIE Brasil Energia arrematou, no Leilão de Reserva de Capacidade/2026, o produto Potência Hidrelétrica 2030, por meio da venda de 195,78 MW de potência da Usina Hidrelétrica Jaguara, localizada no Rio Grande. O projeto prevê um investimento total de cerca de <strong>R$ 1,2 bilhão</strong> para a ampliação da capacidade instalada da usina em 232 MW.</p><p>A ampliação será realizada por meio da instalação de duas novas unidades geradoras em poços já existentes, cada uma com 116 MW de potência. O objetivo é reforçar a segurança e a confiabilidade do fornecimento de energia elétrica no país.</p><h3>Detalhes da Contratação e Operação</h3><ul><li><strong>Início da Operação:</strong> Previsto para agosto de 2030.</li><li><strong>Receita Fixa Anual:</strong> Estimada em R$ 270,4 milhões até julho de 2045.</li><li><strong>Capacidade Atual:</strong> 424 MW de capacidade instalada, com concessão vigente até 2048.</li></ul><p>“Estamos satisfeitos com o resultado, especialmente porque a Usina de Jaguara é um ativo estratégico que passa por modernização e representa excelência operacional”, afirma Eduardo Sattamini, CEO da ENGIE Brasil.</p><h3>Obras de Modernização</h3><p>Além da ampliação, a hidrelétrica passa por um processo de modernização iniciado em julho de 2023, com investimento de <strong>R$ 500 milhões</strong>. O projeto visa estender a vida útil do empreendimento e aumentar a eficiência das quatro unidades geradoras atuais. A conclusão desta etapa está prevista para 2029.</p><p>Para o gerente da usina, Rogério Suematsu, a vitória no leilão valoriza um ativo que faz parte da história da região e das comunidades do entorno. “É motivo de grande satisfação ver Jaguara avançar para uma nova fase, com mais eficiência e benefícios diretos para toda a região”, destaca.</p><h3>Sobre a ENGIE</h3><p>A ENGIE é líder em energia 100% renovável no Brasil, com 12,5 GW de capacidade instalada. O Grupo investe anualmente mais de 10 bilhões de euros para acelerar a transição para uma economia neutra em carbono, com meta net-zero até 2045.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Crédito da imagem: Usina Hidrelétrica Jaguara / Divulgação ENGIE Brasil</strong></p></article>",
   "data": "25 de março de 2026",
   "link": "noticia.php?id=128",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 129,
+  "categoria": "noticia",
+  "titulo": "MEC divulga lista de espera do Prouni para bolsas do ensino superior",
+  "resumo": "Pré-selecionados têm até o dia 10 de abril para comprovar informações nas instituições de ensino; edição de 2026 é a maior da história do programa.",
+  "imagem": "Assets/noticias/prouni.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Ministério da Educação (MEC) divulgou nesta terça-feira (31) o resultado da lista de espera do Programa Universidade para Todos (Prouni) para o primeiro semestre de 2026. Os inscritos devem acessar o <strong>Portal Único de Acesso ao Ensino Superior</strong> utilizando o login e senha da conta Gov.br.</p><h3>Próxima Etapa: Documentação</h3><p>Os candidatos pré-selecionados nesta fase têm até o dia <strong>10 de abril</strong> para realizar a comprovação das informações declaradas no momento da inscrição. A entrega dos documentos pode ser feita presencialmente na instituição de ensino ou por meio virtual, conforme definido por cada faculdade privada.</p><h3>Regras para as Bolsas</h3><p>O programa oferece dois tipos de modalidades baseadas na renda familiar por pessoa:</p><ul><li><strong>Bolsa Integral (100%):</strong> Renda familiar bruta mensal de até 1,5 salário mínimo por pessoa.</li><li><strong>Bolsa Parcial (50%):</strong> Renda familiar bruta mensal de até 3 salários mínimos por pessoa.</li></ul><h3>Números desta Edição</h3><p>A edição de 2026 é considerada a maior da história do Prouni, que completa 22 anos. Estão sendo ofertadas <strong>595.374 bolsas</strong> em 895 cursos diferentes, abrangendo 1.046 instituições privadas de ensino superior em todo o país.</p><p>Todas as regras e detalhes do processo seletivo podem ser consultados no Edital nº 2/2026 disponível no portal do MEC.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=129",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 130,
+  "categoria": "politica",
+  "titulo": "Lula sanciona lei que amplia licença-paternidade",
+  "resumo": "Extensão do benefício ocorrerá de forma gradual nos próximos anos, saindo dos atuais cinco dias para chegar a 20 dias em 2029.",
+  "imagem": "Assets/noticias/paternidade.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O presidente Luiz Inácio Lula da Silva sancionou nesta terça-feira (31) o projeto de lei que amplia a licença-paternidade no Brasil. De acordo com o texto, a extensão ocorrerá de forma gradual para permitir a adaptação do mercado de trabalho.</p><h3>Cronograma de Ampliação</h3><p>A nova lei estabelece que a licença passará dos atuais cinco dias para os seguintes prazos:</p><ul><li><strong>2027:</strong> 10 dias;</li><li><strong>2028:</strong> 15 dias;</li><li><strong>2029:</strong> 20 dias.</li></ul><p>“São 38 anos de espera pra regulamentar a licença-paternidade e ampliar essa licença. Essa foi uma conquista conjunta da sociedade civil com o Parlamento e com a nossa participação”, destacou a ministra-chefe da Secretaria de Relações Institucionais, Gleisi Hoffmann.</p><p>Durante a sanção, o presidente Lula ressaltou que a medida incentiva a divisão de tarefas no cuidado com os filhos: “Essa lei vai ensinar os homens a dar banho em criança, a acordar de noite para cuidar da criança quando chora. Ele vai ter que aprender a trocar fralda. É uma lei que eu sanciono com muito prazer”, completou.</p><h3>Entenda o Histórico</h3><p>O projeto foi aprovado no Senado no início do mês, após 19 anos de debates no Congresso Nacional. A proposta original foi apresentada pela ex-senadora Patrícia Saboya em 2007. O argumento central para a aprovação é o fortalecimento do vínculo entre pais e filhos e a promoção de uma paternidade mais ativa e presente.</p><p>O relator na Câmara, deputado Pedro Campos, reforçou que o direito ao cuidado é fundamental e que o tema era alvo de debates desde a Assembleia Nacional Constituinte de 1988.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=130",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 131,
+  "categoria": "noticia",
+"titulo": "Sicredi Ibiraiaras RS/MG celebra 5 anos da agência em Santa Juliana (MG)",
+  "resumo": "Aniversário marca meia década de atuação voltada ao desenvolvimento da comunidade, fortalecendo laços de confiança e cooperação no município.",
+  "imagem": "Assets/noticias/Aniversario - Santa Juliana (1).webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><div class='container-fluid'><div class='row' style='margin-bottom: 30px; display: flex; flex-wrap: nowrap; gap: 10px;'><div style='flex: 1;'><a href='Assets/noticias/Aniversario Santa Juliana (1).webp' data-fancybox='gallery'><img src='Assets/noticias/Aniversario Santa Juliana (1).webp' style='width: 100%; height: 120px; object-fit: cover; border-radius: 8px;' alt='Img 1'></a></div><div style='flex: 1;'><a href='Assets/noticias/Aniversario Santa Juliana (2).webp' data-fancybox='gallery'><img src='Assets/noticias/Aniversario Santa Juliana (2).webp' style='width: 100%; height: 120px; object-fit: cover; border-radius: 8px;' alt='Img 2'></a></div><div style='flex: 1;'><a href='Assets/noticias/Aniversario Santa Juliana (3).webp' data-fancybox='gallery'><img src='Assets/noticias/Aniversario Santa Juliana (3).webp' style='width: 100%; height: 120px; object-fit: cover; border-radius: 8px;' alt='Img 3'></a></div></div></div><p>A Sicredi Ibiraiaras RS/MG comemorou os cinco anos da agência em Santa Juliana, Minas Gerais, na terça-feira (24). A unidade foi inaugurada em 24 de março de 2021 e está localizada na Rua Antonio C. Rezende, nº 22, no centro da cidade.</p><p>Na oportunidade, estiveram presentes autoridades locais, representantes do cooperativismo, associados e colaboradores. A gerente da agência, Amanda Emilia Ferreira Freitas Oliari, ressalta que celebrar os 5 anos significa reconhecer uma história construída com propósito, confiança e cooperação.</p><p>Ao longo desse tempo, fortalecemos laços com nossos associados e contribuímos ativamente para o desenvolvimento da nossa comunidade. Cada conquista é resultado da união de pessoas que acreditam em um modelo mais humano, próximo e sustentável.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Assessoria Sicredi Ibiraiaras RS/MG</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=131",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 132,
+  "categoria": "politica",
+  "titulo": "Secretaria de Cultura celebra aniversário de Lima Duarte no Desemboque",
+  "resumo": "Homenagem ao ator, que completa 96 anos, reuniu alunos e a comunidade no distrito histórico para celebrar a trajetória de um dos filhos mais ilustres de Sacramento.",
+  "imagem": "Assets/noticias/desemboque.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A última sexta-feira (27) foi de celebração e memória na comunidade do Desemboque, que se reuniu para homenagear um de seus filhos mais ilustres: o ator Lima Duarte. A ação foi promovida pela Secretaria Municipal de Cultura de Sacramento e reuniu alunos das escolas municipais Dona Maria Sant’Ana (Quenta-Sol) e Cel. Júlio Borges (Jaguarinha) em um momento especial de valorização da história e da identidade local.</p><h3>Infância e Identidade no Desemboque</h3><p>Nascido como Ariclenes Venâncio Martins, Lima Duarte viveu sua infância e adolescência no Desemboque — um pequeno povoado que ele próprio descreve com carinho como uma rua só, onde permaneceu até os 16 anos, antes de seguir para São Paulo e construir uma das carreiras mais marcantes da dramaturgia brasileira.</p><p>Durante a atividade, o secretário de Cultura, Luiz Alberto, compartilhou com os alunos lembranças do ator sobre esse período, destacando o sentimento de liberdade vivido na infância, entre brincadeiras simples e a convivência com a natureza.</p><h3>Personagens e Homenagem</h3><p>A homenagem ganhou vida com a participação da equipe da Secretaria de Cultura, que levou ao público personagens icônicos interpretados por Lima Duarte:</p><ul><li><strong>Sinhozinho Malta:</strong> Interpretado por Davi, revivendo o clássico de 'Roque Santeiro'.</li><li><strong>Viúva Porcina:</strong> Vivida por Meiry, encantando os estudantes presentes no antigo casarão do distrito.</li></ul><p>O momento foi encerrado com todos cantando “parabéns” para o querido Ariclenes — o Lima Duarte — que completa 96 anos no próximo dia 29 de março, em uma celebração marcada por afeto, cultura e reconhecimento à sua história.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=132",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 133,
+  "categoria": "saude",
+  "titulo": "Sacramento reforça saúde com entrega de duas vans para transporte de pacientes",
+  "resumo": "Investimento de mais de R$ 660 mil amplia a frota municipal com veículos modernos para garantir conforto e segurança nos deslocamentos especializados.",
+  "imagem": "Assets/noticias/van.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Na manhã da última terça-feira, 31 de março, a Prefeitura de Sacramento realizou a entrega simbólica de duas vans destinadas à Secretaria Municipal de Saúde. A solenidade aconteceu no almoxarifado municipal e reuniu autoridades, servidores e representantes do Legislativo.</p><h3>Detalhes do Investimento</h3><p>A iniciativa marca mais um avanço no fortalecimento da rede pública de saúde do município, com foco na ampliação do acesso e na melhoria da qualidade do atendimento à população:</p><ul><li><strong>Veículos:</strong> Duas vans modelo Mercedes-Benz Sprinter (capacidade para 14 passageiros cada).</li><li><strong>Valor total:</strong> R$ 662.400,00 (R$ 331.200,00 por veículo).</li><li><strong>Recursos:</strong> Viabilizados por meio de parcerias com a deputada estadual Maria Clara Marra e o deputado federal Zé Vitor.</li></ul><p>Durante a cerimônia, autoridades destacaram que a aquisição representa não apenas a ampliação da frota, mas também mais conforto, segurança e dignidade para os usuários do sistema público de saúde, além de melhores condições de trabalho para as equipes de transporte.</p><p>A entrega simbólica das chaves marcou o momento central do evento, evidenciando o compromisso da Administração Municipal com investimentos responsáveis e com o cuidado direto à população. A ação também contou com o reconhecimento ao trabalho conjunto entre Executivo, Legislativo e equipes técnicas.</p><p>Com a nova aquisição, Sacramento dá mais um passo para garantir um atendimento em saúde mais eficiente, acessível e humanizado, reafirmando que investir na saúde é, acima de tudo, investir na vida.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=133",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 134,
+  "categoria": "noticia",
+  "titulo": "Sicredi aumenta em 15,7% volume liberado para o agro nos primeiros oito meses da Safra 25/26",
+  "resumo": "Instituição financeira cooperativa concedeu R$ 48,3 bilhões até fevereiro deste ano, consolidando liderança em linhas de crédito rural e parcerias com o BNDES.",
+  "imagem": "Assets/noticias/2025_Sicredi_Vitor Moraes_Credito Daiane Peixoto.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Sicredi liberou <strong>R$ 48,3 bilhões</strong> em crédito para o público agro nos oito primeiros meses da Safra 25/26, um crescimento de 15,7% em comparação ao mesmo período da safra anterior. A carteira de crédito rural fechou janeiro com saldo de R$ 121,4 bilhões, elevação de 14% em um ano.</p><h3>Destinação e Público</h3><p>A distribuição do volume total liberado seguiu as seguintes finalidades:</p><ul><li><strong>Custeio:</strong> 37,5% do volume total.</li><li><strong>Investimentos:</strong> 29,2% do volume total.</li><li><strong>Cédula de Produto Rural (CPR):</strong> 19,5% das operações.</li></ul><p>Quase 70% do total de 226,5 mil operações de crédito foi destinado a pequenos e médios produtores. “Mesmo considerando o cenário desafiador para o agro, seguimos firmes em nosso compromisso de fomentar a atividade rural”, destaca Vitor Moraes, superintendente de Agronegócio do Sicredi.</p><h3>Pré-custeio e Parceria com BNDES</h3><p>Para produtores que desejam antecipar a compra de insumos, o Sicredi disponibilizou <strong>R$ 9 bilhões</strong> em crédito para pré-custeio. Além disso, em 2025, a instituição liderou entre as financeiras conveniadas ao BNDES no volume de desembolsos para o segmento agro, liberando mais de R$ 8,6 bilhões.</p><p>Na finalidade de investimentos, o Sicredi consolidou-se como principal agente financeiro para o <strong>Pronaf</strong> e <strong>Pronamp</strong>. Outros destaques incluem:</p><ul><li><strong>Inovagro:</strong> Liderança nacional com aumento de 27% nas liberações (enquanto o mercado recuou 21%).</li><li><strong>Proirriga:</strong> Alta de 24% no valor liberado pela instituição.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Redação e-Notícias Sacramento via Sicredi</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=134",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 135,
+  "categoria": "politica",
+  "titulo": "Servidores municipais de Sacramento têm nova CIPA empossada para o biênio 2026/2027",
+  "resumo": "Nova composição da CIPA + Assédio assume compromisso com a segurança, prevenção de acidentes e combate ao assédio no ambiente de trabalho municipal.",
+  "imagem": "Assets/noticias/servidoresss.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A posse dos novos membros da Comissão Interna de Prevenção de Acidentes e Assédio (CIPA + Assédio) dos servidores municipais de Sacramento foi realizada na tarde do dia 18 de março, na sala de reuniões Clanter Scalon. A comissão foi instituída por meio do Decreto nº 090, de 25 de fevereiro de 2026.</p><p>Mais do que um ato formal, a posse representa o fortalecimento de uma iniciativa essencial para o cotidiano do funcionalismo público: a promoção da saúde, da segurança e do respeito no ambiente de trabalho. A CIPA é uma comissão obrigatória, regulamentada pela Norma Regulamentadora nº 5 (NR-5).</p><h3>Objetivos e Atribuições</h3><p>O principal foco da comissão é desenvolver ações voltadas à prevenção de acidentes e doenças ocupacionais, além de atuar no combate ao assédio. Entre as principais atribuições estão:</p><ul><li>Realização de inspeções de segurança e identificação de riscos;</li><li>Proposição de melhorias nos locais de trabalho;</li><li>Promoção de campanhas educativas, como a SIPAT (Semana Interna de Prevenção de Acidentes de Trabalho);</li><li>Mediação entre o funcionalismo e a gestão por meio de reuniões mensais.</li></ul><h3>Nova Composição</h3><p>A nova estrutura da CIPA + Assédio reúne representantes de diversos setores da administração municipal, tendo como principais lideranças:</p><ul><li><strong>Presidente:</strong> Neide Queiroz Alves;</li><li><strong>Vice-presidente:</strong> Celso Ernani dos Reis.</li></ul><p>A atuação da CIPA reforça a importância de construir, de forma coletiva, um ambiente de trabalho mais seguro, saudável e humano para todos os servidores municipais.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=135",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 136,
+  "categoria": "noticia",
+  "titulo": "Procon de Sacramento realiza vistoria técnica em postos de combustíveis",
+  "resumo": "Ação fiscalizatória em parceria com o Procon Regional visa apurar reajustes abusivos e garantir transparência nos preços para a população.",
+  "imagem": "Assets/noticias/procon.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Em defesa dos direitos do consumidor, o Procon de Sacramento realizou, nesta sexta-feira (27), uma vistoria técnica em postos de combustíveis do município. A ação teve como objetivo principal apurar possíveis reajustes abusivos nos preços, garantindo mais transparência e respeito à população.</p><h3>Parceria e Fiscalização</h3><p>De acordo com a coordenadora do Procon-Sacramento, a advogada <strong>Marcela Prado De Santi</strong>, a vistoria foi realizada em parceria com o Procon Regional. Essa união reforça o compromisso do órgão em coibir práticas irregulares e assegurar que os consumidores não sejam prejudicados por oscilações injustificadas no mercado local.</p><p>O Procon atua como um importante aliado da população, orientando, fiscalizando e promovendo o equilíbrio nas relações de consumo. A iniciativa reafirma o papel do órgão na proteção dos cidadãos e no acompanhamento rigoroso de situações que possam impactar diretamente o bolso dos consumidores sacramentanos.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=136",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 137,
+  "categoria": "policia",
+  "titulo": "Em Sacramento, Polícia Militar registra furto em usina fotovoltaica",
+  "resumo": "Criminosos invadiram unidade na Rua Argila e subtraíram grande quantidade de cabos solares após cortarem o sistema de segurança.",
+  "imagem": "Assets/noticias/cabos.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Em Sacramento/MG, nesta terça-feira (31), foi registrado um furto consumado na Usina Fotovoltaica UFV, localizada na Rua Argila, nº 1360, tendo como solicitante um indivíduo de 24 anos.</p><p>Conforme relatado, em data de 24 de março de 2026, por volta das 19h00, indivíduos não identificados acessaram o local pela parte superior, nas proximidades de um cafezal, mediante rompimento de cerca e corte de cabo do sistema de segurança.</p><h3>Itens Subtraídos</h3><p>Durante a ação criminosa, foram subtraídos aproximadamente:</p><ul><li><strong>8.000 metros</strong> de cabo solar na cor vermelha (4mm², 1,8VCC);</li><li><strong>8 metros</strong> de cabo solar na cor preta (4mm², 1,8VCC).</li></ul><p>O local possui sistema de videomonitoramento, porém as imagens encontram-se escuras, não sendo possível a identificação dos autores até o momento. Não foram constatados, inicialmente, danos aparentes aos inversores e módulos fotovoltaicos, estando a verificação completa condicionada ao restabelecimento do sistema.</p><p>O registro foi devidamente encaminhado à Polícia Judiciária para as providências cabíveis e início das investigações.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Polícia Militar / Redação e-Notícia Sacramento</strong></p></article>",
+  "data": "31 de março de 2026",
+  "link": "noticia.php?id=137",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 138,
+  "categoria": "policia",
+  "titulo": "Em Sacramento, deficiente em situação de vulnerabilidade é resgatado após ser encontrado sozinho e sem cuidados em residência",
+  "resumo": "Polícia Militar e Corpo de Bombeiros resgatam homem com deficiência intelectual trancado em imóvel; responsável foi conduzida para prestar esclarecimentos.",
+  "imagem": "Assets/noticias/abandono.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Polícia Militar atendeu, em Sacramento, a uma ocorrência de possível abandono de incapaz após denúncia anônima recebida via telefone de emergência 190. A informação indicava que uma pessoa estaria sozinha e em situação de risco dentro de uma residência.</p><p>No local, os militares constataram que um indivíduo do sexo masculino, com sinais de deficiência intelectual, encontrava-se sozinho e trancado no imóvel. Em conversa com a equipe, ele relatou que estava sem companhia desde o dia anterior, além de não ter se alimentado e estar sem acesso à medicação de uso contínuo pelo mesmo período.</p><h3>O Resgate e Atendimento</h3><p>Diante da gravidade da situação, foi acionado o Corpo de Bombeiros, que realizou o arrombamento do portão para permitir o acesso da equipe ao interior da residência e o socorro da vítima. O homem foi encaminhado à unidade de saúde, onde recebeu atendimento médico.</p><p>De acordo com informações apuradas, o homem reside com uma familiar do sexo feminino, responsável por seus cuidados diários. No momento da ocorrência, não foi possível localizar a responsável nem outros familiares inicialmente.</p><h3>Esclarecimentos da Responsável</h3><p>Durante as diligências, os militares conseguiram contato com a responsável, que foi conduzida para prestar esclarecimentos. Ela informou que:</p><ul><li>Havia saído da residência no dia anterior, deixando refeições prontas;</li><li>Admitiu ter se esquecido de disponibilizar a medicação necessária;</li><li>O homem possui diagnóstico de deficiência intelectual e necessita de acompanhamento constante.</li></ul><p>No interior da residência, os policiais observaram câmeras de monitoramento e dispositivos de travamento na geladeira. A responsável explicou que as medidas visam monitorar o homem e restringir o acesso a alimentos devido a comportamentos compulsivos.</p><p>O caso foi registrado e encaminhado às autoridades competentes para as providências legais cabíveis quanto à curatela e responsabilidade pelo bem-estar da vítima.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Polícia Militar / Redação e-Notícia Sacramento</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=138",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 139,
+  "categoria": "noticia",
+  "titulo": "Governo de Minas lança estudo com oportunidades de eficiência energética na indústria mineira",
+  "resumo": "Documento apresenta análises e soluções para o setor industrial, que responde por 54% do consumo elétrico no estado, focando em produtividade e redução de custos.",
+  "imagem": "Assets/noticias/eficiencia.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>As indústrias respondem por cerca de 54% do consumo elétrico em Minas Gerais, segundo dados da Empresa de Pesquisa Energética (EPE). Dado esse impacto, trata-se de um setor fundamental para as estratégias de otimização de uso energético no estado.</p><p>Além disso, o setor industrial foi responsável pela geração de R$ 278,1 bilhões em riquezas no ano passado, conforme relatório do PIB de 2025 da Fundação João Pinheiro (FJP). Diante deste cenário, a Secretaria de Estado de Desenvolvimento Econômico (Sede-MG) publicou, nesta quinta-feira (26/3), o <strong>“Estudo de Oportunidade de Eficiência Energética na Indústria”</strong>.</p><h3>Foco em Produtividade e Redução de Custos</h3><p>Destinado a gestores, técnicos e engenheiros, o documento apresenta análises e cases de sucesso voltados para a otimização da energia. “Isso significa uma diminuição de custos, o que faz com que o setor possa investir cada vez mais, gerando empregos e renda”, afirma Raphael Evaristo, superintendente da Sede-MG.</p><h3>Oportunidades para a Indústria Mineira</h3><p>Os setores de minerais metálicos, cimento, cal, siderurgia e indústria química são os que mais podem se beneficiar. As principais oportunidades listadas são:</p><ul><li>Gestão de energia e processos para identificar desperdícios;</li><li>Adoção de novas tecnologias e maquinários modernos;</li><li>Digitalização e automação de processos;</li><li>Eletrificação industrial e retrofit com foco em eficiência.</li></ul><p>No caso da gestão de processos, o setor produtivo poderá mapear intervenções necessárias e promover uma cultura de aprimoramento contínuo, garantindo o progresso para uma economia de baixo carbono.</p><p>O estudo também está alinhado com o <strong>Plano Estadual de Ação Climática (PLAC-MG)</strong>, visando que a produção industrial mineira seja realizada com o menor consumo energético possível, aumentando a competitividade do estado no cenário nacional e global.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Minas</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=139",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 140,
+  "categoria": "politica",
+  "titulo": "Governo de Minas destina R$ 50 milhões para iniciativas inovadoras sobre mudanças climáticas no estado",
+  "resumo": "Novo edital da Fapemig, parte do Plano Estadual de Ação Climática (PLAC-MG), visa apoiar pesquisas e tecnologias voltadas para o enfrentamento dos desafios ambientais.",
+  "imagem": "Assets/noticias/clima2.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Governo de Minas lança o edital <strong>Minas pelo Clima</strong>, que disponibiliza R$ 50 milhões em recursos para projetos de pesquisa, desenvolvimento de soluções tecnológicas e inovação que contribuam para o enfrentamento dos desafios relacionados às mudanças climáticas no estado.</p><p>A Chamada 05/2026: “Minas pelo Clima: Ciência e Inovação em Apoio ao Plano Estadual de Ação Climática” é uma parceria entre as Secretarias de Desenvolvimento Econômico (Sede-MG), de Meio Ambiente (Semad) e a Fapemig. O objetivo é alcançar as metas definidas no Plano Estadual de Ação Climática (PLAC-MG).</p><h3>Quem pode participar?</h3><p>Podem submeter propostas pesquisadores vinculados a Instituições de Ciência e Tecnologia (ICTs), empresas e cooperativas sediadas em Minas Gerais. A submissão deve ser feita até o dia <strong>11 de maio de 2026</strong>, por meio do Sistema Everest da Fapemig.</p><h3>Setores Estratégicos e Financiamento</h3><p>Os projetos deverão apresentar soluções inovadoras em áreas como:</p><ul><li>Agropecuária e biodiversidade;</li><li>Desenvolvimento sustentável e ação climática;</li><li>Gestão de risco e vulnerabilidade climática;</li><li>Indústria, resíduos e segurança hídrica.</li></ul><p>Cada proposta selecionada pode receber financiamento de até <strong>R$ 3 milhões</strong>, dependendo do perfil do projeto e do potencial de impacto dos resultados gerados para a sociedade mineira.</p><h3>PLAC-MG e Compromissos Globais</h3><p>Coordenado pela Semad-MG, o PLAC-MG estabelece diretrizes para tornar Minas Gerais um território mais preparado para lidar com as consequências climáticas, auxiliando na redução das emissões de gases de efeito estufa. O foco é a recuperação verde alinhada a compromissos globais como a campanha <em>Race to Zero</em>.</p><p>Minas Gerais já possui mais de 96% de sua matriz elétrica vinda de fontes renováveis e alcançou mais de 14 GW de potência fiscalizada em energia solar, consolidando-se na vanguarda da transição energética no Brasil.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Minas</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=140",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 141,
+  "categoria": "evento",
+  "titulo": "Fliaraxá chega à 14ª edição com o tema “Meu Lugar no Mundo”",
+  "resumo": "Festival Literário Internacional de Araxá homenageia Milton Santos e José Eduardo Agualusa em evento que redefine territórios de pensamento e educação.",
+  "imagem": "Assets/noticias/Fliaraxa.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><div class='container-fluid'><div class='row' style='margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 10px;'><div style='flex: 1 1 22%;'><a href='Assets/noticias/Fliaraxa1.webp' data-fancybox='gallery'><img src='Assets/noticias/Fliaraxa1.webp' style='width: 100%; height: 100px; object-fit: cover; border-radius: 8px;' alt='Fliaraxá 1'></a></div><div style='flex: 1 1 22%;'><a href='Assets/noticias/Fliaraxa2.webp' data-fancybox='gallery'><img src='Assets/noticias/Fliaraxa2.webp' style='width: 100%; height: 100px; object-fit: cover; border-radius: 8px;' alt='Fliaraxá 2'></a></div><div style='flex: 1 1 22%;'><a href='Assets/noticias/Fliaraxa3.webp' data-fancybox='gallery'><img src='Assets/noticias/Fliaraxa3.webp' style='width: 100%; height: 100px; object-fit: cover; border-radius: 8px;' alt='Fliaraxá 3'></a></div><div style='flex: 1 1 22%;'><a href='Assets/noticias/Fliaraxa4.webp' data-fancybox='gallery'><img src='Assets/noticias/Fliaraxa4.webp' style='width: 100%; height: 100px; object-fit: cover; border-radius: 8px;' alt='Fliaraxá 4'></a></div><div style='flex: 1 1 22%;'><a href='Assets/noticias/Fliaraxa5.webp' data-fancybox='gallery'><img src='Assets/noticias/Fliaraxa5.webp' style='width: 100%; height: 100px; object-fit: cover; border-radius: 8px;' alt='Fliaraxá 5'></a></div><div style='flex: 1 1 22%;'><a href='Assets/noticias/Fliaraxa6.webp' data-fancybox='gallery'><img src='Assets/noticias/Fliaraxa6.webp' style='width: 100%; height: 100px; object-fit: cover; border-radius: 8px;' alt='Fliaraxá 6'></a></div><div style='flex: 1 1 22%;'><a href='Assets/noticias/Fliaraxa7.webp' data-fancybox='gallery'><img src='Assets/noticias/Fliaraxa7.webp' style='width: 100%; height: 100px; object-fit: cover; border-radius: 8px;' alt='Fliaraxá 7'></a></div><div style='flex: 1 1 22%;'><a href='Assets/noticias/Fliaraxa8.webp' data-fancybox='gallery'><img src='Assets/noticias/Fliaraxa8.webp' style='width: 100%; height: 100px; object-fit: cover; border-radius: 8px;' alt='Fliaraxá 8'></a></div></div></div><p>O Fliaraxá – Festival Literário Internacional de Araxá - realiza sua 14ª edição de 14 a 17 de maio de 2026, no Teatro CBMM do Centro Cultural Uniaraxá, centrada no tema <strong>“Meu Lugar no Mundo”</strong>. O evento inaugura uma nova fase com estrutura dividida em territórios de pensamento e trilhas de sentido.</p><h3>Territórios e Inovação</h3><p>O festival distribui sua programação em cinco territórios: <strong>Sentidos, Educação, Pertencimento, Formação e Criatividade</strong>. O objetivo é integrar literatura, formação de leitores e desenvolvimento cultural local. O Território da Educação mobiliza escolas com o tradicional Prêmio de Redação e Desenho, que em 2026 inclui alunos da EJA (Educação de Jovens e Adultos).</p><h3>Patrono e Homenageados</h3><p>A edição celebra os 100 anos de nascimento de <strong>Milton Santos</strong>, patrono do festival. Entre os homenageados estão o escritor angolano <strong>José Eduardo Agualusa</strong>, a professora Maria de Lourdes Vasconcellos e o Mestre de Congado Jerônimo Pereira de Lima.</p><p>O festival contará com nomes como Djonga, Geni Núñez, Leila Ferreira e convidados internacionais, promovendo um ecossistema vivo de ideias inspirado em encontros como o SXSW.</p><h3>Destaques da Programação</h3><ul><li><strong>Exposição Fotográfica:</strong> Imagens analógicas produzidas por alunos da periferia de Araxá.</li><li><strong>Lançamento Nacional:</strong> José Eduardo Agualusa lança seu novo romance, <em>Tudo Sobre Deus</em>.</li><li><strong>Prêmio EJA:</strong> Pela primeira vez, modalidade específica para alunos de 18 a 80 anos.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Assessoria Fliaraxá / Sempre um Papo</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=141",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 142,
+  "categoria": "saude",
+  "titulo": "Casos de influenza A continuam a crescer no Brasil, diz Fiocruz",
+  "resumo": "Boletim InfoGripe aponta alerta para Síndrome Respiratória Aguda Grave (SRAG) em estados de quatro regiões; pesquisadores reforçam a importância da vacinação.",
+  "imagem": "Assets/noticias/gripe.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O número de casos de influenza A permanece em crescimento no Brasil. De acordo com a nova edição do <strong>Boletim InfoGripe</strong>, da Fundação Oswaldo Cruz (Fiocruz), a maior parte dos estados das regiões Norte, Centro-Oeste, Nordeste e Sudeste está em alerta por causa da Síndrome Respiratória Aguda Grave (SRAG).</p><h3>Dados Epidemiológicos</h3><p>Conforme os registros divulgados nesta quarta-feira (1º), referentes ao período de 22 a 28 de março, os casos positivos de SRAG foram causados por:</p><ul><li><strong>Rinovírus:</strong> 45,3%</li><li><strong>Influenza A:</strong> 27,4%</li><li><strong>Vírus Sincicial Respiratório (VSR):</strong> 17,7%</li><li><strong>Sars-CoV-2 (Covid-19):</strong> 7,3%</li><li><strong>Influenza B:</strong> 1,5%</li></ul><p>Em relação aos óbitos no mesmo período, a influenza A foi responsável por 36,9% dos registros positivos, seguida pelo rinovírus (30%) e Covid-19 (25,6%).</p><h3>Campanha de Vacinação</h3><p>Diante desse quadro, a imunização contra a influenza torna-se essencial. A <strong>Campanha Nacional de Vacinação</strong>, iniciada no último dia 28 nestas regiões, segue até 30 de maio. A população pode procurar as Unidades Básicas de Saúde (UBS) para receber a dose gratuita.</p><p>“É fundamental que pessoas dos grupos prioritários como idosos, crianças, pessoas com comorbidades e profissionais da saúde e da educação estejam em dia com a vacina”, afirmou a pesquisadora da Fiocruz Tatiana Portella. Ela também destacou a importância da vacinação contra o VSR para gestantes a partir da 28ª semana.</p><h3>Orientações de Prevenção</h3><p>A pesquisadora recomendou o uso de máscaras em locais fechados e aglomerações, especialmente para grupos de risco. Além disso, reforçou a importância de manter a higiene das mãos e o isolamento em caso de sintomas. “Se o isolamento não for possível, a orientação é sair de casa usando uma máscara de boa qualidade, como PFF2 ou N95”, sugeriu.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Fiocruz</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=142",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 143,
+  "categoria": "noticia",
+  "titulo": "Pé-de-Meia reduz abandono escolar no ensino médio em 43% em dois anos",
+  "resumo": "Incentivo financeiro do Governo Federal já beneficiou 5,6 milhões de estudantes, derrubando a evasão escolar e as taxas de reprovação no país.",
+  "imagem": "Assets/noticias/pe de meia.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Desde a sua criação há dois anos, o Programa Pé-de-Meia reduziu o abandono escolar no ensino médio em 43%. Em 2024, a taxa de evasão era de 6,4% e caiu para 3,6%, no ano passado.</p><p>O anúncio foi feito pelo ministro da Educação (MEC), Camilo Santana, acompanhado do presidente Luiz Inácio Lula da Silva, na manhã desta quarta-feira (1º), em Fortaleza. O presidente afirmou que o investimento em educação é a base para a soberania e cidadania do povo.</p><h3>Impacto na Efetividade Escolar</h3><p>Além da redução do abandono, o MEC registrou melhoras significativas em outros indicadores entre 2024 e 2025:</p><ul><li><strong>Taxa de Reprovação:</strong> Redução de 33% no período.</li><li><strong>Atraso Escolar (Distorção idade-série):</strong> Queda de 27,4% no geral.</li><li><strong>3º Ano do Ensino Médio:</strong> A distorção idade-série caiu 63% especificamente nesta etapa.</li></ul><p>O ministro ressaltou que muitos alunos abandonavam a escola para ajudar no orçamento familiar, e o programa veio para suprir essa necessidade, permitindo a permanência nos estudos.</p><h3>Números e Investimentos</h3><p>Desde sua criação, o Pé-de-Meia já beneficiou <strong>5,6 milhões de estudantes</strong>, o que corresponde a 54% do total de alunos do ensino médio público do Brasil. O investimento federal na chamada Poupança do Ensino Médio totalizou R$ 18,6 bilhões ao longo dos últimos dois anos.</p><h3>Como funciona a Poupança</h3><p>A participação no programa ocorre de forma automática para estudantes matriculados na rede pública e com inscrições ativas no Cadastro Único (CadÚnico). Os valores totais, somando parcelas, depósitos anuais e o bônus do Enem, podem chegar a <strong>R$ 9,2 mil por aluno</strong> ao final do ciclo.</p><p>O estudante pode consultar o status dos pagamentos e regras do programa na página eletrônica oficial do Pé-de-Meia, utilizando o login Gov.br, ou pelo canal de atendimento 0800-616161.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=143",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 144,
+  "categoria": "saude",
+  "titulo": "Diretriz contraindica tratamento farmacológico isolado para obesidade",
+  "resumo": "Abeso reforça que o uso de medicamentos deve ser obrigatoriamente associado a mudanças no estilo de vida e alerta contra fórmulas sem evidência científica.",
+  "imagem": "Assets/noticias/saxenda.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Uma nova diretriz da <strong>Associação Brasileira para o Estudo da Obesidade e Síndrome Metabólica (Abeso)</strong> recomenda que o tratamento farmacológico não seja usado isoladamente, mas sempre associado a mudanças de estilo de vida, com aconselhamento nutricional e estímulo à atividade física.</p><p>A orientação faz parte de um documento que reúne 32 recomendações para o cuidado com a obesidade, elaborado por um grupo multidisciplinar formado por endocrinologistas, clínicos gerais e nutricionistas.</p><h3>Critérios para Indicação de Medicamentos</h3><p>O documento define como principais critérios para a indicação de remédios:</p><ul><li><strong>IMC maior ou igual a 30 kg/m²;</strong></li><li><strong>IMC maior ou igual a 27 kg/m²</strong> em pessoas com complicações relacionadas à adiposidade;</li><li>Casos específicos de aumento da circunferência da cintura ou da relação cintura-altura associado a complicações, independentemente do IMC.</li></ul><p>“Esta diretriz transforma o avanço científico em orientação prática, oferecendo mais subsídio para a conduta clínica e mais segurança para o cuidado dos pacientes”, ressaltou o presidente da Abeso, Fábio Trujilho.</p><h3>Alertas e Contraindicações</h3><p>As novas diretrizes reforçam alertas sobre quando um medicamento <strong>não é indicado</strong> e chama a atenção para o perigo do uso de substâncias sem evidências robustas de eficácia, tais como:</p><ul><li>Fórmulas magistrais e produtos manipulados contendo diuréticos;</li><li>Hormônios tireoidianos e esteroides anabolizantes;</li><li>Implantes hormonais ou gonadotrofina coriônica humana (hCG).</li></ul><p>O coordenador da diretriz, Fernando Gerchman, destaca que o documento aproxima a ciência da realidade do consultório, abordando cenários como risco cardiovascular, pré-diabetes, apneia do sono e gordura no fígado.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Abeso</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=144",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 145,
+  "categoria": "saude",
+  "titulo": "Morre paciente que recebeu transplante de órgão com HIV em 2024",
+  "resumo": "Vítima de 64 anos estava em acompanhamento desde a confirmação da infecção ocorrida no Rio de Janeiro; causa da morte está sob investigação.",
+  "imagem": "Assets/noticias/aids.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Um dos seis pacientes que recebeu transplante de um órgão infectado pelo vírus HIV, em outubro de 2024, morreu no último dia 18, segundo informações confirmadas nesta quarta-feira (1º) pela Secretaria de Estado de Saúde do Rio de Janeiro (SES-RJ).</p><p>A vítima era uma mulher de 64 anos e estava em acompanhamento médico desde a confirmação da infecção. A causa da morte ainda está em investigação pela equipe multidisciplinar que a monitorava diariamente.</p><h3>Assistência e Histórico do Caso</h3><p>A SES-RJ informou que a paciente recebeu assistência integral desde o diagnóstico e estava internada em uma unidade especializada. Em julho do ano passado, ela foi indenizada pelo Governo do Estado. O episódio ocorreu em outubro de 2024, quando seis pacientes foram infectados após receberem órgãos de doadores contaminados, caso classificado como “sem precedentes e inadmissível”.</p><h3>Laudo Fraudulento e Investigações</h3><p>O caso desencadeou uma série de investigações conduzidas pelo Ministério Público, Polícia Civil e o Conselho Regional de Medicina (Cremerj). Os pontos centrais da investigação apontam:</p><ul><li><strong>Falha Laboratorial:</strong> O laboratório PCS Saleme, contratado pelo governo estadual, emitiu laudos fraudulentos que não acusaram a presença do HIV em dois doadores.</li><li><strong>Interdição:</strong> Após o escândalo vir a público, o laboratório foi interditado pela Vigilância Sanitária e o contrato com o estado foi rescindido.</li><li><strong>Gestão:</strong> O episódio provocou a renúncia da direção da Fundação Saúde, órgão responsável pela intermediação do contrato.</li></ul><p>A Secretaria de Saúde lamentou o falecimento e reiterou que continuará oferecendo suporte psicológico aos familiares da vítima.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=145",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 146,
+  "categoria": "noticia",
+  "titulo": "Entenda as principais mudanças do Imposto de Renda 2026",
+  "resumo": "Novos limites de rendimentos, tributação sobre apostas (bets) e restituição automática de até R$ 1.000 são os destaques da declaração deste ano.",
+  "imagem": "Assets/noticias/receitafede.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A declaração do Imposto de Renda 2026 apresenta mudanças significativas. O contribuinte deve ficar atento a estas alterações no momento de declarar valores, bens e ganhos acumulados no ano anterior.</p><h3>Novos Limites de Rendimentos</h3><p>Uma das principais mudanças está na atualização dos limites de obrigatoriedade:</p><ul><li><strong>Rendimentos Tributáveis:</strong> O limite passou para <strong>R$ 35.584</strong> (em 2025 era de R$ 33.888).</li><li><strong>Atividade Rural:</strong> O valor da receita bruta para obrigatoriedade subiu de R$ 169.440 para <strong>R$ 177.920</strong>.</li></ul><h3>Restituição e o \"Cashback\" da Receita</h3><p>Neste ano, a restituição será feita em apenas quatro lotes. A grande novidade é a restituição automática para quem não é obrigado a declarar, mas tem direito a receber até <strong>R$ 1.000</strong>.</p><p>\"A Receita Federal fará a restituição de forma automática para contribuintes com CPF regular, baixo risco fiscal e que possuam chave Pix atrelada ao CPF. O crédito está previsto para 15 de julho de 2026\", explica o professor Deypson Carvalho.</p><h3>Ganhos com Apostas (Bets)</h3><p>Passa a ser obrigatório o recolhimento de imposto sobre ganhos com apostas esportivas e jogos online. A alíquota é de <strong>15%</strong> sobre prêmios líquidos que excederem <strong>R$ 28.467,20</strong>. O contribuinte deve informar o rendimento no ajuste anual e o saldo em 31 de dezembro na ficha de bens e direitos (código 0602).</p><h3>Outras Atualizações</h3><p>A declaração pré-preenchida contará com maior exatidão em dados de renda variável e gastos com saúde. Além disso, agora é possível declarar:</p><ul><li>Raça e cor de dependentes;</li><li>Nome social do declarante.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Receita Federal</strong></p></article>",
+  "data": "02 de abril de 2026",
+  "link": "noticia.php?id=146",
   "noCarrossel": true,
   "destaque": true
 }

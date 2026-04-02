@@ -232,3 +232,40 @@ document.addEventListener('DOMContentLoaded', () => {
     atualizarData();
 });
     
+
+
+
+
+
+// Função para criar o banner rolante automaticamente
+async function criarBannerRolante() {
+    try {
+        const response = await fetch('patrocinadores.html');
+        const html = await response.text();
+        const container = document.getElementById('banner-rolante-patrocinadores');
+        
+        if (container) {
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+            
+            // Pega todos os links de patrocinadores
+            const links = tempDiv.querySelectorAll('a.banner-link');
+            let conteudoLogos = '';
+            links.forEach(l => conteudoLogos += l.outerHTML);
+
+            // Monta a estrutura com duplicidade para o loop ser infinito
+            container.innerHTML = `
+                <div class="marquee-wrapper">
+                    <div class="marquee-track">
+                        ${conteudoLogos} ${conteudoLogos}
+                    </div>
+                </div>
+            `;
+        }
+    } catch (e) { console.error("Erro ao criar banner rolante:", e); }
+}
+
+// Executa a função assim que o portal inicializar
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(criarBannerRolante, 1000); // Aguarda 1 segundo para garantir o carregamento
+});
