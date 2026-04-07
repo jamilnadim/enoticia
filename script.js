@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Função para criar o banner rolante automaticamente
 async function criarBannerRolante() {
     try {
-        const response = await fetch('patrocinadores.html');
+        const response = await fetch('banner.html');
         const html = await response.text();
         const container = document.getElementById('banner-rolante-patrocinadores');
         
