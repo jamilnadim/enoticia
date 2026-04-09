@@ -452,7 +452,7 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 /* Sidebar */
 .sidebar-patrocinio {
   background: #fff;
-  padding: 15px;
+  padding: 150px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   display: flex;
@@ -465,12 +465,12 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 }
 
 
+/* Ajuste específico para o título dentro da barra lateral */
 .sidebar-patrocinio h3 {
-  font-size: 1.1rem;
-  color: #c4170c;
-  border-bottom: 2px solid #c4170c;
-  padding-bottom: 6px;
-  margin-bottom: 6px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.2; /* Garante que a altura da linha não empurre o texto para cima */
+    font-size: 22px;  /* Deixe próximo ao tamanho do título 'Notícias' para harmonia visual */
 }
 .sidebar-patrocinio img {
   width: 100%;
@@ -1089,7 +1089,7 @@ p {
 
 /* O prefixo .home-page garante que só funcione na index */
 .home-page #patrocinadores-container.sidebar-wrapper {
-    margin-top: 20px !important; 
+    margin-top: 45px !important; 
     padding-top: 0 !important;
     text-align: center;
 }
@@ -1203,6 +1203,7 @@ p {
 }
 
 
+
 /* ============================================================
    1. TRAVA DE SEGURANÇA (IMPEDE QUE A LATERAL SUMA)
    ============================================================ */
@@ -1218,7 +1219,7 @@ p {
     width: 100% !important;
     max-width: 100% !important; /* Trava absoluta para não vazar a coluna */
     margin: 0px auto !important;
-    background: #ffffff !important;
+    background: #e5e7e4 !important;
     padding: 10px 0 !important;
     border-top: 2px solid #eee !important;
     border-bottom: 2px solid #eee !important;
@@ -1274,12 +1275,10 @@ p {
 /* ============================================================
    3. RESTAURAÇÃO FORÇADA DA BARRA LATERAL
    ============================================================ */
-/* Isso garante que seus patrocinadores da direita fiquem bonitos e visíveis sempre */
+/* Ajuste Fino para alinhar os títulos horizontalmente */
 #patrocinadores-container {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    display: flex;
-    flex-direction: column;
+    margin-top: 152px !important; /* Aumentei um pouco para nivelar com o texto 'Notícias' */
+    padding-top: 5px !important;  /* Ajuste milimétrico caso necessário */
 }
 
 #patrocinadores-container .banner-link img {

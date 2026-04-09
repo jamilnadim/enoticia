@@ -1,0 +1,34 @@
+# Pastas do Git
+.git/
+
+# VS Code
+.vscode/
+COMANDOS2.TXT
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependências (se usar)
+node_modules/
+vendor/
+
+# Arquivos de ambiente / senhas
+.env
+.env.*
+
+# Cache
+.cache/
+.tmp/
+
+# Build (se existir)
+dist/
+build/
+
+# Backup local
+*.bak
+*.old
+*.zip
