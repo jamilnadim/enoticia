@@ -1291,7 +1291,7 @@
   "data": "10 de março de 2026",
   "link": "noticia.php?id=100",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1583,7 +1583,7 @@
   "data": "24 de março de 2026",
   "link": "noticia.php?id=121",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1850,7 +1850,7 @@
   "data": "02 de abril de 2026",
   "link": "noticia.php?id=140",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1948,7 +1948,7 @@
   "data": "07 de abril de 2026",
   "link": "noticia.php?id=147",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1976,7 +1976,7 @@
   "data": "07 de abril de 2026",
   "link": "noticia.php?id=149",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -1990,7 +1990,7 @@
   "data": "07 de abril de 2026",
   "link": "noticia.php?id=150",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2005,6 +2005,131 @@
   "link": "noticia.php?id=151",
   "noCarrossel": true,
   "destaque": false
+},
+
+{
+  "id": 152,
+  "categoria": "policia",
+  "titulo": "Prisão de drogas em ônibus que transportava trabalhadores",
+  "resumo": "Polícia Militar aborda veículo na MGC 464 após denúncia e localiza entorpecentes com auxílio de cão farejador da ROCCA; dois homens foram presos.",
+  "imagem": "Assets/noticias/prisao10-04-26.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>No dia 08 de abril de 2026, por volta das 19 horas, as equipes policiais receberam uma denúncia dando conta de que indivíduos que trabalham em uma fazenda estavam de posse de entorpecentes. Diante do exposto, os militares realizaram a abordagem do ônibus utilizado no transporte dos trabalhadores na <strong>Rodovia MGC 464</strong>.</p><h3>Atuação da ROCCA</h3><p>Com apoio da <strong>ROCCA (Rondas Ostensivas Com Cães)</strong>, foi empregado o semovente <strong>cão Ômega</strong>, que logrou êxito em localizar, no interior de uma mochila preta, os seguintes materiais:</p><ul><li>03 papelotes de cocaína;</li><li>02 buchas de maconha.</li></ul><p>Ao serem indagados os passageiros sobre a propriedade da mochila, identificou-se o responsável. O homem relatou aos militares que havia adquirido os entorpecentes de outro indivíduo, que também era passageiro do mesmo veículo.</p><p>Diante dos fatos, foi dada voz de prisão aos indivíduos, de <strong>30 e 20 anos</strong>, sendo eles encaminhados ao Delegado de plantão para as providências de polícia judiciária.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Polícia Militar de Minas Gerais</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=152",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 153,
+  "categoria": "policia",
+  "titulo": "Mais um foragido da justiça preso em Sacramento",
+  "resumo": "Durante patrulhamento no Centro da cidade, Polícia Militar identifica e prende homem de 32 anos com mandado de prisão em aberto.",
+  "imagem": "Assets/noticias/foragido da.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>No dia 07 de abril de 2026, por volta das 14 horas, durante patrulhamento na <strong>Avenida Visconde Rio Branco</strong>, no Centro da cidade, a Guarnição Policial abordou um suspeito em atitude que demandou averiguação.</p><p>Após a realização da abordagem e consulta detalhada aos sistemas de segurança pública, foi constatado que havia um <strong>mandado de prisão em aberto</strong> expedido contra o indivíduo.</p><p>O foragido, de <strong>32 anos</strong>, recebeu voz de prisão imediata e foi conduzido à presença do Delegado de Plantão para as devidas providências e posterior encaminhamento ao sistema prisional.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Polícia Militar de Minas Gerais</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=153",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 154,
+  "categoria": "noticia",
+  "titulo": "Secretarias municipais e DER promovem poda preventiva na Rodovia Antenor Duarte Vilela",
+  "resumo": "Ação conjunta visa aumentar a segurança e a visibilidade na via que liga Sacramento à Gruta dos Palhares, removendo galhos com risco de queda.",
+  "imagem": "Assets/noticias/podaarvores.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Uma ação conjunta entre o Departamento de Edificações e Estradas de Rodagem (DER) e as secretarias municipais de Serviços Urbanos, Turismo e Meio Ambiente ocorre na <strong>Rodovia Antenor Duarte Vilela</strong>, que liga o município de Sacramento à Gruta dos Palhares.</p><p>A iniciativa conta ainda com o apoio da Guarda Municipal e tem como principal objetivo garantir mais segurança para os motoristas que utilizam a via diariamente. A rodovia possui trechos com árvores de grande porte e vegetação densa, o que pode comprometer a visibilidade e aumentar os riscos de acidentes, especialmente em períodos de vento ou chuva.</p><h3>Segurança e Manutenção Técnica</h3><p>Com a poda preventiva, as equipes trabalham para:</p><ul><li>Remover galhos que oferecem perigo de queda;</li><li>Melhorar a visibilidade ao longo do trajeto;</li><li>Assegurar melhores condições de tráfego e fluidez.</li></ul><p>A ação também contribui para a preservação ambiental, uma vez que o serviço é realizado de forma técnica e planejada, respeitando as características da vegetação local.</p><h3>Importância Turística e Social</h3><p>A Rodovia Antenor Duarte Vilela é um importante acesso turístico, sendo o principal caminho para a <strong>Gruta dos Palhares</strong>, um dos pontos mais visitados da cidade. A manutenção da via, portanto, também favorece o deslocamento de visitantes, além de beneficiar diretamente a população que utiliza o trajeto no dia a dia para trabalho e lazer.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=154",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 155,
+  "categoria": "social",
+  "titulo": "Equipe do CREAS Sacramento participa de encontro regional de combate ao trabalho infantil em Uberaba",
+  "resumo": "Representantes do município participaram de capacitação da Sedese-MG focada na implementação do novo plano de erradicação do trabalho infantil (PETI).",
+  "imagem": "Assets/noticias/prefeiura10-04-26.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A equipe técnica do Centro de Referência Especializado de Assistência Social (CREAS) participou na última terça-feira (7) do <strong>Encontro Regionalizado para ações estratégicas do Programa de Erradicação do Trabalho Infantil (PETI)</strong>, realizado na cidade de Uberaba.</p><p>Representaram o município de Sacramento as profissionais:</p><ul><li><strong>Cristiane Couto</strong> (Assistente Social);</li><li><strong>Ana Carolina Prata</strong> (Psicóloga);</li><li><strong>Miria Celeste Borges</strong> (Advogada).</li></ul><h3>Fortalecimento da Rede Socioassistencial</h3><p>Promovido pela Secretaria de Estado de Desenvolvimento Social de Minas Gerais (Sedese), o encontro reuniu representantes de 13 municípios das regionais de Uberaba, Uberlândia e Ituiutaba. O objetivo central é qualificar os profissionais da rede e fortalecer as políticas públicas voltadas à proteção de crianças e adolescentes.</p><p>A capacitação teve como foco a implementação de um novo plano de enfrentamento, baseado em estratégias como:</p><ul><li>Identificação e acompanhamento técnico de casos;</li><li>Mobilização social e conscientização comunitária;</li><li>Acompanhamento contínuo de famílias em situação de vulnerabilidade.</li></ul><p>A iniciativa reforça a importância da atuação conjunta entre assistência social, educação e saúde. A participação da equipe do CREAS evidencia o compromisso de Sacramento com o aprimoramento contínuo dos serviços e com o enfrentamento ao trabalho infantil por meio da articulação regional.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=155",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 156,
+  "categoria": "esporte",
+  "titulo": "Copão Rural 2026 agita zona rural de Sacramento",
+  "resumo": "Competição de futsal reúne seis equipes tradicionais em disputas acirradas no Quenta Sol e Sete Voltas, promovendo integração e lazer nas comunidades.",
+  "imagem": "Assets/noticias/copao10-04.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A bola já está rolando na zona rural com o início do <strong>Copão Rural de Futsal 2026</strong>, que teve sua abertura no último dia 31, no Ginásio Francisco Hemérito de Souza, na comunidade do Quenta Sol. A competição reúne equipes tradicionais e promete uma temporada marcada por integração e muita emoção dentro de quadra.</p><h3>Equipes Participantes</h3><p>O torneio conta com a força das seguintes equipes:</p><ul><li>Sete Voltas (A e B);</li><li>Caxambu;</li><li>Ajax Quenta Sol;</li><li>São José;</li><li>Quenta Sol F.C.</li></ul><h3>Resumo das Primeiras Rodadas</h3><p>Os jogos iniciais foram marcados pelo alto equilíbrio e placares elásticos:</p><ul><li><strong>1ª Rodada:</strong> O Caxambu venceu o Ajax Quenta Sol por <strong>4 a 3</strong>. Já o Sete Voltas superou o Quenta Sol F.C. em um jogo de 12 gols: <strong>7 a 5</strong>.</li><li><strong>2ª Rodada:</strong> O Ajax Quenta Sol se recuperou vencendo o Sete Voltas B por <strong>7 a 4</strong>. No outro confronto, o Sete Voltas confirmou o favoritismo sobre o São José.</li></ul><p>As partidas acontecem regularmente às <strong>terças e quintas-feiras</strong>, alternando entre o Ginásio do Quenta Sol e a quadra da comunidade de Sete Voltas. O Copão Rural reforça a importância do esporte como ferramenta de união, saúde e valorização das comunidades rurais de Sacramento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=156",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 157,
+  "categoria": "saude",
+  "titulo": "Saúde de Sacramento conquista reconhecimento estadual no Conexão Minas Saúde 2026",
+  "resumo": "Município se destaca entre 346 experiências e recebe premiação no palco principal do maior evento de saúde pública de Minas Gerais, em Belo Horizonte.",
+  "imagem": "Assets/noticias/saudeeee.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O município de Sacramento conquistou um importante reconhecimento no <strong>Conexão Minas Saúde 2026</strong>, o maior evento de saúde pública de Minas Gerais, realizado entre os dias 7 e 9 de abril, no Centerminas Expo, em Belo Horizonte.</p><p>Promovido pela SES-MG e pelo COSEMS-MG, o encontro reuniu gestores e especialistas de todo o estado. Em um universo de 346 experiências inscritas, Sacramento alcançou um feito expressivo: das 222 iniciativas reconhecidas como boas práticas, apenas 31 foram selecionadas para apresentação, e <strong>somente 8 ganharam destaque com premiação no palco principal</strong> — incluindo um projeto de Sacramento.</p><h3>Iniciativa Premiada no Palco Principal</h3><p>O trabalho premiado foi:</p><ul><li><strong>“Qualificação da base de dados e monitoramento dos indicadores do cofinanciamento federal como estratégia para evidência da Atenção Primária à Saúde em Sacramento/MG”</strong>.</li></ul><p>Conduzida pela diretora da Atenção Primária, <strong>Renata de Freitas Viana</strong>, com colaboração do diretor de TI, <strong>Fabiano Matias</strong>, a iniciativa demonstrou como a união entre gestão e tecnologia transforma a qualidade do cuidado à população.</p><h3>Reconhecimento em Boas Práticas</h3><p>Além da premiação principal, o município teve outra estratégia reconhecida entre as melhores do estado:</p><ul><li><strong>“Estratégia Integrada de Busca Ativa Vacinal com o uso de tecnologia leve para ampliação da cobertura vacinal infantil na ESF Dr. Francisco Paulino da Costa (Bairro Cajuru)”</strong>.</li></ul><p>Desenvolvida pela enfermeira <strong>Geovana Matioli</strong> e pela técnica de enfermagem <strong>Maria Salete Vieira da Rocha</strong>, a ação reforça o compromisso das equipes com a proteção vacinal infantil.</p><p>Os resultados refletem o empenho dos profissionais de Sacramento em oferecer um atendimento eficiente, humano e resolutivo, consolidando o município como referência em gestão de saúde em Minas Gerais.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=157",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 158,
+  "categoria": "noticia",
+  "titulo": "Saiba quais são as novas leis que ampliam a proteção às mulheres",
+  "resumo": "Presidente sanciona pacotes legislativos que incluem monitoramento eletrônico obrigatório de agressores e a tipificação do crime de vicaricídio.",
+  "imagem": "Assets/noticias/mulher10-04.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O presidente Luiz Inácio Lula da Silva sancionou, nesta quinta-feira (9), três projetos de lei que fortalecem o combate à violência contra a mulher. As medidas trazem atualizações rigorosas no Código Penal e na Lei Maria da Penha.</p><h3>Monitoramento Eletrônico de Agressores</h3><p>O <strong>PL 2.942/2024</strong> estabelece a monitoração eletrônica como medida protetiva autônoma. Diferente da regra anterior, onde era apenas uma opção, agora há maior rigor no controle. A vítima também poderá utilizar um dispositivo de segurança que emite alertas caso o agressor ultrapasse o limite de distância permitido.</p><h3>Tipificação do Vicaricídio</h3><p>O <strong>PL 3.880/2024</strong> introduz a <strong>violência vicária</strong> na legislação brasileira. Esta modalidade ocorre quando o agressor ataca terceiros (filhos, parentes ou dependentes) com o objetivo exclusivo de causar sofrimento psicológico à mulher.</p><p>As principais mudanças incluem:</p><ul><li><strong>Pena de 20 a 40 anos</strong> de reclusão para homicídio vicário;</li><li><strong>Público protegido:</strong> Descendentes, ascendentes, dependentes, enteados ou pessoas sob guarda da mulher;</li><li><strong>Agravantes:</strong> A pena aumenta se o crime for cometido na presença da mulher, contra crianças, idosos ou em descumprimento de medidas protetivas.</li></ul><h3>Combate à Violência contra Mulheres Indígenas</h3><p>Foi instituído também o <strong>Dia Nacional de Proteção e Combate à Violência contra as Mulheres Indígenas</strong>, a ser celebrado anualmente em <strong>5 de setembro</strong>. A data visa dar visibilidade a vulnerabilidades específicas enfrentadas por mulheres originárias, integrando-as de forma mais efetiva às políticas públicas de segurança.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Palácio do Planalto</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=158",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 159,
+  "categoria": "politica",
+  "titulo": "Receita recebe mais de 10 milhões de declarações do Imposto de Renda",
+  "resumo": "Volume de entregas já atinge 22,8% do esperado para 2026; maioria dos contribuintes optou pela declaração pré-preenchida para agilizar o processo.",
+  "imagem": "Assets/noticias/RECEITA10-04.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Mais de 10 milhões de contribuintes acertaram as contas com o Leão em apenas 17 dias de entrega da <strong>Declaração do Imposto de Renda Pessoa Física 2026</strong> (ano-base 2025). Até a noite desta quinta-feira (9), 10.028.171 documentos foram enviados aos sistemas da Receita Federal.</p><p>O número equivale a 22,8% do total de 44 milhões de declarações previstas para este ano. Segundo o Fisco, o perfil das entregas atuais revela que:</p><ul><li><strong>76,7%</strong> têm direito a restituição;</li><li><strong>13,4%</strong> terão imposto a pagar;</li><li><strong>9,9%</strong> estão em situação de neutralidade (nem a pagar, nem a receber).</li></ul><h3>Preferências de Preenchimento</h3><p>O uso da tecnologia tem sido um facilitador para o contribuinte. Um dado relevante é que <strong>60,8%</strong> dos declarantes utilizaram a <strong>declaração pré-preenchida</strong>. Quanto aos meios de envio:</p><ul><li><strong>Programa de computador (PGD):</strong> 70,4%</li><li><strong>Preenchimento on-line (Nuvem):</strong> 18,8%</li><li><strong>Aplicativo Meu Imposto de Renda:</strong> 10,8%</li></ul><h3>Prazos e Multas</h3><p>O prazo para entrega termina às 23h59 de <strong>29 de maio</strong>. Quem perder a data estará sujeito a uma multa mínima de <strong>R$ 165,74</strong>, podendo chegar a 20% do imposto devido.</p><p>Vale lembrar que a obrigatoriedade vale para quem recebeu rendimentos tributáveis acima de <strong>R$ 35.584</strong> ou obteve receita bruta de atividade rural superior a <strong>R$ 177.920</strong> em 2025. Contribuintes que receberam até dois salários mínimos mensais estão, em regra, dispensados da declaração.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Receita Federal</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=159",
+  "noCarrossel": true,
+  "destaque": true
+},
+{
+  "id": 160,
+  "categoria": "saude",
+  "titulo": "Colesterol e doenças cardiovasculares: como a prevenção pode salvar vidas",
+  "resumo": "Cardiologista da Unimed Araxá alerta para os perigos da dislipidemia e explica como as novas tecnologias genéticas podem prever riscos cardíacos com décadas de antecedência.",
+  "imagem": "Assets/noticias/medico10-04.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Na semana em que se comemora o Dia Mundial de Combate ao Colesterol, o médico cardiologista da Unimed Araxá, <strong>Dr. Ramires Mendes Lafetá</strong>, faz um alerta a quem não monitora os níveis de lipídeos no sangue. Em entrevista, ele detalha a importância da prevenção.</p><div class='container-fluid'><div class='row' style='margin-bottom: 30px; display: flex; justify-content: center;'><div style='flex: 0 1 450px;'><a href='Assets/noticias/medico10-042.webp' data-fancybox='gallery'><img src='Assets/noticias/medico10-042.webp' style='width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);' alt='Dr. Ramires Mendes Lafetá'></a><p style='font-size: 0.8em; color: #666; text-align: center; margin-top: 8px;'>Dr. Ramires Mendes Lafetá, cardiologista da Unimed Araxá.</p></div></div></div><h3>O que é a dislipidemia?</h3><p>A Dislipidemia é definida como níveis de lipídeos no sangue muito altos ou baixos. O nosso corpo precisa de colesterol para construir células saudáveis, todavia, a elevação do <strong>LDL (colesterol ruim)</strong> aumenta o risco de depósitos de gordura nos vasos, dificultando o fluxo sanguíneo e a oxigenação dos órgãos.</p><h3>Sintomas e Consulta Médica</h3><p>O colesterol alto <strong>não apresenta sintomas</strong>. Um exame de sangue é a única maneira de detectá-lo. A triagem deve ocorrer entre os 9 e 11 anos e ser repetida a cada cinco anos. Após os 35 anos, os exames devem ser mais regulares, especialmente se houver histórico familiar de infarto ou diabetes.</p><h3>Fatores de Risco</h3><p>O risco cardiovascular aumenta devido a:</p><ul><li><strong>Dieta inadequada:</strong> excesso de gorduras saturadas e trans;</li><li><strong>Obesidade:</strong> IMC de 30 ou mais;</li><li><strong>Sedentarismo e Tabagismo:</strong> incluindo cigarros eletrônicos;</li><li><strong>Fatores Genéticos:</strong> parentes próximos com histórico de AVC ou infarto.</li></ul><h3>Complicações da Doença Aterosclerótica</h3><p>Os depósitos de gordura nas artérias podem causar angina (dor no peito), infarto agudo do miocárdio ou acidente vascular cerebral (AVC), quando o fluxo de sangue para o coração ou cérebro é interrompido por coágulos.</p><h3>Prevenção e Novidades</h3><p>A mudança no estilo de vida é o principal pilar: dieta rica em fibras, atividade física regular e controle do estresse. Na fronteira da ciência, surge o <strong>estudo de risco poligênico</strong>, um teste genético capaz de identificar a probabilidade de ataques cardíacos décadas antes de ocorrerem.</p><p>\"Futuramente, com a maior acessibilidade desse teste, poderemos tratar os pacientes através de protocolos cada vez mais individualizados e precisos\", afirma o cardiologista.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Unimed Araxá / Assessoria de Imprensa</strong></p></article>",
+  "data": "10 de abril de 2026",
+  "link": "noticia.php?id=160",
+  "noCarrossel": true,
+  "destaque": true
 }
 
 ]
