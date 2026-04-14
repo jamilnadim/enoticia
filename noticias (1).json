@@ -2018,7 +2018,7 @@
   "data": "10 de abril de 2026",
   "link": "noticia.php?id=152",
   "noCarrossel": true,
-  "destaque": false
+  "destaque": true
 },
 
 {
@@ -2102,7 +2102,7 @@
   "data": "10 de abril de 2026",
   "link": "noticia.php?id=158",
   "noCarrossel": true,
-  "destaque": false
+  "destaque": true
 },
 
 {
@@ -2118,7 +2118,6 @@
   "noCarrossel": true,
   "destaque": true
 },
-
 {
   "id": 160,
   "categoria": "saude",
@@ -2129,73 +2128,6 @@
   "conteudo": "<article class='noticia-conteudo'><p>Na semana em que se comemora o Dia Mundial de Combate ao Colesterol, o médico cardiologista da Unimed Araxá, <strong>Dr. Ramires Mendes Lafetá</strong>, faz um alerta a quem não monitora os níveis de lipídeos no sangue. Em entrevista, ele detalha a importância da prevenção.</p><div class='container-fluid'><div class='row' style='margin-bottom: 30px; display: flex; justify-content: center;'><div style='flex: 0 1 450px;'><a href='Assets/noticias/medico10-042.webp' data-fancybox='gallery'><img src='Assets/noticias/medico10-042.webp' style='width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);' alt='Dr. Ramires Mendes Lafetá'></a><p style='font-size: 0.8em; color: #666; text-align: center; margin-top: 8px;'>Dr. Ramires Mendes Lafetá, cardiologista da Unimed Araxá.</p></div></div></div><h3>O que é a dislipidemia?</h3><p>A Dislipidemia é definida como níveis de lipídeos no sangue muito altos ou baixos. O nosso corpo precisa de colesterol para construir células saudáveis, todavia, a elevação do <strong>LDL (colesterol ruim)</strong> aumenta o risco de depósitos de gordura nos vasos, dificultando o fluxo sanguíneo e a oxigenação dos órgãos.</p><h3>Sintomas e Consulta Médica</h3><p>O colesterol alto <strong>não apresenta sintomas</strong>. Um exame de sangue é a única maneira de detectá-lo. A triagem deve ocorrer entre os 9 e 11 anos e ser repetida a cada cinco anos. Após os 35 anos, os exames devem ser mais regulares, especialmente se houver histórico familiar de infarto ou diabetes.</p><h3>Fatores de Risco</h3><p>O risco cardiovascular aumenta devido a:</p><ul><li><strong>Dieta inadequada:</strong> excesso de gorduras saturadas e trans;</li><li><strong>Obesidade:</strong> IMC de 30 ou mais;</li><li><strong>Sedentarismo e Tabagismo:</strong> incluindo cigarros eletrônicos;</li><li><strong>Fatores Genéticos:</strong> parentes próximos com histórico de AVC ou infarto.</li></ul><h3>Complicações da Doença Aterosclerótica</h3><p>Os depósitos de gordura nas artérias podem causar angina (dor no peito), infarto agudo do miocárdio ou acidente vascular cerebral (AVC), quando o fluxo de sangue para o coração ou cérebro é interrompido por coágulos.</p><h3>Prevenção e Novidades</h3><p>A mudança no estilo de vida é o principal pilar: dieta rica em fibras, atividade física regular e controle do estresse. Na fronteira da ciência, surge o <strong>estudo de risco poligênico</strong>, um teste genético capaz de identificar a probabilidade de ataques cardíacos décadas antes de ocorrerem.</p><p>\"Futuramente, com a maior acessibilidade desse teste, poderemos tratar os pacientes através de protocolos cada vez mais individualizados e precisos\", afirma o cardiologista.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Unimed Araxá / Assessoria de Imprensa</strong></p></article>",
   "data": "10 de abril de 2026",
   "link": "noticia.php?id=160",
-  "noCarrossel": true,
-  "destaque": false
-},
-{
-  "id": 161,
-  "categoria": "noticia",
-  "titulo": "Sicredi é premiado em 5 categorias pelo BNDES",
-  "resumo": "Instituição financeira cooperativa conquistou o primeiro lugar em três modalidades e reafirma seu papel estratégico no fomento à economia e ao setor rural.",
-  "imagem": "Assets/noticias/Sicredi - reconhecimento BNDES.webp",
-  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
-  "conteudo": "<article class='noticia-conteudo'><p>Em evento do BNDES (Banco Nacional de Desenvolvimento Econômico e Social) que premiou agentes financeiros com melhor desempenho em 2025, o <strong>Sicredi</strong> foi reconhecido em cinco das sete categorias relacionadas. Durante a cerimônia ocorrida em 7 de abril, em São Paulo, a instituição conquistou o <strong>primeiro lugar em três delas</strong>.</p><h3>Destaques da Premiação</h3><p>Com mais de 10 milhões de associados, o Sicredi liderou os seguintes rankings:</p><ul><li><strong>1º lugar:</strong> Bancos Cooperativos e Cooperativas de Crédito;</li><li><strong>1º lugar:</strong> BNDES Crédito Digital;</li><li><strong>1º lugar:</strong> Microcrédito e Pequenos Negócios - Agentes financeiros.</li></ul><p>A instituição também obteve o <strong>3º lugar</strong> nas categorias de “Desenvolvimento da Região Norte” e “Satisfação do Cliente”, consolidando sua presença nacional e qualidade de atendimento.</p><h3>Impacto Econômico e Capilaridade</h3><p>O diretor executivo de Crédito e Segmentos do Sicredi, <strong>Gustavo Freitas</strong>, destacou que a parceria entre as instituições garante que o crédito chegue a quem mais precisa, movimentando a economia desde os grandes centros até os pequenos municípios.</p><p>Em números, a relevância da atuação do Sicredi em 2025 impressiona:</p><ul><li><strong>R$ 11,2 bilhões</strong> em liberações viabilizadas no ano;</li><li><strong>R$ 35 bilhões</strong> atingidos na carteira de crédito vinculada ao BNDES;</li><li><strong>Mais de 230 mil</strong> operações ativas em todo o sistema.</li></ul><p>Esses montantes refletem a solidez do modelo cooperativo e sua capacidade de disponibilizar recursos essenciais para produtores rurais e empresas em todas as regiões do Brasil.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Assessoria Sicredi / BNDES</strong></p></article>",
-  "data": "14 de abril de 2026",
-  "link": "noticia.php?id=161",
-  "noCarrossel": true,
-  "destaque": false
-},
-
-{
-  "id": 162,
-  "categoria": "policia",
-  "titulo": "Em Conquista, prisão por homicídio consumado",
-  "resumo": "Após suspeita de morte natural, Polícia Militar descobre evidências de crime e sobrinho confessa ter empurrado e arrastado o tio de 76 anos após discussão.",
-  "imagem": "Assets/noticias/homicidio.webp",
-  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
-  "conteudo": "<article class='noticia-conteudo'><p>No dia 09 de abril de 2026, por volta das 06 horas, as equipes policiais foram acionadas por uma assistente social de 44 anos, que relatou ter tomado conhecimento de uma morte suspeita em Conquista. Segundo ela, o sobrinho da vítima a procurou demonstrando pressa para a realização do sepultamento.</p><p>Em contato com a Santa Casa, o médico plantonista informou que a vítima, um <strong>homem de 76 anos</strong>, apresentava traumatismo craniano e diversas escoriações. A versão inicial do sobrinho era de que o idoso, que sofria de epilepsia, teria sofrido uma queda acidental na varanda da residência.</p><h3>Evidências no Local</h3><p>Diante da fundada suspeita, as equipes policiais deslocaram-se até o imóvel na Rua Sergipe Marques, no Bairro Rosário. No local, os militares identificaram sinais que contradiziam a versão de acidente:</p><ul><li>Vários <strong>respingos de sangue</strong> nas paredes do quarto da vítima;</li><li>Roupas e marcas no chão indicando que o corpo havia sido <strong>arrastado</strong> até a varanda;</li><li>Vestígios de sangue espalhados pela sala e cozinha, mesmo após tentativa de limpeza.</li></ul><h3>Confissão e Prisão</h3><p>Após ser confrontado com os vestígios encontrados, o sobrinho relatou que, na noite anterior (08/04), por volta das 23h, iniciou uma discussão com o tio no quarto. Ele admitiu que, enfurecido, <strong>empurrou a vítima bruscamente contra a parede</strong>, fazendo com que o idoso caísse desacordado com intenso sangramento. O autor confessou ainda ter arrastado o corpo até a varanda e tentado limpar o sangue da casa com panos.</p><p>A perícia técnica foi acionada e realizou os trabalhos de praxe no imóvel. Diante dos fatos e da confissão, foi dada voz de prisão ao autor, de <strong>59 anos</strong>, que foi encaminhado ao Delegado de plantão para as devidas providências judiciais.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Polícia Militar de Minas Gerais</strong></p></article>",
-  "data": "10 de abril de 2026",
-  "link": "noticia.php?id=162",
-  "noCarrossel": true,
-  "destaque": true
-},
-{
-  "id": 163,
-  "categoria": "noticia",
-  "titulo": "Secretaria de Meio Ambiente realiza 2º mutirão de castração em 2026",
-  "resumo": "Ação no Parque de Exposições oferece 300 vagas para cães e gatos, incluindo microchipagem e kit pós-operatório gratuito para garantir o bem-estar animal.",
-  "imagem": "Assets/noticias/cachorro.webp",
-  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
-  "conteudo": "<article class='noticia-conteudo'><p>Como estratégia de controle populacional de cães e gatos e promoção da saúde pública, o Centro Municipal de Bem Estar Animal da Secretaria de Meio Ambiente realiza o <strong>segundo mutirão de castração de 2026</strong>.</p><p>Em parceria com a Ciminas, o município oferece, entre os dias 7 e 9 de abril, <strong>300 vagas</strong> para o procedimento. A ação acontece no Parque de Exposições Hugo Rodrigues da Cunha, onde está instalado o Castramóvel, com capacidade média de 100 atendimentos diários.</p><h3>Segurança e Cuidado Pós-Operatório</h3><p>Antes das cirurgias, todos os animais passam por uma avaliação clínica (anamnese) detalhada. Para garantir uma recuperação segura e confortável, o Governo Municipal disponibiliza gratuitamente:</p><ul><li><strong>Microchipagem</strong> para identificação do animal;</li><li><strong>Medicação pós-operatória</strong> em dose única;</li><li><strong>Roupa cirúrgica</strong> (para fêmeas) e <strong>colar elizabetano</strong> (para machos).</li></ul><h3>Impacto na Saúde Pública</h3><p>Além de contribuir para o controle populacional, a castração é uma aliada na prevenção de doenças e na redução do abandono e de comportamentos agressivos. A iniciativa impacta diretamente a saúde da população ao reduzir a circulação de animais nas ruas e o risco de transmissão de zoonoses.</p><p>Durante o mutirão, os tutores também recebem orientações educativas sobre posse responsável e os cuidados necessários durante o período de cicatrização dos animais.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
-  "data": "10 de abril de 2026",
-  "link": "noticia.php?id=163",
-  "noCarrossel": true,
-  "destaque": true
-},
-{
-  "id": 164,
-  "categoria": "saude",
-  "titulo": "Desinformação sobre câncer de pele afeta diagnóstico, diz instituição",
-  "resumo": "Estudo da Fundação do Câncer aponta que a falta de dados sobre raça e escolaridade nos registros oficiais dificulta políticas públicas de prevenção e tratamento precoce.",
-  "imagem": "Assets/noticias/CANCER.webp",
-  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
-  "conteudo": "<article class='noticia-conteudo'><p>Pesquisadores da Fundação do Câncer alertam que os bancos de dados oficiais no Brasil carecem de informações cruciais para o diagnóstico precoce do câncer de pele. Em análise dos Registros Hospitalares de Câncer (RHC), foram identificadas lacunas severas: mais de <strong>36% dos casos não possuem registro de raça/cor</strong> e cerca de <strong>26% omitem a escolaridade</strong> do paciente.</p><h3>Desigualdade de Dados no Sudeste</h3><p>A Região Sudeste (MG, SP, RJ e ES) apresentou o maior índice de falta de informações sobre raça/cor, chegando a <strong>68,7%</strong> nos casos de melanoma. Segundo o epidemiologista Alfredo Scaff, essa incompletude limita a análise de desigualdades e o direcionamento de campanhas em um país com altos índices de radiação UV.</p><h3>Tipos de Câncer e Estimativas</h3><p>O câncer de pele é o mais comum no Brasil. O Inca estima que, entre 2026 e 2028, ocorram anualmente:</p><ul><li><strong>263.282 novos casos</strong> de câncer não melanoma (carcinomas basocelular e espinocelular);</li><li><strong>9.360 novos casos</strong> de melanoma (tipo mais agressivo e raro).</li></ul><h3>Fatores de Risco e Prevenção Ocupacional</h3><p>Embora a exposição solar recreativa (praia) seja o risco mais lembrado, o estudo destaca o <strong>risco ocupacional</strong>. Trabalhadores que atuam ao ar livre possuem maior vulnerabilidade, como:</p><ul><li>Trabalhadores da agricultura (setor forte no Brasil);</li><li>Profissionais da construção civil;</li><li>Garis e policiais militares.</li></ul><p>Além do protetor solar, especialistas reforçam o uso de Equipamentos de Proteção Individual (EPIs), como blusas de manga longa com proteção UV, chapéus de abas largas e óculos escuros. A exposição crônica está ligada aos cânceres não melanoma, enquanto queimaduras solares intensas na infância aumentam significativamente o risco de melanoma na vida adulta.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Fundação do Câncer</strong></p></article>",
-  "data": "14 de abril de 2026",
-  "link": "noticia.php?id=164",
-  "noCarrossel": true,
-  "destaque": true
-},
-
-{
-  "id": 165,
-  "categoria": "noticia",
-  "titulo": "Uberaba pode receber investimentos de US$ 300 milhões com projeto de terras raras",
-  "resumo": "Anúncio foi feito pelo vice-presidente da Mosaic durante evento na Aciu; projeto prevê planta piloto e fortalecimento da cadeia produtiva regional até 2030.",
-  "imagem": "Assets/noticias/terrasraras.webp",
-  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
-  "conteudo": "<article class='noticia-conteudo'><div class='container-fluid'><div class='row' style='margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;'><div style='flex: 1 1 30%; max-width: 250px;'><a href='Assets/noticias/terrasraras2.webp' data-fancybox='gallery'><img src='Assets/noticias/terrasraras2.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px;' alt='Investimentos Uberaba 1'></a></div><div style='flex: 1 1 30%; max-width: 250px;'><a href='Assets/noticias/terrasraras3.webp' data-fancybox='gallery'><img src='Assets/noticias/terrasraras3.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px;' alt='Investimentos Uberaba 2'></a></div><div style='flex: 1 1 30%; max-width: 250px;'><a href='Assets/noticias/terrasraras4.webp' data-fancybox='gallery'><img src='Assets/noticias/terrasraras4.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px;' alt='Investimentos Uberaba 3'></a></div></div></div><p>A implementação de uma planta piloto de exploração de terras raras em Uberaba pode ter investimentos de <strong>US$ 300 milhões até 2030</strong>. A informação foi repassada pelo vice-presidente de Operações da América Latina da Mosaic, Elias Lima, durante o Happy Hour de Negócios promovido pela Associação Comercial, Industrial e de Serviços de Uberaba (Aciu), na tarde desta quinta-feira (09).</p><p>O evento reuniu mais de 80 empresários e empreendedores na Cervejaria Petrópolis. “O ponto de maior destaque foi a possibilidade deste investimento em terras raras, que seria muito bom para Uberaba gerar mais empregos e oportunidades de negócios com fornecedores e parceiros desta cadeia produtiva”, destacou a presidente da Aciu, Lídia Prata.</p><h3>Mercado de Fertilizantes e Dependência Externa</h3><p>Em sua palestra, Elias Lima deu uma visão geral sobre o mercado de fertilizantes, destacando a dependência do Brasil da importação, que chega a mais de 80% do total consumido. “Nosso país deveria ser a segurança alimentar do mundo, mas existe esta dependência. Sem fertilizantes, não conseguimos adubar as nossas safras”, afirmou.</p><p>Lima também apontou os fatores que pressionam o mercado global:</p><ul><li>Conflitos geopolíticos e riscos logísticos (como no estreito de Hormuz);</li><li>Crises energéticas e restrição de exportação pela Rússia e China;</li><li>Fatores internos como crise de crédito e custo elevado de produção.</li></ul><h3>Trajetória e Parcerias</h3><p>Com 35 anos de trajetória na Mosaic, Lima compartilhou sua experiência internacional em países como Paraguai, Argentina e Estados Unidos. O Happy Hour de Negócios da Aciu contou com o apoio do Grupo Petrópolis e da Lemic Comunicação Visual, consolidando-se como um importante espaço para discussões estratégicas do setor industrial mineiro.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Assessoria Aciu / Redação</strong></p></article>",
-  "data": "10 de abril de 2026",
-  "link": "noticia.php?id=165",
   "noCarrossel": true,
   "destaque": true
 }
