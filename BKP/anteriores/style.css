@@ -452,7 +452,7 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 /* Sidebar */
 .sidebar-patrocinio {
   background: #fff;
-  padding: 150px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   display: flex;
@@ -465,12 +465,12 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 }
 
 
-/* Ajuste específico para o título dentro da barra lateral */
 .sidebar-patrocinio h3 {
-    margin-top: 0;
-    margin-bottom: 15px;
-    line-height: 1.2; /* Garante que a altura da linha não empurre o texto para cima */
-    font-size: 22px;  /* Deixe próximo ao tamanho do título 'Notícias' para harmonia visual */
+  font-size: 1.1rem;
+  color: #c4170c;
+  border-bottom: 2px solid #c4170c;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
 }
 .sidebar-patrocinio img {
   width: 100%;
@@ -1089,7 +1089,7 @@ p {
 
 /* O prefixo .home-page garante que só funcione na index */
 .home-page #patrocinadores-container.sidebar-wrapper {
-    margin-top: 45px !important; 
+    margin-top: 20px !important; 
     padding-top: 0 !important;
     text-align: center;
 }
@@ -1203,70 +1203,3 @@ p {
 }
 
 
-
-/* ============================================================
-   BANNER ROLANTE (HORIZONTAL) - OTIMIZADO (PAUSE ON HOVER + ESPAÇAMENTO REDUZIDO)
-   ============================================================ */
-#banner-rolante-patrocinadores {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0px auto !important;
-    background: #e5e7e4 !important;
-    padding: 20px 0 !important;
-    border-top: 1px solid #eee !important;
-    border-bottom: 1px solid #eee !important;
-    overflow: hidden !important;
-    clear: both !important;
-}
-
-.marquee-wrapper {
-    width: 100%;
-    overflow: hidden;
-}
-
-.marquee-track {
-    display: flex;
-    width: max-content;
-    animation: scrollDireita 35s linear infinite;
-    align-items: center;
-    /* AJUSTE: Adicionando uma folga menor e mais consistente entre as logos */
-    column-gap: 15px !important; /* Espaço total entre cada logo */
-}
-
-/* PRIMEIRO PEDIDO: Pausa a animação ao passar o mouse */
-.marquee-track:hover {
-    animation-play-state: paused !important;
-}
-
-/* SEGUNDO PEDIDO: Aproximando as logos */
-#banner-rolante-patrocinadores .marquee-track a {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    /*width: 320px !important;*/ /* Largura grande para o rolante */
-    /* SEGUNDO PEDIDO: Removendo o padding lateral que afastava as logos */
-    padding: 0 !important; /* Removendo o padding para aproximação máxima */
-    flex-shrink: 0 !important;
-}
-
-#banner-rolante-patrocinadores .marquee-track img {
-    all: unset !important;
-    display: block !important;
-    max-width: 250px !important; /* TAMANHO DA LOGO NO ROLANTE */
-    max-height: 90px !important;
-    width: auto !important;
-    height: auto !important;
-    object-fit: contain !important;
-}
-
-/* ANIMAÇÃO */
-@keyframes scrollDireita {
-    0% { transform: translate3d(-50%, 0, 0); }
-    100% { transform: translate3d(0, 0, 0); }
-}
-
-@media (max-width: 768px) {
-    #banner-rolante-patrocinadores .marquee-track a { width: 200px !important; }
-    #banner-rolante-patrocinadores .marquee-track img { max-width: 160px !important; }
-}
