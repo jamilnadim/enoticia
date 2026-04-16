@@ -1864,7 +1864,7 @@
   "data": "02 de abril de 2026",
   "link": "noticia.php?id=141",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2116,7 +2116,7 @@
   "data": "10 de abril de 2026",
   "link": "noticia.php?id=159",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2157,7 +2157,7 @@
   "data": "10 de abril de 2026",
   "link": "noticia.php?id=162",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 {
   "id": 163,
@@ -2170,7 +2170,7 @@
   "data": "10 de abril de 2026",
   "link": "noticia.php?id=163",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 {
   "id": 164,
@@ -2183,7 +2183,7 @@
   "data": "14 de abril de 2026",
   "link": "noticia.php?id=164",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2196,6 +2196,90 @@
   "conteudo": "<article class='noticia-conteudo'><div class='container-fluid'><div class='row' style='margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;'><div style='flex: 1 1 30%; max-width: 250px;'><a href='Assets/noticias/terrasraras2.webp' data-fancybox='gallery'><img src='Assets/noticias/terrasraras2.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px;' alt='Investimentos Uberaba 1'></a></div><div style='flex: 1 1 30%; max-width: 250px;'><a href='Assets/noticias/terrasraras3.webp' data-fancybox='gallery'><img src='Assets/noticias/terrasraras3.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px;' alt='Investimentos Uberaba 2'></a></div><div style='flex: 1 1 30%; max-width: 250px;'><a href='Assets/noticias/terrasraras4.webp' data-fancybox='gallery'><img src='Assets/noticias/terrasraras4.webp' style='width: 100%; height: 150px; object-fit: cover; border-radius: 8px;' alt='Investimentos Uberaba 3'></a></div></div></div><p>A implementação de uma planta piloto de exploração de terras raras em Uberaba pode ter investimentos de <strong>US$ 300 milhões até 2030</strong>. A informação foi repassada pelo vice-presidente de Operações da América Latina da Mosaic, Elias Lima, durante o Happy Hour de Negócios promovido pela Associação Comercial, Industrial e de Serviços de Uberaba (Aciu), na tarde desta quinta-feira (09).</p><p>O evento reuniu mais de 80 empresários e empreendedores na Cervejaria Petrópolis. “O ponto de maior destaque foi a possibilidade deste investimento em terras raras, que seria muito bom para Uberaba gerar mais empregos e oportunidades de negócios com fornecedores e parceiros desta cadeia produtiva”, destacou a presidente da Aciu, Lídia Prata.</p><h3>Mercado de Fertilizantes e Dependência Externa</h3><p>Em sua palestra, Elias Lima deu uma visão geral sobre o mercado de fertilizantes, destacando a dependência do Brasil da importação, que chega a mais de 80% do total consumido. “Nosso país deveria ser a segurança alimentar do mundo, mas existe esta dependência. Sem fertilizantes, não conseguimos adubar as nossas safras”, afirmou.</p><p>Lima também apontou os fatores que pressionam o mercado global:</p><ul><li>Conflitos geopolíticos e riscos logísticos (como no estreito de Hormuz);</li><li>Crises energéticas e restrição de exportação pela Rússia e China;</li><li>Fatores internos como crise de crédito e custo elevado de produção.</li></ul><h3>Trajetória e Parcerias</h3><p>Com 35 anos de trajetória na Mosaic, Lima compartilhou sua experiência internacional em países como Paraguai, Argentina e Estados Unidos. O Happy Hour de Negócios da Aciu contou com o apoio do Grupo Petrópolis e da Lemic Comunicação Visual, consolidando-se como um importante espaço para discussões estratégicas do setor industrial mineiro.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Assessoria Aciu / Redação</strong></p></article>",
   "data": "10 de abril de 2026",
   "link": "noticia.php?id=165",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 166,
+  "categoria": "noticia",
+  "titulo": "IA acelera desinformação e ameaça democracias, alerta pesquisa",
+  "resumo": "Levantamento da Agência Lupa revela que mais de 80% dos casos de desinformação com IA surgiram nos últimos dois anos, focando em eleições, guerras e golpes.",
+  "imagem": "Assets/noticias/inteligencia.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O rosto é igual. A voz, também. Mas a informação é suspeita. As ferramentas de <strong>Inteligência Artificial (IA)</strong> elevaram a necessidade de desconfiança dos conteúdos digitais a níveis sem precedentes na história. Um levantamento divulgado pela <strong>Agência Lupa</strong>, baseado em 1.294 checagens profissionais, mostra que <strong>81,2%</strong> dos casos de desinformação com tecnologias de IA surgiram apenas entre janeiro de 2024 e março de 2026.</p><h3>Escala Global e Ameaça às Eleições</h3><p>Segundo Cristina Tardáguila, fundadora da Lupa, a IA está redefinindo o campo da desinformação. O volume de flagrantes cresceu drasticamente: de 160 casos em 2023 para <strong>578 em 2025</strong>. Com processos eleitorais ocorrendo no Brasil, Estados Unidos, Colômbia e outros países em 2026, a previsão é de uma \"enxurrada\" de conteúdos manipulados.</p><blockquote>“A IA dificilmente tem sido feita para impulsionar conteúdos verdadeiros. A imensa maioria das peças analisadas acaba levando a etiqueta de falso ou enganoso”, afirma Tardáguila.</blockquote><h3>Formatos e Idiomas</h3><p>A desinformação não se restringe mais apenas a vídeos; ela permeia áudios curtos, fotos e textos. O estudo, que possui recorte linguístico, identificou:</p><ul><li><strong>Inglês:</strong> 427 casos de deepfakes e desinformação;</li><li><strong>Espanhol:</strong> 198 casos;</li><li><strong>Português:</strong> 111 casos.</li></ul><h3>Educação Midiática como \"Vacina\"</h3><p>A pesquisadora defende que a solução definitiva passa pela <strong>educação midiática</strong> e literacia nas escolas. A ideia é criar uma espécie de \"vacina social\", onde a informação de qualidade chegue antes da mentira, tornando o cidadão resiliente a conteúdos fraudulentos.</p><p>Além do papel do poder público, as agências de checagem reforçam que o cidadão comum pode e deve verificar informações suspeitas. A Agência Lupa, inclusive, disponibiliza cursos gratuitos para iniciantes que desejam aprender a identificar legitimidade em postagens digitais.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Agência Lupa</strong></p></article>",
+  "data": "16 de abril de 2026",
+  "link": "noticia.php?id=166",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 167,
+  "categoria": "evento",
+  "titulo": "Noite Mineira de Museus e Bibliotecas destaca leitura e homenageia frequentadores em Sacramento",
+  "resumo": "Evento na Biblioteca Municipal Dr. José Valadares da Fonseca celebrou a cultura com homenagens a leitores assíduos, poesias e reflexões sobre o hábito de ler.",
+  "imagem": "Assets/noticias/casa da.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Biblioteca Pública Municipal Dr. José Valadares da Fonseca foi palco, na noite do dia 09 de Abril, da <strong>16ª Noite Mineira de Museus e Bibliotecas</strong>, evento que reuniu público e convidados em uma programação voltada à valorização da leitura e da cultura.</p><div class='container-fluid'><div class='row' style='margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;'><div style='flex: 1 1 22%; max-width: 200px;'><a href='Assets/noticias/casa1.webp' data-fancybox='gallery'><img src='Assets/noticias/casa1.webp' style='width: 100%; height: 130px; object-fit: cover; border-radius: 8px;' alt='Evento Biblioteca 1'></a></div><div style='flex: 1 1 22%; max-width: 200px;'><a href='Assets/noticias/casa2.webp' data-fancybox='gallery'><img src='Assets/noticias/casa2.webp' style='width: 100%; height: 130px; object-fit: cover; border-radius: 8px;' alt='Evento Biblioteca 2'></a></div><div style='flex: 1 1 22%; max-width: 200px;'><a href='Assets/noticias/casa3.webp' data-fancybox='gallery'><img src='Assets/noticias/casa3.webp' style='width: 100%; height: 130px; object-fit: cover; border-radius: 8px;' alt='Evento Biblioteca 3'></a></div><div style='flex: 1 1 22%; max-width: 200px;'><a href='Assets/noticias/casa4.webp' data-fancybox='gallery'><img src='Assets/noticias/casa4.webp' style='width: 100%; height: 130px; object-fit: cover; border-radius: 8px;' alt='Evento Biblioteca 4'></a></div></div></div><p>A abertura contou com a apresentação da servidora Luciana Evangelista, que interpretou a escritora <strong>Carolina Maria de Jesus</strong>, ressaltando o papel transformador da leitura na vida das pessoas. Em seguida, o professor Emerson Antônio Sagawa conduziu uma reflexão sobre a importância do hábito de ler no cotidiano, destacando sua contribuição para a formação pessoal e intelectual.</p><h3>Homenagem aos Leitores</h3><p>Um dos momentos mais marcantes da noite foi o reconhecimento aos leitores assíduos da biblioteca, valorizando a fidelidade ao espaço público:</p><ul><li><strong>Aranildes Sanches Siqueira Campos:</strong> frequentadora desde 2007;</li><li><strong>Maxwell Israel de Freitas:</strong> frequentador desde 2024;</li><li><strong>Helen Alves da Silva:</strong> frequentadora desde 2005.</li></ul><p>No público infantil, receberam destaque <strong>Sofia Araújo de Freitas</strong> (desde 2024) e <strong>Luiza Silva de Souza</strong> (desde 2023).</p><p>A programação incluiu ainda a declamação dos poetas Nathan Meirelles Oliveira Sarmento e Douglas Faria Gomes, que levaram sensibilidade e expressão artística ao evento. O encerramento contou com a fala do secretário Luiz Alberto Silva, que reforçou o compromisso do município com o incentivo à leitura e o fortalecimento das ações culturais, evidenciando as bibliotecas como instrumentos de transformação social.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "16 de abril de 2026",
+  "link": "noticia.php?id=167",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 168,
+  "categoria": "politica",
+  "titulo": "Governo Municipal avança em tratativas com DNIT para melhorias na BR-464",
+  "resumo": "Em audiência em Brasília, representantes de Sacramento discutem o andamento do projeto técnico da rodovia e solicitam celeridade em novos trechos.",
+  "imagem": "Assets/noticias/janete.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O representante do Governo Municipal de Sacramento, Guilherme Portugal, acompanhado da vice-presidente do Partido dos Trabalhadores, Janete Santana, estiveram em Brasília em audiência com o <strong>Departamento Nacional de Infraestrutura de Transportes (DNIT)</strong>. O encontro teve como principal pauta a manutenção e os próximos avanços da <strong>BR-464</strong>.</p><h3>Status do Projeto Técnico</h3><p>Durante a reunião, foram apresentados esclarecimentos importantes sobre o andamento da rodovia. De acordo com o DNIT, o <strong>projeto técnico já está totalmente concluído e atualizado</strong>. A expectativa é que, em aproximadamente <strong>15 dias</strong>, seja divulgado o resultado final com a devida aprovação pelos órgãos competentes.</p><h3>Trechos e Licitações</h3><p>A situação dos trechos da BR-464 foi detalhada durante a audiência:</p><ul><li><strong>Trecho Passos - Delfinópolis:</strong> Já se encontra licitado e deve seguir para publicação em breve, sinalizando o início das obras físicas.</li><li><strong>Trecho Sacramento:</strong> Ainda não foi licitado, mas permanece como prioridade nas pautas de discussão para viabilização futura.</li></ul><p>Como encaminhamento, foi solicitada uma nova reunião técnica com o superintendente do DNIT em Minas Gerais, Antônio Gabriel, para acelerar os processos regionais. Participaram também o diretor do DNIT, Fábio Nunes, e assessores do deputado federal Miguel Ângelo (PT-MG).</p><p>A agenda demonstra o empenho do município em buscar melhorias estruturais que impactam diretamente o desenvolvimento regional, a mobilidade e a segurança de quem trafega pela região.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "16 de abril de 2026",
+  "link": "noticia.php?id=168",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 169,
+  "categoria": "noticia",
+  "titulo": "Estado de São Paulo tem morte provocada por febre amarela",
+  "resumo": "Óbito foi registrado no Vale do Paraíba; Centro de Vigilância Epidemiológica reforça que pacientes infectados não eram vacinados e alerta para importância da imunização.",
+  "imagem": "Assets/noticias/febre amarela.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Estado de São Paulo registrou três casos de febre amarela na região do Vale do Paraíba, segundo informou nesta quinta-feira (16) o Centro de Vigilância Epidemiológica (CVE) estadual. <strong>Um homem de 38 anos, da cidade de Cunha, morreu</strong>. Outros dois pacientes, uma mulher de 23 anos e um homem de 52 anos, ambos de Cruzeiro, seguem em recuperação.</p><p>De acordo com o boletim epidemiológico, os pacientes infectados <strong>não eram vacinados</strong> contra a doença. A prefeitura de Cunha investiga o local exato da infecção, uma vez que a vítima trabalhava no setor de celulose em uma cidade vizinha.</p><h3>Orientações de Prevenção</h3><p>Regiane de Paula, coordenadora da Coordenadoria de Controle de Doenças da SES-SP, reforça a necessidade de imunização:</p><blockquote>“É fundamental que a população procure uma unidade de saúde para verificar a situação vacinal antes de se deslocar para áreas de mata, zona rural, regiões com circulação viral ou locais de ecoturismo”, orientou.</blockquote><p>A especialista também lembrou que a ocorrência de <strong>febre amarela em macacos</strong> deve ser comunicada imediatamente aos órgãos de saúde. Vale ressaltar que os macacos não transmitem a doença para humanos, mas servem como sentinelas, indicando que o vírus está circulando na área.</p><h3>Esquema Vacinal e Gratuidade</h3><p>A vacina é <strong>gratuita</strong> e está disponível nas Unidades Básicas de Saúde (UBSs) pelo SUS. Confira as recomendações:</p><ul><li><strong>Crianças:</strong> Uma dose aos 9 meses e um reforço aos 4 anos de idade;</li><li><strong>Reforço:</strong> Quem recebeu apenas uma dose antes dos 5 anos de idade deve tomar o reforço;</li><li><strong>Adultos (5 a 59 anos):</strong> Pessoas que nunca foram vacinadas devem procurar a dose única imediatamente.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Centro de Vigilância Epidemiológica / SES-SP</strong></p></article>",
+  "data": "16 de abril de 2026",
+  "link": "noticia.php?id=169",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 170,
+  "categoria": "saude",
+  "titulo": "Anvisa e conselhos da saúde assinam carta sobre canetas emagrecedoras",
+  "resumo": "Iniciativa visa combater o uso indiscriminado, a importação ilegal e a manipulação irregular de medicamentos agonistas de GLP-1, alertando para riscos graves como pancreatite.",
+  "imagem": "Assets/noticias/canetas.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Agência Nacional de Vigilância Sanitária (Anvisa) e os Conselhos Federais de Medicina (CFM), Odontologia (CFO) e Farmácia (CFF) assinaram uma carta de intenção para promover o <strong>uso racional e seguro</strong> dos medicamentos conhecidos popularmente como \"canetas emagrecedoras\".</p><p>A ação busca prevenir riscos sanitários e zelar pela saúde da população diante da explosão de uso desses fármacos para fins estéticos e sem a devida orientação médica. A estratégia inclui combate à importação ilegal, fiscalização de manipulações e campanhas educativas.</p><h3>Apreensões e Produtos Irregulares</h3><p>Recentemente, a Anvisa determinou a apreensão e proibição dos produtos <strong>Gluconex e Tirzedral</strong>. Estes medicamentos, vendidos ilegalmente na internet como injetáveis, não possuem registro ou cadastro na agência. Por serem de origem desconhecida, não há garantia sobre seu conteúdo ou segurança, representando um alto risco para quem os utiliza.</p><p>Em operação policial recente em Duque de Caxias (RJ), mil frascos de canetas contrabandeadas do Paraguai foram interceptados, resultando na prisão de um casal em flagrante.</p><h3>Riscos à Saúde e Efeitos Adversos</h3><p>A Anvisa reforça que medicamentos como semaglutida, liraglutida e tirzepatida devem ser usados <strong>estritamente sob prescrição médica</strong>. O monitoramento é essencial devido ao risco de eventos adversos graves, como:</p><ul><li><strong>Pancreatite aguda:</strong> Inflamação grave do pâncreas que pode evoluir para formas necrotizantes e fatais;</li><li><strong>Problemas gastrointestinais severos:</strong> Náuseas e vômitos persistentes;</li><li><strong>Riscos evitáveis:</strong> Exposição a substâncias adulteradas em produtos sem procedência garantida.</li></ul><h3>Grupos de Trabalho</h3><p>Portarias serão publicadas para criar grupos de trabalho consultivos e estratégicos. Eles serão responsáveis por alinhar informações técnicas entre médicos, dentistas e farmacêuticos, além de incentivar a notificação de eventos adversos no sistema de farmacovigilância do país.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Anvisa</strong></p></article>",
+  "data": "16 de abril de 2026",
+  "link": "noticia.php?id=170",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 171,
+  "categoria": "policia",
+  "titulo": "Vereador é preso em Minas suspeito de estupro de vulnerável cometido ao longo de cinco anos",
+  "resumo": "Parlamentar de Pirajuba, de 72 anos, é detido preventivamente por abusos contra menina de 8 a 14 anos; investigação aponta uso de influência política para obstruir a justiça.",
+  "imagem": "Assets/noticias/estup.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Um vereador de <strong>Pirajuba</strong>, no Triângulo Mineiro, foi preso preventivamente na última segunda-feira (13) sob a suspeita de estupro de vulnerável. O político, de <strong>72 anos</strong>, foi detido após ser indiciado pela Polícia Civil por crimes que teriam sido praticados de forma recorrente contra uma menina entre os 8 e 14 anos de idade.</p><h3>Detalhes das Investigações</h3><p>Segundo a Polícia Civil, os abusos teriam ocorrido ao longo de aproximadamente <strong>cinco anos</strong>, com frequência semanal. A investigação aponta que a vítima era mantida em silêncio por meio de ameaças constantes e violência psicológica severa.</p><p>O inquérito revelou pontos ainda mais alarmantes sobre o caso:</p><ul><li><strong>Conivência mediante pagamento:</strong> Uma pessoa próxima à vítima teria colaborado com os crimes em troca de vantagens financeiras.</li><li><strong>Influência Política:</strong> O investigado utilizava seu poder econômico e político para tentar interferir na rede de proteção à criança, buscando acesso a informações sigilosas e tentando obstruir o acolhimento da vítima.</li></ul><h3>Ação Judicial e Apreensões</h3><p>Durante a operação policial, foram cumpridos mandados de prisão preventiva e de busca e apreensão, resultando no recolhimento de celulares e documentos que passarão por perícia. A Justiça determinou também o <strong>bloqueio de bens</strong> do parlamentar.</p><p>O suspeito foi encaminhado ao sistema prisional e permanece detido em <strong>Uberaba</strong>. As investigações continuam para esclarecer a totalidade dos fatos e identificar outros possíveis envolvidos na rede de acobertamento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Jornal da Manhã (JM Online)</strong></p></article>",
+  "data": "16 de abril de 2026",
+  "link": "noticia.php?id=171",
   "noCarrossel": true,
   "destaque": true
 }
