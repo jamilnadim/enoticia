@@ -1205,68 +1205,101 @@ p {
 
 
 /* ============================================================
-   BANNER ROLANTE (HORIZONTAL) - OTIMIZADO (PAUSE ON HOVER + ESPAÇAMENTO REDUZIDO)
+   BANNER ROLANTE - VERSÃO FINAL UNIFICADA E CORRIGIDA
+   (Horizontal, Aproximado, Pause on Hover e Mobile OK)
    ============================================================ */
+
+/* 1. Container Geral do Banner */
 #banner-rolante-patrocinadores {
     display: block !important;
     width: 100% !important;
     max-width: 100% !important;
-    margin: 0px auto !important;
+    margin: 30px auto !important;
     background: #e5e7e4 !important;
-    padding: 20px 0 !important;
+    padding: 15px 0 !important;
     border-top: 1px solid #eee !important;
     border-bottom: 1px solid #eee !important;
     overflow: hidden !important;
     clear: both !important;
 }
 
+/* 2. Estrutura da Trilha (Track) */
 .marquee-wrapper {
     width: 100%;
     overflow: hidden;
 }
 
 .marquee-track {
-    display: flex;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
     width: max-content;
     animation: scrollDireita 35s linear infinite;
     align-items: center;
-    /* AJUSTE: Adicionando uma folga menor e mais consistente entre as logos */
-    column-gap: 15px !important; /* Espaço total entre cada logo */
+    /* Ajuste de proximidade: 15px entre logos */
+    column-gap: 15px !important; 
 }
 
-/* PRIMEIRO PEDIDO: Pausa a animação ao passar o mouse */
+/* 3. Pausar ao passar o mouse */
 .marquee-track:hover {
     animation-play-state: paused !important;
 }
 
-/* SEGUNDO PEDIDO: Aproximando as logos */
+/* 4. Estilo dos Links e Logos (PC) */
 #banner-rolante-patrocinadores .marquee-track a {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    /*width: 320px !important;*/ /* Largura grande para o rolante */
-    /* SEGUNDO PEDIDO: Removendo o padding lateral que afastava as logos */
-    padding: 0 !important; /* Removendo o padding para aproximação máxima */
+    padding: 0 !important; /* Remove afastamento interno */
     flex-shrink: 0 !important;
 }
 
 #banner-rolante-patrocinadores .marquee-track img {
     all: unset !important;
     display: block !important;
-    max-width: 250px !important; /* TAMANHO DA LOGO NO ROLANTE */
-    max-height: 90px !important;
+    max-width: 220px !important; /* Tamanho das logos no PC */
+    max-height: 80px !important;
     width: auto !important;
     height: auto !important;
     object-fit: contain !important;
+    transition: transform 0.3s ease !important;
 }
 
-/* ANIMAÇÃO */
+/* 5. Ajustes para Celular (Mobile) */
+@media (max-width: 768px) {
+    #banner-rolante-patrocinadores {
+        margin: 15px auto !important;
+        padding: 10px 0 !important;
+    }
+    
+    .marquee-track {
+        column-gap: 10px !important; /* Logos ainda mais próximas no celular */
+    }
+
+    #banner-rolante-patrocinadores .marquee-track a {
+        width: 140px !important; /* Garante que não empilhem */
+    }
+
+    #banner-rolante-patrocinadores .marquee-track img {
+        max-width: 120px !important;
+        max-height: 55px !important;
+    }
+}
+
+/* 6. Animação de Rolagem */
 @keyframes scrollDireita {
     0% { transform: translate3d(-50%, 0, 0); }
     100% { transform: translate3d(0, 0, 0); }
 }
 
-@media (max-width: 768px) {
-    #banner-rolante-patrocinadores .marquee-track a { width: 200px !important; }
-    #banner-rolante-patrocinadores .marquee-track img { max-width: 160px !important; }
+/* ============================================================
+   7. PROTEÇÃO DA PÁGINA DE NOTÍCIAS (Evita quebrar a lateral)
+   ============================================================ */
+.news-page .ad-container img, 
+.sidebar-patrocinio img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    display: block !important;
+    margin-bottom: 15px !important;
 }
