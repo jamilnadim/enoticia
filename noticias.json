@@ -2239,7 +2239,7 @@
   "data": "16 de abril de 2026",
   "link": "noticia.php?id=168",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2253,7 +2253,7 @@
   "data": "16 de abril de 2026",
   "link": "noticia.php?id=169",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2267,7 +2267,7 @@
   "data": "16 de abril de 2026",
   "link": "noticia.php?id=170",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2280,6 +2280,104 @@
   "conteudo": "<article class='noticia-conteudo'><p>Um vereador de <strong>Pirajuba</strong>, no Triângulo Mineiro, foi preso preventivamente na última segunda-feira (13) sob a suspeita de estupro de vulnerável. O político, de <strong>72 anos</strong>, foi detido após ser indiciado pela Polícia Civil por crimes que teriam sido praticados de forma recorrente contra uma menina entre os 8 e 14 anos de idade.</p><h3>Detalhes das Investigações</h3><p>Segundo a Polícia Civil, os abusos teriam ocorrido ao longo de aproximadamente <strong>cinco anos</strong>, com frequência semanal. A investigação aponta que a vítima era mantida em silêncio por meio de ameaças constantes e violência psicológica severa.</p><p>O inquérito revelou pontos ainda mais alarmantes sobre o caso:</p><ul><li><strong>Conivência mediante pagamento:</strong> Uma pessoa próxima à vítima teria colaborado com os crimes em troca de vantagens financeiras.</li><li><strong>Influência Política:</strong> O investigado utilizava seu poder econômico e político para tentar interferir na rede de proteção à criança, buscando acesso a informações sigilosas e tentando obstruir o acolhimento da vítima.</li></ul><h3>Ação Judicial e Apreensões</h3><p>Durante a operação policial, foram cumpridos mandados de prisão preventiva e de busca e apreensão, resultando no recolhimento de celulares e documentos que passarão por perícia. A Justiça determinou também o <strong>bloqueio de bens</strong> do parlamentar.</p><p>O suspeito foi encaminhado ao sistema prisional e permanece detido em <strong>Uberaba</strong>. As investigações continuam para esclarecer a totalidade dos fatos e identificar outros possíveis envolvidos na rede de acobertamento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Jornal da Manhã (JM Online)</strong></p></article>",
   "data": "16 de abril de 2026",
   "link": "noticia.php?id=171",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 172,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG participa do Zebu Connect Day em Uberaba (MG)",
+  "resumo": "Cooperativa marca presença na 91ª ExpoZebu com soluções financeiras, linhas de investimento e condições especiais para produtores rurais durante encontro técnico da ABCZ.",
+  "imagem": "Assets/noticias/Sicredi na ExpoZebu.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A <strong>Sicredi Ibiraiaras RS/MG</strong> patrocina o Zebu Connect Day, considerado um dos principais encontros técnicos voltados à pecuária zebuína no país. O evento, promovido pela ABCZ, acontece no dia 27 de abril, a partir das 8h, na Fazenda Experimental Orestes Prata Tibery Júnior, em Uberaba, integrando a programação da <strong>91ª ExpoZebu</strong>.</p><p>A iniciativa deve reunir produtores, técnicos, pesquisadores e empresas voltadas à inovação e à prestação de serviços no campo. Segundo Leonardo Pereira Lago da Silva, assessor de agronegócios da cooperativa, a participação é estratégica para ampliar a presença do cooperativismo.</p><blockquote>“É uma oportunidade importante para apresentarmos nosso modelo de negócio, disseminarmos o cooperativismo e contribuirmos com o desenvolvimento local de comunidades, empresas e associados”, ressalta Leonardo.</blockquote><h3>Atendimento e Soluções Financeiras</h3><p>Durante o Zebu Connect Day, a Sicredi contará com um estande exclusivo para atendimento ao público, oferecendo:</p><ul><li><strong>Soluções para máquinas e insumos:</strong> Linhas de crédito específicas para modernização da produção;</li><li><strong>Condições especiais:</strong> Taxas e prazos diferenciados para associados durante o período do evento;</li><li><strong>Networking:</strong> Conexão entre empresas do agronegócio e produtores rurais em um ambiente de inovação.</li></ul><p>A expectativa é fortalecer o modelo de atendimento próximo e humanizado do Sicredi, apresentando soluções que equilibram o crescimento econômico com o desenvolvimento social das comunidades onde a cooperativa atua.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Assessoria Sicredi Ibiraiaras RS/MG</strong></p></article>",
+  "data": "22 de abril de 2026",
+  "link": "noticia.php?id=172",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 173,
+  "categoria": "politica",
+  "titulo": "Novas regras do Minha Casa, Minha Vida começam a valer nesta quarta",
+  "resumo": "Limites de renda e valor máximo dos imóveis foram atualizados pelo Conselho Curador do FGTS; mudanças devem ampliar o acesso para milhares de famílias.",
+  "imagem": "Assets/noticias/minhacasaminhavida.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>As novas regras para financiamento de imóveis por meio do programa <strong>Minha Casa, Minha Vida</strong> começam a valer a partir desta quarta-feira (22). Com as mudanças, os limites de renda e os valores dos imóveis foram reajustados para ampliar o alcance do programa habitacional.</p><h3>Novos Limites de Renda</h3><p>Os novos tetos de renda mensal para cada categoria passam a ser:</p><ul><li><strong>Faixa 1:</strong> R$ 3,2 mil;</li><li><strong>Faixa 2:</strong> R$ 5 mil;</li><li><strong>Faixa 3:</strong> R$ 9,6 mil;</li><li><strong>Faixa 4:</strong> R$ 13 mil.</li></ul><h3>Valor Máximo dos Imóveis</h3><p>O valor máximo de venda dos imóveis também foi atualizado, permitindo o financiamento de propriedades com valor de mercado mais elevado:</p><ul><li><strong>Faixa 3:</strong> Passa a ser R$ 400 mil;</li><li><strong>Faixa 4:</strong> Passa a ser R$ 600 mil.</li></ul><p>As mudanças foram aprovadas em março pelo Conselho Curador do Fundo de Garantia do Tempo de Serviço (FGTS). A ampliação contará com recursos do Fundo Social, com cerca de <strong>R$ 31 bilhões</strong> destinados ao programa.</p><h3>Impacto Social e Econômico</h3><p>Segundo o governo, as mudanças devem ampliar o acesso ao programa, beneficiando diretamente 87,5 mil famílias com juros menores. Estima-se a inclusão de 31,3 mil novas famílias na faixa 3 e 8,2 mil famílias na faixa 4. A equipe técnica prevê um impacto de R$ 500 milhões em subsídios e de R$ 3,6 bilhões em crédito habitacional no mercado brasileiro.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Ministério das Cidades</strong></p></article>",
+  "data": "22 de abril de 2026",
+  "link": "noticia.php?id=173",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 174,
+  "categoria": "politica",
+  "titulo": "CCJ da Câmara retoma análise do fim da escala 6x1 nesta quarta",
+  "resumo": "Proposta prevê redução da jornada para 36 horas semanais; Governo Federal enviou projeto paralelo com urgência para acelerar a mudança para 40 horas.",
+  "imagem": "Assets/noticias/ccj.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Proposta de Emenda à Constituição (PEC) 221 de 2019, que visa extinguir a escala de seis dias de trabalho por um de descanso (6x1), volta à pauta de análise da <strong>Comissão de Constituição e Justiça (CCJ)</strong> da Câmara dos Deputados nesta quarta-feira (22). A sessão está marcada para as 14h30.</p><h3>Detalhes da Proposta</h3><p>Além do fim da escala 6x1, a PEC propõe:</p><ul><li><strong>Redução da jornada:</strong> Das atuais 44 horas para 36 horas semanais;</li><li><strong>Prazo de transição:</strong> Implementação gradual em um período de dez anos;</li><li><strong>Constitucionalidade:</strong> O relator, deputado Paulo Azi (União-BA), já votou pela admissibilidade da matéria.</li></ul><h3>Ação do Governo Federal</h3><p>Diante da tramitação lenta de uma PEC, o presidente Luiz Inácio Lula da Silva enviou ao Congresso um <strong>Projeto de Lei (PL) com urgência constitucional</strong>. Este projeto foca na redução imediata da jornada para <strong>40 horas semanais</strong> e, por ter caráter de urgência, precisa ser votado em até 45 dias, sob risco de trancar a pauta do plenário.</p><p>O ministro do Trabalho, Luiz Marinho, explicou que as propostas são complementares: \"O PL vai avançar e pode ser que entre em vigor a redução de jornada e depois se consolide por PEC para impedir que futuros governos tentem aumentar a jornada novamente\".</p><h3>Próximos Passos</h3><p>Se a CCJ aprovar a admissibilidade hoje, o presidente da Câmara, Hugo Motta (Republicanos-PB), deverá criar uma comissão especial. O rito de uma PEC exige discussões em comissões temáticas antes de seguir para votação em dois turnos no plenário da Câmara e, posteriormente, no Senado.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Câmara dos Deputados</strong></p></article>",
+  "data": "22 de abril de 2026",
+  "link": "noticia.php?id=174",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 175,
+  "categoria": "saude",
+  "titulo": "Filhos de Minas é realidade em Sacramento e reforça cuidado com gestantes",
+  "resumo": "Programa estadual entrega kits de enxoval para gestantes que realizam o pré-natal completo; primeira entrega ocorreu na Unidade Francisco Pinheiro, no bairro Maria Rosa.",
+  "imagem": "Assets/noticias/filhos.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O município de Sacramento já colhe os primeiros resultados do <strong>Programa Filhos de Minas</strong>, iniciativa do Governo de Minas Gerais voltada ao fortalecimento do pré-natal e à promoção da saúde materno-infantil. Na manhã da última quinta-feira (16), a equipe de Saúde da Família da Unidade Francisco Pinheiro realizou a entrega do primeiro kit de enxoval da unidade.</p><p>A ação marca a chegada efetiva do programa no município e simboliza o cuidado contínuo oferecido pelas equipes da Atenção Primária à Saúde. O objetivo central é incentivar a adesão das gestantes ao acompanhamento médico e garantir a atualização do calendário vacinal.</p><h3>Itens do Kit de Enxoval</h3><p>Como parte das estratégias de acolhimento, as gestantes recebem um kit com itens essenciais para os primeiros meses do bebê, incluindo:</p><ul><li>Bolsa e cobertor;</li><li>Macacões (curtos e longos), bodies e culotes;</li><li>Casaquinho com capuz e kits de meias;</li><li>Toalha com capuz.</li></ul><h3>Critérios para Participação</h3><p>Para ter acesso ao benefício do Programa Filhos de Minas em Sacramento, a gestante deve cumprir os seguintes requisitos:</p><ul><li>Ser beneficiária do programa <strong>Bolsa Família</strong>;</li><li>Realizar, no mínimo, <strong>sete consultas de pré-natal</strong> na rede pública.</li></ul><p>A entrega do primeiro kit representa o reflexo de um trabalho comprometido das equipes de saúde locais, que atuam de forma humanizada para garantir um início de vida digno e seguro para as crianças do município.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "22 de abril de 2026",
+  "link": "noticia.php?id=175",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 176,
+  "categoria": "noticia",
+  "titulo": "CEMBEA recebe doação da SCL Agro e fortalece rede de proteção animal em Sacramento",
+  "resumo": "Ação destinou 1,2 tonelada de ração para cuidadores independentes; iniciativa da marca Probem destina parte das vendas para apoiar a causa animal no município.",
+  "imagem": "Assets/noticias/cembea.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Uma iniciativa que conecta propósito, responsabilidade social e impacto real marcou mais um avanço na causa animal em Sacramento. O <strong>CEMBEA – Centro Municipal de Bem-Estar Animal</strong> recebeu a doação de <strong>1,2 tonelada de ração pet</strong>, destinada a cuidadores independentes que atuam no acolhimento de animais resgatados.</p><p>A doação foi realizada pela <strong>SCL Agro</strong>, indústria brasileira referência em nutrição animal, por meio das marcas Probem e Goodie. A ação faz parte de um compromisso contínuo da marca Probem, que direciona <strong>3% de seu volume de vendas</strong> para iniciativas ligadas à proteção animal.</p><h3>Responsabilidade Social e Parceria</h3><p>Flavio Vicente, Gerente Administrativo da SCL Agro, reforçou o papel da organização em ir além do negócio:</p><blockquote>“Acreditamos em pessoas e no impacto que geramos ao nosso redor. Apoiar iniciativas como essa é fortalecer uma rede que cuida, protege e transforma realidades.”</blockquote><p>A iniciativa contribui diretamente para garantir alimentação adequada e dignidade aos animais em situação de vulnerabilidade. Além disso, a ação reconhece o trabalho essencial dos <strong>cuidadores independentes</strong> — agentes fundamentais na linha de frente do resgate, tratamento e acolhimento em Sacramento.</p><p>A parceria reforça como a conexão entre a iniciativa privada e o poder público pode gerar valor concreto para a sociedade, promovendo o bem-estar animal e incentivando uma cultura de responsabilidade e cuidado compartilhado.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "22 de abril de 2026",
+  "link": "noticia.php?id=176",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 177,
+  "categoria": "politica",
+  "titulo": "Reunião discute avanços para nova subestação de energia e investimentos no desenvolvimento de Sacramento",
+  "resumo": "Encontro com a diretoria da Cemig define tratativas finais para ampliação da capacidade energética do município, visando reduzir quedas de energia e atrair novos investimentos.",
+  "imagem": "Assets/noticias/reuniaosubestacao.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Prefeito de Sacramento, <strong>Juninho Trevisan</strong>, e o Secretário Municipal de Desenvolvimento Econômico e Turismo, <strong>Gregório Pinheiro</strong>, participaram de uma importante reunião institucional para tratar de projetos estratégicos voltados à infraestrutura do município.</p><p>A agenda contou com a presença do Gerente de Relacionamento com Municípios da Cemig, Bruno Cordeiro, do deputado Bosco e do Vice-Presidente da companhia, <strong>Marcos Montes</strong>, acompanhado de sua equipe técnica e jurídica.</p><h3>Estabilidade Energética</h3><p>O foco central do debate foram as últimas tratativas para a implantação da <strong>nova subestação de energia</strong> em Sacramento. O projeto é considerado fundamental para:</p><ul><li>Ampliar a capacidade energética do município;</li><li>Reduzir drasticamente os episódios de queda de energia registrados na cidade;</li><li>Garantir estabilidade no fornecimento para residências e indústrias.</li></ul><h3>Desenvolvimento Econômico e Rural</h3><p>Além da infraestrutura elétrica, a reunião abordou perspectivas de novos investimentos no <strong>setor rural</strong> e o fortalecimento de <strong>empreendimentos turísticos</strong>. Estas áreas são vistas como motores estratégicos para a geração de emprego e renda, valorizando o potencial econômico local.</p><p>A articulação reforça o compromisso do poder público em viabilizar soluções estruturantes junto à concessionária de energia, buscando impulsionar o desenvolvimento sustentável e a segurança energética de Sacramento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: SEGOV/DECOM-PMS - Prefeitura de Sacramento</strong></p></article>",
+  "data": "22 de abril de 2026",
+  "link": "noticia.php?id=177",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 178,
+  "categoria": "noticia",
+  "titulo": "Enem 2026: período para pedir isenção da taxa termina nesta sexta",
+  "resumo": "Interessados devem acessar a Página do Participante para solicitar gratuidade ou justificar ausência na edição anterior; isenção não é automática e exige cadastro regular.",
+  "imagem": "Assets/noticias/enem2026.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Termina nesta sexta-feira o prazo para os interessados solicitarem a isenção do pagamento da taxa de inscrição do <strong>Exame Nacional do Ensino Médio (Enem) de 2026</strong>. O período também é destinado aos candidatos que precisam justificar a ausência na edição de 2025 para garantir a participação gratuita este ano.</p><p>A solicitação deve ser feita exclusivamente pela <strong>Página do Participante</strong>, utilizando o login único da plataforma Gov.br.</p><h3>Quem tem direito à isenção?</h3><p>O Inep prevê a gratuidade para os seguintes perfis:</p><ul><li>Alunos matriculados no 3º ano do ensino médio em escola pública em 2026;</li><li>Estudantes que cursaram todo o ensino médio em rede pública ou como bolsistas integrais em rede privada (com renda per capita de até 1,5 salário-mínimo);</li><li>Inscritos no <strong>CadÚnico</strong> com situação cadastral regular;</li><li>Beneficiários do programa <strong>Pé-de-Meia</strong> do Ministério da Educação.</li></ul><h3>Justificativa de Ausência</h3><p>Para quem teve isenção em 2025 mas não compareceu aos dois dias de prova, é obrigatório anexar documentos comprobatórios (como atestados médicos, boletins de ocorrência ou certidões) nos formatos PDF, PNG ou JPG de até 2MB. O Inep alerta que não serão aceitos documentos autodeclaratórios.</p><h3>Cronograma de Resultados</h3><p>Fique atento às próximas datas divulgadas pelo Inep:</p><ul><li><strong>8 de maio:</strong> Divulgação dos resultados das solicitações;</li><li><strong>11 a 15 de maio:</strong> Período para interposição de recursos;</li><li><strong>22 de maio:</strong> Resultado definitivo dos recursos.</li></ul><p>Vale lembrar que a aprovação da isenção <strong>não significa que o candidato está inscrito</strong> no exame. Após o resultado da gratuidade, todos os participantes deverão realizar a inscrição para as provas em período ainda a ser definido pelo MEC.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil / Inep</strong></p></article>",
+  "data": "22 de abril de 2026",
+  "link": "noticia.php?id=178",
   "noCarrossel": true,
   "destaque": true
 }
