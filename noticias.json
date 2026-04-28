@@ -2074,7 +2074,7 @@
   "data": "10 de abril de 2026",
   "link": "noticia.php?id=156",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2225,7 +2225,7 @@
   "data": "16 de abril de 2026",
   "link": "noticia.php?id=167",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2337,7 +2337,7 @@
   "data": "22 de abril de 2026",
   "link": "noticia.php?id=175",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2365,7 +2365,7 @@
   "data": "22 de abril de 2026",
   "link": "noticia.php?id=177",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2379,7 +2379,7 @@
   "data": "22 de abril de 2026",
   "link": "noticia.php?id=178",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2389,9 +2389,135 @@
   "resumo": "Tragédia na MG-428: Vítimas de 59 e 26 anos morreram no local após colisão contra caminhão de sucata que apresentava incêndio na pista próximo a Sacramento.",
   "imagem": "Assets/noticias/acidentepai.webp",
   "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
-  "conteudo": "<article class='noticia-conteudo'><p>Um grave acidente tirou a vida de dois homens, de 59 e 26 anos, em uma rodovia perto de <strong>Sacramento (MG)</strong>, na madrugada desta quinta-feira (23/4). Eles eram pai e filho e estavam em uma caminhonete F-350 que colidiu na traseira de um caminhão que estava em chamas na pista do KM 102 da MG-428.</p><p>Bombeiros do Pelotão de Sacramento foram acionados, mas as vítimas morreram no local após o acidente. O caminhão, que estava carregado com sucata, pegou fogo possivelmente por superaquecimento do sistema de freios, informaram os bombeiros.</p><h3>Detalhes da Ocorrência</h3><p>A caminhonete onde estavam as vítimas vinha no mesmo sentido e não conseguiu evitar a forte batida. Os corpos ficaram presos às ferragens diante da violência do impacto, que ocorreu por volta das 4h15. A perícia técnica foi acionada para os trabalhos de praxe e liberação dos corpos.</p><div class='galeria-noticia' style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 30px 0;'><img src='Assets/noticias/acidentepai1.webp' alt='Imagem 1' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai2.webp' alt='Imagem 2' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai3.webp' alt='Imagem 3' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai4.webp' alt='Imagem 4' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai5.webp' alt='Imagem 5' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai6.webp' alt='Imagem 6' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai7.webp' alt='Imagem 7' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai8.webp' alt='Imagem 8' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai9.webp' alt='Imagem 9' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai10.webp' alt='Imagem 10' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai11.webp' alt='Imagem 11' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'><img src='Assets/noticias/acidentepai12.webp' alt='Imagem 12' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'></div><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Metrópoles / Corpo de Bombeiros de Minas Gerais</strong></p></article>",
+  "conteudo": "<article class='noticia-conteudo'><p>Um grave acidente tirou a vida de dois homens, de 59 e 26 anos, em uma rodovia perto de <strong>Sacramento (MG)</strong>, na madrugada desta quinta-feira (23/4). Eles eram pai e filho e estavam em uma caminhonete F-350 que colidiu na traseira de um caminhão que estava em chamas na pista do KM 102 da MG-428.</p><p>Bombeiros do Pelotão de Sacramento foram acionados, mas as vítimas morreram no local após o acidente. O caminhão, que estava carregado com sucata, pegou fogo possivelmente por superaquecimento do sistema de freios, informaram os bombeiros.</p><h3>Detalhes da Ocorrência</h3><p>A caminhonete onde estavam as vítimas vinha no mesmo sentido e não conseguiu evitar a forte batida. Os corpos ficaram presos às ferragens diante da violência do impacto, que ocorreu por volta das 4h15. A perícia técnica foi acionada para os trabalhos de praxe e liberação dos corpos.</p><div class='galeria-noticia' style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 30px 0;'>  <a href='Assets/noticias/acidentepai1.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai1.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai2.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai2.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai3.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai3.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai4.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai4.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai5.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai5.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai6.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai6.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai7.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai7.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai8.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai8.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai9.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai9.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai10.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai10.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai11.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai11.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidentepai12.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidentepai12.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a></div><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Metrópoles / Corpo de Bombeiros de Minas Gerais</strong></p></article>",
   "data": "23 de abril de 2026",
   "link": "noticia.php?id=179",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 180,
+  "categoria": "policia",
+  "titulo": "Colisão entre ônibus e carreta deixa dois mortos e mais de 30 feridos na BR-050 em Uberaba",
+  "resumo": "Grave acidente envolvendo ônibus que transportava 60 fiéis da Igreja Batista Bíblica ocorreu na madrugada desta terça-feira próximo ao posto Caxuxa.",
+  "imagem": "Assets/noticias/acidente050.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Um grave acidente entre um ônibus e uma carreta deixou duas pessoas mortas e mais de 30 feridos na madrugada desta terça-feira (28), na BR-050, no km 152, em Uberaba, nas proximidades do posto Caxuxa. Segundo informações do Corpo de Bombeiros, a ocorrência teve início por volta de 1h.</p><p>O ônibus, pertencente à Igreja Batista Bíblica, saiu de Buritirama (BA) com destino a São Paulo (SP). Já de acordo com a Polícia Rodoviária Federal (PRF), o acidente foi registrado como uma colisão traseira envolvendo um conjunto veicular formado por caminhão-trator e semirreboques e o ônibus, que ao todo transportava cerca de 60 ocupantes.</p><h3>Vítimas e Resgate</h3><p>Duas pessoas morreram ainda no local: o motorista do ônibus, de 52 anos, e uma passageira de 54 anos. A PRF confirmou que 33 passageiros feridos, incluindo uma adolescente e uma criança de 1 ano, foram levados para unidades hospitalares de Uberaba como o Hospital de Clínicas da UFTM e o Hospital Regional.</p><div class='galeria-noticia' style='display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 30px 0;'>  <a href='Assets/noticias/acidente0501.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidente0501.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/acidente0502.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/acidente0502.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a></div><p>Para o resgate, foram mobilizadas seis ambulâncias do SAMU e da concessionária Eco050, além de viaturas de salvamento do Corpo de Bombeiros. As causas do acidente serão apuradas pela Polícia Civil e pela perícia técnica.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Jornal da Manhã (Uberaba)</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=180",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 181,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG apresenta resultado líquido de R$ 117,5 milhões em relatório anual de 2025",
+  "resumo": "Documento destaca marca histórica de 100 mil associados e investimentos de R$ 2,1 milhões em ações sociais nas comunidades do RS e MG.",
+  "imagem": "Assets/noticias/relatorioanual2025.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Sicredi Ibiraiaras RS/MG lançou o seu relatório anual de 2025. O documento destaca os resultados financeiros alcançados e o compromisso contínuo com o desenvolvimento sustentável, além do trabalho social promovido em escolas, entidades e com as comunidades da área de abrangência no Rio Grande do Sul e em Minas Gerais.</p><p>Em 2025, considerado o Ano Internacional das Cooperativas, a Sicredi Ibiraiaras RS/MG alcançou a marca de <strong>100 mil associados</strong> e o crescimento com mais de 500 colaboradores que atuam em prol do cooperativismo. O relatório apresenta o crescimento também do resultado total de R$ 129,8 milhões e de R$ 3.3 bilhões de carteira de crédito. Além disso, a cooperativa atingiu <strong>R$ 117,5 milhões de resultado líquido</strong>.</p><h3>Presença e Impacto Social</h3><p>Ao todo, a cooperativa encerrou 2025 com 103.227 mil associados e 521 colaboradores, com presença em 32 municípios. No âmbito social, a cooperativa patrocinou 981 ações com um investimento de R$ 2,1 milhões, além de destinar R$ 520 mil a hospitais e entidades da área da saúde.</p><div class='galeria-noticia' style='display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; margin: 30px 0;'>  <a href='Assets/noticias/relatorioanual20251.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/relatorioanual20251.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a></div><p>“O relatório apresenta o crescimento significativo que tivemos em um ano muito importante. Esses resultados reforçam a solidez da cooperativa e o seu compromisso com os associados e as comunidades”, declara o presidente da Sicredi Ibiraiaras RS/MG, Sadi Bento Rigotti.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Sicredi Ibiraiaras RS/MG / Divulgação</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=181",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 182,
+  "categoria": "evento",
+  "titulo": "Acervo de Carolina Maria de Jesus passa por avaliação técnica",
+  "resumo": "Professor da UFMG realiza diagnóstico inicial dos manuscritos em Sacramento para projeto que prevê restauração, exposição e simpósio sobre a obra da autora.",
+  "imagem": "Assets/noticias/acervo carolina.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O Arquivo Público Municipal de Sacramento recebeu na última segunda-feira (27), a visita do professor Roberto Said, da Universidade Federal de Minas Gerais (UFMG), para a avaliação técnica dos manuscritos da escritora Carolina Maria de Jesus. A iniciativa integra o projeto “Carolina Maria de Jesus: um arquivo para o futuro”, da UFMG, desenvolvido em parceria com o Ministério da Cultura e a Prefeitura de Sacramento.</p><p>Durante a visita, o professor realizou um diagnóstico inicial dos cadernos originais da autora, etapa fundamental para a definição de um orçamento preciso para o processo de restauração. Segundo ele, o trabalho exige técnicas especializadas e envolve materiais específicos, incluindo insumos químicos, o que demanda planejamento detalhado.</p><p>Roberto Said destacou a relevância do acervo e a emoção ao ter contato direto com os escritos da autora. “É muito impactante ver a letra da Carolina, ter acesso a esses documentos tão importantes para a literatura brasileira”, afirmou. Ele também comentou sobre as condições de conservação do material, contrariando informações que circulavam anteriormente. “Fiquei surpreso positivamente. O acervo está bem organizado e demonstra cuidado por parte da equipe responsável”, ressaltou.</p><h3>Projeto e Preservação</h3><p>O projeto prevê a restauração completa dos manuscritos originais de Carolina Maria de Jesus, considerada uma das vozes mais importantes da literatura brasileira, especialmente por sua contribuição à literatura negra e periférica. Além da recuperação dos documentos, a iniciativa inclui a realização de uma exposição na UFMG e a promoção de um simpósio voltado à obra da autora e às discussões sobre literatura negra.</p><p>Com duração prevista de 24 meses, o projeto ainda está em fase de tramitação documental. A expectativa é que, em breve, o acervo seja encaminhado para um laboratório especializado em restauração, onde passará por um processo técnico minucioso.</p><p>A visita reforça a importância de Sacramento na preservação da memória de Carolina Maria de Jesus e evidencia o compromisso do município com a valorização de seu patrimônio histórico e cultural.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=182",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 183,
+  "categoria": "saude",
+  "titulo": "Sacramento inaugura base do SAMU e reforça atendimento de urgência",
+  "resumo": "Nova base descentralizada instalada junto ao Corpo de Bombeiros amplia a capacidade de resposta para emergências e integra o município à rede regional de saúde.",
+  "imagem": "Assets/noticias/reginaldolopes.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A população de Sacramento ganha um importante reforço na área da saúde com a instalação da Base Descentralizada do Serviço de Atendimento Móvel de Urgência (SAMU 192). A solenidade de entrega, que aconteceu na tarde do último sábado (25), foi realizada na estrutura do Corpo de Bombeiros e reuniu autoridades municipais, estaduais e representantes das forças de segurança e da saúde.</p><p>Considerado um marco para o município, o novo serviço amplia a capacidade de resposta em situações de urgência e emergência, garantindo atendimento mais ágil, eficiente e humanizado à população. A iniciativa integra Sacramento a uma rede regional que atende 27 cidades e mais de 700 mil habitantes, com funcionamento ininterrupto e regulação médica especializada.</p><h3>Autoridades Presentes</h3><p>Durante o evento, estiveram presentes o prefeito Osmar Trevisan Junior, o vice-prefeito Cleber Silveira Borges, o deputado federal Reginaldo Lopes, o presidente da Câmara Municipal, vereador Dr. Thalys Andrei Nunes Rodrigues, a secretária municipal de Saúde, Alessandra Oliveira, e o Tenente Romulo Augusto Silva Ogando, representante do Corpo dos Bombeiros.</p><p>Em seus pronunciamentos, as autoridades destacaram a importância da implantação do SAMU como um avanço decisivo para o fortalecimento da rede pública de saúde. O serviço atua desde os primeiros minutos de uma ocorrência, prestando atendimento no local, estabilizando pacientes e garantindo o encaminhamento seguro para unidades hospitalares de referência.</p><h3>Sobre o SAMU</h3><p>Instituído no Brasil em 2003, o SAMU faz parte da Política Nacional de Atenção às Urgências e tem como principal objetivo reduzir o número de óbitos, o tempo de internação e as sequelas causadas por atendimentos tardios. A cerimônia foi marcada ainda pelo descerramento da placa inaugural, simbolizando oficialmente a entrega da unidade à população.</p><p>Com a implantação, Sacramento passa a contar com um serviço essencial que deve impactar diretamente na qualidade e na rapidez do atendimento de emergências, fortalecendo a rede de saúde e proporcionando mais segurança à população.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=183",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 184,
+  "categoria": "esporte",
+  "titulo": "Sacramento brilha no Mineiro de Karatê e garante vaga na final estadual",
+  "resumo": "Equipe de Sacramento conquista 29 medalhas na 3ª etapa classificatória em Piumhi e se prepara para a grande final estadual em Uberlândia.",
+  "imagem": "Assets/noticias/karate.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A dedicação, a disciplina e o amor pelo esporte colocaram Sacramento em evidência mais uma vez. Na 3ª etapa classificatória do Campeonato Mineiro de Karatê, realizada no último dia 19 de abril de 2026, em Piumhi (MG), a equipe do município fez bonito e voltou para casa com 29 medalhas na bagagem — e, mais importante, com a vaga garantida na grande final estadual, que acontece nos dias 16 e 17 de maio, em Uberlândia.</p><p>Foram 12 medalhas de ouro, 9 de prata e 8 de bronze, conquistadas com garra em cada golpe, em cada movimento e em cada apresentação. Mais do que números, os resultados refletem o esforço diário dos atletas, o trabalho dedicado da comissão técnica e o orgulho de representar Sacramento nos tatames de Minas Gerais.</p><p>Agora, com a classificação assegurada, a equipe segue ainda mais motivada para a etapa final, onde enfrentará os melhores do estado levando consigo talento, confiança e o nome da cidade.</p><h3>Confira os medalhistas por categoria:</h3><p><strong>Sub-10 (8 e 9 anos)</strong><br>• Dandara Gama Medeiros Costa — ouro no kumitê<br>• José Roberto Oliveira Lima Gomide — prata no kumitê e bronze no kata<br>• Heitor Gobbo Nunes Rodrigues — bronze no kumitê</p><p><strong>Sub-12 (10 e 11 anos)</strong><br>• Valentina Carmelita Fidelis — bronze no kumitê<br>• Miguel Maykon Santana — bronze no kumitê</p><p><strong>Sub-14 (12 e 13 anos)</strong><br>• Elioi Miria Gadelha Grassi — ouro no kumitê<br>• Thais Souza de Oliveira — bronze no kumitê</p><p><strong>Cadetes (14 e 15 anos – Br/Vd)</strong><br>• Maíra Souza de Oliveira — ouro no kata e ouro no kumitê<br>• Cláudio Inácio — ouro no kata e prata no kumitê<br>• Luís Otávio Honorato Pereira — ouro no kumitê e prata no kata<br>• Caio Fernandes Costa — ouro no kumitê e bronze no kata<br>• Kimberlly Rodrigues — ouro no kumitê<br>• Larissa Eustáquio Pires — bronze no kumitê</p><p><strong>Cadetes (14 e 15 anos – Rx/Pt)</strong><br>• Diogo Fernandes Costa — ouro no kumitê e bronze no kata</p><p><strong>Júnior (16 e 17 anos – Br/Vd)</strong><br>• Nicholas Eduardo Monteiro Cardoso — prata no kata e prata no kumitê<br>• Luiz Felipe Foresto — prata no kumitê</p><p><strong>Júnior (16 e 17 anos – Rx/Pt)</strong><br>• Valentina Silveira Borges de Santi — ouro no kata e ouro no kumitê<br>• Eduarda Cardoso Agustoni — ouro no kumitê e prata no kata<br>• Luiz Felipe Foresto — prata no kumitê</p><p><strong>Sub-12 (10 e 11 anos – Rx/Pt)</strong><br>• Djulhia Miranda — prata no kumitê e bronze no kata</p><p>Cada medalha carrega uma história de superação, treino e persistência. Sacramento celebra não apenas as conquistas, mas o exemplo desses jovens atletas que levam o nome da cidade cada vez mais longe.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=184",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 185,
+  "categoria": "noticia",
+  "titulo": "Missa no Desemboque reforça fé e preservação histórica em Sacramento",
+  "resumo": "Celebração na centenária Igreja de Nossa Senhora do Desterro marca o Dia do Desemboque e homenageia o legado do Cônego Hermógenes.",
+  "imagem": "Assets/noticias/desembo.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Secretaria Municipal de Cultura de Sacramento, em parceria com a Paróquia local, realizou no dia 21 de abril missa especial na Igreja Matriz de Nossa Senhora do Desterro, no distrito do Desemboque. A celebração marcou o Dia do Desemboque e o aniversário do Cônego Hermógenes Cassimiro de Araújo Brunswick, figura fundamental na história do município.</p><p>O evento reuniu moradores da comunidade e da zona rural em um momento de fé, memória e valorização cultural. A cerimônia contou com a participação do Coral Santa Cecília, sob a regência do maestro Josimar, que contribuiu com cânticos litúrgicos.</p><h3>Identidade e História</h3><p>Durante a homilia, o padre Márcio André destacou a importância histórica e simbólica do Desemboque para o Triângulo Mineiro, apontando o distrito como referência de origem e identidade regional. Também ressaltou o valor da Igreja de Nossa Senhora do Desterro, datada de 1762, como um dos marcos mais antigos e relevantes da região.</p><div class='galeria-noticia' style='display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin: 30px 0;'>  <a href='Assets/noticias/desembo1.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/desembo1.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a>  <a href='Assets/noticias/desembo2.webp' data-fancybox='gallery' class='galeria-item'>    <img src='Assets/noticias/desembo2.webp' style='width:100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px;'>  </a></div><p>Ao final da celebração, o secretário municipal de Cultura, Luiz Alberto da Silva, reforçou a relevância histórica do Desemboque e o legado do Cônego Hermógenes, conhecido como Apóstolo do Sertão da Farinha Podre, para a fundação de Sacramento. O vereador Leandro Araújo também se pronunciou, destacando a emoção e o orgulho de suas raízes no distrito.</p><p>Marcada por forte emoção, a celebração foi encerrada com a bênção final, consolidando-se como uma reafirmação da identidade histórica local. “O Desemboque foi a porta de entrada para o povoamento da região”, destacam os organizadores.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=185",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 186,
+  "categoria": "policia",
+  "titulo": "Prefeito Juninho Trevisan busca reforço no efetivo da PM para Sacramento",
+  "resumo": "Em reunião com o comando da 5ª Região da Polícia Militar, prefeito solicita ampliação do contingente policial para fortalecer a segurança no município.",
+  "imagem": "Assets/noticias/edina.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>O prefeito de Sacramento, Juninho Trevisan, esteve na manhã desta quarta-feira (22) no batalhão da 5ª Região da Polícia Militar, onde se reuniu com o coronel Wolf para solicitar o reforço do efetivo policial no município. A agenda contou com a presença da vereadora e líder do governo na Câmara, Sargento Edna.</p><p>Durante o encontro, foram discutidas as demandas de segurança pública da cidade e a necessidade de ampliação do contingente policial. A expectativa é de que Sacramento seja contemplado com novos militares ainda este ano, após a formação da próxima turma da Polícia Militar.</p><h3>Segurança e Tranquilidade</h3><p>A vereadora Sargento Edna destacou a urgência da medida, ressaltando a importância do aumento do efetivo para garantir mais tranquilidade à população e agilidade no atendimento das ocorrências locais.</p><p>A iniciativa integra uma série de agendas institucionais conduzidas pelo Executivo Municipal, voltadas ao fortalecimento da segurança pública e à melhoria da qualidade de vida dos cidadãos, além de reforçar o posicionamento de Sacramento no cenário regional como um município engajado na proteção de seus habitantes.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=186",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 187,
+  "categoria": "politica",
+  "titulo": "Eleições 2026: prazo para regularizar pendências termina em uma semana",
+  "resumo": "Eleitores têm até o dia 6 de maio para regularizar o título, transferir domicílio ou cadastrar biometria antes do fechamento do cadastro eleitoral.",
+  "imagem": "Assets/noticias/eleicoesurna.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Os eleitores que pretendem votar nas eleições de outubro têm até o dia 6 de maio para regularizar suas pendências na Justiça Eleitoral. O prazo deve ser observado pelo cidadão que quer tirar o primeiro título de eleitor, regularizar o documento, cadastrar biometria, transferir o domicílio eleitoral e atualizar dados cadastrais.</p><p>A partir do dia 7 de maio, o cadastro eleitoral será fechado e não serão permitidas alterações nos dados dos eleitores. Para resolver as pendências, o eleitor pode acessar o serviço eletrônico disponível no site do Tribunal Superior Eleitoral (TSE).</p><h3>Como Regularizar</h3><p>Pela plataforma, é possível enviar os documentos solicitados para cada tipo de serviço e acompanhar o andamento da solicitação. O eleitor também pode procurar os cartórios eleitorais ou postos de atendimento presenciais em todo o país. Alguns serviços, como a coleta de biometria e a solicitação do primeiro título, só podem ser realizados presencialmente.</p><p>Para verificar se o título está regular, o eleitor pode acessar a página do TSE na internet e clicar no menu Consultas. Em seguida, basta clicar em Situação do Título. O passo a passo para a regularização será indicado pelo sistema eletrônico.</p><h3>Consequências do Cancelamento</h3><p>O prazo de regularização também deve ser seguido por quem teve o título cancelado por deixar de votar por três eleições seguidas e não justificou ausência. A manutenção do cancelamento pode causar diversas restrições, como não conseguir tirar passaporte ou carteira de identidade, renovar matrícula em instituição pública de ensino e tomar posse em cargo público.</p><h3>Voto Jovem e Calendário</h3><p>De acordo com a Constituição, o voto é obrigatório para quem tem entre 18 e 70 anos e facultativo para jovens entre 16 e 17 anos. Após completar 15 anos, os jovens já podem solicitar a emissão do documento, mas só votam se tiverem 16 anos completos na data do pleito.</p><p>O primeiro turno das eleições será realizado no dia 4 de outubro, para eleição de presidente, governadores, senadores, deputados federais, estaduais e distritais. Eventual segundo turno ocorrerá no dia 25 do mesmo mês.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Tribunal Superior Eleitoral / Agência Brasil</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=187",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 188,
+  "categoria": "politica",
+  "titulo": "Fim da escala 6x1: estudos divergem sobre impactos no PIB e inflação",
+  "resumo": "Impactos da redução de jornada viram disputa entre economistas; confederações patronais projetam queda no PIB, enquanto Unicamp e Ipea preveem ganhos sociais.",
+  "imagem": "Assets/noticias/escala.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>As propostas de redução da jornada de trabalho no Brasil, em tramitação no Congresso Nacional, têm mobilizado pesquisadores sobre os possíveis impactos da medida na economia, a partir do fim da escala de seis dias de trabalho por um de descanso, a chamada 6x1.</p><p>De um lado, estudos de entidades que representam o empresariado, as chamadas confederações patronais, projetam queda no Produto Interno Bruto (PIB) e alta da inflação. Por outra perspectiva, análises da Universidade Estadual de Campinas (Unicamp) e do Instituto de Pesquisa Econômica Aplicada (Ipea) desenham um cenário diferente, com impactos reduzidos atingindo apenas alguns setores.</p><div style='text-align: center; margin: 25px auto; width: 60%;'>  <a href='Assets/noticias/escala1.webp' data-fancybox='gallery'>    <img src='Assets/noticias/escala1.webp' style='width:100%; border-radius: 8px;'>  </a>  <p style='font-size: 0.8em; color: #666; margin-top: 8px; font-style: italic;'>Marilane Teixeira (Unicamp). Foto: Pedro França/Senado</p></div><p>Para a economista da Unicamp Marilane Teixeira, a diferença entre as pesquisas ocorre porque não se trata de um debate puramente técnico, mas político. “Parte significativa da literatura assume que qualquer redução de horas levará à redução da produção, ignorando ajustes dinâmicos”, aponta.</p><h3>Previsões e Custos</h3><p>A pesquisa da CNI calcula uma perda de R$ 76 bilhões no PIB brasileiro (-0,7%) com a redução para 40 horas. Já a CNC afirma que a medida aumentaria os custos sobre a folha salarial em 21%.</p><div style='text-align: center; margin: 25px auto; width: 60%;'>  <a href='Assets/noticias/escala2.webp' data-fancybox='gallery'>    <img src='Assets/noticias/escala2.webp' style='width:100%; border-radius: 8px;'>  </a>  <p style='font-size: 0.8em; color: #666; margin-top: 8px; font-style: italic;'>Felipe Pateo (Ipea). Foto: Valter Campanato/Ag. Brasil</p></div><p>Felipe Pateo, do Ipea, contesta os números da CNC: “Matematicamente, não tem como esse aumento ser maior do que 10% porque é o tempo exato de horas que o empregador perde”, afirmou.</p><h3>Inflação dos Preços</h3><div style='text-align: center; margin: 25px auto; width: 60%;'>  <a href='Assets/noticias/escala3.webp' data-fancybox='gallery'>    <img src='Assets/noticias/escala3.webp' style='width:100%; border-radius: 8px;'>  </a>  <p style='font-size: 0.8em; color: #666; margin-top: 8px; font-style: italic;'>Setor de comércio. Foto: Tânia Rêgo/Ag. Brasil</p></div><p>O economista da CNI Marcelo Azevedo pondera que a necessidade de contratar mais vai gerar aumento de custos na ponta, que serão repassados aos produtos.</p><div style='text-align: center; margin: 25px auto; width: 60%;'>  <a href='Assets/noticias/escala5.webp' data-fancybox='gallery'>    <img src='Assets/noticias/escala5.webp' style='width:100%; border-radius: 8px;'>  </a>  <p style='font-size: 0.8em; color: #666; margin-top: 8px; font-style: italic;'>Marcelo Azevedo (CNI). Foto: José Paulo Lacerda</p></div><p>Por sua vez, Pateo avalia que o impacto inflacionário será limitado, já que empresários podem absorver a diferença reduzindo margens de lucro ou aproveitando a capacidade ociosa.</p><h3>Produtividade e História</h3><div style='text-align: center; margin: 25px auto; width: 60%;'>  <a href='Assets/noticias/escala4.webp' data-fancybox='gallery'>    <img src='Assets/noticias/escala4.webp' style='width:100%; border-radius: 8px;'>  </a>  <p style='font-size: 0.8em; color: #666; margin-top: 8px; font-style: italic;'>Trabalhador industrial. Foto: Amanda Oliveira</p></div><p>A CNI vê como improvável o aumento da produtividade para compensar a redução. Já a Unicamp argumenta que o descanso melhora o rendimento.</p><div style='text-align: center; margin: 25px auto; width: 60%;'>  <a href='Assets/noticias/escala6.webp' data-fancybox='gallery'>    <img src='Assets/noticias/escala6.webp' style='width:100%; border-radius: 8px;'>  </a>  <p style='font-size: 0.8em; color: #666; margin-top: 8px; font-style: italic;'>Ulysses Guimarães, 1988. Foto: Ag. Brasil</p></div><p>Em 1988, a jornada caiu de 48 para 44 horas sem efeitos negativos no emprego, embora a CNI alegue que o cenário de globalização atual torna a comparação difícil.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil</strong></p></article>",
+  "data": "28 de abril de 2026",
+  "link": "noticia.php?id=188",
   "noCarrossel": true,
   "destaque": true
 }
