@@ -2407,7 +2407,7 @@
   "data": "28 de abril de 2026",
   "link": "noticia.php?id=180",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2435,7 +2435,7 @@
   "data": "28 de abril de 2026",
   "link": "noticia.php?id=182",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2449,7 +2449,7 @@
   "data": "28 de abril de 2026",
   "link": "noticia.php?id=183",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2463,7 +2463,7 @@
   "data": "28 de abril de 2026",
   "link": "noticia.php?id=184",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2477,7 +2477,7 @@
   "data": "28 de abril de 2026",
   "link": "noticia.php?id=185",
   "noCarrossel": true,
-  "destaque": true
+  "destaque": false
 },
 
 {
@@ -2519,8 +2519,181 @@
   "data": "28 de abril de 2026",
   "link": "noticia.php?id=188",
   "noCarrossel": true,
+  "destaque": false
+},
+
+
+{
+  "id": 189,
+  "categoria": "policia",
+  "titulo": "Afogamentos já somam 85 casos em MG em 2026; bombeiros fazem alerta para o feriado",
+  "resumo": "Corpo de Bombeiros registra 85 ocorrências de afogamento no estado apenas nos primeiros meses do ano e reforça orientações de segurança para rios e piscinas.",
+  "imagem": "Assets/noticias/afogamento.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Com a chegada de mais um feriado prolongado, cresce também um alerta importante: o risco de afogamentos. Em Minas Gerais, o Corpo de Bombeiros Militar (CBMMG) já atendeu 85 ocorrências de pessoas afogadas entre 1º de janeiro e 21 de abril de 2026. O número divulgado pela corporação representa cerca de 30% de todos os casos registrados ao longo de 2025.</p><p>Conforme o CBMMG, a combinação de sol, água e dias de descanso costuma levar mais pessoas a locais como piscinas, rios, cachoeiras e lagoas — o que eleva o risco de acidentes. A corporação aponta que é justamente durante os feriados que há aumento nas ocorrências. Além disso, há também casos de mineiros que se deslocam para o litoral e acabam se envolvendo em afogamentos no mar.</p><h3>Orientações de Segurança</h3><p>Diante do cenário, o Corpo de Bombeiros reforça a importância de medidas simples que podem salvar vidas:</p><ul><li><strong>Escolha do local:</strong> Procure um local conhecido por você ou por outra pessoa, desde que ela o acompanhe.</li><li><strong>Sinalização:</strong> Não ultrapasse faixas e placas de avisos; não entre em locais com avisos de perigo de morte.</li><li><strong>Vigilância:</strong> Procure sempre locais onde existe a presença de Guarda-Vidas ou o Corpo de Bombeiros.</li><li><strong>Comportamento:</strong> Evite nadar sozinho e não tome bebida alcoólica antes de entrar na água.</li><li><strong>Limites:</strong> Não se afaste da margem e não salte de locais elevados para dentro da água.</li><li><strong>Resgate:</strong> Não tente salvar pessoas em afogamento sem estar habilitado; prefira lançar flutuadores ao invés da ação corpo a corpo.</li><li><strong>Prevenção infantil:</strong> Jamais deixe as crianças sozinhas próximas à água.</li><li><strong>Navegação:</strong> Só conduza embarcações se for habilitado e garanta que todos usem coletes salva-vidas.</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Jornal da Manhã (Uberaba)</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=189",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 190,
+  "categoria": "policia",
+  "titulo": "Morador de Veríssimo é preso em flagrante pela PF durante operação nacional contra abuso infantil",
+  "resumo": "Ação faz parte da Operação Nacional Proteção Integral IV e resultou na apreensão de dispositivos eletrônicos em Veríssimo.",
+  "imagem": "Assets/noticias/policiafederal.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Polícia Federal deflagrou, na última terça-feira (28), a Operação Nacional Proteção Integral IV, voltada ao combate de crimes de abuso sexual contra crianças e adolescentes. Na região de Uberaba, a ação resultou na prisão em flagrante de um suspeito durante o cumprimento de dois mandados de busca e apreensão realizados pela Polícia Federal no município de Veríssimo.</p><p>Durante a operação, foram apreendidos celulares, notebooks e mídias eletrônicas. O material recolhido será encaminhado para perícia e deve auxiliar no avanço das investigações. A operação integra uma mobilização nacional que ocorre simultaneamente em todos os estados do país e em 15 países, com foco na identificação e responsabilização de envolvidos em crimes contra crianças e adolescentes.</p><h3>Mobilização Internacional</h3><p>Em Minas Gerais, a ação também ocorre em outras cidades do estado, dentro do esforço coordenado da Polícia Federal. A operação faz parte da força-tarefa internacional Aliados pela Infância VI e integra as ações do Maio Laranja, campanha de enfrentamento ao abuso e à exploração sexual infantil.</p><p>A Polícia Federal reforça a importância da prevenção e orienta responsáveis a acompanharem o uso da internet por crianças e adolescentes.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Jornal da Manhã (Uberaba)</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=190",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 191,
+  "categoria": "saude",
+  "titulo": "Alergia não tem cura, mas pode ser controlada com tratamento, alerta especialista",
+  "resumo": "Imunoterapia ajuda a reduzir sintomas e melhorar a qualidade de vida; especialista explica que predisposição genética pode manifestar reações em qualquer idade.",
+  "imagem": "Assets/noticias/alergias.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Alergias são condições crônicas que não têm cura definitiva, mas podem ser controladas com tratamento adequado e acompanhamento médico. Embora muitas pessoas associem alergias a episódios pontuais, a médica alergista e imunologista Natália Dias alerta que existe uma predisposição do organismo que pode se manifestar ao longo da vida, inclusive na fase adulta.</p><p>Entre as opções de tratamento, a imunoterapia, conhecida popularmente como “vacina para alergia”, tem se destacado por reduzir sintomas e melhorar a qualidade de vida dos pacientes. Em entrevista à Rádio JM, a especialista alega que a alergia está relacionada a uma resposta do sistema imunológico que tende a persistir. “Quando a gente fala de alergia, é sempre crônico. A gente consegue fazer tratamento que melhora muito a qualidade de vida da pessoa, às vezes até zerar os sintomas, mas ela continua com aquela predisposição a ter novas reações ao longo da vida”, explica.</p><h3>Manifestações e Sensibilização</h3><p>A médica também explica que as alergias podem surgir mesmo em pessoas que nunca apresentaram sintomas anteriormente. Fatores como predisposição genética e condições específicas do organismo podem desencadear reações inesperadas. “A pessoa pode começar a ter alergia do nada. Ela pode ter contato com algo a vida inteira e, em determinado momento, o organismo passar a reagir. Existe um período de sensibilização, e isso pode acontecer em qualquer idade”, afirma.</p><h3>O Papel da Imunoterapia</h3><p>O método consiste na exposição gradual do organismo à substância que causa a alergia, com o objetivo de desenvolver tolerância. Esse processo pode ser feito por meio de gotas ou injeções e costuma ser indicado principalmente para alergias respiratórias e alguns casos específicos de alergia alimentar.</p><p>Apesar dos resultados positivos, o tratamento exige disciplina e não oferece cura definitiva. “A imunoterapia é um tratamento longo, que pode durar de três a cinco anos, dependendo do caso. A gente não fala em cura, mas em tolerância. O paciente melhora muito, mas precisa manter o acompanhamento”, destaca Natália Dias. Diante disso, o acompanhamento médico é fundamental para o diagnóstico adequado e definição da melhor estratégia de tratamento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Jornal da Manhã (Uberaba)</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=191",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+
+
+{
+  "id": 192,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG premia 40 associados no primeiro sorteio da promoção Investir para Crescer",
+  "resumo": "Promoção distribuirá mais de R$ 1 milhão em prêmios ao longo de 2026; primeiro sorteio contemplou associados com relógios Garmin.",
+  "imagem": "Assets/noticias/investirparacrescer.webp",
+  "style_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Guardar dinheiro e vê-lo render é o objetivo de todos aqueles que fazem investimentos. Melhor ainda quando junto está a possibilidade de ganhar prêmios. É isso que a Sicredi Ibiraiaras RS/MG proporciona aos seus associados com a promoção Investir para Crescer. Ao longo de 2026, cinco sorteios serão realizados com mais de R$ 1 milhão em prêmios, que incluem moto e carro zero quilômetros.</p><p>Nesta quarta-feira (29), através da Loteria Federal, o primeiro sorteio da promoção neste ano premiou 40 associados de todas as agências da Cooperativa com relógios Garmin Black.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/investirparacrescer2.webp' data-fancybox='gallery'>    <img src='Assets/noticias/investirparacrescer2.webp' style='width:100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);'>  </a>  <p style='font-size: 0.8em; color: #666; margin-top: 10px; font-style: italic;'>Divulgação / Sicredi Ibiraiaras RS/MG</p></div><p>Os valores investidos na Cooperativa rendem cupons para participar de sorteios. De acordo com o gerente de Captação da Sicredi Ibiraiaras RS/MG, Alex Prokoski, a promoção incentiva o planejamento financeiro: “A Investir para Crescer visa premiar bons hábitos: o hábito de guardar dinheiro para uma emergência, para um planejamento futuro, para um sonho, para uma aposentadoria”, destaca.</p><h3>Próximos sorteios</h3><p>O próximo sorteio será em junho, quando os associados estarão concorrendo a motocicletas Yamaha Factor 150. Ao longo do ano ainda serão sorteados 40 Iphones 16, 40 Smart TVs 50 polegadas e 6 BYD Dolphin Mini.</p><p>A participação é automática para associados pessoa física, jurídica e segmento agro que realizarem investimentos em capital social, poupança, depósitos a prazo e fundos de investimento, além de novas associações até 13 de novembro.</p><h3>Confira a lista dos vencedores do primeiro sorteio:</h3><ul style='column-count: 2; column-gap: 20px; list-style-type: none; font-size: 0.9em;'>  <li>Dorina Maria Perin Segalin - São Jorge/RS</li>  <li>Juliana Artifon Segalin - Nova Bassano/RS</li>  <li>Mirela Bedin Hoffmann - David Canabarro/RS</li>  <li>Jeferson Douglas de Oliveira - Lagoa Vermelha/RS</li>  <li>Elton Tibolla - Ciríaco/RS</li>  <li>Clari Ana Provenzi Frosi - Nova Prata/RS</li>  <li>Camila Pimentel Ferreira - Caseiros/RS</li>  <li>Gilson Balzan - Protásio Alves/RS</li>  <li>Vanderleia Carneiro Mignoni - Ibiraiaras/RS</li>  <li>Sadi Dal Bem - Muliterno/RS</li>  <li>Fabiane Daniel - Nova Araçá/RS</li>  <li>Lauro Barp - Ipê/RS</li>  <li>Katiane Abreu Zeni - Antônio Prado/RS</li>  <li>Onri Agostinho Mattei Ltda. - Paraí/RS</li>  <li>Adenir Prescendo - Guabiju/RS</li>  <li>Luís Carlos da Silva - Campestre da Serra/RS</li>  <li>Sebastião José da Costa - Capão Bonito do Sul/RS</li>  <li>Inês Rui Carossi - Nova Prata/RS</li>  <li>Guilherme Costa Magro - Ipê/RS</li>  <li>Vandoir Nogueira Machado - Lagoa Vermelha/RS</li>  <li><strong>Madaleno Nunes da Rosa - Sacramento/MG</strong></li>  <li>Milton José Fialho - Santa Juliana/MG</li>  <li>Gabriela Rodrigues da Silva - André da Rocha/RS</li>  <li>Lourenço Ferreira de Souza - Ibiá/MG</li>  <li>Alessandra Nathalia Araújo - Tapira/MG</li>  <li>Maicon Flavio dos Reis Sociedade Individual - Araxá/MG</li>  <li>Vanderson Ciconetto - Antônio Prado/RS</li>  <li>Manutenção Industrial Boito Ltda. - Nova Prata/RS</li>  <li>Noel Silva Rodrigues - Conceição das Alagoas/MG</li>  <li>Ederson Almeida Martins - Frutal/MG</li>  <li>Lazara Macedo de Freitas - Itapagipe/MG</li>  <li>Vale do Rio Grande Agropecuária Ltda. - Uberaba/MG</li>  <li>Elaine Fornazier Santana - Uberaba/MG</li>  <li>Izaias Antônio Rodrigues da Silva - Campos Altos/MG</li>  <li>Paulo Emilio Machado - Pratinha/MG</li>  <li>Miguel Angelo de Oliveira Ribeiro - Campina Verde/MG</li>  <li>Andreia Aparecida Zanetoni Silva - Iturama/MG</li>  <li>Camila Vieira Baptista - Frutal/MG</li>  <li>Cecilia Rodrigues Vaz - Nova Ponte/MG</li>  <li>DRT Consultoria e Serviços - Araxá/MG</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Sicredi Ibiraiaras RS/MG / Divulgação</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=192",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 193,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG distribui mais de R$ 32 milhões em resultados para seus associados referente ao ano de 2025",
+  "resumo": "Montante definido em assembleia foi creditado nesta quarta-feira (29); ao todo, mais de R$ 46 milhões retornaram aos associados e comunidades.",
+  "imagem": "Assets/noticias/distribuicaoderesultados.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Para além de prosperar junto aos associados e desenvolver as comunidades da sua área de abrangência, a Sicredi Ibiraiaras RS/MG preza pelo crescimento de todos. Desta forma, como parte do resultado obtido pela cooperativa ao fim do exercício 2025, R$ 32.454.646,88 foram distribuídos em resultados para seus associados. O montante distribuído foi definido em assembleia, pelos próprios associados.</p><p>O valor distribuído referente a participação nos resultados da Cooperativa no ano de 2025 foi de R$ 32.454.646,88, sendo R$ 26.454.646,88 creditados em conta capital e R$ 6.000.000,00 em conta corrente. O crédito foi efetuado aos associados nesta quarta-feira (29). Os associados já podem conferir em sua conta corrente e em sua cota capital os valores creditados via aplicativo/internet banking ou em uma de nossas agências.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/distribuicaoderesultados1.webp' data-fancybox='gallery'>    <img src='Assets/noticias/distribuicaoderesultados1.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a>  <a href='Assets/noticias/distribuicaoderesultados2.webp' data-fancybox='gallery'>    <img src='Assets/noticias/distribuicaoderesultados2.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a></div><p>O cálculo individual da distribuição e o valor a receber de cada associado é proporcional às operações e movimentações financeiras que ele efetivou com a Sicredi Ibiraiaras RS/MG ao longo de 2025. Entre as principais operações estão crédito, poupança, seguros, cartões e consórcios. Quanto maior sua participação nos produtos e serviços, maior sua parcela de recebimento nos resultados.</p><blockquote>“A distribuição dos resultados é uma das expressões mais concretas do modelo cooperativo. Quando a Sicredi Ibiraiaras RS/MG compartilha seus resultados, ela devolve aos associados o fruto da confiança”, destaca o diretor executivo, Pedro Aiolfi.</blockquote><div style='text-align: center; margin: 30px auto; width: 70%;'>  <video width='100%' controls style='border-radius: 8px; margin-bottom: 15px;'>    <source src='Assets/noticias/distribuicaoderesultados5.mp4' type='video/mp4'>    Seu navegador não suporta a reprodução de vídeo.  </video>  <a href='Assets/noticias/distribuicaoderesultados3.webp' data-fancybox='gallery'>    <img src='Assets/noticias/distribuicaoderesultados3.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a>  <a href='Assets/noticias/distribuicaoderesultados4.webp' data-fancybox='gallery'>    <img src='Assets/noticias/distribuicaoderesultados4.webp' style='width:100%; border-radius: 8px;'>  </a></div><p>Além dos valores diretos, mais R$ 1,5 milhão foi destinado a ações sociais e R$ 12,3 milhões pagos em juros ao capital social. No total, são R$ 46.254.646,88 que retornaram para os associados e comunidades. O presidente Sadi Bento Rigotti enfatiza que esse momento concretiza o retorno individual e coletivo dos investimentos feitos na cooperativa.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Sicredi Ibiraiaras RS/MG</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=193",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 194,
+  "categoria": "evento",
+  "titulo": "Farrapo O Palhaciclista exibe espetáculos no Triângulo Mineiro",
+  "resumo": "Com seu circo na garupa de uma bicicleta, o artista Marcos Farrapo percorre cidades da região com espetáculo sustentável e poético.",
+  "imagem": "Assets/noticias/farropilha.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A arte do palhaço e a bicicleta. Assim Farrapo O Palhaciclista desenha seu espetáculo solo de palhaçaria de rua, construído a partir de improvisações e pesquisa cênica. O objetivo é o de realizar uma arte circense sustentável, onde todo o material usado em cena é transportado em uma bicicleta, pedalando pelas cidades, de forma poética, gerando um fazer artístico itinerante. Desta vez, remorando as itinerâncias dos circos, ele sai da cidade de Uberaba, e passa pelas cidades de Sacramento, Delta, Água Comprida e Conceição das Alagoas.</p><p>A proposta é fazer uma circulação, percorrendo algumas cidades do interior de Minas Gerias fazendo apresentações de Farrapo O Palhaciclista, e agora chega a novos destinos. “Apesar do cansaço da viagem estou bem animado para aprontar tudo a tempo para apresentação do espetáculo da noite”, avisa Marcos Farrapo. O espetáculo tem duração média de 45 minutos, e está disponível no Canal do Youtube.</p><h3>Trajetória e Reconhecimento</h3><p>Farrapo O Palhaciclista estreou em julho de 2014 na cidade de Salvador. Ao longo dos anos, integrou a programação de eventos importantes como o Bicicultura em São Paulo (2016) e o Festival de Cenas Curtas do Grupo Galpão em Belo Horizonte (2018). Em 2024, apresentou-se em Uberaba e no 12° Festival de Teatro do Piauí.</p><p>O Projeto “Farrapo Palhaciclista Viajante” de circulação no Triângulo Mineiro foi aprovado pelo Edital PNAB 10/2024 - Circulação de Espetáculo, da Secretaria de Estado de Cultura e Turismo de Minas Gerias – Secult/MG e Ministério da Cultura – MINC, Governo Federal.</p><h3>Programação:</h3><p><strong>Conceição das Alagoas</strong><br>Local: Praça José Alexandre do Carmo<br>Data: 08 de maio às 19h</p><p><strong>Delta</strong><br>Local: Centro de Eventos (Rua Jorge Elias da Silva)<br>Data: 15 de maio às 13h30</p><p><strong>Sacramento</strong><br>Local: Quadra do Cajuru<br>Data: 17 de maio às 16h</p><p><strong>Veríssimo</strong><br>Local: Ginásio Poliesportivo Rufino de Camargos Filho<br>Data: 18 de maio às 14h</p><hr><h3>Ficha Técnica</h3><ul><li><strong>Concepção e Atuação:</strong> Palhaço Farrapo (Marcos Farrapo Fernandes)</li><li><strong>Trilha Sonora Original:</strong> Du Txai</li><li><strong>Direção:</strong> Luana Rodrigues</li><li><strong>Produção:</strong> Flores Nômades – Produções Culturais</li><li><strong>Assessoria de Comunicação:</strong> Pituca Ferreira e Dira Fernandes</li><li><strong>Arte:</strong> Inag Criativas</li></ul><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Divulgação / Marcos Farrapo</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=194",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 195,
+  "categoria": "policia",
+  "titulo": "Em Conquista, trio é preso por tráfico de drogas no Bairro Maricota",
+  "resumo": "Ação policial resultou na apreensão de entorpecentes e dinheiro durante patrulhamento de rotina na tarde desta quarta-feira.",
+  "imagem": "Assets/noticias/traficodedrogas.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>No dia 29 de abril de 2026, por volta das 16 horas, durante patrulhamento pela Rua Joaquim Pereira Cruz, no Bairro Maricota, em Conquista, a guarnição policial visualizou uma mulher e 02 indivíduos em atitude suspeita.</p><p>Foi realizada a abordagem e, após buscas, foram localizadas 03 buchas de maconha, 01 porção de maconha e uma certa quantia em dinheiro.</p><p>Diante dos fatos, foi dada voz de prisão aos indivíduos de 24 e 18 anos e à mulher de 20 anos, sendo eles encaminhados ao Delegado de plantão para as providências cabíveis.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Polícia Militar de Minas Gerais</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=195",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 196,
+  "categoria": "noticia",
+  "titulo": "Importância dos passeios com os cães",
+  "resumo": "Caminhada diária é essencial para a saúde física e mental dos cães, prevenindo doenças e fortalecendo o vínculo com os tutores.",
+  "imagem": "Assets/noticias/parklandia.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Os passeios com cães são uma parte essencial dos cuidados com o animal, indo muito além de um simples momento de lazer. Especialistas apontam que a caminhada diária contribui diretamente para a saúde física, mental e emocional dos cães, sendo tão importante quanto a alimentação adequada e o acompanhamento veterinário.</p><h3>Saúde Física e Mental</h3><p>Do ponto de vista físico, o exercício ajuda a manter o peso ideal, fortalece a musculatura e melhora o sistema cardiovascular, além de prevenir doenças como obesidade e problemas articulares. Já no aspecto mental, o contato com novos ambientes, cheiros e estímulos é fundamental para evitar o tédio e reduzir níveis de estresse e ansiedade, fatores frequentemente associados a comportamentos indesejados dentro de casa.</p><h3>Socialização e Comportamento</h3><p>A prática regular de passeios também desempenha um papel importante na socialização do animal. Durante as caminhadas, o cão interage com outras pessoas, outros animais e diferentes situações do cotidiano, o que contribui para torná-lo mais equilibrado, menos agressivo e menos medroso. A ausência desse tipo de estímulo pode resultar em frustração, latidos excessivos e até comportamentos destrutivos. Além disso, o momento do passeio fortalece o vínculo entre o tutor e o animal, promovendo confiança, conexão e bem-estar para ambos.</p><h3>Benefícios para os Tutores</h3><p>Os benefícios não se limitam apenas aos cães. Estudos indicam que tutores que mantêm uma rotina de passeios com seus animais apresentam melhorias na saúde física e mental, sendo mais ativos e socialmente engajados. Pesquisas publicadas na revista científica PLOS One apontam que passear com cães pode reduzir riscos de problemas físicos e cognitivos, especialmente em adultos e idosos. Além disso, dados divulgados por veículos como a UOL VivaBem e a Revista Saúde reforçam que donos de cães têm maior probabilidade de atingir níveis recomendados de atividade física no dia a dia.</p><h3>Qualidade de Vida</h3><p>Em um cenário atual em que muitos animais vivem em espaços reduzidos, como apartamentos ou casas sem quintal, os passeios se tornam ainda mais indispensáveis para garantir a qualidade de vida dos cães. Eles permitem que o animal gaste energia, explore o ambiente e mantenha um comportamento saudável e equilibrado. Dessa forma, incorporar o passeio à rotina diária não é apenas uma escolha, mas uma responsabilidade fundamental para assegurar o bem-estar dos cães e de seus tutores.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fontes:</strong> PLOS One, UOL VivaBem, Revista Saúde, PetIndica e Zee.Now.</p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=196",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 197,
+  "categoria": "politica",
+  "titulo": "“Não é simples, mas Senado é soberano”, diz Messias após rejeição",
+  "resumo": "Jorge Messias se manifesta após ter nome rejeitado para o STF, sendo a primeira vez em mais de 130 anos que uma indicação à Corte é barrada pelo Senado.",
+  "imagem": "Assets/noticias/senadofer.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>Em sua primeira manifestação após ter o nome rejeitado para o Supremo Tribunal Federal (STF), o advogado-geral da União, Jorge Messias, afirmou nesta quarta-feira (29) que participou de forma \"íntegra\" e \"franca\" de todo o processo de indicação. Ele agradeceu os votos recebidos e disse aceitar o resultado.</p><p>\"Me submeti a uma sabatina de coração aberto, de alma leve, espírito franco. Falei a verdade, falei o que penso, falei o que sinto, demonstrei o que sinto. Agora, a vida é assim, tem dias de vitórias e dias de derrotas. Temos que aceitar, o Senado é soberano, o plenário do Senado é soberano. O plenário falou. Agradeço os votos que recebi, faz parte do processo democrático saber ganhar, saber perder\", disse o ministro da AGU em declaração a jornalistas, após o resultado.</p><h3>Resultado Histórico</h3><p>O nome indicado pelo presidente Luiz Inácio Lula da Silva recebeu 42 votos contrários e 34 favoráveis. Para que a indicação de Messias fosse aprovada eram necessários pelo menos 41 votos dos 81 senadores. Com a rejeição, a indicação foi arquivada. Esta é a primeira vez em mais de 130 anos que o nome de um indicado a ministro do STF é rejeitado.</p><h3>Manifestação de Fé</h3><p>\"Não é simples alguém com a minha trajetória passar por uma reprovação. Mas eu quero dizer algo muito importante, eu aprendi que a minha está nas mãos de Deus, e Deus sabe de todas as coisas. Deus tem um plano para a nossa vida, para a vida de cada um de nós. Lutei o bom combate, como todo cristão e preciso aceitar o plano de Deus na minha vida\", prosseguiu Jorge Messias, que é evangélico e tinha apoio de segmentos religiosos.</p><h3>Contexto da Indicação</h3><p>A indicação de Jorge Messias foi anunciada pelo presidente Luiz Inácio Lula da Silva há cerca de cinco meses, mas a mensagem oficial só chegou ao Senado no início de abril. Ele foi indicado para assumir a vaga deixada pelo ministro Luís Roberto Barroso, que anunciou aposentadoria antecipada e deixou o tribunal em outubro de 2025.</p><p>Messias afirmou que passou por cinco meses de um processo de desconstrução de sua imagem, afirmou ter \"vida limpa\" e agradeceu ao presidente Lula pela indicação. \"O presidente Lula me deu uma grande honra de ter participado desse processo e agradeço a ele pela oportunidade. Eu não encaro isso aqui como um fim, isso aqui é uma etapa do processo da minha vida\", acrescentou. Messias disse ainda que é servidor público de carreira e que não precisava de um cargo público para prosseguir sua trajetória profissional.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=197",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 198,
+  "categoria": "esporte",
+  "titulo": "Emoção e muitos gols na rodada de terça do Copão Rural",
+  "resumo": "Comunidade do Quenta Sol recebeu partidas movimentadas; semifinais estão marcadas para o dia 05 de maio.",
+  "imagem": "Assets/noticias/copaorural.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A comunidade do Quenta Sol foi palco de mais uma rodada movimentada do Copão Rural, realizada na terça-feira, 28 de abril. Com jogos disputados e muitos gols, as equipes mostraram força e competitividade dentro de campo.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/copaorural2.webp' data-fancybox='gallery'>    <img src='Assets/noticias/copaorural2.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a>  <a href='Assets/noticias/copaorural3.webp' data-fancybox='gallery'>    <img src='Assets/noticias/copaorural3.webp' style='width:100%; border-radius: 8px;'>  </a></div><p>O time Sete Voltas B levou a melhor sobre o São José, vencendo por 4 a 2 em um confronto equilibrado, marcado por boas jogadas ofensivas. Já o Ajax protagonizou a goleada da rodada ao superar o Quenta Sol por expressivos 10 a 3, demonstrando grande eficiência no ataque.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/copaorural4.webp' data-fancybox='gallery'>    <img src='Assets/noticias/copaorural4.webp' style='width:100%; border-radius: 8px;'>  </a></div><p>O Sete Voltas A garantiu mais uma vitória para a comunidade ao bater o Caxambu por 4 a 2, consolidando o bom desempenho das equipes da região na competição.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/copaorural5.webp' data-fancybox='gallery'>    <img src='Assets/noticias/copaorural5.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a>  <a href='Assets/noticias/copaorural6.webp' data-fancybox='gallery'>    <img src='Assets/noticias/copaorural6.webp' style='width:100%; border-radius: 8px;'>  </a></div><p>Os jogos das semifinais acontecem na comunidade do Quenta Sol na quadra de esportes Francisco Emérito de Souza no dia 05 de maio, a partir das 19:30. O Copão Rural segue mobilizando atletas e torcedores, fortalecendo o esporte amador e promovendo integração entre as comunidades participantes.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=198",
+  "noCarrossel": true,
+  "destaque": false
+},
+
+{
+  "id": 199,
+  "categoria": "evento",
+  "titulo": "Sarau Literário homenageia Eurípedes Barsanulfo e reúne cultura e reflexão em Sacramento",
+  "resumo": "Evento realizado na Biblioteca Pública Municipal celebrou o legado do educador Eurípedes Barsanulfo com palestras e apresentações artísticas.",
+  "imagem": "Assets/noticias/saraucolegio.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A Biblioteca Pública Municipal Dr. José Valadares Fonseca, em Sacramento, foi palco de uma noite marcada pela valorização da cultura e da memória local com a realização do Sarau Literário em homenagem a Eurípedes Barsanulfo. O evento aconteceu no dia 21 de abril, às 19h, e integrou a programação cultural do município, promovida pela Secretaria Municipal de Cultura.</p><p>Com uma proposta de resgate histórico e celebração da literatura, o sarau reuniu moradores, artistas e admiradores da obra de Eurípedes Barsanulfo, importante educador, médium e referência espiritual de Sacramento. A iniciativa reforçou o papel da biblioteca como espaço de encontro, conhecimento e preservação da identidade cultural da cidade.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/saraucolegio2.webp' data-fancybox='gallery'>    <img src='Assets/noticias/saraucolegio2.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a></div><p>Um dos destaques da programação foi a palestra conduzida por Saulo Amui, que abordou aspectos marcantes da trajetória de Eurípedes. Durante sua explanação, ele destacou a forma como o homenageado conciliava educação, espiritualidade e práticas terapêuticas naturais, evidenciando sua atuação humanitária e seu legado como formador de consciências.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/saraucolegio3.webp' data-fancybox='gallery'>    <img src='Assets/noticias/saraucolegio3.webp' style='width:100%; border-radius: 8px;'>  </a></div><p>A noite também foi enriquecida por apresentações literárias e artísticas. Os poetas Douglas Faria e Afer Meireles levaram ao público versos que dialogam com a espiritualidade e as raízes mineiras, enquanto Adriana Gobbo emocionou os presentes com a declamação do poema “Deus”, proporcionando um momento de introspecção e sensibilidade.</p><p>O Sarau Literário reafirma a relevância de iniciativas culturais que valorizam grandes personalidades da história local, ao mesmo tempo em que incentivam a produção artística contemporânea. A ação fortalece o vínculo da comunidade com sua história e mantém viva a contribuição de Eurípedes Barsanulfo para as gerações atuais.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=199",
+  "noCarrossel": true,
+  "destaque": true
+},
+
+{
+  "id": 200,
+  "categoria": "esporte",
+  "titulo": "Meninas de Ouro avançam às quartas de final do Brasileiro Interclubes Sub-17",
+  "resumo": "Após liderar a fase de grupos com uma campanha de superação, equipe enfrenta o Clube Esperia de São Paulo nesta quinta-feira (30).",
+  "imagem": "Assets/noticias/atletasmeninasdeouro.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "conteudo": "<article class='noticia-conteudo'><p>A equipe Meninas de Ouro garantiu classificação para as quartas de final do Campeonato Brasileiro Interclubes Sub-17 de vôlei após uma campanha marcada por superação e espírito coletivo. Mesmo enfrentando adversidades, o time mostrou força dentro de quadra e terminou a fase de grupos na liderança.</p><p>Na estreia, a equipe enfrentou o CRB, de Alagoas, e acabou sendo superada por 2 sets a 1. O confronto foi impactado pela ausência da capitã Rafaela Bueno, que não pôde atuar nos primeiros dias de competição devido a uma lesão.</p><p>No segundo compromisso, contra o APCF, de Sergipe, o time reagiu e conquistou uma importante vitória por 2 sets a 1, novamente sem contar com a presença da capitã. A atuação evidenciou a capacidade de adaptação do grupo, que manteve o equilíbrio emocional e técnico mesmo diante das dificuldades.</p><h3>Retorno e Classificação</h3><p>A classificação foi confirmada em grande estilo. Em um jogo decisivo e emocionante, já com o retorno de Rafaela Bueno, as Meninas de Ouro venceram o Valinhos por 3 sets a 0. A capitã, mesmo lesionada, demonstrou liderança e comprometimento, sendo peça importante na conquista do resultado.</p><p>Com o triunfo, a equipe assegurou o primeiro lugar do grupo, o que leva às quartas de finais, em confronto contra o Clube Esperia de São Paulo, na tarde desta quinta-feira (30). A campanha reforça o potencial do projeto esportivo e o talento das atletas, que seguem representando com destaque sua cidade no cenário nacional.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "30 de abril de 2026",
+  "link": "noticia.php?id=200",
+  "noCarrossel": true,
   "destaque": true
 }
+
+
 
 ]
 
