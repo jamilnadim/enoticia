@@ -2831,6 +2831,62 @@
   "data": "06 de maio de 2026",
   "link": "noticia.php?id=210",
   "destaque": true
+},
+
+{
+  "id": 211,
+  "categoria": "politica",
+  "titulo": "Prefeito Juninho Trevisan e vice Cleber participam do Congresso Mineiro de Municípios",
+  "resumo": "Representantes de Sacramento participaram do maior evento municipalista da América Latina em Belo Horizonte, buscando inovações e fortalecimento de políticas públicas.",
+  "imagem": "Assets/noticias/trevisanCongresso.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>Os representantes do Poder Executivo de Sacramento, o prefeito Juninho Trevisan e o vice-prefeito Cleber Silveira, participaram do 41º Congresso Mineiro de Municípios, realizado nos dias 5 e 6 de maio, no Expominas, em Belo Horizonte. Promovido pela Associação Mineira de Municípios, o evento reuniu milhares de gestores públicos, autoridades políticas e especialistas de diversas áreas para discutir os desafios e os caminhos da administração pública municipal.</p><p>Considerado o maior evento municipalista estadual da América Latina, o congresso teve como tema “Minas Gerais no centro das decisões: municípios unidos por um Brasil forte!”, reforçando a importância da união entre os municípios para o fortalecimento das políticas públicas e o desenvolvimento regional.</p><h3>Gestão e Inovação</h3><p>Durante os dois dias de programação, Juninho Trevisan e Cleber Silveira acompanharam palestras, fóruns, painéis e debates voltados para áreas estratégicas da gestão pública, como saúde, educação, inovação, desenvolvimento econômico, infraestrutura, sustentabilidade e reforma tributária. O encontro também proporcionou troca de experiências entre prefeitos e gestores de diferentes regiões do estado, além da apresentação de soluções inovadoras para os municípios mineiros.</p><p>A participação da comitiva de Sacramento reforça o compromisso da atual administração em buscar conhecimento, ampliar o diálogo institucional e acompanhar projetos e iniciativas que possam contribuir diretamente para o desenvolvimento do município e para a melhoria dos serviços oferecidos à população.</p><h3>Estrutura do Evento</h3><p>O congresso reuniu mais de 10 mil participantes e contou com uma ampla programação técnica, incluindo mais de 90 atividades entre palestras, workshops, fóruns e painéis temáticos, além da tradicional Feira para o Desenvolvimento dos Municípios, que apresentou soluções e tecnologias voltadas à gestão pública.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "07 de maio de 2026",
+  "link": "noticia.php?id=211",
+  "destaque": true
+},
+
+{
+  "id": 212,
+  "categoria": "esporte",
+  "titulo": "Camila Brait visita Meninas de Ouro-URSAS e inspira nova geração do vôlei",
+  "resumo": "Líbero da Seleção Brasileira e o técnico Luizomar de Moura visitaram as atletas de Sacramento em Osasco, compartilhando experiências e incentivando as jovens promessas.",
+  "imagem": "Assets/noticias/camila-Ursas.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>Durante a realização do Campeonato Brasileiro de Vôlei Sub-17, em Osasco (SP), a equipe Meninas de Ouro-URSAS, que conquistou a medalha de bronze na competição, viveu um momento especial fora das quadras. As atletas da categoria Sub-16 receberam a visita da líbero da Seleção Brasileira e do Osasco, Camila Brait, em um encontro marcado por emoção e inspiração.</p><p>Revelada nas categorias de base de Sacramento, Camila retornou simbolicamente às suas origens ao compartilhar experiências com as jovens promessas do projeto. A atleta esteve acompanhada do técnico Luizomar de Moura, referência no voleibol nacional, e juntos levaram palavras de incentivo, além de orientações sobre disciplina, dedicação e os desafios da carreira esportiva.</p><h3>Trajetória e Incentivo</h3><p>Durante a visita, Camila conversou com as atletas, relembrou sua trajetória e destacou a importância da persistência e do comprometimento no esporte. O encontro reforçou o papel do projeto Meninas de Ouro-URSAS na formação não apenas de atletas, mas de cidadãos, fortalecendo sonhos e ampliando horizontes.</p><p>A presença de dois nomes de destaque do voleibol brasileiro proporcionou às jovens uma experiência única, aproximando-as de referências do alto rendimento e motivando-as a seguir em busca de seus objetivos dentro e fora das quadras.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "07 de maio de 2026",
+  "link": "noticia.php?id=212",
+  "destaque": true
+},
+
+{
+  "id": 213,
+  "categoria": "esporte",
+  "titulo": "Meninas de Ouro é Bronze no brasileiro sub-17",
+  "resumo": "A equipe Sub-16 do projeto Meninas de Ouro-URSAS garantiu o terceiro lugar no Campeonato Brasileiro Interclubes em Osasco, projetando Sacramento e Araxá no cenário nacional.",
+  "imagem": "Assets/noticias/meninasSub17.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>A equipe Sub-16 do projeto Meninas de Ouro-URSAS alcançou um feito marcante ao garantir o terceiro lugar no Campeonato Brasileiro Interclubes da categoria Sub-17, realizado em Osasco (SP). O resultado expressivo projeta os municípios de Sacramento e Araxá no cenário esportivo nacional, evidenciando o talento e a dedicação das jovens atletas.</p><p>Ao longo da competição, o time demonstrou consistência técnica e espírito coletivo, conquistando não apenas o pódio, mas também reconhecimento individual. Quatro atletas se destacaram nas partidas: Maria Cecília, Rafaella Bueno, Thaemeli Vieira e Sarah Makini. Entre elas, Maria Cecília brilhou ao receber o troféu de Melhor Levantadora do torneio.</p><h3>Destaques e Superação</h3><p>Outro ponto de destaque foi a atuação da capitã Rafaella Bueno, que superou uma lesão recente e liderou a equipe com determinação dentro de quadra, sendo peça fundamental na campanha vitoriosa.</p><p>O elenco contou com as levantadoras Estela e Maria Cecília; a líbero Rafaela Camuci; as centrais Luisa, Nicole e Mariah; as pontas Rafa Bueno, Thaemeli e Amanda; as opostas Flávia e Sarah; além de Cecília, responsável pelo saque e fundo de quadra. A equipe técnica, formada pelas professoras Andrea, Bethânia, Shirley e Julia, teve papel essencial na preparação e no desempenho do grupo.</p><h3>Rede de Apoio</h3><p>O projeto Meninas de Ouro-URSAS também ressalta a importância do apoio institucional e dos parceiros para a conquista. A iniciativa conta com o incentivo do governo municipal, além do suporte da diretoria da URS e de empresas parceiras que acreditam no potencial das atletas.</p><p>Empresas e instituições como CBMM, ENGIE, Scala, Bem Brasil, Cemig, Sicoob, Zandonaide, Sicredi e Zema também contribuem para o fortalecimento do projeto, assim como as academias WMX e Atlântica e a Sport-Up, responsável pela mentoria esportiva das atletas. As famílias das jogadoras completam a rede de apoio fundamental para o desenvolvimento das jovens.</p><p>A conquista das Ursas reforça o impacto social do projeto, que aposta no esporte como ferramenta de transformação. O desempenho das atletas evidencia que investir na base é investir no futuro.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "07 de maio de 2026",
+  "link": "noticia.php?id=213",
+  "destaque": true
+},
+
+{
+  "id": 214,
+  "categoria": "noticia",
+  "titulo": "Anvisa suspende venda e proíbe uso de produtos Ypê",
+  "resumo": "Medida cautelar atinge lotes com numeração final 1 devido a falhas graves na produção e identificação de bactéria em análise interna da empresa.",
+  "imagem": "Assets/noticias/anvisaype.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>A Agência Nacional de Vigilância Sanitária (Anvisa) suspendeu fabricação, comercialização e distribuição de diversos produtos da marca Ypê. Segundo a decisão, lava-louças (detergente), sabão líquido para roupas e desinfetantes terão de ser recolhidos e não poderão ser usados pelos consumidores.</p><p>A medida foi adotada após terem sido identificadas “falhas graves na produção” e vale para todos os lotes com numeração final 1. Os itens foram fabricados pela empresa Química Amparo, na unidade localizada em Amparo (SP).</p><h3>Motivação da Suspensão</h3><p>De acordo com a Anvisa, a decisão foi tomada a partir de avaliação técnica de risco sanitário. Foram constatados descumprimentos relevantes em etapas críticas do processo produtivo, incluindo falhas nos sistemas de garantia da qualidade, produção e controle de qualidade.</p><p>A empresa Ypê informou que, em novembro de 2025, após uma análise interna que detectou a presença da bactéria <i>Pseudomonas aeruginosa</i> em alguns lotes específicos de lava-roupas líquidos, a Química Amparo anunciou o recolhimento voluntário cauteloso dos lotes.</p><h3>Produtos Afetados (Lotes com final 1)</h3><p>Somente os lotes que terminam com o número 1 dos produtos abaixo estão afetados:</p><ul><li>Lava Louças Ypê (Clear Care, Enzimas Ativas, Toque Suave, Green, Clear)</li><li>Lava Roupas líquido Tixan Ypê (Combate Mau Odor, Cuida das Roupas, Antibac, Coco e Baunilha, Green, Maciez, Primavera)</li><li>Lava Roupas Líquido Ypê (Express, Power ACT, Premium)</li><li>Desinfetantes (Bak Ypê, Atol, Pinho Ypê)</li></ul><p>A íntegra da Resolução 1.834/2026 com a relação completa dos produtos e lotes pode ser consultada na edição do Diário Oficial da União (DOU) desta quinta-feira (7).</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil</strong></p></article>",
+  "data": "07 de maio de 2026",
+  "link": "noticia.php?id=214",
+  "destaque": true
 }
 
 
