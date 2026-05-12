@@ -2901,6 +2901,90 @@
   "data": "08 de maio de 2026",
   "link": "noticia.php?id=215",
   "destaque": true
+},
+
+{
+  "id": 216,
+  "categoria": "evento",
+  "titulo": "Sacramento celebra tradição e fé no 36º Encontro de Folia de Reis",
+  "resumo": "Evento no Parque de Exposição reunirá companhias de Reis, devotos e visitantes no dia 17 de maio para celebrar uma das manifestações culturais mais tradicionais da região.",
+  "imagem": "Assets/noticias/folia de reis.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>A tradição, a religiosidade e a cultura popular estarão reunidas no próximo dia 17 de maio, durante o 36º Encontro de Folia de Reis de Sacramento. O evento será realizado no Parque de Exposição e promete reunir companhias de Folia de Reis, devotos e visitantes em um momento marcado pela fé, pela música e pela preservação das tradições culturais do município.</p><h3>Programação</h3><p>A programação tem início às 7h30, com café da manhã oferecido aos participantes. Em seguida, às 8h30, será celebrada a Santa Missa, abrindo oficialmente o encontro. A partir das 9h, começam as apresentações das Companhias de Folia de Reis, que acontecem por ordem de chegada.</p><p>O almoço será servido às 11h e o encerramento está previsto para as 16h. As refeições serão servidas no local durante toda a programação para foliões e visitantes.</p><h3>Tradição e Herança Cultural</h3><p>Reconhecida como uma das manifestações culturais e religiosas mais tradicionais da região, a Folia de Reis mantém viva uma importante herança popular, transmitida entre gerações. Os grupos representam a visita dos Reis Magos ao menino Jesus, por meio de cantos, instrumentos e encenações carregadas de simbolismo e devoção.</p><p>Promovido pela Prefeitura de Sacramento, por meio da Secretaria Municipal de Cultura, em parceria com a Associação de Folias Santuário dos Santos Reis, o encontro reforça o compromisso do município com a valorização das tradições culturais e religiosas que fazem parte da identidade sacramentana.</p><p>Além de fortalecer a cultura popular, o evento também movimenta a comunidade e proporciona um espaço de convivência entre foliões, famílias e admiradores da manifestação religiosa, mantendo viva uma tradição que atravessa décadas no município.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "12 de maio de 2026",
+  "link": "noticia.php?id=216",
+  "destaque": true
+},
+
+{
+  "id": 217,
+  "categoria": "esporte",
+  "titulo": "São José vence Sete Voltas e leva o título do Copão Rural 2026",
+  "resumo": "A equipe do São José conquistou o campeonato ao vencer o Sete Voltas por 2 a 0 em final emocionante realizada na comunidade do Quenta Sol.",
+  "imagem": "Assets/noticias/FUTISALA.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>A comunidade do Quenta Sol foi palco de grandes emoções na última sexta-feira (8), durante a grande final do Copão Rural, competição que reuniu equipes das comunidades rurais de Sacramento fortalecendo o esporte, a integração e o espírito esportivo entre os participantes.</p><p>A quadra de esportes da comunidade recebeu torcedores, atletas e famílias para acompanhar as decisões do campeonato. Na primeira partida da noite, válida pela disputa do terceiro lugar, o Sete Voltas B venceu o Ajax Quenta Sol em um confronto eletrizante e decidido nos detalhes. Em um jogo marcado pelo equilíbrio e pela emoção até os minutos finais, o placar terminou em 7 a 6 para o Sete Voltas B.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/FUTISALA1.webp' data-fancybox='gallery'>    <img src='Assets/noticias/FUTISALA1.webp' style='width:100%; border-radius: 8px;'>  </a></div><p>Na sequência, aconteceu a grande decisão do torneio. Demonstrando organização tática e eficiência em quadra, a equipe do São José venceu o Sete Voltas por 2 a 0 e conquistou o título de campeã do Copão Rural.</p><h3>Destaques Individuais e Premiação</h3><p>Além das premiações coletivas, a competição também reconheceu os destaques individuais do campeonato. O prêmio de melhor jogador da competição ficou com Rebert, da equipe São José. Já Lucas, do Sete Voltas B, terminou como artilheiro do torneio, com 14 gols marcados.</p><p>A melhor defesa da competição também foi da equipe campeã, com o goleiro Luiz Henrique, do São José, recebendo o reconhecimento pelo desempenho durante o campeonato. O prêmio de revelação ficou com Luiz Felipe, do Sete Voltas.</p><p>Os atletas destaques receberam premiação individual no valor de R$100. Já as equipes finalistas receberam troféus e premiações em dinheiro, sendo R$1 mil para o campeão São José, R$500 para o vice-campeão Sete Voltas e R$300 para o terceiro colocado Sete Voltas B.</p><p>O Copão Rural reforça a importância do incentivo ao esporte nas comunidades rurais, promovendo lazer, integração social e valorização dos atletas locais. A competição também movimenta as comunidades e fortalece os laços entre moradores e equipes participantes.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "12 de maio de 2026",
+  "link": "noticia.php?id=217",
+  "destaque": true
+},
+
+{
+  "id": 218,
+  "categoria": "noticia",
+  "titulo": "Sicredi Ibiraiaras RS/MG inova com implementação de caixas eletrônicos em contêiner, em Pratinha",
+  "resumo": "Iniciativa visa facilitar transações financeiras para os associados com equipamentos modernos e tecnologia de reciclagem de cédulas em ponto estratégico da cidade.",
+  "imagem": "Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>A Sicredi Ibiraiaras RS/MG inaugurou um contêiner com caixas eletrônicos para a comunidade de Pratinha (MG). A entrega foi realizada na quarta-feira (6), na Praça do Rosário, conhecida como Praça do Coreto, no centro do município, onde o contêiner foi instalado. Os novos equipamentos permitem a realização de transações bancárias como saques e depósitos para os associados do município.</p><p>Estiveram presentes na inauguração autoridades locais e representantes da cooperativa, reforçando o compromisso com o desenvolvimento da região e a proximidade com o associado até a abertura da agência física no município.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras1.webp' data-fancybox='gallery'>    <img src='Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras1.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a>  <a href='Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras2.webp' data-fancybox='gallery'>    <img src='Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras2.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a></div><p>O contêiner com caixas eletrônicos faz parte do processo de implementação dos serviços da cooperativa nos municípios mineiros. Anteriormente instalado em Tapira, o módulo agora atende Pratinha, oferecendo comodidade em um ponto estratégico da cidade. “É mais uma entrega para o nosso associado, cumprindo com suas necessidades para desenvolvermos a nossa região”, destacou o gerente Diego Oliveira Araújo.</p><h3>Diversas funcionalidades em um único equipamento</h3><p>Entre as funções disponibilizadas estão pagamentos de contas, depósitos em dinheiro, consultas de saldos, contratação de empréstimos e informes de rendimentos. Um diferencial tecnológico é o Caixa Eletrônico Reciclador, que reutiliza automaticamente as cédulas inseridas nos depósitos para futuros saques, garantindo maior autonomia e disponibilidade em finais de semana.</p><div style='text-align: center; margin: 30px auto; width: 70%;'>  <a href='Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras3.webp' data-fancybox='gallery'>    <img src='Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras3.webp' style='width:100%; border-radius: 8px; margin-bottom: 15px;'>  </a>  <a href='Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras4.webp' data-fancybox='gallery'>    <img src='Assets/noticias/Caixas eletrônicos em Pratinha - Sicredi Ibiraiaras4.webp' style='width:100%; border-radius: 8px;'>  </a></div><p>A estrutura oferece segurança avançada, contando com sistema de ar-condicionado, monitoramento 24 horas, cortinas de aço e tecnologia de fumaça, garantindo tranquilidade aos usuários durante as operações.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Sicredi Ibiraiaras RS/MG</strong></p></article>",
+  "data": "12 de maio de 2026",
+  "link": "noticia.php?id=218",
+  "destaque": true
+},
+
+{
+  "id": 219,
+  "categoria": "noticia",
+  "titulo": "Desenrola Fies: estudante pode renegociar dívida a partir desta quarta",
+  "resumo": "Programa prevê descontos de até 99% para dívidas do Fies; renegociação pode ser feita digitalmente pela Caixa e Banco do Brasil até o fim do ano.",
+  "imagem": "Assets/noticias/fiezdesenrola.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>Os estudantes com dívidas do Fundo de Financiamento Estudantil (Fies) podem renegociar seus débitos a partir de quarta-feira (13), por meio do Desenrola Fies que prevê descontos para a quitação de até 99% sobre o valor da dívida. A Resolução CG-Fies nº 66, que trata da renegociação, está publicada no Diário Oficial da União desta terça-feira (12).</p><p>Pode participar o estudante com contrato firmado até 2017 e que estava em fase de amortização – ou seja, em fase de pagamento – em 4 de maio de 2026. A negociação pode ser feita até 31 de dezembro de 2026.</p><h3>Canais de Atendimento</h3><p>“Os estudantes do Fies que querem aderir ao Desenrola poderão renegociar débitos diretamente junto à Caixa Econômica e ao Banco do Brasil”, informou o ministro da Educação, Leonardo Barchini. Ele acrescentou que “a negociação deve ser realizada nos canais digitais dos bancos\".</p><p>“Neste Desenrola, temos também condições especiais para quem paga em dia e quer aproveitar as condições para quitar sua dívida mais rápido: os adimplentes terão 12% de desconto para zerar os débitos”, completou o ministro da Educação.</p><p>A expectativa do MEC é que mais de 1 milhão de estudantes sejam beneficiados com o refinanciamento de suas dívidas.</p><h3>Contexto do Programa</h3><p>O Desenrola Fies faz parte do Novo Desenrola Brasil, lançado pelo governo federal em 4 de maio, que promove a reorganização financeira de milhões de brasileiros e a ampliação do acesso ao crédito em melhores condições.</p><p>A medida, no entanto, não prevê a utilização do Fundo de Garantia do Tempo de Serviço (FGTS) para abatimento das dívidas, como acontece em outras renegociações do Desenrola Brasil.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>Fonte: Agência Brasil</strong></p></article>",
+  "data": "12 de maio de 2026",
+  "link": "noticia.php?id=219",
+  "destaque": false
+},
+
+{
+  "id": 220,
+  "categoria": "noticia",
+  "titulo": "Prefeitura de Sacramento prorroga vencimentos do IPTU 2026 para facilitar organização financeira da população",
+  "resumo": "Novas datas de vencimento em junho, julho e agosto garantem mais flexibilidade aos contribuintes, mantendo o desconto de 10% para pagamentos em dia.",
+  "imagem": "Assets/noticias/iptu.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>A Prefeitura de Sacramento anunciou a prorrogação dos vencimentos do IPTU 2026, oferecendo mais prazo para que os contribuintes possam se organizar financeiramente e realizar o pagamento com tranquilidade. A medida busca atender às necessidades da população, garantindo mais flexibilidade neste momento de planejamento das despesas familiares.</p><p>Com a mudança, os novos vencimentos passam a ser nos dias <strong>11 de junho, 10 de julho e 11 de agosto</strong>, mantendo o benefício de 10% de desconto para os pagamentos realizados dentro do prazo estabelecido.</p><h3>Planejamento e Responsabilidade</h3><p>A administração municipal destaca que a decisão foi tomada com sensibilidade e responsabilidade, compreendendo a importância de proporcionar condições mais acessíveis para que os cidadãos possam manter suas obrigações em dia sem comprometer o orçamento doméstico.</p><p>Além de contribuir para a manutenção dos serviços públicos, o IPTU é um dos principais recursos utilizados para investimentos em diversas áreas da cidade, como saúde, educação, infraestrutura, limpeza urbana, iluminação pública e melhorias nos bairros. Cada contribuição retorna em benefícios diretos para a população e auxilia no desenvolvimento de Sacramento.</p><h3>Compromisso com a Comunidade</h3><p>A Prefeitura reforça ainda que o compromisso da gestão é trabalhar para oferecer serviços de qualidade e investir continuamente no crescimento do município, sempre buscando equilíbrio entre responsabilidade fiscal e atenção às demandas da comunidade.</p><p>Mais informações podem ser obtidas junto aos canais oficiais da Prefeitura de Sacramento.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "12 de maio de 2026",
+  "link": "noticia.php?id=220",
+  "destaque": true
+},
+
+{
+  "id": 221,
+  "categoria": "noticia",
+  "titulo": "Secretaria de Meio Ambiente realiza ação educativa na região comercial de Sacramento",
+  "resumo": "Iniciativa orientou comerciantes e moradores sobre o descarte correto de resíduos e horários de coleta, visando uma cidade mais limpa e saudável.",
+  "imagem": "Assets/noticias/meio ambienteeducativa.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>Com o objetivo de promover uma cidade mais limpa, organizada e saudável para todos, a Secretaria Municipal de Meio Ambiente realizou, no último sábado (9), uma ação educativa na região central e comercial de Sacramento.</p><p>A iniciativa surgiu diante das frequentes reclamações da população relacionadas ao descarte incorreto de resíduos, especialmente nas áreas de maior circulação da cidade. Durante a ação, os servidores percorreram ruas e estabelecimentos comerciais orientando comerciantes e moradores sobre os horários corretos e a forma adequada de descarte do lixo.</p><h3>Conscientização e Responsabilidade Compartilhada</h3><p>A proposta da Secretaria é conscientizar de forma acolhedora e educativa, reforçando que o cuidado com os resíduos é uma responsabilidade compartilhada entre poder público, comércio e população.</p><p>Além de contribuir para a limpeza urbana e a preservação ambiental, o descarte correto do lixo é fundamental para a saúde pública, ajudando a evitar a proliferação de insetos, mau cheiro e outros problemas que impactam diretamente a qualidade de vida da comunidade.</p><h3>Continuidade das Ações</h3><p>A Secretaria de Meio Ambiente destaca que pequenas atitudes no dia a dia fazem grande diferença para manter Sacramento mais bonita, organizada e agradável para todos. A ação educativa deve continuar em outros pontos da cidade, fortalecendo o trabalho de conscientização e cuidado coletivo com os espaços públicos.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "12 de maio de 2026",
+  "link": "noticia.php?id=221",
+  "destaque": false
 }
 
 
