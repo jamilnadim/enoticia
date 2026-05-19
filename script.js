@@ -19,6 +19,25 @@
     const BASE = getBasePath();
     const urlFrom = (path) => (path.startsWith('/') ? BASE + path.slice(1) : BASE + path);
 
+
+function aplicarDestaqueAutomatico(lista) {
+    if (!lista || !Array.isArray(lista)) return [];
+    
+    // 1. Primeiro, ordenamos do ID maior para o menor (mais recentes primeiro)
+    const ordenada = [...lista].sort((a, b) => Number(b.id) - Number(a.id));
+    
+    const categoriasVistas = new Set();
+
+    // 2. Marcamos apenas a primeira de cada categoria como destaque
+    return ordenada.map(n => {
+        if (!categoriasVistas.has(n.categoria)) {
+            categoriasVistas.add(n.categoria);
+            return { ...n, destaque: true };
+        }
+        return { ...n, destaque: false };
+    });
+}
+
     // --- FUNÇÃO MESTRE: CARREGA TUDO EM ORDEM ---
  // --- FUNÇÃO MESTRE: CARREGA TUDO EM PARALELO (MODO TURBO) ---
     async function inicializarPortal() {
@@ -66,8 +85,18 @@
             });
 
             // 4. Aguarda as Notícias e processa Categorias/Carrossel
+            //const resNoticias = await promessaNoticias;
+            //const noticias = await resNoticias.json();
+
+// 4. Aguarda as Notícias
             const resNoticias = await promessaNoticias;
-            const noticias = await resNoticias.json();
+            const dadosJson = await resNoticias.json();
+            
+            // Aqui criamos a lista "inteligente" (Notícia nova ganha destaque)
+            const noticias = aplicarDestaqueAutomatico(dadosJson.noticias || dadosJson);
+
+            // NÃO PRECISA MAIS DA LINHA noticias.sort AQUI, pois a função acima já ordena.
+// ... (o resto do seu loop continua igual)
 
             // Ordena por ID (mais nova primeiro)
             noticias.sort((a, b) => b.id - a.id);
