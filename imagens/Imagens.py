@@ -1,5 +1,7 @@
 import os
 from PIL import Image
+# Importa o plugin de suporte ao AVIF (garante a leitura do formato)
+import pillow_avif  
 
 def processar_imagens(largura_alvo=1920, qualidade=85):
     # Pega o local onde o script está salvo para não haver erro de caminho
@@ -17,7 +19,8 @@ def processar_imagens(largura_alvo=1920, qualidade=85):
     if not os.path.exists(saida):
         os.makedirs(saida)
 
-    arquivos = [f for f in os.listdir(entrada) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))]
+    # ALTERAÇÃO AQUI: Adicionado '.avif' na tupla de extensões aceitas
+    arquivos = [f for f in os.listdir(entrada) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp', '.avif'))]
     
     if not arquivos:
         print("Nenhuma imagem encontrada na pasta 'fotos_originais'.")
@@ -25,8 +28,14 @@ def processar_imagens(largura_alvo=1920, qualidade=85):
 
     for arquivo in arquivos:
         caminho_img = os.path.join(entrada, arquivo)
+        
+        # O Pillow agora abre o arquivo .avif normalmente graças ao plugin importado
         img = Image.open(caminho_img)
         
+        # Converte para RGB caso a imagem esteja em outro modo (evita erros ao salvar em webp)
+        if img.mode in ("RGBA", "P") and arquivo.lower().endswith('.avif'):
+            img = img.convert("RGB")
+            
         w_percent = (largura_alvo / float(img.size[0]))
         h_size = int((float(img.size[1]) * float(w_percent)))
         
