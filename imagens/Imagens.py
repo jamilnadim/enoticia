@@ -19,8 +19,8 @@ def processar_imagens(largura_alvo=1920, qualidade=85):
     if not os.path.exists(saida):
         os.makedirs(saida)
 
-    # ALTERAÇÃO AQUI: Adicionado '.avif' na tupla de extensões aceitas
-    arquivos = [f for f in os.listdir(entrada) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp', '.avif'))]
+    # ALTERAÇÃO AQUI: Adicionado '.jfif' na lista de extensões permitidas
+    arquivos = [f for f in os.listdir(entrada) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp', '.avif', '.jfif'))]
     
     if not arquivos:
         print("Nenhuma imagem encontrada na pasta 'fotos_originais'.")
@@ -29,11 +29,12 @@ def processar_imagens(largura_alvo=1920, qualidade=85):
     for arquivo in arquivos:
         caminho_img = os.path.join(entrada, arquivo)
         
-        # O Pillow agora abre o arquivo .avif normalmente graças ao plugin importado
+        # O Pillow abre o arquivo normalmente (.avif por plugin, .jfif nativamente)
         img = Image.open(caminho_img)
         
         # Converte para RGB caso a imagem esteja em outro modo (evita erros ao salvar em webp)
-        if img.mode in ("RGBA", "P") and arquivo.lower().endswith('.avif'):
+        # Expandido também para tratar possíveis canais estranhos vindos de arquivos da web
+        if img.mode in ("RGBA", "P", "CMYK"):
             img = img.convert("RGB")
             
         w_percent = (largura_alvo / float(img.size[0]))
