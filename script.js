@@ -262,7 +262,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
     
 
+// Seleciona os elementos POPUP
+    const popup = document.getElementById('popup');
+    const closeBtn = document.getElementById('closeBtn');
 
+    // Função para fechar o pop-up ao clicar no "X"
+    closeBtn.addEventListener('click', () => {
+      popup.style.display = 'none';
+    });
+
+    // Opcional: Fechar ao clicar fora da imagem (no fundo escuro)
+    window.addEventListener('click', (event) => {
+      if (event.target === popup) {
+        popup.style.display = 'none';
+      }
+    });
 
 
 
