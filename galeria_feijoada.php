@@ -19,14 +19,18 @@ $fim = min($pagina * $fotos_por_pagina, $total_fotos);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Fotos - FEIJOADA SUNSET 2026</title>
 
-    <!-- Meta Tags para Prévia no WhatsApp / Redes Sociais -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://enoticiasacramento.com.br/galeria_feijoada.php">
-    <meta property="og:title" content="Galeria de Fotos - FEIJOADA SUNSET 2026 | É Notícia">
-    <meta property="og:description" content="Confira a cobertura completa de fotos da Feijoada Sunset 2026 no portal É Notícia Sacramento.">
-    <meta property="og:image" content="https://enoticiasacramento.com.br/Assets/noticias/cabecalhofeijoadavertical.png">
-    <meta property="og:image:width" content="600">
-    <meta property="og:image:height" content="1066">
+<!-- Meta Tags para Prévia no WhatsApp / Redes Sociais -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://enoticiasacramento.com.br/galeria_feijoada.php">
+<meta property="og:title" content="Galeria de Fotos - FEIJOADA SUNSET 2026 | É Notícia">
+<meta property="og:description" content="Confira a cobertura completa de fotos da Feijoada Sunset 2026 no portal É Notícia Sacramento.">
+
+<!-- Apontando para o arquivo JPG com URL completa -->
+<meta property="og:image" content="https://enoticiasacramento.com.br/Assets/noticias/feijoada2026.jpg">
+<meta property="og:image:secure_url" content="https://enoticiasacramento.com.br/Assets/noticias/feijoada2026.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 
     <!-- Fancybox 5 CSS (Biblioteca para Zoom e Efeitos de Galeria) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
@@ -209,7 +213,7 @@ $fim = min($pagina * $fotos_por_pagina, $total_fotos);
     <div class="banner-container">
         <picture>
             <!-- Imagem Vertical para Dispositivos Móveis (até 768px) -->
-            <source media="(max-width: 768px)" srcset="Assets/noticias/cabecalhofeijoadavertical.png">
+            <source media="(max-width: 768px)" srcset="Assets/noticias/cabecalhofeijoadavertical.webp">
             <!-- Imagem Horizontal para Desktops/Notebooks (acima de 768px) -->
             <source media="(min-width: 769px)" srcset="Assets/noticias/cabecalhofeijoada.webp">
             <!-- Fallback padrão -->
