@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>É Notícia - Sacramento</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo"> <a href="/index.html">
+      <img src="Assets/Patrocinio/logosite.png" alt="Logo É Notícia" class="logo-img"> </a>
+    </div>
+  
+    <!-- Aqui o menu será injetado -->
+    <div id="menu-container"></div>
+  </header>
+
+
+<div class="news-ticker">
+    <div class="ticker-label">📰 Notícias de Hoje:</div>
+    <div class="ticker-wrapper">
+      <div class="ticker-content">
+        <span>Festival Gastronômico atrai milhares de pessoas ao centro da cidade.</span>
+        <span>Nova unidade de saúde será inaugurada nesta sexta-feira.</span>
+        <span>Polícia Civil realiza operação e apreende drogas e armas.</span>
+        <span>Chuva forte causa alagamentos em bairros da região norte.</span>
+      </div>
+    </div>
+  </div>
+  
+<div class="datetime" id="datetime"></div>
+      
+  <main class="container">
+<section class="banner-grid">
+        <a href="https://radioamericasacramento.com.br/" target="_blank">
+          <img src="Assets/Patrocinio/america-banner.png" alt="Banner Rádio América">
+        </a>
+        <a href="#">
+          <img src="Assets/Patrocinio/sicredi-menor.png" alt="Banner Patrocínio 2">
+        </a>
+        <a href="#">
+          <img src="Assets/Patrocinio/mariaexpress.png" alt="Banner Patrocínio 3">
+        </a>
+      </section>
+
+      <section class="carousel">
+        <div class="carousel-wrapper">
+          <div class="carousel-track">
+            <div class="slide">
+              <img src="https://picsum.photos/1200/400?random=10" alt="Slide 1">
+              <div class="slide-content">
+                <h2>Festival Gastronômico movimenta Sacramento</h2>
+                <p>Evento reúne cultura, música e culinária típica da região.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="https://picsum.photos/1200/400?random=11" alt="Slide 2">
+              <div class="slide-content">
+                <h2>Plano Diretor 2025 é aprovado pela Câmara</h2>
+                <p>Novas diretrizes urbanas prometem modernizar a cidade.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="https://picsum.photos/1200/400?random=12" alt="Slide 3">
+              <div class="slide-content">
+                <h2>Vacinação contra a gripe atinge 80% do público-alvo</h2>
+                <p>A campanha continua nos postos de saúde até o fim do mês.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">❮</button>
+        <button class="next" onclick="moveSlide(1)">❯</button>
+      </section>
+      
+      
+
+    <section class="grid">
+      <div class="card">
+        <img src="https://picsum.photos/800/400?random=1" alt="Notícia 1">
+        <h2>Destaque: Festival Gastronômico em Sacramento</h2>
+        <p>Evento atrai mais de 10 mil visitantes e movimenta a economia local com pratos típicos e atrações culturais.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/800/400?random=2" alt="Notícia 2">
+        <h2>Política: Novo plano diretor para 2025</h2>
+        <p>Câmara Municipal aprova alterações urbanas que prometem melhorar a mobilidade e infraestrutura da cidade.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/800/400?random=3" alt="Notícia 3">
+        <h2>Saúde: Campanha de vacinação contra a gripe</h2>
+        <p>Mais de 80% do público-alvo já foi imunizado, segundo a Secretaria de Saúde de Sacramento.</p>
+      </div>
+    </section>
+
+    <section class="banner-grid">
+      <a href="https://radioamericasacramento.com.br/" target="_blank">
+        <img src="Assets/Patrocinio/trevisan-capa.png" alt="Banner Rádio América">
+      </a>
+      <a href="#">
+        <img src="Assets/Patrocinio/infolife-capa.png" alt="Banner Patrocínio 2">
+      </a>
+      <a href="#">
+        <img src="Assets/Patrocinio/Sicredi.png" alt="Banner Patrocínio 3">
+      </a>
+    </section>
+
+
+    <section class="grid">
+      <div class="card">
+        <img src="https://picsum.photos/800/400?random=4" alt="Esporte">
+        <h3>Esporte: Atlético Sacramento campeão regional</h3>
+        <p>Equipe local vence campeonato do interior após emocionante final contra o rival da cidade vizinha.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/800/400?random=5" alt="Economia">
+        <h3>Economia: Feirão do Emprego oferece 300 vagas</h3>
+        <p>Iniciativa da prefeitura e empresas locais visa reduzir o desemprego entre os jovens da região.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/800/400?random=6" alt="Cultura">
+        <h3>Cultura: Teatro estreia peça infantil gratuita</h3>
+        <p>Espetáculo atrai famílias ao teatro municipal, promovendo o acesso à cultura desde a infância.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/800/400?random=7" alt="Educação">
+        <h3>Educação: Volta às aulas nas escolas públicas</h3>
+        <p>Mais de 4 mil alunos retornam às salas com reforço de medidas de segurança sanitária.</p>
+      </div>
+    </section>
+
+
+            <section class="contact-section">
+              <div class="contact-container">
+                <div class="contact-form">    
+                  <div id="contato"></div>
+                </form>
+              </div>
+              
+
+        
+            <div class="contact-ads">
+              <div class="ads-box">
+                <div id="anuncieaqui"></div>
+              </div>
+            </div>
+        </section>
+        
+
+          <a href="https://wa.me/5599999999999?text=Olá!%20Gostaria%20de%20falar%20com%20a%20equipe%20do%20site%20É%20Notícia." 
+          class="whatsapp-float" 
+          target="_blank" 
+          title="Fale conosco no WhatsApp">
+         <i class="fab fa-whatsapp"></i>
+       </a>
+
+    <div class="ads">
+      <img src="Assets/Patrocinio/banner-foot-1024x197.png" alt="Banner final da página">
+    </div>
+
+  
+
+      <div class="social-media">
+  <a href="https://www.facebook.com/enoticiasacra" target="_blank" class="social-icon">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+  <a href="https://www.instagram.com/jornal_enoticia/" target="_blank" class="social-icon">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 É Notícia - Sacramento. Todos os direitos reservados.
+  </footer>
+
+   <!-- POPUP -->  <!--
+   <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="popup-close">&times;</span>
+      <img src="Assets/Patrocinio/FEIJOADA SAN7.png" alt="Patrocinador">
+    </div>
+  </div>  -->
+
+  <script src="script.js"></script>  
+
+</body>
+</html>
