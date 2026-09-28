@@ -5791,7 +5791,108 @@
   "data": "22 de setembro de 2026",
   "link": "noticia.php?id=420",
   "destaque": true
+},
+
+{
+  "id": 421,
+  "categoria": "evento",
+  "titulo": "Secretaria da Cultura realiza Semana Primavera nos Museus em Sacramento",
+  "resumo": "Programação no Museu Coralia Venites Maluf reuniu atividades sobre memória, tecnologia, comunicação e tradições culturais",
+  "imagem": "Assets/noticias/museu280926.webp",
+  "estilo_imagem": "max-height: 100% !important; width: 100% !important; object-fit: contain !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": " A Secretaria Municipal de Cultura de Sacramento realizou, entre os dias 21 e 25 de setembro, uma programação especial em comemoração à 20ª Primavera dos Museus. As atividades foram realizadas no Museu Coralia Venites Maluf e tiveram como tema “Museus para todas as pessoas”.\nDurante a semana, crianças e visitantes participaram de ações voltadas à preservação da memória e ao conhecimento de diferentes períodos da história. A programação abordou temas como tradições do campo, brinquedos antigos, métodos de impressão, evolução da escrita e da comunicação.\nEntre as atividades realizadas estiveram “O Aroma do Passado, do Pilão ao Bule”, sobre o preparo artesanal do café e costumes da vida no campo; “Por Dentro do Baú”, com brinquedos e objetos que fazem parte da memória de diferentes gerações; e “Conectando Gerações pela Memória Impressa”, que apresentou o funcionamento do mimeógrafo.\nTambém foram realizadas as atividades “Do Clique ao Toque – A Evolução da Escrita”, com a apresentação de antigas máquinas de escrever, e “A Linha do Tempo da Evolução Sonora”, que utilizou fitas cassete, discos e CDs para abordar as transformações nos meios de reprodução sonora.\nA programação contou ainda com a participação do professor e radialista Silas Bonetti, da Rádio Sacramento, que realizou sua programação diretamente do museu e apresentou aos visitantes informações sobre a origem e a evolução do rádio.\nA Semana Primavera nos Museus integrou as ações da 20ª edição da iniciativa nacional e reforçou a atuação do Museu Coralia Venites Maluf na preservação do patrimônio histórico e cultural de Sacramento, além de ampliar o acesso da comunidade às atividades museológicas.\nSEGOV/DECOM-PMS\n",
+  "data": "28 de setembro de 2026",
+  "link": "noticia.php?id=421",
+  "destaque": true
+},
+
+{
+  "id": 422,
+  "categoria": "policia",
+  "titulo": "184ª Cia PM e GCM de Rifaina realizam Ação Cívico-Social com doações para a Casa Infantil São Vicente de Paulo",
+  "resumo": "Iniciativa conjunta entre PMMG, Guarda Civil Municipal de Rifaina e CONSEP arrecadou e entregou alimentos para a instituição em Sacramento.",
+  "imagem": "Assets/noticias/policiaaa a.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p><strong>37° BPM / 184ª CIA PM / SACRAMENTO</strong></p><p><strong>ACISO - AÇÃO CÍVICO SOCIAL</strong></p><p><strong>Data:</strong> 24/09/2026<br><strong>Horário:</strong> 10:00</p><p><strong>ÓRGÃOS PARTICIPANTES:</strong> PMMG, GCM Rifaina e CONSEP</p><p>A 184ª Cia PM, em ação conjunta com a Guarda Civil Municipal (GCM) de Rifaina, realizou uma ação solidária em apoio à Casa Infantil São Vicente de Paulo, com a doação de alimentos destinados à instituição.</p><p>A entrega foi realizada com a presença da diretoria e funcionários da instituição e contou com a participação do secretário municipal de Segurança, Sgt. Belmiro, e dos GCMs Patrícia, Breno e Alequissandro, representando a Guarda Civil Municipal de Rifaina.</p><p>Também participaram da iniciativa representantes do Consep, Cristian Bizinoto e FC Leonardo Reis, além do parceiro da segurança pública Lucas Santos.</p><p>A ação demonstra a importância da integração e união de esforços entre as forças de segurança, órgãos públicos, instituições e parceiros da comunidade, fortalecendo iniciativas de solidariedade e responsabilidade social.</p><div class='galeria-noticia' style='display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 25px 0;'><a href='Assets/noticias/policiaaa a1.webp' data-fancybox='gallery'><img src='Assets/noticias/policiaaa a1.webp' alt='Galeria 1' style='width:100%; height:180px; object-fit:cover; border-radius:8px;'></a><a href='Assets/noticias/policiaaa a2.webp' data-fancybox='gallery'><img src='Assets/noticias/policiaaa a2.webp' alt='Galeria 2' style='width:100%; height:180px; object-fit:cover; border-radius:8px;'></a><a href='Assets/noticias/policiaaa a3.webp' data-fancybox='gallery'><img src='Assets/noticias/policiaaa a3.webp' alt='Galeria 3' style='width:100%; height:180px; object-fit:cover; border-radius:8px;'></a></div><p><strong>VP 33578:</strong> Cb Izadora, Sgt Augusto, Sgt Thiago</p><p><strong>Viatura da Defesa Civil de Rifaina / Sec. municipal De Segurança:</strong> Sgt Belmiro, GCM Alequissandro, GCM Breno, GCM Patrícia</p><p><strong>CONSEP:</strong> Cristian Bizinoto, FC Leonardo Reis</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>POLÍCIA MILITAR DE MINAS GERAIS – 251 ANOS. A FORÇA DO POVO MINEIRO.</strong></p></article>",
+  "data": "28 de setembro de 2026",
+  "link": "noticia.php?id=422",
+  "destaque": true
+},
+
+{
+  "id": 423,
+  "categoria": "politica",
+  "titulo": "Prefeito Juninho Trevisan assina ordem de serviço para obras de drenagem na Avenida Tomás Novelino",
+  "resumo": "Aguardada há anos por moradores dos bairros Cajuru, Eurípedes Barsanulfo e João XXIII, intervenção terá investimento de R$ 1,4 milhão e início previsto para setembro.",
+  "imagem": "Assets/noticias/ordem de seriço.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>Após anos de reivindicações dos moradores dos bairros Cajuru, Eurípedes Barsanulfo e João XXIII, a região da Avenida Tomás Novelino, em Sacramento, receberá uma nova estrutura de captação e condução de águas pluviais. A ordem de serviço para a execução da obra foi assinada no dia 15 de setembro pelo prefeito Osmar Trevisan Júnior e por Lucas Renno Goes, representante da empresa Santo Pio Serviços de Engenharia Ltda., responsável pelos trabalhos. O início da obra está previsto para setembro.</p><p>A intervenção pretende solucionar um antigo problema de drenagem que afeta a região, principalmente durante períodos de chuvas intensas. Os serviços começarão pela Rua Padre Victor Coelho, onde estará concentrada a maior parte das intervenções previstas no projeto. A Rua Maria da Cruz também receberá obras que integrarão o novo sistema de captação e condução das águas pluviais.</p><p>O projeto tem como objetivo captar e direcionar adequadamente o grande volume de água que desce das ruas localizadas acima da Avenida Tomás Novelino. Em períodos de chuva forte, o fluxo converge para as áreas mais baixas, aumentando a velocidade e a força das enxurradas e provocando alagamentos e danos ao longo da avenida.</p><p>A nova estrutura deverá ampliar a capacidade de escoamento, reduzir o acúmulo de água e minimizar os impactos provocados pelas chuvas, especialmente nos pontos considerados mais vulneráveis.</p><h3>Tragédia reforçou necessidade de intervenção</h3><p>A busca por uma solução para o problema ganhou ainda mais urgência após a tragédia registrada em 2023, quando dois irmãos morreram durante uma forte enxurrada na região.</p><p>Na ocasião, o irmão mais novo foi arrastado pela correnteza para um bueiro localizado na avenida. Ao tentar socorrê-lo, o irmão mais velho também acabou sendo levado pela força da água. Os dois foram posteriormente encontrados por militares em um riacho para onde desaguavam as águas pluviais.</p><p>O episódio causou grande comoção na comunidade e reforçou a necessidade de medidas para reduzir os riscos provocados pela concentração e pela intensidade das enxurradas na região.</p><h3>Investimento de R$ 1,4 milhão</h3><p>O investimento previsto para a execução da obra é de R$ 1,4 milhão. Desse total, R$ 500 mil são provenientes de emendas parlamentares e aproximadamente R$ 900 mil serão custeados com recursos próprios da Prefeitura de Sacramento.</p><p>O município também disponibilizará estrutura e apoio por meio da Secretaria Municipal de Obras para auxiliar na execução dos serviços.</p><p>O prazo estimado para conclusão é de 90 dias, podendo sofrer alterações em razão das condições climáticas ou de eventuais necessidades técnicas identificadas durante a execução.</p><p>Entre os serviços previstos estão a mobilização do canteiro de obras, construção de galerias pluviais, implantação de estruturas destinadas a reduzir a velocidade e a força da água, terraplanagem e recomposição da pavimentação asfáltica.</p><p>A empresa Santo Pio Serviços de Engenharia Ltda. venceu o processo licitatório e será responsável pela execução. A empresa já realizou outros serviços contratados pelo município, entre eles obras de pavimentação asfáltica na região do Cipó.</p><h3>Prefeito destaca antiga demanda</h3><p>Segundo o prefeito Osmar Trevisan Júnior, a obra atende a uma reivindicação antiga dos moradores e também representa uma demanda acompanhada pela administração municipal: “Eu não conseguiria deitar a cabeça no travesseiro sabendo que o período de chuvas chegaria neste ano sem que tivéssemos iniciado esta obra. Assim como foi feito na Avenida Ana Cândido, onde realizamos a abertura e a duplicação da vazão do Córrego do Jacá e solucionamos os problemas de inundação que atingiam aquela região e o bairro Cervato II, especialmente a Rua José de Castro, queremos enfrentar de forma definitiva os transtornos causados pelas chuvas”, afirmou.</p><p>Com a execução da obra, a expectativa da administração municipal é ampliar a capacidade de drenagem da região, reduzir os impactos provocados pelas enxurradas e aumentar a segurança de moradores, pedestres e motoristas que utilizam a Avenida Tomás Novelino e as vias próximas.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de setembro de 2026",
+  "link": "noticia.php?id=423",
+  "destaque": true
+},
+
+{
+  "id": 424,
+  "categoria": "noticia",
+  "titulo": "Seguro de vida amplia papel no planejamento financeiro dos brasileiros",
+  "resumo": "Com avanço de 15% no volume financeiro dos seguros de vida no semestre, Sicredi lança o Seguro Vida Planejada, solução para proteção e planejamento de longo prazo.",
+  "imagem": "Assets/noticias/1_Sicredi_Leonardo de Menezes_credito Daiane Peixoto.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>O seguro de vida vem ampliando seu papel no planejamento financeiro dos brasileiros. No volume financeiro, o Sicredi alcançou R$ 443,5 milhões no prêmio arrecadado, alta de 15,1% na comparação com 2025 e superior a 57% em relação a 2023. No primeiro semestre de 2026, a instituição financeira cooperativa registrou quase 146 mil novas contratações de seguro de vida individual, crescimento de 6% em relação ao mesmo período do ano anterior.</p><p>O movimento acompanha uma tendência do mercado brasileiro. Dados da Superintendência de Seguros Privados (Susep) mostram que a arrecadação do ramo de seguro de vida cresceu 10,7% nos quatro primeiros meses de 2026 em relação ao mesmo período do ano anterior. Ao mesmo tempo, o aumento da longevidade reforça a necessidade de planejamento financeiro ao longo da vida. Segundo o IBGE, a expectativa de vida do brasileiro alcançou 76,6 anos em 2024.</p><p>Os dados da instituição mostram que essa busca por proteção e planejamento ocorre em diferentes fases da vida. Entre os contratantes com idade informada no primeiro semestre, 51,5% tinham entre 18 e 40 anos, enquanto 36,5% estavam na faixa de 41 a 60 anos e 11,7% tinham mais de 60 anos. O cenário indica que o seguro de vida vem sendo incorporado na construção da segurança financeira, estratégias de preservação patrimonial e organização sucessória.</p><h3>Produto une proteção e planejamento de longo prazo</h3><p>Atento à evolução das necessidades dos associados, o Sicredi em parceria com a Icatu Seguros lança o Seguro Vida Planejada, solução que busca conciliar proteção familiar, planejamento financeiro e organização patrimonial de longo prazo.</p><p>“Observamos uma demanda crescente por soluções que combinem proteção, flexibilidade e planejamento financeiro. O associado busca segurança para diferentes momentos da vida, proteger sua família e organizar seus objetivos de longo prazo. Nosso papel é oferecer orientação e soluções que apoiem essa jornada”, afirma Leonardo Silva de Menezes, superintendente de Produtos do Sicredi.</p><p>Entre os diferenciais estão a personalização das coberturas, incluindo proteção para até 24 doenças graves, o produto não possuir ajuste de preço conforme a faixa etária, o que permite previsibilidade financeira ao longo do contrato. O seguro oferece capital segurado de até R$ 30 milhões, opções de vigência temporária ou vitalícia e formação de reserva financeira com possibilidade de quitação antecipada ou até mesmo resgate, conforme as condições contratadas.</p><h3>Sobre o Sicredi</h3><p>O Sicredi é uma instituição financeira cooperativa comprometida com o crescimento de seus associados e com o desenvolvimento das regiões onde atua. Possui um modelo de gestão que valoriza a participação dos mais de 10,5 milhões de associados, que exercem o papel de donos do negócio. Com mais de 3,1 mil agências, o Sicredi está presente fisicamente em todos os estados brasileiros e no Distrito Federal, disponibilizando uma gama completa de soluções financeiras e não financeiras.</p></article>",
+  "data": "28 de setembro de 2026",
+  "link": "noticia.php?id=424",
+  "destaque": true
+},
+
+{
+  "id": 425,
+  "categoria": "saude",
+  "titulo": "CEMBEA realiza vacinação e microchipagem gratuita de cães em Sacramento",
+  "resumo": "Ação promovida em parceria com a APAS disponibilizou vacinas V8, antirrábica e identificação por microchip para cães no Parque de Exposições.",
+  "imagem": "Assets/noticias/vacinação280926.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>Nos dias 22 e 23 de setembro, o Centro Municipal de Bem-Estar Animal (CEMBEA) realizou uma ação gratuita de vacinação e microchipagem de cães, no Parque de Exposições de Sacramento.</p><p>Durante a ação, os animais receberam a vacina V8, que auxilia na prevenção de diversas doenças, além da vacinação antirrábica e da microchipagem. A iniciativa teve como objetivo ampliar os cuidados com a saúde e o bem-estar dos animais do município.</p><p>A ação foi promovida pela Prefeitura de Sacramento, por meio do CEMBEA e da Secretaria Municipal de Meio Ambiente, em parceria com a Associação de Proteção aos Animais de Sacramento (APAS).</p><p>A vacinação e a identificação dos animais são medidas importantes para a prevenção de doenças e para o fortalecimento das políticas de proteção e bem-estar animal no município.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de setembro de 2026",
+  "link": "noticia.php?id=425",
+  "destaque": true
+},
+
+
+{
+  "id": 426,
+  "categoria": "esporte",
+  "titulo": "Ursas Meninas de Ouro vencem duas partidas pelo Campeonato Mineiro Regional Sub-15",
+  "resumo": "A equipe Sub-15 das Ursas Meninas de Ouro conquistou duas vitórias no último domingo, em Uberlândia, pela fase classificatória do Campeonato Mineiro Regional de Voleibol.",
+  "imagem": "Assets/noticias/ursas280926.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>A equipe Sub-15 das Ursas Meninas de Ouro conquistou duas vitórias no último domingo, em Uberlândia, pela fase classificatória do Campeonato Mineiro Regional de Voleibol.</p><p>As atletas de Sacramento venceram por 2 sets a 0 as equipes de Ituiutaba e do Uirapuru, de Uberaba. Além dos resultados, a equipe apresentou bom desempenho em quadra, demonstrando evolução técnica e colocando em prática o trabalho desenvolvido durante os treinamentos.</p><p>A rodada também foi marcada pela dedicação, disciplina e união das atletas, que comemoraram o resultado do trabalho realizado ao longo da preparação para a competição.</p><p>O elenco é formado pelas levantadoras Maria Cecília e Maria Paula; líberos Julie Carille e Maria Sofia; centrais Laiane, Maria e Jamile; opostas Pamela, Lorena e Manuela; e ponteiras Thaemeli, Ana Júlia, Carol e Júlia.</p><p>A comissão técnica é composta pela professora Bethânia Melo e Andréia Galleguillos.</p><p>Com os resultados, as Ursas Meninas de Ouro seguem na disputa do Campeonato Mineiro Regional, buscando avançar na competição e continuar evoluindo a cada partida.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de setembro de 2026",
+  "link": "noticia.php?id=426",
+  "destaque": true
+},
+
+{
+  "id": 427,
+  "categoria": "noticia",
+  "titulo": "Restaurante da Gruta dos Palhares é reaberto após reforma",
+  "resumo": "Espaço passou por adequações e revitalização realizadas pela Prefeitura de Sacramento e volta a receber visitantes sob nova administração.",
+  "imagem": "Assets/noticias/gruta280926.webp",
+  "estilo_imagem": "height: 480px !important; width: 100% !important; object-fit: cover !important; object-position: center center !important; margin-bottom: 45px !important;",
+  "noCarrossel": true,
+  "conteudo": "<article class='noticia-conteudo'><p>Um dos espaços tradicionais da Gruta dos Palhares voltou a receber visitantes. O Restaurante da Gruta dos Palhares foi reaberto na última sexta-feira (11), após passar por meses de obras para adequações sanitárias, reforma da cozinha e revitalização do ambiente.</p><p>A reforma foi realizada pelo governo municipal, com investimento de aproximadamente R$ 400 mil. Entre as melhorias estão a reforma completa e adequação da cozinha, além da modernização dos espaços destinados ao atendimento dos visitantes.</p><p>Com a conclusão das obras, o restaurante foi concedido, por meio de processo licitatório, à empresária Cláudia Aparecida Rodrigues, responsável pela nova administração. Para a retomada das atividades, a empresária também realizou investimentos em mobiliário e na estrutura necessária para o funcionamento do estabelecimento.</p><p>A reabertura representa a retomada de um serviço importante para quem visita a Gruta dos Palhares, um dos principais atrativos turísticos de Sacramento, que recebe cerca de mil visitantes por final de semana.</p><p>Durante o evento de reabertura, o prefeito Juninho Trevisan parabenizou Cláudia e sua família pelo investimento e destacou a importância da retomada das atividades no espaço. O prefeito também informou que outras melhorias estão previstas para a área geral do Parque Municipal da Gruta dos Palhares.</p><p>Sob nova direção, o restaurante funciona aos sábados, domingos e feriados, a partir das 11h, oferecendo buffet variado a quilo, com destaque para a tradicional comida mineira, além de bebidas e música ao vivo.</p><p>A proposta é unir boa comida, convivência e natureza em um dos cenários mais conhecidos de Sacramento, fortalecendo a experiência de moradores e turistas que visitam a Gruta dos Palhares.</p><p style='margin-top: 20px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;'><strong>SEGOV/DECOM-PMS</strong></p></article>",
+  "data": "28 de setembro de 2026",
+  "link": "noticia.php?id=427",
+  "destaque": true
 }
+
+
 
 
 ]
