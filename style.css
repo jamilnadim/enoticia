@@ -429,6 +429,50 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
   box-sizing: border-box;
 }
 
+/* ==========================================
+   AJUSTE DO CARROSSEL DE DESTAQUE NO CELULAR
+   ========================================== */
+@media (max-width: 768px) {
+  
+  /* 1. Ajusta a imagem do carrossel para não cortar as pessoas nas pontas */
+  .slide img,
+  .carousel img {
+    height: auto !important;          /* Permite que a altura seja proporcional */
+    max-height: 240px !important;     /* Limita a altura para se adequar à tela do celular */
+    object-fit: cover !important;     /* Mantém o enquadramento harmônico */
+    aspect-ratio: 16 / 9 !important;  /* Força a proporção retangular de TV/Banner */
+  }
+
+  /* 2. Reajusta a caixa de texto sobre a imagem para não cobrir a foto inteira */
+  .slide-content {
+    bottom: 10px !important;
+    left: 10px !important;
+    padding: 10px 12px !important;
+    max-width: 92% !important;
+    background: rgba(0, 0, 0, 0.75) !important;
+  }
+
+  .slide-content h2 {
+    font-size: 15px !important;
+    margin-bottom: 4px !important;
+    line-height: 1.2 !important;
+  }
+
+  .slide-content p {
+    font-size: 11px !important;
+    line-height: 1.3 !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;           /* Limita o resumo a 2 linhas no celular */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Demais regras mobile mantidas... */
+  nav { display: none; flex-direction: column; background: #fff; position: absolute; top: 70px; left: 0; width: 100%; padding: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); z-index: 999; }
+  nav.active { display: flex; }
+  .menu-toggle { display: block; }
+}
+
 /* Caixa interna do Pop-up */
 .popup-content {
   position: relative;
@@ -560,7 +604,7 @@ nav a:hover { color: #666; transition: color 0.3s ease; }
 }
 
 .noticia-img-container img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -1293,6 +1337,8 @@ p {
     transition: transform 0.3s ease !important;
 }
 
+
+
 /* 5. Ajustes para Celular (Mobile) */
 @media (max-width: 768px) {
     #banner-rolante-patrocinadores {
@@ -1331,3 +1377,4 @@ p {
     display: block !important;
     margin-bottom: 15px !important;
 }
+
