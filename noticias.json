@@ -6548,6 +6548,20 @@
   "data": "29 de outubro de 2026",
   "link": "noticia.php?id=475",
   "destaque": true
+},
+
+{
+  "id": 476,
+  "categoria": "evento",
+  "titulo": "Escola Municipal Luiz Magnabosco promove ação de conscientização e autocuidado no Mês da Saúde da Mulher",
+  "resumo": "Equipe dirigente, alunos, familiares e colaboradores vestiram rosa para refletir sobre a importância do autocuidado e da prevenção na saúde da mulher.",
+  "imagem": "Assets/noticias/mulheres301026.webp",
+  "estilo_imagem": "width: 100%; height: auto; object-fit: contain; object-position: top; margin-bottom: 25px;",
+  "noCarrossel": true,
+  "conteudo": "<div style=\"padding: 10px 15px;\"><p>Compreendendo o papel fundamental que a mulher desempenha nas famílias e na sociedade, a equipe dirigente da <strong style=\"color: #0056b3;\">Escola Municipal Luiz Magnabosco</strong> convidou, no dia 29/10, alunos, familiares, professores e colaboradores a vestirem uma peça de roupa rosa e juntos refletirem sobre a importância da saúde da mulher.</p><blockquote style=\"border-left: 4px solid #0056b3; margin: 15px 0; padding-left: 15px; font-style: italic; color: #555;\">\"Quando a mulher se prioriza, olha para si com carinho e pratica o autocuidado, ela renova suas forças e se torna ainda mais capaz de cuidar, proteger e apoiar todos ao seu redor. O autocuidado não é um ato individual; é um presente de amor que devolvemos a Deus e que transborda na vida de quem amamos.\"<br><small>— Equipe Dirigente da E. M. Luiz Magnabosco</small></blockquote><hr style=\"border: 0; border-top: 1px solid #eee; margin: 20px 0;\"><h3 style=\"color: #1a252f; border-left: 4px solid #0056b3; padding-left: 10px; margin-top: 15px; margin-bottom: 15px;\">📸 Galeria de Fotos</h3><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-top: 20px; margin-bottom: 20px;\"><a href=\"Assets/noticias/mulheres3010261.webp\" data-fancybox=\"gallery\" data-caption=\"Ação de conscientização na E. M. Luiz Magnabosco\"><img src=\"Assets/noticias/mulheres3010261.webp\" alt=\"Ação de conscientização na E. M. Luiz Magnabosco\" style=\"width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s ease;\"></a><a href=\"Assets/noticias/mulheres3010262.webp\" data-fancybox=\"gallery\" data-caption=\"Comunidade escolar vestindo rosa pelo autocuidado da mulher\"><img src=\"Assets/noticias/mulheres3010262.webp\" alt=\"Comunidade escolar vestindo rosa pelo autocuidado da mulher\" style=\"width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s ease;\"></a><a href=\"Assets/noticias/mulheres3010263.webp\" data-fancybox=\"gallery\" data-caption=\"Alunos, professores e colaboradores em reflexão sobre a saúde feminina\"><img src=\"Assets/noticias/mulheres3010263.webp\" alt=\"Alunos, professores e colaboradores em reflexão sobre a saúde feminina\" style=\"width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s ease;\"></a></div></div>",
+  "data": "30 de outubro de 2026",
+  "link": "noticia.php?id=476",
+  "destaque": true
 }
 
 ]
