@@ -65,7 +65,7 @@ function aplicarDestaqueAutomatico(lista) {
                 if (div && html) div.innerHTML = html;
             });
 
-            // 3. Processa Patrocinadores
+            // 3. Processa Patrocinadores e Banner Rolante
             promessaPatro.then(res => res.ok && res.text()).then(html => {
                 if (!html) return;
                 const tempDiv = document.createElement('div');
@@ -83,6 +83,9 @@ function aplicarDestaqueAutomatico(lista) {
                     }
                 }
             });
+
+            // >>> ADICIONE ESTA CHAMADA AQUI DENTRO (LOGO APÓS OS PATROCINADORES) <<<
+            criarBannerRolante();
 
             // 4. Aguarda as Notícias e processa Categorias/Carrossel
             //const resNoticias = await promessaNoticias;
